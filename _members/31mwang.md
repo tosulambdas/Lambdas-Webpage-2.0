@@ -1,7 +1,7 @@
 ---
 name: Mark Wang
 image: images/bros/31mwang.webp
-role: undergrad
+role: alumni
 group: gamgam
 description: "#31 'T. LΛW'"
 ---
@@ -13,4 +13,4 @@ Major: Psychology
 
 Big Bro: [Hamzah "ΛRETE" Chaudhry](21hchaudhry)
 
-[Click here](/ujis/8wnguyen/) to view Mark's Lineage!
+[Click here](/ujis/) to view Mark's Lineage!

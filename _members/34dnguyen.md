@@ -14,4 +14,4 @@ Major: Finance
 
 Big Bro: [Dante "uncHEΛRTed" Le](26dle)
 
-[Click here](/ujis/7tnguyen/) to view Dylan's Lineage!
+[Click here](/ujis/) to view Dylan's Lineage!

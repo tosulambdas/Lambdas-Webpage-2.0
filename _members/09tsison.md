@@ -1,7 +1,7 @@
 ---
 name: Tagumpay Sison
 image: images/bros/09tsison.webp
-role: alum
+role: alumni
 group: charter
 description: "#9 'Pillowtalk'"
 ---
@@ -13,4 +13,4 @@ Major: Air Transportation
 
 Big Bro: Nic "Freestyle" Marchini (UConn)
 
-[Click here](/ujis/9tsison/) to view Sean's Lineage!
+[Click here](/ujis/) to view Sean's Lineage!

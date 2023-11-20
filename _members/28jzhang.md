@@ -13,4 +13,4 @@ Major: Finance & Data Analytics
 
 Big Bro: [Alex "REYN" Chiu](22achiu)
 
-[Click here](/ujis/3sdupiano/) to view Jason's Lineage!
+[Click here](/ujis/) to view Jason's Lineage!

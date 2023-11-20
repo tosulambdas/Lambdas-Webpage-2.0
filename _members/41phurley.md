@@ -13,4 +13,4 @@ Major: Physics
 
 Big Bro: [James "NBA CHUNGBOY" Li](24jli)
 
-[Click here](/ujis/10jta/) to view Padraig's Lineage!
+[Click here](/ujis/) to view Padraig's Lineage!

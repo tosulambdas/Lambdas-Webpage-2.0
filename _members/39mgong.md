@@ -13,4 +13,4 @@ Major: Finance
 
 Big Bro: [Alex "REYN" Chiu](22achiu)
 
-[Click here](/ujis/3sdupiano/) to view Matthew's Lineage!
+[Click here](/ujis/) to view Matthew's Lineage!

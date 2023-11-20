@@ -14,4 +14,4 @@ Major: Biology
 
 Big Bro: [Wesley "Phony Hawk" Nguyen](08wnguyen)
 
-[Click here](/ujis/8wnguyen/) to view Hamzah's Lineage!
+[Click here](/ujis/) to view Hamzah's Lineage!

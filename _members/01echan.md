@@ -2,7 +2,7 @@
 name: Ethan Chan
 image: images/bros/1echan.webp
 group: charter
-role: undergrad
+role: alumni
 description: "#1 'Doc McStuffins'"
 ---
 
@@ -13,4 +13,4 @@ Major: Biology
 
 Big Bro: Vinh "Professor X" Vu (OU)
 
-[Click here](/ujis/1echan/) to view Ethan's Lineage!
+[Click here](/ujis/) to view Ethan's Lineage!

@@ -13,4 +13,4 @@ Major: Electrical and Computer Engineering
 
 Big Bro: [Yury "ODM" Pozdneev](29ypozdneev)
 
-[Click here](/ujis/5anguyen/) to view Junho's Lineage!
+[Click here](/ujis/) to view Junho's Lineage!

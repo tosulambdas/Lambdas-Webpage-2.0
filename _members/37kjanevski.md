@@ -13,4 +13,4 @@ Major: Molecular Genetics
 
 Big Bro: [Ethan "Doc McStuffin's" Chan](01echan)
 
-[Click here](/ujis/1echan/) to view Kristian's Lineage!
+[Click here](/ujis/) to view Kristian's Lineage!

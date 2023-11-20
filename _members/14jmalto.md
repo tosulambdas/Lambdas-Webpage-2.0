@@ -13,4 +13,4 @@ Major: Computer Information Science
 
 Big Bro: [Wesley "Phony Hawk" Nguyen](08wnguyen)
 
-[Click here](/ujis/8wnguyen/) to view Jared's Lineage!
+[Click here](/ujis/) to view Jared's Lineage!

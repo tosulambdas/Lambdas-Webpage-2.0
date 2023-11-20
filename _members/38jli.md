@@ -13,4 +13,4 @@ Major: Biomedical Engineering
 
 Big Bro: [Andy "PΛNCHAM" Garcia](18agarcia)
 
-[Click here](/ujis/10jta/) to view Joe's Lineage!
+[Click here](/ujis/) to view Joe's Lineage!

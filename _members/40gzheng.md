@@ -13,4 +13,4 @@ Major: Economics
 
 Big Bro: [Jared "NOMΛD" Malto](14jmalto)
 
-[Click here](/ujis/8wnguyen/) to view GZ's Lineage!
+[Click here](/ujis/) to view GZ's Lineage!

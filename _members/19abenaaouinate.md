@@ -13,4 +13,4 @@ Major: Accounting
 
 Big Bro: [Sean "Wumbo" Dupiano](03sdupiano)
 
-[Click here](/ujis/3sdupiano/) to view Ayoub's Lineage!
+[Click here](/ujis/) to view Ayoub's Lineage!

@@ -13,4 +13,4 @@ Major: Electrical and Computer Engineering
 
 Big Bro: [Kenny "M.I.R.I.O" Vo](12kvo)
 
-[Click here](/ujis/12kvo/) to view Will's Lineage!
+[Click here](/ujis/) to view Will's Lineage!

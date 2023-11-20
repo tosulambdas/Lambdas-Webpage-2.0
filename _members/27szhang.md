@@ -13,4 +13,4 @@ Major: Computer Science & Engineering
 
 Big Bro: [Alex "Rule 34" Nguyen](05anguyen)
 
-[Click here](/ujis/5anguyen/) to view Sam's Lineage!
+[Click here](/ujis/) to view Sam's Lineage!

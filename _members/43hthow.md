@@ -13,4 +13,4 @@ Major: Biochemistry and German
 
 Big Bro: [Kelvin "GOOCHIE MΛNE" Nguyen](25knguyen)
 
-[Click here](/ujis/1echan/) to view Harrison's Lineage!
+[Click here](/ujis/) to view Harrison's Lineage!

@@ -13,4 +13,4 @@ Major: Computer Science & Engineering
 
 Big Bro: [Sam "MIRΛI" Zhang](27szhang)
 
-[Click here](/ujis/5anguyen/) to view Sam's Lineage!
+[Click here](/ujis/) to view Sam's Lineage!

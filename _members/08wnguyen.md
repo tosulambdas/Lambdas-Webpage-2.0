@@ -13,4 +13,4 @@ Major: Computer Science and Engineering
 
 Big Bro: Than "Eeyore" Nguyen (Baylor)
 
-[Click here](/ujis/8wnguyen/) to view Wesley's Lineage!
+[Click here](/ujis/) to view Wesley's Lineage!

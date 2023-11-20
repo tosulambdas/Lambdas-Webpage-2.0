@@ -1,7 +1,7 @@
 ---
 name: Trace Nguyen
 image: images/bros/7tnguyen.webp
-role: alum
+role: alumni
 group: charter
 description: "#7 '¿Winnie the Who?'"
 ---
@@ -13,4 +13,4 @@ Major: Mechanical Engineering
 
 Big Bro: Nic "Freestyle" Marchini (UConn)
 
-[Click here](/ujis/7tnguyen/) to view Trace's Lineage!
+[Click here](/ujis/) to view Trace's Lineage!

@@ -13,4 +13,4 @@ Major: Psychology
 
 Big Bro: [Trace "¿Winnie the Who?" Nguyen](07tnguyen)
 
-[Click here](/ujis/7tnguyen/) to view Dante's Lineage!
+[Click here](/ujis/) to view Dante's Lineage!

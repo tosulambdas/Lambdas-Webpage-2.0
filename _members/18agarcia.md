@@ -13,4 +13,4 @@ Major: Human Development Family Science
 
 Big Bro: [Jerry "Brock" Ta](10jta)
 
-[Click here](/ujis/10jta/) to view Andy's Lineage!
+[Click here](/ujis/) to view Andy's Lineage!

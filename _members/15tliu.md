@@ -13,4 +13,4 @@ Major: Computer Science and Information
 
 Big Bro: [Sean "Wumbo" Dupiano](03sdupiano)
 
-[Click here](/ujis/3sdupiano/) to view Tyler's Lineage!
+[Click here](/ujis/) to view Tyler's Lineage!

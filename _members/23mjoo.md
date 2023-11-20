@@ -1,7 +1,7 @@
 ---
 name: Michael Joo
 image: images/bros/23mjoo.webp
-role: undergrad
+role: alumni
 group: beta
 description: "#23 'ΛLGORHYTHM'"
 ---
@@ -13,4 +13,4 @@ Major: Psychology
 
 Big Bro: [Trace "¿Winnie the Who?" Nguyen](07tnguyen)
 
-[Click here](/ujis/7tnguyen/) to view Michael's Lineage!
+[Click here](/ujis/) to view Michael's Lineage!

@@ -13,4 +13,4 @@ Major: Chemical Engineering
 
 Big Bro: [Andy "PΛNCHAM" Garcia](18agarcia)
 
-[Click here](/ujis/10jta/) to view James' Lineage!
+[Click here](/ujis/) to view James' Lineage!

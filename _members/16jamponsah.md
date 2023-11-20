@@ -1,7 +1,7 @@
 ---
 name: Joshua Amponsah
 image: images/bros/16jamponsah.webp
-role: alum
+role: alumni
 group: alpha
 description: "#16 'Zoro'"
 ---
@@ -13,4 +13,4 @@ Major: Psychology & Philosophy
 
 Big Bro: [Tagumpay "Pillow Talk" Sison](09tsison)
 
-[Click here](/ujis/9tsison/) to view Joshua's Lineage!
+[Click here](/ujis/) to view Joshua's Lineage!

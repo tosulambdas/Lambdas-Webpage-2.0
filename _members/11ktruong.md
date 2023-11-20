@@ -1,7 +1,7 @@
 ---
 name: Kenny Truong
 image: images/bros/11ktruong.webp
-role: alum
+role: alumni
 group: charter
 description: "#11 'SBD'"
 ---
@@ -13,4 +13,4 @@ Major: Computer Science and Engineering
 
 Big Bro: Brent "RIZAL" de Leon (UAlbany)
 
-[Click here](/ujis/11ktruong/) to view Kenny's Lineage!
+[Click here](/ujis/) to view Kenny's Lineage!

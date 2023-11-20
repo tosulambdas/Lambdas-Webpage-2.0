@@ -13,4 +13,4 @@ Major: Computer Science & Engineering
 
 Big Bro: [Sonny "CASΛNOVA" Vuong](13svuong)
 
-[Click here](/ujis/1echan/) to view Kelvin's Lineage!
+[Click here](/ujis/) to view Kelvin's Lineage!

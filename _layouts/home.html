@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  {% include homehead.html %}
+  <body>
+    <style>
+        .hero {
+          /* Sizing */
+          width: 100vw;
+          height: 100vh;
+          text-align: center; /* Center text within the .hero section */
+          
+          /* Flexbox stuff */
+          display: flex;
+          flex-direction: column; /* Stack items vertically initially */
+          justify-content: center;
+          align-items: center;
+      
+          /* Text styles */
+          text-align: center;
+          color: white;
+      
+          /* Background styles */
+          background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(images/background.jpg);
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+        }
+        .hero h1 {
+          /* Text styles */
+          font-size: 3em;
+          margin: 0;
+          text-align: center; /* Center text within the .hero section */
+        }
+        .hero h2 {
+      margin-bottom: 20px;
+      text-align: center; /* Center text within the .hero section */
+    }
+    .hero .btn-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .hero .btn {
+      /* Standard styles for buttons */
+      width: auto;
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.5em;
+      margin: 5px 0;
+    }
+
+    .menu-toggle {
+      display: none; /* Hide menu toggle by default */
+    }
+
+    @media (max-width: 1080px) {
+      .hero .btn-container {
+        flex-direction: column; /* Display buttons in a single row on small screens */
+        justify-content: center; /* Center buttons horizontally on small screens */
+      }
+    }
+      </style>
+
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Lambda Phi Epsilon Associate Chapter</h1>
+        <h2>Discover the leaders among men!</h2>
+        <button class="menu-toggle" onclick="toggleMenu()">Menu</button>
+        <a href="/about-us/" class="btn">About Us</a>
+        <a href="/media/" class="btn">Media</a>
+        <a href="/brothers/" class="btn">Brothers</a>
+        <a href="/ujis/" class="btn">Ujis</a>
+        <a href="/blog/" class="btn">Blog</a>
+        <a href="/contact/" class="btn">Contact</a>
+      </div>
+    </section>
+
+    <script src="homecarousel/ideal-image-slider.js"></script>
+    <div id="slider">
+      <img src="images/carousel/1.webp" alt="ALT">
+      <img data-src="images/carousel/2.webp" src="" alt="ALT">
+      <img data-src="images/carousel/3.webp" src="" alt="ALT">
+      <img data-src="images/carousel/4.webp" src="" alt="ALT">
+      <img data-src="images/carousel/5.webp" src="" alt="ALT">
+      <img data-src="images/carousel/6.webp" src="" alt="ALT">
+      <img data-src="images/carousel/7.webp" src="" alt="ALT">
+      <img data-src="images/carousel/8.webp" src="" alt="ALT">
+      <img data-src="images/carousel/9.webp" src="" alt="ALT">
+    </div>
+
+    <script>
+        function toggleMenu() {
+          const hero = document.querySelector('.hero');
+          hero.classList.toggle('menu-open');
+        }
+      </script>
+
+    <script>
+      var slider = new IdealImageSlider.Slider({
+	    selector: '#slider',
+	    height: 500, // Required but can be set by CSS
+	    interval: 4000
+      });
+      slider.start();
+    </script>
+
+    <div id="main"></div>
+    <main>
+      {% include content.html content=content %}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

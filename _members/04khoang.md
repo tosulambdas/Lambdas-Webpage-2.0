@@ -1,8 +1,7 @@
 ---
 name: Kent Hoang
 image: images/bros/4khoang.webp
-description: Lead Programmer
-role: alum
+role: alumni
 group: charter
 description: "#4 'Thunderclap'"
 ---
@@ -14,4 +13,4 @@ Major: Computer Science and Engineering
 
 Big Bro: Quang "Rodin" Bui (UMBC)
 
-[Click here](/ujis/4khoang/) to view Kent's Lineage!
+[Click here](/ujis/) to view Kent's Lineage!

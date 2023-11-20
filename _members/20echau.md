@@ -13,4 +13,4 @@ Major: Aerospace Engineering
 
 Big Bro: [Kenny "SBD" Truong](11ktruong)
 
-[Click here](/ujis/11ktruong/) to view Ethan's Lineage!
+[Click here](/ujis/) to view Ethan's Lineage!

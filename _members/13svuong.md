@@ -1,7 +1,7 @@
 ---
 name: Sonny Vuong
 image: images/bros/13svuong.webp
-role: alum
+role: alumni
 group: alpha
 description: "#13 'CASΛNOVA'"
 ---
@@ -13,4 +13,4 @@ Major: Communications
 
 Big Bro: [Ethan "Doc Mc'Stuffin's" Chan](01echan)
 
-[Click here](/ujis/1echan/) to view Sonny's Lineage!
+[Click here](/ujis/) to view Sonny's Lineage!

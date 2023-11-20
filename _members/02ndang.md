@@ -1,7 +1,7 @@
 ---
 name: Nicholas Dang
 image: images/bros/2ndang.webp
-role: alum
+role: alumni
 group: charter
 description: "#2 'Cookin Mama'"
 ---
@@ -13,4 +13,4 @@ Major: History
 
 Big Bro: Van "Rerun" Dao (FSU)
 
-[Click here](/ujis/2ndang/) to view Nicholas' Lineage!
+[Click here](/ujis/) to view Nicholas' Lineage!

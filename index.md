@@ -1,9 +1,11 @@
 ---
+title: Home
+layout: home
 ---
 
-# Harrisonthow's Website
+# Associate Chapter of Lambda Phi Epsilon at THE Ohio State University
 
-An engaging 1-3 sentence description of your lab.
+Lambda Phi Epsilon is a dynamic international fraternity dedicated to fostering leadership, academic excellence, and a strong sense of community among its members. With a rich history and commitment to multiculturalism, Lambda Phi Epsilon empowers individuals to thrive in a supportive brotherhood that values personal growth, cultural awareness, and lifelong connections.
 
 {% include section.html %}
 
