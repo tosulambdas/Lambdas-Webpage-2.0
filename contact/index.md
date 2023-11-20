@@ -2,76 +2,35 @@
 title: Contact
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: Contact Us
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}Contact - General
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+For general inquiries and questions, please contact us at the following e-mail address.
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  text="tosulambdas@gmail.com"
+  link="tosulambdas@gmail.com"
 %}
 
 {% include section.html %}
 
-{% capture col1 %}
+# {% include icon.html icon="fa-regular fa-envelope" %}Contact the President
+
+To contact the president of our chapter, please use one of the following forms of communication
 
 {%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  include button.html
+  type="email"
+  text="lim.1359@osu.edu"
+  link="lim.1359@osu.edu"
 %}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
 
 {% include section.html dark=true %}
 
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
+For rush information, please visit our media page or our instagram.
 
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
 
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
