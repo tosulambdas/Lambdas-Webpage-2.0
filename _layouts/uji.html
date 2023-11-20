@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main>
+        <style>
+        #tree{
+        width:100%;
+        height:100%;
+        }
+        </style>
+        <script src="../../_scripts/orgchart.js"></script>
+
+        <div style="width:100%; height:700px;" id="tree"></div>
+        
+        <script>
+            OrgChart.LAZY_LOADING_FACTOR = 1000
+            OrgChart.TEXT_THRESHOLD = 1000;
+            OrgChart.IMAGES_THRESHOLD = 1000;   
+            var chart = new OrgChart(document.getElementById("tree"), {
+            nodeMouseClick: OrgChart.action.none,
+            template: "rony",
+            lazyLoading: false,
+            toolbar: {
+            layout: false,
+            zoom: true,
+            fit: true,
+            expandAll: true
+            },
+            showXScroll: OrgChart.scroll.visible,
+            layout: OrgChart.tree,
+            scaleInitial: OrgChart.match.height,
+            enableSearch: false,
+            mouseScrool: OrgChart.action.none,
+            nodeBinding: {
+                field_0: "name",
+                field_1: "numbernick",
+                field_2: "class",
+                img_0: "img"
+            },
+            nodes: [
+                { id: 0, name: "Associate Chapter", img: "../../images/icon.png" },
+                { id: 1, pid: 0, name: "Ethan Chan", numbernick: "#1 \"\Doc McStuffins\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/1echan.webp" },
+                { id: 2, pid: 0, name: "Nicholas Dang", numbernick: "#2 \"\Cookin' Mama\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/2ndang.webp" },
+                { id: 3, pid: 0, name: "Sean Dupiano", numbernick: "3 \"\Wumbo\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/3sdupiano.webp" },
+                { id: 4, pid: 0, name: "Kent Hoang", numbernick: "#4 \"\Thunderclap\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/4khoang.webp" },
+                { id: 5, pid: 0, name: "Alex Nguyen", numbernick: "#5 \"\Rule 34\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/5anguyen.webp" },
+                { id: 7, pid: 0, name: "Trace Nguyen", numbernick: "#7 \"\¿Winnie the Who?\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/7tnguyen.webp" },
+                { id: 8, pid: 0, name: "Wesley Nguyen", numbernick: "#8 \"\Phony Hawk\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/8wnguyen.webp" },
+                { id: 9, pid: 0, name: "Tagumpay Sison", numbernick: "#9 \"\Pillowtalk\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/09tsison.webp" },
+                { id: 10, pid: 0, name: "Jerry Ta", numbernick: "#10 \"\Brock\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/10jta.webp" },
+                { id: 11, pid: 0, name: "Kenny Truong", numbernick: "#11 \"\SBD\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/11ktruong.webp" },
+                { id: 12, pid: 0, name: "Kenny Vo", numbernick: "#12 \"\M.I.R.I.O\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/12kvo.webp" },
+                { id: 13, pid: 1, name: "Sonny Vuong", numbernick: "#13 \"\CASΛNOVA\"\ ", class: "Alpha Class \|\ SP21", img: "../../images/bros/13svuong.webp" },
+                { id: 14, pid: 8, name: "Jared Malto", numbernick: "#14 \"\NOMΛD\"\ ", class: "Alpha Class \|\ SP21", img: "../../images/bros/14jmalto.webp" },
+                { id: 15, pid: 3, name: "Tyler Liu", numbernick: "15 \"\Re:Zerø\"\ ", class: "Alpha Class \|\ SP21", img: "../../images/bros/15tliu.webp" },
+                { id: 16, pid: 9, name: "Joshua Amponsah", numbernick: "#16 \"\Zoro\"\ ", class: "Alpha Class \|\ SP21", img: "../../images/bros/16jamponsah.webp" },
+                { id: 17, pid: 5, name: "Gill Im", numbernick: "#17 \"\KILLUΛ\"\ ", class: "Alpha Class \|\ SP21", img: "../../images/bros/17gim.webp"},
+                { id: 18, pid: 10, name: "Andy Garcia", numbernick: "#18 \"\PΛNCHAM\"\ ", class: "Alpha Class \|\ SP21", img: "../../images/bros/18agarcia.webp" },
+                { id: 19, pid: 3, name: "Ayoub Benaaouinate", numbernick: "#19 \"\PLUTUS\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/19abenaaouinate.webp" },
+                { id: 20, pid: 11, name: "Ethan Chau", numbernick: "#20 \"\ΛERO\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/20echau.webp" },
+                { id: 21, pid: 8, name: "Hamzah Chaudhry", numbernick: "#21 \"\ΛRETE\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/21hchaudhry.webp" },
+                { id: 22, pid: 15, name: "Alex Chiu", numbernick: "#22 \"\REYN\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/22achiu.webp" },
+                { id: 23, pid: 7, name: "Michael Joo", numbernick: "#23 \"\ΛLGORYTHM\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/23mjoo.webp" },
+                { id: 24, pid: 18, name: "James Li", numbernick: "#24 \"\NBA CHUNGBOY\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/24jli.webp" },
+                { id: 25, pid: 13, name: "Kelvin Nguyen", numbernick: "#25 \"\GOOCHIE MΛNE\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/25knguyen.webp" },
+                { id: 26, pid: 7, name: "Dante Le", numbernick: "#26 \"uncHEΛRTed\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/26dle.webp" },
+                { id: 27, pid: 5, name: "Sam Zhang", numbernick: "#27 \"\MIRΛI\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/27szhang.webp" },
+                { id: 28, pid: 22, name: "Jason Zhang", numbernick: "#28 \"\MONΛRCH\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/28jzhang.webp" },
+                { id: 29, pid: 5, name: "Yury Pozdneev", numbernick: "#29 \"\ODM\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/29ypozdneev.webp" },
+                { id: 30, pid: 22, name: "Zilai Wang", numbernick: "#30 \"\SEKKI\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/30zwang.webp" },
+                { id: 31, pid: 21, name: "Mark Wang", numbernick: "#31 \"\T. LΛW\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/31mwang.webp" },
+                { id: 32, pid: 12, name: "William Lim", numbernick: "#32 \"\E.S.C.A.N.O.R\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/32wlim.webp" },
+                { id: 33, pid: 29, name: "Junho Choi", numbernick: "#33 \"\MΛLPHON\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/33jchoi.webp" },
+                { id: 34, pid: 26, name: "Dylan Nguyen", numbernick: "#34 \"\SHΛTTERPROOF\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/34dnguyen.webp" },
+                { id: 35, pid: 30, name: "Alex Zhang", numbernick: "#35 \"\CHIKΛ\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/35azhang.webp" },
+                { id: 36, pid: 32, name: "Adam Shao-Hsuan Huang", numbernick: "#36 \"\Λ.S.T.A\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/36ahuang.webp" },
+                { id: 37, pid: 1, name: "Kristian Janevski", numbernick: "#37 \"\MESSIDONIΛ\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/37kjanevski.webp" },
+                { id: 38, pid: 18, name: "Joseph Li", numbernick: "#38 \"\BTΛ\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/38jli.webp" },
+                { id: 39, pid: 22, name: "Matthew Gong", numbernick: "#39 \"\iMΛJINe\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/39mgong.webp" },
+                { id: 40, pid: 14, name: "Guanzhou Zheng", numbernick: "#40 \"\STEEZY\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/40gz.webp" },
+                { id: 41, pid: 24, name: "Padraig Hurley", numbernick: "#41 \"\ΛSTRO\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/41phurley.webp" },
+                { id: 42, pid: 27, name: "Jerry Meng", numbernick: "#42 \"\JOΛT\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/42jmeng.webp" },
+                { id: 43, pid: 25, name: "Harrison Thow", numbernick: "#43 \"\VΛPRE\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/43hthow.webp" },
+        ]
+        });
+        </script>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
