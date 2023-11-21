@@ -1,0 +1,27 @@
+- title: Delta Class Reveal
+  subtitle: Watch the reveal of the SP23 Delta Class!
+  group: featured
+  image: images/media/deltas.webp
+  link: media/pages/deltas
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+- title: Gamma Class Reveal
+  subtitle: Watch the reveal of the SP22 Gamma Class!
+  group: featured
+  image: images/media/gamgam.webp
+  link: media/pages/gamgam
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+- title: FA23 APIDA Student Welcome Strolls
+  subtitle: Watch the brothers of LPhiE stroll at the 2023 Apida Student Welcome
+  image: images/photo.jpg
+  link: media/pages/fa23asw
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+- title: FA21 APIDA Student Welcome Strolls
+  subtitle: Watch the brothers of LPhiE stroll at the 2023 Apida Student Welcome
+  image: images/photo.jpg
+  link: media/pages/fa21asw
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
