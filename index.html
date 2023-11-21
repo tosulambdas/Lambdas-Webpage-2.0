@@ -44,17 +44,17 @@
 <link rel="icon" href="/images/icon.png">
 
 <meta name="title" content="Home">
-<meta name="description" content="An engaging 1-3 sentence description of your lab.">
+<meta name="description" content="Lambda Phi Epsilon is a dynamic international fraternity dedicated to fostering leadership, academic excellence, and a strong sense of community among its members. With a rich history and commitment to multiculturalism, Lambda Phi Epsilon empowers individuals to thrive in a supportive brotherhood that values personal growth, cultural awareness, and lifelong connections.">
 
 <meta property="og:title" content="Home">
 <meta property="og:site_title" content="Lambda Phi Epsilon International Fraternity, Inc. at THE Ohio State University">
-<meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
+<meta property="og:description" content="Lambda Phi Epsilon is a dynamic international fraternity dedicated to fostering leadership, academic excellence, and a strong sense of community among its members. With a rich history and commitment to multiculturalism, Lambda Phi Epsilon empowers individuals to thrive in a supportive brotherhood that values personal growth, cultural awareness, and lifelong connections.">
 <meta property="og:url" content="">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Home">
-<meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
+<meta property="twitter:description" content="Lambda Phi Epsilon is a dynamic international fraternity dedicated to fostering leadership, academic excellence, and a strong sense of community among its members. With a rich history and commitment to multiculturalism, Lambda Phi Epsilon empowers individuals to thrive in a supportive brotherhood that values personal growth, cultural awareness, and lifelong connections.">
 <meta property="twitter:url" content="">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
@@ -70,7 +70,7 @@
       "@type": "WebSite",
     
     "name": "Home",
-    "description": "An engaging 1-3 sentence description of your lab.",
+    "description": "Lambda Phi Epsilon is a dynamic international fraternity dedicated to fostering leadership, academic excellence, and a strong sense of community among its members. With a rich history and commitment to multiculturalism, Lambda Phi Epsilon empowers individuals to thrive in a supportive brotherhood that values personal growth, cultural awareness, and lifelong connections.",
     "headline": "Home",
     "publisher": {
       "@type": "Organization",
@@ -489,10 +489,89 @@
   
   
 
-  <section class="background" data-size="page">
+  <section class="background" data-size="2em">
     <h1 id="associate-chapter-of-lambda-phi-epsilon-at-the-ohio-state-university">Associate Chapter of Lambda Phi Epsilon at THE Ohio State University</h1>
 
-<p>Lambda Phi Epsilon is a dynamic international fraternity dedicated to fostering leadership, academic excellence, and a strong sense of community among its members. With a rich history and commitment to multiculturalism, Lambda Phi Epsilon empowers individuals to thrive in a supportive brotherhood that values personal growth, cultural awareness, and lifelong connections.</p>
+<p>Lambda Phi Epsilon is an Asian Interest, but not Asian-exclusive social fraternity dedicated to fostering leadership, academic excellence, and a strong sense of community among its members. With a rich history and commitment to multiculturalism, Lambda Phi Epsilon empowers individuals to thrive in a supportive brotherhood that values personal growth, cultural awareness, and lifelong connections.</p>
+
+<style>
+        #counter-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .counter {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        } 
+
+        .counter p {
+            font-size: 2em; /* Adjust the font size as needed */
+            margin: 5px 0;
+        }
+  </style>
+
+
+
+<div id="counter-container">
+    <div class="counter">
+        <p id="active-members-counter" style="font-size: 2.5em;">0</p>
+        <p>Active Members</p>
+    </div>
+    <div class="counter">
+        <p id="alumni-counter" style="font-size: 2.5em;">0</p>
+        <p>Alumni</p>
+    </div>
+        <div class="counter">
+        <p id="ethnicities" style="font-size: 2.5em;">0</p>
+        <p>Unique Ethnicities</p>
+    </div>
+</div>
+
+<script>
+    let activeMembersCounter = 0;
+    let alumniCounter = 0;
+    let ethnicityCounter = 0;
+    let activeMembersInterval;
+    let alumniInterval;
+    let ethnicityInterval
+
+    function updateActiveMembersCounter() {
+        document.getElementById('active-members-counter').innerText = activeMembersCounter;
+        if (activeMembersCounter < 31) {
+            activeMembersCounter++;
+        }
+    }
+
+    function updateAlumniCounter() {
+        document.getElementById('alumni-counter').innerText = alumniCounter;
+        if (alumniCounter < 15) {
+            alumniCounter++;
+        }
+    }
+    function updateEthnicityCounter() {
+    document.getElementById('ethnicities').innerText = ethnicityCounter;
+    if (ethnicityCounter < 16) {
+        ethnicityCounter++;
+      }
+    }
+
+    function startCounters() {
+        activeMembersInterval = setInterval(updateActiveMembersCounter, 100); // Update every 100 milliseconds
+        alumniInterval = setInterval(updateAlumniCounter, 100); // Update every 100 milliseconds
+        ethnicityInterval = setInterval(updateEthnicityCounter, 100); // Update every 100 milliseconds
+    }
+
+    function stopCounters() {
+        clearInterval(activeMembersInterval);
+        clearInterval(alumniInterval);
+        clearInterval(ethnicityInterval)
+    }
+    startCounters();
+</script>
   </section>
 
   
@@ -506,24 +585,28 @@
   size: ;
 -->
 
-<h2 id="highlights">Highlights</h2>
+
+
+<h1><center>Learn More!</center></h1>
+
+
 
 <div class="feature">
-  <a href="/research" class="feature-image" aria-label="Our Research">
-    <img src="/images/photo.jpg" loading="lazy" alt="Our Research" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/brothers" class="feature-image" aria-label="Brothers">
+    <img src="/images/homepage_gallery/brothers.webp" loading="lazy" alt="Brothers" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Our Research</p>
+      <p class="feature-title">Brothers</p>
     
     
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>At Lambda Phi Epsilon International Fraternity Inc., our bonds of eternal brotherhood extend far beyond the college years. Our diverse membership, united by shared interests, values, and ideals, forms a lifelong connection. Rooted in high moral standards, each brother aspires to reach their fullest potential, collectively working towards the common goal of shaping a brighter future.</p>
 
 <div class="button-wrapper">
-    <a class="button" href="/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
+    <a class="button" href="/brothers" data-style="bare" aria-label="fa-solid fa-arrow-left">
+      <i class="icon fa-solid fa-arrow-left"></i>
       
-        <span>See our publications</span>
+        <span>Meet the Brothers</span>
       
     </a>
   </div>
@@ -531,23 +614,26 @@
 
   </div>
 </div>
+
+
+
 
 <div class="feature" data-flip="">
-  <a href="/projects" class="feature-image" aria-label="Our Projects">
-    <img src="/images/photo.jpg" loading="lazy" alt="Our Projects" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/media" class="feature-image" aria-label="Media">
+    <img src="/images/photo.jpg" loading="lazy" alt="Media" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Our Projects</p>
+      <p class="feature-title">Media</p>
     
     
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>What happens day to day with the lambdas? Our media team works nonstop to provide all the updates for you to follow along our journey of constant improvement and excellence! We also have archieves of our past reveals!</p>
 
 <div class="button-wrapper">
-    <a class="button" href="/projects" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+    <a class="button" href="/media" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
       <i class="icon fa-solid fa-arrow-right"></i>
       
-        <span>Browse our projects</span>
+        <span>View our latest social posts and past reveals!</span>
       
     </a>
   </div>
@@ -555,23 +641,26 @@
 
   </div>
 </div>
+
+
+
 
 <div class="feature">
-  <a href="/team" class="feature-image" aria-label="Our Team">
-    <img src="/images/photo.jpg" loading="lazy" alt="Our Team" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/blog" class="feature-image" aria-label="Our Blog">
+    <img src="/images/photo.jpg" loading="lazy" alt="Our Blog" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Our Team</p>
+      <p class="feature-title">Our Blog</p>
     
     
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Visit our blog to keep up to date with all the exciting events and stories concerning our chapter! From rush events to class reveals, we have it all here!</p>
 
 <div class="button-wrapper">
-    <a class="button" href="/team" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
+    <a class="button" href="/blog" data-style="bare" aria-label="fa-solid fa-arrow-left">
+      <i class="icon fa-solid fa-arrow-left"></i>
       
-        <span>Meet our team</span>
+        <span>View our blog!</span>
       
     </a>
   </div>
@@ -579,6 +668,8 @@
 
   </div>
 </div>
+
+
   </section>
 
 
@@ -645,10 +736,6 @@
   <div>
     © 2023
     Lambda Phi Epsilon International Fraternity, Inc. at THE Ohio State University
-      |   Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a>
   </div>
 
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
