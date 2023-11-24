@@ -2,7 +2,7 @@
 title: Media
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Check out our highlights!
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Media

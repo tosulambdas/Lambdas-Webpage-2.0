@@ -32,3 +32,11 @@ layout: default
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
+
+# Special thanks to their probate master!
+{:.center}
+
+{% capture content %}
+{% include figure.html image="images/bros/19abenaaouinate.webp" caption="#19 Ayoub 'PLUTUS' Benaaouinate"%}
+{% endcapture %}
+{% include grid.html style="square" content=content %}
