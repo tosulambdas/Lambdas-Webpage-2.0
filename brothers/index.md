@@ -8,7 +8,7 @@ nav:
 <button onclick="scrollToClass('charter')">Scroll to Charter Class</button>
 debug only to scroll to prefered position
 -->
-
+{:.center}
 # {% include icon.html icon="fa-solid fa-users" %}Executive Board
 
 {% include section.html %}
@@ -108,5 +108,22 @@ debug only to scroll to prefered position
 **Class Motto**: _"Success is not final; failure is not fatal: it is the courage to continue that counts."_
 {:.center}
 {% include list.html data="members" component="portrait" filters="group: delta" %}
+
+<script src = "../../_scripts/scroll.js"></script>
+
+{:.center}
+## Epsilon Class "Empyreal Epsilons" | FA23
+{:.center}
+**New Member Educator**: Kenny "SBD" Truong
+{:.center}
+**Assistant New Member Educator**: Dante "uncHEΛRTed" Le
+{:.center}
+**Class Song**: _Super_ by SEVENTEEN 
+{:.center}
+![](https://open.spotify.com/track/3AOf6YEpxQ894FmrwI9k96?si=94078c8da4f54654)
+{:.center}
+**Class Motto**: _"The past is history, the future is a mystery, but today is a gift, that's why it's called the present."_
+{:.center}
+{% include list.html data="members" component="portrait" filters="group: epsilon" %}
 
 <script src = "../../_scripts/scroll.js"></script>

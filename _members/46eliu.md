@@ -1,6 +1,6 @@
 ---
 name: Ethan Liu
-image: images/bros/45eliu.webp
+image: images/bros/46eliu.webp
 role: undergrad
 group: epsilon
 description: "#45 'DΛ VINCI'"
