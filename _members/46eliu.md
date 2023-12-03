@@ -3,7 +3,7 @@ name: Ethan Liu
 image: images/bros/46eliu.webp
 role: undergrad
 group: epsilon
-description: "#45 'DΛ VINCI'"
+description: "#46 'DΛ VINCI'"
 ---
 
 # Ethan Liu | Active
