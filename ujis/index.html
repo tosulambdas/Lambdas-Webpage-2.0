@@ -496,9 +496,6 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
         <div style="width:100%; height:700px;" id="tree"></div>
         
         <script>
-            OrgChart.LAZY_LOADING_FACTOR = 1000
-            OrgChart.TEXT_THRESHOLD = 1000;
-            OrgChart.IMAGES_THRESHOLD = 1000;   
             var chart = new OrgChart(document.getElementById("tree"), {
             nodeMouseClick: OrgChart.action.none,
             template: "rony",
@@ -511,18 +508,19 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
             },
             showXScroll: OrgChart.scroll.visible,
             layout: OrgChart.tree,
-            scaleInitial: OrgChart.match.width,
+            scaleInitial: OrgChart.match.height,
             enableSearch: false,
             mouseScrool: OrgChart.action.none,
             nodeBinding: {
                 field_0: "name",
                 field_1: "numbernick",
                 field_2: "class",
+                field_3: "link",
                 img_0: "img"
             },
             nodes: [
                 { id: 0, name: "Associate Chapter", img: "../../images/icon.png" },
-                { id: 1, pid: 0, name: "Ethan Chan", numbernick: "#1 \"\Doc McStuffins\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/1echan.webp" },
+                { id: 1, pid: 0, name: "Ethan Chan", numbernick: "#1 \"\Doc McStuffins\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/1echan.webp", link: "members/01echan.html" },
                 { id: 2, pid: 0, name: "Nicholas Dang", numbernick: "#2 \"\Cookin' Mama\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/2ndang.webp" },
                 { id: 3, pid: 0, name: "Sean Dupiano", numbernick: "3 \"\Wumbo\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/3sdupiano.webp" },
                 { id: 4, pid: 0, name: "Kent Hoang", numbernick: "#4 \"\Thunderclap\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/4khoang.webp" },
@@ -564,6 +562,12 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
                 { id: 41, pid: 24, name: "Padraig Hurley", numbernick: "#41 \"\ΛSTRO\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/41phurley.webp" },
                 { id: 42, pid: 27, name: "Jerry Meng", numbernick: "#42 \"\JOΛT\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/42jmeng.webp" },
                 { id: 43, pid: 25, name: "Harrison Thow", numbernick: "#43 \"\VΛPRE\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/43hthow.webp" },
+                { id: 44, pid: 23, name: "Verich Luu", numbernick: "#44 \"\ΛPOLLO\"\ ", class: "Epsilon Class \|\ FA23", img: "../../images/bros/44vluu.webp" },
+                { id: 45, pid: 20, name: "Kyle Nguyen", numbernick: "#45 \"\PIONEER\"\ ", class: "Epsilon Class \|\ FA23", img: "../../images/bros/45knguyen.webp" },
+                { id: 46, pid: 34, name: "Ethan Liu", numbernick: "#46 \"\DΛ VINCI\"\ ", class: "Epsilon Class \|\ FA23", img: "../../images/bros/46eliu.webp" },
+                { id: 47, pid: 12, name: "Woojae Kim", numbernick: "#47 \"\H.Y.U.G.A\"\ ", class: "Epsilon Class \|\ FA23", img: "../../images/bros/47wkim.webp" },
+                { id: 48, pid: 38, name: "Justin Bailey", numbernick: "#48 \"\YUSUKE\"\ ", class: "Epsilon Class \|\ FA23", img: "../../images/bros/48jbailey.webp" },
+                { id: 49, pid: 43, name: "Samuel Miller", numbernick: "#49 \"\HIM-CHΛN\"\ ", class: "Epsilon Class \|\ FA23", img: "../../images/bros/49smiller.webp" },
         ]
         });
         </script>
