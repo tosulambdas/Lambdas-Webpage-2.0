@@ -3,6 +3,7 @@ title: About Us
 nav:
   order: 1
   tooltip: Learn more about our chapter and our international history
+layout: about
 ---
 {:.center}
 # Our International History
@@ -66,4 +67,6 @@ A world where Lambda men live authentic, fulfilling lives and contribute through
   image="images/about-us/nmdp.jpeg"
   caption="Lambda Phi Epsilon works with the National Marrow Donor Program (NMDP) to help save the lives of patients requiring bone marrow transplants. Individuals who suffer from illnesses that may require bone marrow transplants depend on donors with similar ethnic backgrounds to find compatible bone marrow matches. Thus, we aim to register as many committed donors to the cause through Columbus’ local Be The Match campaigns to increase the chances for patients to find a donor that could save their life with a transplant."
 %}
+
+
 
