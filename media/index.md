@@ -1,7 +1,7 @@
 ---
 title: Media
 nav:
-  order: 2
+  order: 5
   tooltip: Check out our highlights!
 ---
 

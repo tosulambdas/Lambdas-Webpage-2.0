@@ -1,7 +1,7 @@
 ---
 title: Brothers
 nav:
-  order: 3
+  order: 2
   tooltip: Meet the brothers of LPhiE
 ---
 <!--
@@ -20,7 +20,7 @@ debug only to scroll to prefered position
 {% include figure.html image="images/eboard/chiu.webp" caption="Alex Chiu - External Vice President"%}
 {% include figure.html image="images/eboard/harrison.webp" caption="Harrison Thow - Treasurer"%}
 {% include figure.html image="images/eboard/zilai.webp" caption="Zilai Wang - Secretary"%}
-{% include figure.html image="images/bros/7tnguyen.webp" caption="Trace Nguyen - New Member Educator SP23"%}
+{% include figure.html image="images/bros/11ktruong.webp" caption="Kenny Troung - New Member Educator AU23"%}
 
 
 {% endcapture %}
@@ -126,4 +126,4 @@ debug only to scroll to prefered position
 {:.center}
 {% include list.html data="members" component="portrait" filters="group: epsilon" %}
 
-<script src = "../../_scripts/scroll.js"></script>
+<!-- <script src = "../../_scripts/scroll.js"></script> -->

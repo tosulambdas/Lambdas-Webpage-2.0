@@ -1,9 +1,16 @@
+- title: Epsilon Class Reveal
+  subtitle: Watch the reveal of the AU23 Epsilon Class!
+  group: featured
+  image: images/photo.jpg
+  link: media/pages/epsilons
+  description: The latest class to cross into eternal brotherhood! Meet the Empyreal Epsilons!
+
 - title: Delta Class Reveal
   subtitle: Watch the reveal of the SP23 Delta Class!
   group: featured
   image: images/media/deltas.webp
   link: media/pages/deltas
-  description: The latest class to cross into eternal brotherhood! Meet the (largest) class since the Twelve Tenshi! The Dai-Ichi Deltas!
+  description: The SP23 class to cross into eternal brotherhood! Meet the (largest) class since the Twelve Tenshi! The Dai-Ichi Deltas!
 
 - title: Gamma Class Reveal
   subtitle: Watch the reveal of the SP22 Gamma Class!

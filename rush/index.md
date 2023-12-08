@@ -1,6 +1,6 @@
 ---
 title: Rush
 nav:
-  order: 8
+  order: 4
   tooltip: Interested in joining?
 ---

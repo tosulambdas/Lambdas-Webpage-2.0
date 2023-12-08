@@ -1,7 +1,7 @@
 ---
 title: Contact
 nav:
-  order: 6
+  order: 8
   tooltip: Contact Us
 ---
 
@@ -33,4 +33,9 @@ To contact the president of our chapter, please use one of the following forms o
 
 For rush information, please visit our media page or our instagram.
 
+{% include section.html %}
+
+{%
+  include philanthropy-banner.html
+%}
 

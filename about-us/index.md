@@ -9,6 +9,8 @@ layout: about
 # Our International History
 {:.center}
 Lambda Phi Epsilon International Fraternity Inc. was founded on February 25th, 1981 by principal founder Mr. Craig Ishigo along with eighteen other dedicated men at the University of California Los Angeles. The founding fathers aimed to go beyond the divided limitations faced by Asian-interest organizations on campus. Their vision was that the members would eventually become the leaders of their respective ethnic communities, and thus, close the gaps that separated the Asian American community through their affiliation with a common organization.
+<br>
+Learn more about it <a href="https://lambdaphiepsilon.com/about/">here</a>
 
 {:.center}
 # Our Founding Fathers Are
@@ -68,5 +70,6 @@ A world where Lambda men live authentic, fulfilling lives and contribute through
   caption="Lambda Phi Epsilon works with the National Marrow Donor Program (NMDP) to help save the lives of patients requiring bone marrow transplants. Individuals who suffer from illnesses that may require bone marrow transplants depend on donors with similar ethnic backgrounds to find compatible bone marrow matches. Thus, we aim to register as many committed donors to the cause through Columbus’ local Be The Match campaigns to increase the chances for patients to find a donor that could save their life with a transplant."
 %}
 
-
-
+<!-- {%
+  include philanthropy-banner.html
+%} -->
