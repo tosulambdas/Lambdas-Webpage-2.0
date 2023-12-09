@@ -10,12 +10,12 @@ layout: default
 
 {% capture content %}
 
-{% include figure.html image="images/media/dick em down deltas/33.webp" caption="#44 Verich 'ΛPOLLO' Luu <br> Big Bro: Michael 'ΛLGORHYTHM' Joo" %}
-{% include figure.html image="images/media/dick em down deltas/34.webp" caption="#45 Kyle 'PIONEER' Nguyen <br> Big Bro: Ethan 'ΛERO' Chau" %}
-{% include figure.html image="images/media/dick em down deltas/35.webp" caption="#46 Ethan 'DΛ VINCI' Liu <br> Big Bro: Dylan 'SHΛTTERPROOF' Nguyen" %}
-{% include figure.html image="images/media/dick em down deltas/36.webp" caption="#47 Woojae 'H.Y.U.G.A' Kim <br> Big Bro: Kenny 'M.I.R.I.O' Vo" %}
-{% include figure.html image="images/media/dick em down deltas/37.webp" caption="#48 Justin 'YUSUKE' Bailey <br> Big Bro: Joseph 'BTΛ' Li" %}
-{% include figure.html image="images/media/dick em down deltas/38.webp" caption="#49 Samuel 'HIM-CHΛN' Miller <br> Big Bro: Harrison 'VΛPRE' Thow" %}
+{% include figure.html image="images/media/epsilon/44.webp" caption="#44 Verich 'ΛPOLLO' Luu <br> Big Bro: Michael 'ΛLGORHYTHM' Joo" %}
+{% include figure.html image="images/media/epsilon/45.webp" caption="#45 Kyle 'PIONEER' Nguyen <br> Big Bro: Ethan 'ΛERO' Chau" %}
+{% include figure.html image="images/media/epsilon/46.webp" caption="#46 Ethan 'DΛ VINCI' Liu <br> Big Bro: Dylan 'SHΛTTERPROOF' Nguyen" %}
+{% include figure.html image="images/media/epsilon/47.webp" caption="#47 Woojae 'H.Y.U.G.A' Kim <br> Big Bro: Kenny 'M.I.R.I.O' Vo" %}
+{% include figure.html image="images/media/epsilon/48.webp" caption="#48 Justin 'YUSUKE' Bailey <br> Big Bro: Joseph 'BTΛ' Li" %}
+{% include figure.html image="images/media/epsilon/49.webp" caption="#49 Samuel 'HIM-CHΛN' Miller <br> Big Bro: Harrison 'VΛPRE' Thow" %}
 
 {% endcapture %}
 
@@ -25,7 +25,7 @@ layout: default
 {:.center}
 
 {% capture content %}
-{% include figure.html image="images/bros/12kvo.webp" caption="#12 Kenny 'SBD' Truong"%}
+{% include figure.html image="images/bros/11ktruong.webp" caption="#11 Kenny 'SBD' Truong"%}
 {% include figure.html image="images/bros/26dle.webp" caption="#26 Dante 'uncHEΛRTed' Le"%}
 
 {% endcapture %}
