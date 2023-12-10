@@ -48,15 +48,15 @@ A world where Lambda men live authentic, fulfilling lives and contribute through
 {:.center}
 ## Core Values
 {:.center}
-**Authenticity**: Demonstration of one's true self to the world, despite external expectations.
-{:.center}
-**Courageous Leadership**: Integrity through action toward a more human world, especially in times of adversity.
-{:.center}
-**Cultural Heritage**: Ideas and experiences of a people, transcending the world through generations.
+**Wisdom**: Pursuit of understanding and its positive application toward one's life and the world.
 {:.center}
 **Love**: Care and respect for oneself, the brotherhood, and the world.
 {:.center}
-**Wisdom**: Pursuit of understanding and its positive application toward one's life and the world.
+**Cultural Heritage**: Ideas and experiences of a people, transcending the world through generations.
+{:.center}
+**Courageous Leadership**: Integrity through action toward a more human world, especially in times of adversity.
+{:.center}
+**Authenticity**: Demonstration of one's true self to the world, despite external expectations.
 {:.center}
 {% include section.html %}
 {:.center}
@@ -69,7 +69,3 @@ A world where Lambda men live authentic, fulfilling lives and contribute through
   image="images/about-us/nmdp.jpeg"
   caption="Lambda Phi Epsilon works with the National Marrow Donor Program (NMDP) to help save the lives of patients requiring bone marrow transplants. Individuals who suffer from illnesses that may require bone marrow transplants depend on donors with similar ethnic backgrounds to find compatible bone marrow matches. Thus, we aim to register as many committed donors to the cause through Columbus’ local Be The Match campaigns to increase the chances for patients to find a donor that could save their life with a transplant."
 %}
-
-<!-- {%
-  include philanthropy-banner.html
-%} -->

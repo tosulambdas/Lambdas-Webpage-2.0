@@ -1,0 +1,64 @@
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: #09a7db1e;
+        overflow: hidden;
+        width: 100%;
+        height:0;
+        transition: .5s ease;
+    }
+
+    .image-container {
+        position: relative;
+        width: 75%;
+    }
+    .image-container:hover .overlay {
+        bottom: 0;
+        height: 100%;
+    }
+    .text{
+        color:cornflowerblue;
+        font-size: 20px;
+        font-weight: bolder;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+</style>
+
+<div class="container">
+
+    <p>
+        Did you know that we have merches?<br>
+        🔥 Elevate Your Brotherhood Style 🔥<br>
+        Introducing LPhiE Exclusive Tees!<br>
+        👕 Premium Quality: Crafted for Comfort & Durability<br>
+        🎨 Custom Designs: Changes every year!<br>
+        💪 Built for Unity: Wear the Brotherhood with Pride<br>
+        🔥 Limited Edition: Stand Out, Be Exclusive<br>
+        🕗 Order Yours Now!<br>
+    </p>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScD-AeKWDC8mcZ9iKalTr6EGSaA18VKZYDh2VWKQ8z-8-XtMQ/viewform">
+        
+        <div class = "image-container">
+            <img src="/images/share.png" alt="Awesome merch photo" style="object-fit: cover; max-height: 300px; max-width: 300px; width: auto; height: auto;">
+            <div class="overlay">
+                <div class="text">Buy now!</div>
+            </div>
+        </div>
+    </a>
+
+</div>

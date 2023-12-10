@@ -21,10 +21,12 @@ And guess what? We're not just about the traditional handshake; we've got a buzz
 
 ## Featured
 
-{% include list.html component="card" data="media" filters="group: featured" %}
+{% include list.html component="card" data="media" filters="group: new" %}
 
 {% include section.html %}
 
 ## More
 
-{% include list.html component="card" data="media" filters="group: " style="small" %}
+{% include list.html component="card" data="media" filters="group: " style="big" %}
+
+

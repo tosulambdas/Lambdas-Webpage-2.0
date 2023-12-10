@@ -1,14 +1,13 @@
 ---
-title: Blog
+title: Events
 nav:
   order: 7
   tooltip: Musings and miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
+# {% include icon.html icon="fa-solid fa-feather-pointed" %}Events
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Welcome to the vibrant world of Lambda Phi Epsilon! Our fraternity takes pride in being a dynamic force on campus, hosting a diverse array of events that showcase our active engagement in college life. From unforgettable social mixers, collaborative ventures with other Greek organizations, and impactful fundraising initiatives to our commitment to community service through volunteering events, Lambda Phi Epsilon is at the forefront of creating meaningful experiences. Explore our upcoming events, browse through the highlights of past gatherings, and witness firsthand the energy and enthusiasm that define our fraternity. Join us on this exciting journey of brotherhood, leadership, and campus involvement. Lambda Phi Epsilon – where every event is a celebration of unity and shared experiences! #LambdaPhiEpsilon #CampusLife 
 
 {% include section.html %}
 

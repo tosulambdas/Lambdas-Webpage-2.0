@@ -1,7 +1,8 @@
+# Featured blogs
 - title: Epsilon Class Reveal
   subtitle: Watch the reveal of the AU23 Epsilon Class!
-  group: featured
-  image: images/photo.jpg
+  group: featured; new
+  image: images/media/epsilons.webp
   link: media/pages/epsilons
   description: The latest class to cross into eternal brotherhood! Meet the Empyreal Epsilons!
 
@@ -15,23 +16,23 @@
 - title: Gamma Class Reveal
   subtitle: Watch the reveal of the SP22 Gamma Class!
   group: featured
-  image: images/media/gamgam.webp
-  link: media/pages/gamgam
+  image: images/media/gammas.webp
+  link: media/pages/gammas
   description: The Genjistu Gammas are here and ready to reveal themselves! These men have worked long and hard to become true leaders among men!
 
 - title: More
-  subtitle: 
-  group: featured
+  subtitle: More featured posts!
+  group: new
   image: images/photo.jpg
-  link: media/pages/epsilons
+  link: media/pages/more
   description: More in the Media release page
 
+# More blogs
 - title: FA23 APIDA Student Welcome Strolls
   subtitle: Watch the brothers of LPhiE stroll at the 2023 Apida Student Welcome
   image: images/photo.jpg
   link: media/pages/fa23asw
   description:  Whether you're looking for a student organization to get involved in, want to meet new people or need help navigating campus, the APIDA Welcome and Showcase will provide the resources you need, and also a chance to see some really great performances by our student community! This event is for all APIDA students and allies at Ohio State. Staff and faculty are welcome to stop by too! Pop in, grab a snack and get connected!
-
 
 - title: FA21 APIDA Student Welcome Strolls
   subtitle: Watch the brothers of LPhiE stroll at the 2023 Apida Student Welcome

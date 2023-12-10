@@ -3,6 +3,7 @@ title: Contact
 nav:
   order: 8
   tooltip: Contact Us
+layout: contact
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact - General
@@ -36,6 +37,5 @@ For rush information, please visit our media page or our instagram.
 {% include section.html %}
 
 {%
-  include philanthropy-banner.html
+  include merch.html
 %}
-
