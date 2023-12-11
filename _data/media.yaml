@@ -1,31 +1,24 @@
 # Featured blogs
 - title: Epsilon Class Reveal
   subtitle: Watch the reveal of the AU23 Epsilon Class!
-  group: featured; new
+  group: reveal
   image: images/media/epsilons.webp
   link: media/pages/epsilons
   description: The latest class to cross into eternal brotherhood! Meet the Empyreal Epsilons!
 
 - title: Delta Class Reveal
   subtitle: Watch the reveal of the SP23 Delta Class!
-  group: featured
+  group: reveal
   image: images/media/deltas.webp
   link: media/pages/deltas
   description: The SP23 class to cross into eternal brotherhood! Meet the (largest) class since the Twelve Tenshi! The Dai-Ichi Deltas!
 
 - title: Gamma Class Reveal
   subtitle: Watch the reveal of the SP22 Gamma Class!
-  group: featured
+  group: reveal
   image: images/media/gammas.webp
   link: media/pages/gammas
   description: The Genjistu Gammas are here and ready to reveal themselves! These men have worked long and hard to become true leaders among men!
-
-- title: More
-  subtitle: More featured posts!
-  group: new
-  image: images/photo.jpg
-  link: media/pages/more
-  description: More in the Media release page
 
 # More blogs
 - title: FA23 APIDA Student Welcome Strolls

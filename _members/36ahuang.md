@@ -2,7 +2,7 @@
 name: Adam Shao-Hsuan Huang
 image: images/bros/36ahuang.webp
 role: undergrad
-group: delta
+group: suspended;
 description: "#36 'Λ.S.T.A'"
 ---
 

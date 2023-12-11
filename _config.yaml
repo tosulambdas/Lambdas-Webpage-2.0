@@ -1,9 +1,9 @@
 # site properties and page defaults
-title: Lambda Phi Epsilon International Fraternity, Inc. at THE Ohio State University
+title: Lambda Phi Epsilon at THE Ohio State University
 subtitle: 
 description: Lambda Phi Epsilon is a dynamic international fraternity dedicated to fostering leadership, academic excellence, and a strong sense of community among its members. With a rich history and commitment to multiculturalism, Lambda Phi Epsilon empowers individuals to thrive in a supportive brotherhood that values personal growth, cultural awareness, and lifelong connections.
-header: images/background.jpg
-footer: images/background.jpg
+header: images/background.webp
+footer: images/background.webp
 
 # site social media and other links
 links:

@@ -4,13 +4,10 @@ nav:
   order: 2
   tooltip: Meet the brothers of LPhiE
 ---
-<!--
-<button onclick="scrollToClass('charter')">Scroll to Charter Class</button>
-debug only to scroll to prefered position
--->
+
 {:.center}
 # {% include icon.html icon="fa-solid fa-users" %}Executive Board
-
+{:.center}
 {% include section.html %}
 
 {% capture content %}
@@ -23,6 +20,21 @@ debug only to scroll to prefered position
 {% include figure.html image="images/bros/11ktruong.webp" caption="Kenny Troung - New Member Educator AU23"%}
 
 
+{% endcapture %}
+
+{% include grid.html style="square" content=content %}
+
+{% include section.html %}
+
+<h2>Looking for a specific class?</h2>
+
+{% capture content %}
+<a href="#charter-class-twelve-tenshi--sp20">Charter Class</a>
+<a href="#alpha-class-akuma-alphas--sp21">Alpha Class</a>
+<a href="#beta-class-bushido-betas--fa21">Beta Class</a>
+<a href="#gamma-class-genjitsu-gammas--sp22">Gamma Class</a>
+<a href="#delta-class-dai-ichi-deltas--sp23">Delta Class</a>
+<a href="#epsilon-class-empyreal-epsilons--fa23">Epsilon Class</a>
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}

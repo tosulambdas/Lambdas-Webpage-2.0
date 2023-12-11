@@ -9,8 +9,9 @@ layout: about
 # Our International History
 {:.center}
 Lambda Phi Epsilon International Fraternity Inc. was founded on February 25th, 1981 by principal founder Mr. Craig Ishigo along with eighteen other dedicated men at the University of California Los Angeles. The founding fathers aimed to go beyond the divided limitations faced by Asian-interest organizations on campus. Their vision was that the members would eventually become the leaders of their respective ethnic communities, and thus, close the gaps that separated the Asian American community through their affiliation with a common organization.
-<br>
-Learn more about it <a href="https://lambdaphiepsilon.com/about/">here</a>
+
+{:.center}
+[Learn more about our international history here](https://lambdaphiepsilon.com/about/)
 
 {:.center}
 # Our Founding Fathers Are
@@ -43,7 +44,7 @@ To guide men on a lifelong discovery of authenticity and personal growth.
 ## Vision
 {:.center}
 A world where Lambda men live authentic, fulfilling lives and contribute through the pursuit of their noble purpose.
-
+{:.center}
 {% include section.html %}
 {:.center}
 ## Core Values
