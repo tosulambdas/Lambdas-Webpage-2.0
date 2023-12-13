@@ -6,7 +6,7 @@ nav:
 ---
 
 {:.center}
-{% include icon.html icon="fa-solid fa-users" %}Alumnies
+{% include icon.html icon="fa-solid fa-users" %}Alumni
 {% include section.html %}
 
 {% capture content %}
