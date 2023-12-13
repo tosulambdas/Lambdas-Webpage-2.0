@@ -42,4 +42,36 @@
   display: none;
 }
 
+/* Centering for grids with two items */
+.grid-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 40px auto; /* Set margin-top and margin-bottom to auto for vertical centering */
+}
+
+.grid-two > * {
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  margin: 0 !important;
+}
+
+.grid-two[data-style=square] > * {
+  aspect-ratio: 1/1;
+}
+.grid-two[data-style=square] img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+.grid-two[data-style=square] .caption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
 /*# sourceMappingURL=grid.css.map */

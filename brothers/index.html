@@ -478,7 +478,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
       
     
       
-        <a href="/Events/" data-tooltip="Musings and miscellany">
+        <a href="/Events/" data-tooltip="The most recent LPhiE Updates!">
           Events
         </a>
       
@@ -492,6 +492,58 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </nav>
 </header>
 
+
+    <style>
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: rgb(66, 83, 119);;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 18px;
+        transition: background-color 0.3s, transform 0.3s; /* Added smooth transition */
+      }
+  
+      #myBtn:hover {
+        background-color: #555;
+        transform: scale(1.1); /* Added scale effect on hover */
+      }
+  
+      .arrow-up {
+        transform: rotate(-45deg);
+      }
+    </style>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Return to top ▲</button>
+
+<script>
+  let mybutton = document.getElementById("myBtn");
+
+  window.onscroll = function() {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (window.scrollY > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    // Smooth scroll to the top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+</body>
     <main>
       <!--
   modify main content of page:
@@ -531,7 +583,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 <div class="grid" data-style="square">
   
 <figure class="figure">
-  <a class="figure-image" aria-label="William Lim - President">
+  <a href="/members/32wlim" class="figure-image" aria-label="William Lim - President">
     <img src="/images/eboard/will.webp" style="
         width: auto;
         max-height: unset;
@@ -546,7 +598,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 </figure>
 
 <figure class="figure">
-  <a class="figure-image" aria-label="Dante Le - Internal Vice President">
+  <a href="/members/26dle" class="figure-image" aria-label="Dante Le - Internal Vice President">
     <img src="/images/eboard/dante.webp" style="
         width: auto;
         max-height: unset;
@@ -561,7 +613,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 </figure>
 
 <figure class="figure">
-  <a class="figure-image" aria-label="Alex Chiu - External Vice President">
+  <a href="/members/22achiu" class="figure-image" aria-label="Alex Chiu - External Vice President">
     <img src="/images/eboard/chiu.webp" style="
         width: auto;
         max-height: unset;
@@ -576,7 +628,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 </figure>
 
 <figure class="figure">
-  <a class="figure-image" aria-label="Harrison Thow - Treasurer">
+  <a href="/members/43hthow" class="figure-image" aria-label="Harrison Thow - Treasurer">
     <img src="/images/eboard/harrison.webp" style="
         width: auto;
         max-height: unset;
@@ -591,7 +643,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 </figure>
 
 <figure class="figure">
-  <a class="figure-image" aria-label="Zilai Wang - Secretary">
+  <a href="/members/30zwang" class="figure-image" aria-label="Zilai Wang - Secretary">
     <img src="/images/eboard/zilai.webp" style="
         width: auto;
         max-height: unset;
@@ -606,15 +658,15 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 </figure>
 
 <figure class="figure">
-  <a class="figure-image" aria-label="Kenny Troung - New Member Educator AU23">
+  <a href="/members/11ktruong" class="figure-image" aria-label="Kenny Troung - New Member Educator FA23">
     <img src="/images/bros/11ktruong.webp" style="
         width: auto;
         max-height: unset;
-      " alt="Kenny Troung - New Member Educator AU23" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="Kenny Troung - New Member Educator FA23" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
     <figcaption class="figure-caption">
-      Kenny Troung - New Member Educator AU23
+      Kenny Troung - New Member Educator FA23
 
     </figcaption>
   
@@ -639,12 +691,96 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 
 <div class="grid" data-style="square">
   
-<p><a href="#charter-class-twelve-tenshi--sp20">Charter Class</a>
-<a href="#alpha-class-akuma-alphas--sp21">Alpha Class</a>
-<a href="#beta-class-bushido-betas--fa21">Beta Class</a>
-<a href="#gamma-class-genjitsu-gammas--sp22">Gamma Class</a>
-<a href="#delta-class-dai-ichi-deltas--sp23">Delta Class</a>
-<a href="#epsilon-class-empyreal-epsilons--fa23">Epsilon Class</a></p>
+<figure class="figure">
+  <a href="/brothers/#charter-class-twelve-tenshi--sp20" class="figure-image" aria-label="Charter Class - Twelve Tenshi">
+    <img src="/images/media/charters.webp" style="
+        width: auto;
+        max-height: unset;
+      " alt="Charter Class - Twelve Tenshi" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Charter Class - Twelve Tenshi
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/brothers/#alpha-class-akuma-alphas--sp21" class="figure-image" aria-label="Alpha Class - Akuma Alphas">
+    <img src="/images/media/alphas.webp" style="
+        width: auto;
+        max-height: unset;
+      " alt="Alpha Class - Akuma Alphas" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Alpha Class - Akuma Alphas
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/brothers/#beta-class-bushido-betas--fa21" class="figure-image" aria-label="Beta Class - Bushido Betas">
+    <img src="/images/media/betas.webp" style="
+        width: auto;
+        max-height: unset;
+      " alt="Beta Class - Bushido Betas" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Beta Class - Bushido Betas
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/brothers/#gamma-class-genjitsu-gammas--sp22" class="figure-image" aria-label="Gamma Class - Genjitsu Gammas">
+    <img src="/images/media/gammas.webp" style="
+        width: auto;
+        max-height: unset;
+      " alt="Gamma Class - Genjitsu Gammas" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Gamma Class - Genjitsu Gammas
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/brothers/#delta-class-dai-ichi-deltas--sp23" class="figure-image" aria-label="Delta Class - Dai-Ichi Deltas">
+    <img src="/images/media/deltas.webp" style="
+        width: auto;
+        max-height: unset;
+      " alt="Delta Class - Dai-Ichi Deltas" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Delta Class - Dai-Ichi Deltas
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/#/brothers/epsilon-class-empyreal-epsilons--fa23" class="figure-image" aria-label="Epsilon Class - Empyreal Epsilons">
+    <img src="/images/media/epsilons.webp" style="
+        width: auto;
+        max-height: unset;
+      " alt="Epsilon Class - Empyreal Epsilons" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Epsilon Class - Empyreal Epsilons
+
+    </figcaption>
+  
+</figure>
+
 
 </div>
   </section>
@@ -1726,8 +1862,6 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </a>
 </div>
 
-<script src="../../_scripts/scroll.js"></script>
-
 <h2 class="center center" id="epsilon-class-empyreal-epsilons--fa23">Epsilon Class "Empyreal Epsilons" | FA23</h2>
 <p class="center"><strong>New Member Educator</strong>: Kenny “SBD” Truong</p>
 <p class="center"><strong>Assistant New Member Educator</strong>: Dante “uncHEΛRTed” Le</p>
@@ -1878,8 +2012,6 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
     
   </a>
 </div>
-
-<!-- <script src = "../../_scripts/scroll.js"></script> -->
   </section>
 
 
@@ -1951,5 +2083,5 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
-  </body>
+  
 </html>
