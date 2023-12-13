@@ -17,8 +17,31 @@
   subtitle: Watch the reveal of the SP22 Gamma Class!
   group: reveal
   image: images/media/gammas.webp
-  link: media/pages/gammas
+  link: media/pages/gamgam
   description: The Genjistu Gammas are here and ready to reveal themselves! These men have worked long and hard to become true leaders among men!
+
+- title: Beta Class Reveal
+  subtitle: Watch the reveal of the FA21 Beta Class!
+  group: reveal
+  image: images/media/betas.webp
+  link: media/pages/betas
+  description: The Bushido Betas are here and ready to reveal themselves! These men have worked long and hard to become true leaders among men!
+ 
+
+- title: Alpha Class Reveal
+  subtitle: Watch the reveal of the SP21 Alpha Class!
+  group: reveal
+  image: images/media/alphas.webp
+  link: media/pages/alphas
+  description: The Akuma Alphas are here and ready to reveal themselves! These men have worked long and hard to become true leaders among men!
+ 
+- title: Charter Class Reveal
+  subtitle: Watch the reveal of the AU21 Charter Class!
+  group: reveal
+  image: images/media/charters.webp
+  link: media/pages/charters
+  description: The Twelve Tenshi are here and ready to reveal themselves! These men have worked long and hard to become true leaders among men!
+ 
 
 # More blogs
 - title: FA23 APIDA Student Welcome Strolls

@@ -4,7 +4,11 @@ layout: default
 
 {% capture floatcontent %}
 
-{% include portrait.html lookup=page.slug %}
+<div>
+  {% include portrait.html lookup=page.slug %}
+  {% include personal-media.html lookup=page.slug %}
+</div>
+
 
 <div>
   {% for link in page.links %}

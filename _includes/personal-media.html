@@ -1,0 +1,16 @@
+{% assign member = site.members 
+  | where_exp: "member", "member.slug == include.lookup"
+  | first
+  | default: include
+%}
+
+<div class="social_media_container">
+  {% if member.social %}
+    {% for item in member.social %}
+      {% if item.url %}
+        <!-- <span class="social">{{ item.name | default: "Social Media" }}</span> -->
+          <a href="{{item.url}}"><img src="{{item.icon}}" style="display: inline-block; height: auto; width: 15%; object-fit: contain;"></a>
+      {% endif %}
+    {% endfor %}
+  {% endif %}  
+</div>
