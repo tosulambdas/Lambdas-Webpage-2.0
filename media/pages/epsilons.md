@@ -3,7 +3,7 @@ title: AU23 Epsilon Class Reveal
 layout: default
 ---
 
-{% include epsilon_reveal.html %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-rXmneNalmk?si=_VrRwcfBsQW3z-TV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Congratulations to the Empyreal Epsilons!
 {:.center}
@@ -25,21 +25,20 @@ layout: default
 {:.center}
 
 {% capture content %}
+
 {% include figure.html image="images/bros/11ktruong.webp" caption="#11 Kenny 'SBD' Truong"%}
-{% include figure.html image="images/bros/26dle.webp" caption="#26 Dante 'uncHEΛRTed' Le"%}
+{% include figure.html image="images/bros/26dle.webp" caption="#26 Dante 'uncHEΛRTed' Le" width="300px" height="300px"%}
 
 {% endcapture %}
 
-{% include grid.html style="square" content=content %}
+{% include grid_two.html style="square" content=content %}
 
 # Special thanks to their probate masters!
 {:.center}
 
 {% capture content %}
-{% include figure.html image="images/bros/43hthow.webp" caption="#43 Harrison 'VΛPRE' Thow"%}
-{% include figure.html image="images/bros/34dnguyen.webp" caption="#34 Dylan 'SHΛTTERPROOF' Nguyen"%}
+{% include figure.html image="images/bros/34dnguyen.webp" caption="#34 Dylan 'SHΛTTERPROOF' Nguyen" width="300px" height="300px" %}
+{% include figure.html image="images/bros/43hthow.webp" caption="#43 Harrison 'VΛPRE' Thow"  width="300px" height="300px" %}
 
 {% endcapture %}
-{:.center}
-{% include grid.html style="square" content=content %}
-{:.center}
+{% include grid_two.html style="square" content=content %}

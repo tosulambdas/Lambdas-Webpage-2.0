@@ -1,5 +1,6 @@
 ---
 title: Brothers
+layout: brothers
 nav:
   order: 2
   tooltip: Meet the brothers of LPhiE
@@ -12,12 +13,12 @@ nav:
 
 {% capture content %}
 
-{% include figure.html image="images/eboard/will.webp" caption="William Lim - President" %}
-{% include figure.html image="images/eboard/dante.webp" caption="Dante Le - Internal Vice President"%}
-{% include figure.html image="images/eboard/chiu.webp" caption="Alex Chiu - External Vice President"%}
-{% include figure.html image="images/eboard/harrison.webp" caption="Harrison Thow - Treasurer"%}
-{% include figure.html image="images/eboard/zilai.webp" caption="Zilai Wang - Secretary"%}
-{% include figure.html image="images/bros/11ktruong.webp" caption="Kenny Troung - New Member Educator AU23"%}
+{% include figure.html image="images/eboard/will.webp" caption="William Lim - President" link="/members/32wlim"%}
+{% include figure.html image="images/eboard/dante.webp" caption="Dante Le - Internal Vice President" link="/members/26dle"%}
+{% include figure.html image="images/eboard/chiu.webp" caption="Alex Chiu - External Vice President" link="/members/22achiu"%}
+{% include figure.html image="images/eboard/harrison.webp" caption="Harrison Thow - Treasurer" link="/members/43hthow"%}
+{% include figure.html image="images/eboard/zilai.webp" caption="Zilai Wang - Secretary" link="/members/30zwang"%}
+{% include figure.html image="images/bros/11ktruong.webp" caption="Kenny Troung - New Member Educator FA23" link="/members/11ktruong"%}
 
 
 {% endcapture %}
@@ -29,12 +30,12 @@ nav:
 <h2>Looking for a specific class?</h2>
 
 {% capture content %}
-<a href="#charter-class-twelve-tenshi--sp20">Charter Class</a>
-<a href="#alpha-class-akuma-alphas--sp21">Alpha Class</a>
-<a href="#beta-class-bushido-betas--fa21">Beta Class</a>
-<a href="#gamma-class-genjitsu-gammas--sp22">Gamma Class</a>
-<a href="#delta-class-dai-ichi-deltas--sp23">Delta Class</a>
-<a href="#epsilon-class-empyreal-epsilons--fa23">Epsilon Class</a>
+{% include figure.html image="images/media/charters.webp" caption="Charter Class - Twelve Tenshi" link="/brothers/#charter-class-twelve-tenshi--sp20" %}
+{% include figure.html image="images/media/alphas.webp" caption="Alpha Class - Akuma Alphas" link="/brothers/#alpha-class-akuma-alphas--sp21" %}
+{% include figure.html image="images/media/betas.webp" caption="Beta Class - Bushido Betas" link="/brothers/#beta-class-bushido-betas--fa21" %}
+{% include figure.html image="images/media/gammas.webp" caption="Gamma Class - Genjitsu Gammas" link="/brothers/#gamma-class-genjitsu-gammas--sp22" %}
+{% include figure.html image="images/media/deltas.webp" caption="Delta Class - Dai-Ichi Deltas" link="/brothers/#delta-class-dai-ichi-deltas--sp23" %}
+{% include figure.html image="images/media/epsilons.webp" caption="Epsilon Class - Empyreal Epsilons" link="#/brothers/epsilon-class-empyreal-epsilons--fa23" %}
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
@@ -121,7 +122,6 @@ nav:
 {:.center}
 {% include list.html data="members" component="portrait" filters="group: delta" %}
 
-<script src = "../../_scripts/scroll.js"></script>
 
 {:.center}
 ## Epsilon Class "Empyreal Epsilons" | FA23
@@ -137,5 +137,3 @@ nav:
 **Class Motto**: _"The past is history, the future is a mystery, but today is a gift, that's why it's called the present."_
 {:.center}
 {% include list.html data="members" component="portrait" filters="group: epsilon" %}
-
-<!-- <script src = "../../_scripts/scroll.js"></script> -->

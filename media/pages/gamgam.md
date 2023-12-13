@@ -16,27 +16,25 @@ layout: default
 {% include figure.html image="images/media/gamer gammas/29.webp" caption="#29 YURY 'ODM' Pozdneev <br> Big Bro: Alex 'Rule 34' Nguyen"%}
 {% include figure.html image="images/media/gamer gammas/30.webp" caption="#30 Zilai 'SEKKI' Wang <br> Big Bro: Alex 'REYN' Chiu"%}
 {% include figure.html image="images/media/gamer gammas/31.webp" caption="#31 Mark 'T-LΛW' Wang <br> Big Bro: Hamzah 'ΛRETE' Chaudhry"%}
-{% include figure.html image="images/media/gamer gammas/32.webp" caption="#32 William 'E.S.C.A.N.O.R' Lim <br> Big Bro: Kenny 'M.I.R.I.O' Vo"%}
 
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
+{% include figure.html image="images/media/gamer gammas/32.webp" caption="#32 William 'E.S.C.A.N.O.R' Lim <br> Big Bro: Kenny 'M.I.R.I.O' Vo"%}
 
 # Thank you to their educators!
 {:.center}
 
 {% capture content %}
-{% include figure.html image="images/media/gamer gammas/nme.webp" caption="#8 Wesley 'Phony Hawk' Nguyen"%}
-{% include figure.html image="images/media/gamer gammas/anme.webp" caption="#23 Michael 'ΛLGORHYTHM' Joo"%}
+{% include figure.html image="images/media/gamer gammas/nme.webp" caption="#8 Wesley 'Phony Hawk' Nguyen" width="300px" height="300px"%}
+{% include figure.html image="images/media/gamer gammas/anme.webp" caption="#23 Michael 'ΛLGORHYTHM' Joo" width="300px" height="300px"%}
 
 {% endcapture %}
 
-{% include grid.html style="square" content=content %}
+{% include grid_two.html style="square" content=content %}
 
 # Special thanks to their probate master!
 {:.center}
 
-{% capture content %}
 {% include figure.html image="images/bros/19abenaaouinate.webp" caption="#19 Ayoub 'PLUTUS' Benaaouinate"%}
-{% endcapture %}
-{% include grid.html style="square" content=content %}
+

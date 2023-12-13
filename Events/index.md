@@ -2,7 +2,7 @@
 title: Events
 nav:
   order: 7
-  tooltip: Musings and miscellany
+  tooltip: The most recent LPhiE Updates!
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Events

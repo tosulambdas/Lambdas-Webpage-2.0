@@ -36,16 +36,16 @@ layout: default
 
 {% endcapture %}
 
-{% include grid.html style="square" content=content %}
+{% include grid_two.html style="square" content=content %}
 
 # Special thanks to their probate masters!
 {:.center}
 
 {% capture content %}
-{% include figure.html image="images/bros/26dle.webp" caption="#26 Dante 'uncHEΛRTed' Le"%}
+{% include figure.html image="images/bros/26dle.webp" caption="#26 Dante 'uncHEΛRTed' Le" width="300px" height="300px"%}
 {% include figure.html image="images/bros/20echau.webp" caption="#20 Ethan 'ΛERO' Chau"%}
 
 {% endcapture %}
 {:.center}
-{% include grid.html style="square" content=content %}
+{% include grid_two.html style="square" content=content %}
 {:.center}
