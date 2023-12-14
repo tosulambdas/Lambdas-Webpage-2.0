@@ -35,7 +35,7 @@ nav:
 {% include figure.html image="images/media/betas.webp" caption="Beta Class - Bushido Betas" link="/brothers/#beta-class-bushido-betas--fa21" %}
 {% include figure.html image="images/media/gammas.webp" caption="Gamma Class - Genjitsu Gammas" link="/brothers/#gamma-class-genjitsu-gammas--sp22" %}
 {% include figure.html image="images/media/deltas.webp" caption="Delta Class - Dai-Ichi Deltas" link="/brothers/#delta-class-dai-ichi-deltas--sp23" %}
-{% include figure.html image="images/media/epsilons.webp" caption="Epsilon Class - Empyreal Epsilons" link="#/brothers/epsilon-class-empyreal-epsilons--fa23" %}
+{% include figure.html image="images/media/epsilons.webp" caption="Epsilon Class - Empyreal Epsilons" link="/brothers/#epsilon-class-empyreal-epsilons--fa23" %}
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}

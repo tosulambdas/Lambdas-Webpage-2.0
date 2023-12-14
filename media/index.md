@@ -19,6 +19,8 @@ And guess what? We're not just about the traditional handshake; we've got a buzz
 
 <div class="embedsocial-hashtag" data-ref="92eac4858a2ca9cf711ca07c7fde90c06687d955"> <a class="feed-powered-by-es feed-powered-by-es-feed-img" href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Instagram widget"> <img src="https://embedsocial.com/cdn/images/embedsocial-icon.png" alt="EmbedSocial"> Instagram widget </a> </div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialHashtagScript"));</script>
 
+{% include section.html %}
+
 ## Reveals
 
 {% include list.html component="card" data="media" filters="group: reveal" %}

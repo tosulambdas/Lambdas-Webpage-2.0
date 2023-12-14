@@ -149,8 +149,8 @@ Visit our blog to keep up to date with all the exciting events and stories conce
 
 {%
   include button.html
-  link="blog"
-  text="View our blog!"
+  link="events"
+  text="View our events!"
   icon="fa-solid fa-arrow-left"
   flip=false
   style="bare"
@@ -161,7 +161,7 @@ Visit our blog to keep up to date with all the exciting events and stories conce
 {%
   include feature.html
   image="images/homepage_gallery/blog.webp"
-  link="blog"
-  title="Our Blog"
+  link="events"
+  title="Our events"
   text=text
 %}
