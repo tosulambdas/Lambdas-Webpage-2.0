@@ -6,17 +6,11 @@ nav:
 ---
 
 {:.center}
-{% include icon.html icon="fa-solid fa-users" %}Alumni
+# {% include icon.html icon="fa-solid fa-users" %}Alumni
 {% include section.html %}
-
-{% capture content %}
-
 
 {% include list.html data="members" component="portrait" filters="role: alumni" %}
 
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
 
 {%include section.html%} 
 {:.center}

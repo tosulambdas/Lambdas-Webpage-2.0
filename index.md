@@ -3,30 +3,39 @@ title: Home
 layout: home
 ---
 
-# Associate Chapter of Lambda Phi Epsilon at THE Ohio State University
-
 Lambda Phi Epsilon is an Asian Interest, but not Asian-exclusive social fraternity dedicated to fostering leadership, academic excellence, and a strong sense of community among its members. With a rich history and commitment to multiculturalism, Lambda Phi Epsilon empowers individuals to thrive in a supportive brotherhood that values personal growth, cultural awareness, and lifelong connections.
 
 
-  <style>
-        #counter-container {
-            display: flex;
-            justify-content: space-around;
-            margin: 20px;
-        }
+<style>
+    #counter-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+    }
 
-        .counter {
+    .counter {
         text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
-        } 
+        margin: 10px; /* Add margin for spacing between counters */
+    }
 
-        .counter p {
-            font-size: 2em; /* Adjust the font size as needed */
-            margin: 5px 0;
+    .counter p {
+        font-size: 2em; /* Adjust the font size as needed */
+        margin: 5px 0;
+    }
+
+    @media (max-width: 786px) {
+        #counter-container {
+            flex-direction: column; /* Change to a column layout for screens less than 786px */
         }
-  </style>
+
+        .counter {
+            width: 100%; /* Make each counter take full width */
+        }
+    }
+</style>
 <body>
 
 <div id="counter-container">
@@ -54,14 +63,14 @@ Lambda Phi Epsilon is an Asian Interest, but not Asian-exclusive social fraterni
 
     function updateActiveMembersCounter() {
         document.getElementById('active-members-counter').innerText = activeMembersCounter;
-        if (activeMembersCounter < 31) {
+        if (activeMembersCounter < 28) {
             activeMembersCounter++;
         }
     }
 
     function updateAlumniCounter() {
         document.getElementById('alumni-counter').innerText = alumniCounter;
-        if (alumniCounter < 15) {
+        if (alumniCounter < 16) {
             alumniCounter++;
         }
     }
@@ -73,9 +82,9 @@ Lambda Phi Epsilon is an Asian Interest, but not Asian-exclusive social fraterni
     }
 
     function startCounters() {
-        activeMembersInterval = setInterval(updateActiveMembersCounter, 100); // Update every 100 milliseconds
-        alumniInterval = setInterval(updateAlumniCounter, 100); // Update every 100 milliseconds
-        ethnicityInterval = setInterval(updateEthnicityCounter, 100); // Update every 100 milliseconds
+        activeMembersInterval = setInterval(updateActiveMembersCounter, 175); // Update every 175 milliseconds
+        alumniInterval = setInterval(updateAlumniCounter, 175); // Update every 175 milliseconds
+        ethnicityInterval = setInterval(updateEthnicityCounter, 175); // Update every 175 milliseconds
     }
 
     function stopCounters() {
@@ -103,7 +112,6 @@ At Lambda Phi Epsilon International Fraternity Inc., our bonds of eternal brothe
   include button.html
   link="brothers"
   text="Meet the Brothers"
-  icon="fa-solid fa-arrow-left"
   flip=false
   style="bare"
 %}
@@ -126,7 +134,6 @@ What happens day to day with the lambdas? Our media team works nonstop to provid
   include button.html
   link="media"
   text="View our latest social posts and past reveals!"
-  icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
 %}
@@ -151,7 +158,6 @@ Visit our blog to keep up to date with all the exciting events and stories conce
   include button.html
   link="events"
   text="View our events!"
-  icon="fa-solid fa-arrow-left"
   flip=false
   style="bare"
 %}
