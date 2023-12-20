@@ -122,6 +122,7 @@ nav:
 {:.center}
 {% include list.html data="members" component="portrait" filters="group: delta" %}
 
+{% include section.html %}
 
 {:.center}
 ## Epsilon Class "Empyreal Epsilons" | FA23

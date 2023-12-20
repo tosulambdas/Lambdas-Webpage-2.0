@@ -124,8 +124,11 @@
         </div>
 
     </div>
+
+    {% include section.html %}
+
     <h7>Frequently Asked Questions</h7>
-    <div class="accordion-container">
+    <div class="accordion-container" style="padding-top: 5%;">
         <div class="accordion-group">
             <button class="accordion">What is rush?<i
                     class="fas fa-chevron-down arrow"></i></button>
@@ -255,24 +258,29 @@
             </div>
         </div>
     </div>
+
+    {% include section.html %}
+
     <div>
-        <header style="text-align: center; display: block;">
+        <h7>
             Interested? The Brotherhood is calling for you.
-        </header>
+        </h7>
         <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSdgOtC70mdHRFpbbvN-rEW_oeuJSSUL2qglh9CBOgLHsLKzEg/viewform?embedded=true"
             width="640" height="382" frameborder="0" marginheight="0"
             marginwidth="0">Loading…</iframe>
     </div>
 
-    <h3>Sneak peak into the brotherhood</h3>
+    {% include section.html %}
+
+    <h7>Sneak peak into the brotherhood</h7>
     <div>
 
         <h2>Secret Santa</h2>
         <div class = "tradition-container">
 
             <p>Engaging in a Secret Santa exchange brings an extra layer of excitement and joy to the holiday season. The thrill of anonymity and surprise adds a playful element to gift-giving, making it a delightful experience for participants. The anticipation of discovering who your Secret Santa is, coupled with the challenge of selecting the perfect gift for someone else, fosters a sense of camaraderie and connection among friends, family, or colleagues. The element of secrecy encourages creativity in choosing thoughtful presents, often resulting in unexpected and humorous surprises. Whether it's the shared laughter during the big reveal or the heartwarming moment of seeing someone's face light up with gratitude, Secret Santa embodies the spirit of festive cheer and brings an extra dose of merriment to any celebration.</p>
-            <img src="/images/icon.png">
+            {% include secret_santa.html %}
 
         </div>
 
@@ -280,11 +288,9 @@
         <div class = "tradition-container">
             
             <p>Embracing the concept of "eating by age" injects a delightful sense of playfulness into our dining experiences. Whether it's recreating childhood favorites or exploring cuisines that resonate with a specific era, this culinary journey becomes a whimsical adventure through time. Each meal becomes a nostalgic voyage, triggering memories and sparking conversations about shared experiences. From classic comfort foods that transport us to carefree days of youth to sophisticated dishes that mirror our evolving tastes, "eating by age" adds a dynamic and entertaining element to the dining table. The joy lies not only in savoring delicious meals but also in the shared laughter and storytelling that accompany each culinary era. It's a lighthearted approach to dining that transforms meals into celebrations of the past, creating a unique and memorable feast for both the palate and the soul.</p>
-            <img src="/images/icon.png">
+            {% include eat_by_age.html %}
 
         </div>
-
-
 
     </div>
 
@@ -310,4 +316,24 @@
             arrow.classList.toggle('rotate');
         }); 
     }
+
+<!-- Tradition image galarry javascript -->
+    window.addEventListener("load", function () {
+        const buttons = document.querySelectorAll("[data-carousel-button]");
+    
+        buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+                const offset = button.dataset.carouselButton === "next" ? 1 : -1;
+                const slides = button.closest("[data-carousel]").querySelector("[data-slides]");
+    
+                const activeSlide = slides.querySelector("[data-active]");
+                let newIndex = [...slides.children].indexOf(activeSlide) + offset;
+                if (newIndex < 0) newIndex = slides.children.length - 1;
+                if (newIndex >= slides.children.length) newIndex = 0;
+    
+                slides.children[newIndex].dataset.active = true;
+                delete activeSlide.dataset.active;
+            });
+        });
+    });
 </script>

@@ -4,20 +4,10 @@ image: images/bros/1echan.webp
 group: charter
 role: alumni
 description: "#1 'Doc McStuffins'"
-social: 
-  - name: Instagram
-    url: 
-    icon: /images/bros/media-icon/Instagram_icon.webp
-  - name: Twitter
-    url:
-    icon: /images/bros/media-icon/x_icon.webp
-  - name: LinkedIn
-    url: 
-    icon: /images/bros/media-icon/linkedin_icon.webp
-  - name: Tiktok
-    url: 
-    icon: /images/bros/media-icon/tiktok_icon.webp
-            
+links:
+  instagram: 
+  twitter: 
+  linkedin: 
 ---
 
 # Ethan Chan | Alumnus

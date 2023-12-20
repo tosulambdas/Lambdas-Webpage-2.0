@@ -5,6 +5,10 @@ role: undergrad
 group: delta
 description: "#43 'VΛPRE'"
 links:
+  instagram: 
+  twitter: 
+  linkedin: 
+links:
   instagram: h.arrison_
   twitter: harrisonthow
   linkedin: harrison-g-thow

@@ -4,20 +4,10 @@ image: images/bros/12kvo.webp
 role: alumni
 group: charter
 description: "#12 'M.I.R.I.O'"
-social: 
-  - name: Instagram
-    url: 
-    icon: /images/bros/media-icon/Instagram_icon.webp
-  - name: Twitter
-    url:
-    icon: /images/bros/media-icon/x_icon.webp
-  - name: LinkedIn
-    url: 
-    icon: /images/bros/media-icon/linkedin_icon.webp
-  - name: Tiktok
-    url: 
-    icon: /images/bros/media-icon/tiktok_icon.webp
-            
+links:
+  # instagram: 
+  # twitter: 
+  linkedin: hien-vo-379a21159
 ---
 
 # Hien (Kenny) Vo | Alumnus
