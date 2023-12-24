@@ -3,7 +3,7 @@ title: SP22 Gamma Class Reveal
 layout: default
 ---
 
-<iframe width="100%" height="500px" src="https://www.youtube.com/embed/ylUL5LqYr0g?si=ydwWMcvwxtpMNhcq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v1tr7fqQCws?si=TOiHRzjCAG6MO7kx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Congratulations to the Genjitsu Gammas!
 {:.center}

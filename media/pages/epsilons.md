@@ -3,7 +3,7 @@ title: AU23 Epsilon Class Reveal
 layout: default
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-rXmneNalmk?si=_VrRwcfBsQW3z-TV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NuX5_szJxCM?si=qfJgMoGjieM4RovJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Congratulations to the Empyreal Epsilons!
 {:.center}

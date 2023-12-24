@@ -11,10 +11,25 @@ Welcome to the vibrant world of Lambda Phi Epsilon! Our fraternity takes pride i
 
 {% include section.html %}
 
-{% include search-box.html %}
+<!-- {% include search-box.html %} -->
 
-{% include tags.html tags=site.tags %}
+<!-- {% include tags.html tags=site.tags %} -->
 
-{% include search-info.html %}
+<!-- {% include search-info.html %} -->
 
-{% include list.html data="posts" component="post-excerpt" %}
+<!-- {% include list.html data="posts" component="post-excerpt" %} -->
+
+
+## Highlight
+
+{% include list.html component="card" data="events" filters="group: highlight" %}
+
+{% include section.html %}
+
+
+
+
+## More
+
+{% include list.html component="card" data="events" filters="group: more" style="small" %}
+

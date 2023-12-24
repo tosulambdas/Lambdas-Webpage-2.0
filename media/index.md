@@ -30,5 +30,3 @@ And guess what? We're not just about the traditional handshake; we've got a buzz
 ## More
 
 {% include list.html component="card" data="media" filters="group: " style="big" %}
-
-

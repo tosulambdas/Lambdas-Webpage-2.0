@@ -1,0 +1,26 @@
+# Events page
+
+- title: AU23 Chartering of Indiana University
+  group: highlight
+  image: images/events/AU23/AU23-IUB.png
+  link: events/pages/AU23-IUB
+  description: The Brothers of LPhiE Chartered another Chapter!!!
+
+# More blogs
+- title: AU23 Beat the Summer Heat Fundraiser
+  group: more
+  image: images/events/AU23/AU23-BSH.webp
+  link: events/pages/AU23-BSH
+  description: We are celebrating the end of the summer season with “Beat the Summer Heat”🥵.
+
+- title: AU23 J2k Performance
+  group: more
+  image: images/events/AU23/AU23-J2k.png
+  link: events/pages/AU23-J2k
+  description: The brothers of Lambda Phi Epsilon are performing at the J2k!
+
+- title: AU23 Spam Musubi Fundraiser
+  group: more
+  image: images/events/AU23/AU23-Spam_Musubi.png
+  link: events/pages/AU23-Spam_Musubi
+  description: Looking to satisfy your cravings after class? We are excited to announce our fundraising event for Spam Musubi!
