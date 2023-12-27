@@ -3,7 +3,7 @@ title: SP23 Delta Class Reveal
 layout: default
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EZn6WeJzu2c?si=UA7Sh12tKES2DAJT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EZn6WeJzu2c?si=JzzKr_ufnDAYyF-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Congratulations to the Dai-Ichi Deltas!
 {:.center}
