@@ -334,6 +334,8 @@
 <!-- include all css in styles folder -->
 
 
+  <link href="/_styles/tradition-image-gallery.css" rel="stylesheet">
+
 
   <!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
@@ -358,6 +360,8 @@
   <script src="/_scripts/site-search.js"></script>
 
   <script src="/_scripts/tooltip.js"></script>
+
+  <script src="/_scripts/traditoin-image-gallery.js"></script>
 
 
 </head>
@@ -623,7 +627,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
     }
     .tradition-container{
         display: grid;
-        grid-template-columns: 60% auto;
+        grid-template-columns: 60% 40%;
 
         img{
             padding: 5%;
@@ -656,31 +660,109 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 -->
 
 
-    <div class="join-us-section">
-        <div>
-            <header style="font-size: larger;">Wanna join the brotherhood?</header>
-            <p style="padding: 5%;">
+    
+<style>
 
-                Unlock Your Potential with Lambda Phi Epsilon <br><br>
+    .hover-section-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 
-                🤝 Forge Lifelong Connections<br><br>
+    .hover-container {
+        position: relative;
+        width: 95%;
+    }
 
-                🌐 Join a Global Community<br><br>
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 
-                🔥 Unleash Your Leadership<br><br>
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+    }
 
-                🎓 Achieve Academic Excellence<br><br>
+    .hover-container:hover .overlay {
+    opacity: 1; 
+    }
 
-                Ready to embark on a journey of lifelong brotherhood,
-                leadership, and success? Come to our rush events and get to konw
-                the bros.
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 95%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    </style>
+    
 
-            </p>
+        <div class="hover-section-container">
+                
+        <div class="hover-container">
+            <img src="/images/rush/Rush%20theme.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <h5 style="font-size: larger;">Wanna join the brotherhood?</h5>
+                        <p>
+            
+                            Unlock Your Potential with Lambda Phi Epsilon <br>
+            
+                            🤝 Forge Lifelong Connections<br>
+            
+                            🌐 Join a Global Community<br>
+            
+                            🔥 Unleash Your Leadership<br>
+            
+                            🎓 Achieve Academic Excellence<br>
+            
+                            Ready to embark on a journey of lifelong brotherhood,
+                            leadership, and success? Come to our rush events and get to konw
+                            the bros.
+            
+                        </p>
+
+                    </div>
+                </div>
         </div>
+        <div class="hover-container">
+            <img src="/images/rush/Rush%20calender.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
 
-        <img src="/images/rush/Rush%20theme.png" style="padding: 5%; padding-top: 0;">
+                        <h5 style="font-size: larger;">Eligibility for an interview</h5>
+                        <p style="padding: 5%;">
+                            GPA ≥ 2.7<br>
+                            In good academic standing<br>
+                            Don't be an a******e<br>
+                            Attend 2 Rush events<br>
+                            Attend 1 General Information meeting
+                        </p>
 
-    </div>
+
+                    </div>
+                </div>
+        </div>
+        
+        </div>  
+
+
+
+    
   </section>
 
   
@@ -695,22 +777,263 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 -->
 
 
-    <div class="calender-section">
+    
 
-        <img src="/images/rush/Rush%20calender.png" style="padding: 5%; padding-top: 0;">
-        <div>
-            <header style="font-size: larger;">Eligibility</header>
-            <p style="padding: 5%;">
-                GPA ≥ 2.7<br>
-                In good academic standing<br>
-                Don't be an a******e
-            </p>
 
-        </div>
 
-    </div>
+
+
+  
+
+  
+
+  
+    
+
+     
+<div class="card" data-style="small">
+  <a href="/rush/pages/SP24-1-8" aria-label="General Interest Meeting 1" class="card-image">
+    <img src="" alt="General Interest Meeting 1" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="/rush/pages/SP24-1-8" class="card-title">
+        General Interest Meeting 1
+    </a>
+    
+
+    
+      <span class="card-subtitle">Located in Enarson 202 <br> 6-8PM</span>
+    
+
+    
+      <p>Come to our General Interest Meeting to know more about our fraternity</p>
+
+    
+
+    
+  </div>
+</div>
+
+  
+    
+
+     
+<div class="card" data-style="small">
+  <a href="/rush/pages/SP24-1-8" aria-label="Casino Night" class="card-image">
+    <img src="" alt="Casino Night" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="/rush/pages/SP24-1-8" class="card-title">
+        Casino Night
+    </a>
+    
+
+    
+      <span class="card-subtitle">Located in Raney Boulder Room <br> 8-10PM</span>
+    
+
+    
+      <p>Come to our Casino night and play poker against the bros!</p>
+
+    
+
+    
+  </div>
+</div>
+
+  
+    
+
+     
+<div class="card" data-style="small">
+  <a href="/rush/pages/SP24-1-8" aria-label="Bro Trivia" class="card-image">
+    <img src="" alt="Bro Trivia" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="/rush/pages/SP24-1-8" class="card-title">
+        Bro Trivia
+    </a>
+    
+
+    
+      <span class="card-subtitle">Located in Enarson 238 <br> 6-8PM</span>
+    
+
+    
+      <p>Come to the bro trivia night to know more about the bros of LPhiE!</p>
+
+    
+
+    
+  </div>
+</div>
+
+  
+    
+
+     
+<div class="card" data-style="small">
+  <a href="/rush/pages/SP24-1-8" aria-label="Professionalism" class="card-image">
+    <img src="" alt="Professionalism" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="/rush/pages/SP24-1-8" class="card-title">
+        Professionalism
+    </a>
+    
+
+    
+      <span class="card-subtitle">Located in Enarson 202 <br> 2-4PM</span>
+    
+
+    
+      <p>LPhiE also values peofessionalism come to this meeting to see how we help each other develop</p>
+
+    
+
+    
+  </div>
+</div>
+
+  
+    
+
+     
+<div class="card" data-style="small">
+  <a href="/rush/pages/SP24-1-8" aria-label="Game night with KPL" class="card-image">
+    <img src="" alt="Game night with KPL" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="/rush/pages/SP24-1-8" class="card-title">
+        Game night with KPL
+    </a>
+    
+
+    
+      <span class="card-subtitle">Located in Blackburn Victory room <br> 6-8PM</span>
+    
+
+    
+      <p>Come to game night in collaboration with Kappa Phi Lambda</p>
+
+    
+
+    
+  </div>
+</div>
+
+  
+    
+
+     
+<div class="card" data-style="small">
+  <a href="/rush/pages/SP24-1-8" aria-label="Painting vinyls with APSI" class="card-image">
+    <img src="" alt="Painting vinyls with APSI" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="/rush/pages/SP24-1-8" class="card-title">
+        Painting vinyls with APSI
+    </a>
+    
+
+    
+      <span class="card-subtitle">Located in Blackburn Victory Room <br>7-8:30PM</span>
+    
+
+    
+      <p>Come Paing vinyls with the bros of LPhiE and brothers and sisters of APSI</p>
+
+    
+
+    
+  </div>
+</div>
+
+  
+    
+
+     
+<div class="card" data-style="small">
+  <a href="/rush/pages/SP24-1-8" aria-label="General Interest Meeting 1" class="card-image">
+    <img src="" alt="General Interest Meeting 1" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="/rush/pages/SP24-1-8" class="card-title">
+        General Interest Meeting 1
+    </a>
+    
+
+    
+      <span class="card-subtitle">Located in Torres Think Tank <br> 7-9PM</span>
+    
+
+    
+      <p>Come to our second General Interest Meeting to know more about our fraternity</p>
+
+    
+
+    
+  </div>
+</div>
+
+  
+    
+
+     
+<div class="card" data-style="small">
+  <a href="/rush/pages/SP24-1-8" aria-label="Invite only dinner" class="card-image">
+    <img src="" alt="Invite only dinner" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="/rush/pages/SP24-1-8" class="card-title">
+        Invite only dinner
+    </a>
+    
+
+    
+      <span class="card-subtitle">Located in ??? <br> ???PM</span>
+    
+
+    
+      <p>This is an invite only dinner come to our rush events and you may be invited!</p>
+
+    
+
+    
+  </div>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+  
+
     <h7>Frequently Asked Questions</h7>
-    <div class="accordion-container">
+    <div class="accordion-container" style="padding-top: 5%;">
         <div class="accordion-group">
             <button class="accordion">What is rush?<i class="fas fa-chevron-down arrow"></i></button>
             <div class="panel">
@@ -832,21 +1155,76 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
             </div>
         </div>
     </div>
-    <div>
-        <header style="text-align: center; display: block;">
-            Interested? The Brotherhood is calling for you.
-        </header>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdgOtC70mdHRFpbbvN-rEW_oeuJSSUL2qglh9CBOgLHsLKzEg/viewform?embedded=true" width="640" height="382" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
+  </section>
 
-    <h3>Sneak peak into the brotherhood</h3>
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+    <div>
+        <h7>
+            Interested? The Brotherhood is calling for you.
+            <br><br>
+        </h7>
+        <iframe src="https://forms.gle/uqUiCiTYPBYtZ9TU6" width="640" height="382" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+    <h7>Sneak peak into the brotherhood</h7>
     <div>
 
         <h2>Secret Santa</h2>
         <div class="tradition-container">
 
             <p>Engaging in a Secret Santa exchange brings an extra layer of excitement and joy to the holiday season. The thrill of anonymity and surprise adds a playful element to gift-giving, making it a delightful experience for participants. The anticipation of discovering who your Secret Santa is, coupled with the challenge of selecting the perfect gift for someone else, fosters a sense of camaraderie and connection among friends, family, or colleagues. The element of secrecy encourages creativity in choosing thoughtful presents, often resulting in unexpected and humorous surprises. Whether it's the shared laughter during the big reveal or the heartwarming moment of seeing someone's face light up with gratitude, Secret Santa embodies the spirit of festive cheer and brings an extra dose of merriment to any celebration.</p>
-            <img src="/images/icon.png">
+            
+            
+
+  <link rel="stylesheet" type="text/css" href="/_styles/tradition-image-gallery.css">
+  <!-- <script src="/_scripts/traditoin-image-gallery.js"></script> -->
+
+
+
+
+
+    <div class="carousel" data-carousel="">
+      <button class="carousel-button prev" data-carousel-button="prev"><p>⇐</p></button>
+      <ul data-slides="">
+        <li class="slide" data-active="">
+          <img src="/images/rush/secret_santa/image1.jpg" alt="Nature Image #1">
+        </li>
+        <li class="slide">
+          <img src="/images/rush/secret_santa/image2.jpg" alt="Nature Image #2">
+        </li>
+        <li class="slide">
+          <img src="/images/rush/secret_santa/image3.jpg" alt="Nature Image #3">
+        </li>
+      </ul>
+      <button class="carousel-button next" data-carousel-button="next"><p>⇒</p></button>
+    </div>
+
+
+&gt;
 
         </div>
 
@@ -854,11 +1232,35 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
         <div class="tradition-container">
             
             <p>Embracing the concept of "eating by age" injects a delightful sense of playfulness into our dining experiences. Whether it's recreating childhood favorites or exploring cuisines that resonate with a specific era, this culinary journey becomes a whimsical adventure through time. Each meal becomes a nostalgic voyage, triggering memories and sparking conversations about shared experiences. From classic comfort foods that transport us to carefree days of youth to sophisticated dishes that mirror our evolving tastes, "eating by age" adds a dynamic and entertaining element to the dining table. The joy lies not only in savoring delicious meals but also in the shared laughter and storytelling that accompany each culinary era. It's a lighthearted approach to dining that transforms meals into celebrations of the past, creating a unique and memorable feast for both the palate and the soul.</p>
-            <img src="/images/icon.png">
+            
+            
+
+  <link rel="stylesheet" type="text/css" href="/_styles/tradition-image-gallery.css">
+  <!-- <script src="/_scripts/traditoin-image-gallery.js"></script> -->
+
+
+
+
+    <div class="carousel" data-carousel="">
+    <button class="carousel-button prev" data-carousel-button="prev"><p>⇐</p></button>
+    <button class="carousel-button next" data-carousel-button="next"><p>⇒</p></button>
+    <ul data-slides="">
+        <li class="slide" data-active="">
+        <img src="/images/rush/eat_by_age/image1.jpg" alt="Nature Image #1">
+        </li>
+        <li class="slide">
+        <img src="/images/rush/eat_by_age/image2.jpg" alt="Nature Image #2">
+        </li>
+        <li class="slide">
+        <img src="/images/rush/eat_by_age/image3.jpg" alt="Nature Image #3">
+        </li>
+    </ul>
+    </div>
+
+
+
 
         </div>
-
-
 
     </div>
 
@@ -884,6 +1286,26 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
             arrow.classList.toggle('rotate');
         }); 
     }
+
+//Galarry code
+window.addEventListener("load", function () {
+    const buttons = document.querySelectorAll("[data-carousel-button]");
+
+    buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+            const offset = button.dataset.carouselButton === "next" ? 1 : -1;
+            const slides = button.closest("[data-carousel]").querySelector("[data-slides]");
+
+            const activeSlide = slides.querySelector("[data-active]");
+            let newIndex = [...slides.children].indexOf(activeSlide) + offset;
+            if (newIndex < 0) newIndex = slides.children.length - 1;
+            if (newIndex >= slides.children.length) newIndex = 0;
+
+            slides.children[newIndex].dataset.active = true;
+            delete activeSlide.dataset.active;
+        });
+    });
+});
 </script>
   </section>
 
@@ -949,7 +1371,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </div>
 
   <div>
-    © 2023
+    © 2024
     Lambda Phi Epsilon at THE Ohio State University
   </div>
 
