@@ -1,0 +1,53 @@
+---
+title: The Chartering of Indiana University Bloomington
+author: Webmaster
+---
+
+On the night of October 21st, 2023, Indiana University Bloomington witnessed the birth of a new legacy. Six dedicated men took the enormous step in chartering the first and only Asian-Interest fraternity on the campus of Indiana University Bloomington, setting a new standard of excellence within their Multicultural Greek Community.
+
+The chartering of Lambda Phi Epsilon at IU Bloomington is a result of the hard work and dedication of a group of ambitious individuals who share a common vision. These founding brothers embody the values of the fraternity and are eager to make a lasting impact on campus. Their journey to bring Lambda Phi Epsilon to IU Bloomington reflects a commitment to building a strong brotherhood that will endure for generations to come.
+
+# Those six men are:
+{:.center}
+
+{% capture content %}
+
+{% include figure.html image="images/events/AU23/AU23-IUB/josh.webp" caption="#1 Josh 'K-ZOMBIE' Choi <br> Big Bro: Josh 'SIMBA' Chae <br> DePaul University" %}
+{% include figure.html image="images/events/AU23/AU23-IUB/frank.webp" caption="#2 Frank 'Λ-SOL' Min <br> Big Bro: Lloyd 'Pastr' Phinney <br> University of Georgia"%}
+{% include figure.html image="images/events/AU23/AU23-IUB/dick.webp" caption="#3 Dick 'ΛTLAS' Ni <br> Big Bro: Ethan 'IKΛRIS' Saxuimux <br> Loyola University Chicago"%}
+{% include figure.html image="images/events/AU23/AU23-IUB/yoshi.webp" caption="#4 Yoshi 'Y-Bomb' Otake <br> Big Bro: Andy 'SharkCUITE' Tran <br> Florida State University"%}
+{% include figure.html image="images/events/AU23/AU23-IUB/sathya.webp" caption="#5 Sathya 'M.I.Z.U' Siva <br> Big Bro: [Kenny 'M.I.R.I.O' Vo](/members/12kvo) <br> THE Ohio State University"%}
+{% include figure.html image="images/events/AU23/AU23-IUB/vinno.webp" caption="#6 Vinno 'Mirakōi' Tan <br> Big Bro: Sean 'Zephyrōs' Cheng <br> University of Minnesota"%}
+
+
+{% endcapture %}
+
+{% include grid.html style="square" content=content %}
+
+{% include section.html %}
+# Education Team
+
+The Education Team at Lambda Phi Epsilon IU Bloomington is dedicated to providing academic support and guidance to its members. Recognizing the importance of education in shaping future leaders, this team worked closely with brothers to ensure they excel in their studies. Whether it's organizing study sessions, offering support, or providing valuable advice on time management and study strategies, the Education Team strived to create an environment where academic success is not only encouraged but also achievable.
+
+The education team consisted of one New Member Educator, and two Assistant New Member educators, who made the weekly drive to Bloomington to help these six men achieve the enormous task of chartering the chapter.
+
+# Those three men are:
+{:.center}
+
+{% capture content2 %}
+{% include figure.html image="images/bros/8wnguyen.webp" caption="#8 Wesley 'Phony Hawk' Nguyen (SP20)<br> New Member Educator <br> THE Ohio State University" %}
+{% include figure.html image="images/bros/18agarcia.webp" caption="#18 Andy 'PΛNCHAM' Garcia (FA21)<br> Assistant New Member Educator <br> THE Ohio State University"%}
+{% include figure.html image="images/eboard/harrison.webp" caption="#43 Harrison 'VΛPRE' Thow (SP23) <br> Assistant New Member Educator <br> THE Ohio State University"%}
+{% endcapture %}
+
+{% include grid.html style="square" content=content2 %}
+
+{% include section.html dark=true %}
+
+"Being y’all’s ANME was probably the biggest honour I’ve experienced of being a Lambda. It’s been so rewarding to get to meet each and every one of these fine men, and getting them grow makes me excited to see what they achieve in the future" - Harrison Thow, ANME
+
+"It was truly an honor to be an Assistant New Member Educator for the Indiana Charter Class. These guys not only showed their dedication, but I also appreciated their commitment in joining the brotherhood. These guys bring a lot of determination and enthusiasm. I am proud of these guys and excited for what they’ll accomplish in the future!" - Andy Garcia, ANME
+
+{% include section.html %}
+
+In conclusion, the chartering of Lambda Phi Epsilon at Indiana University Bloomington marks the beginning of a new chapter filled with growth, camaraderie, and positive contributions to campus life. The fraternity's commitment to brotherhood, cultural awareness, and community engagement positions it as a valuable addition to the vibrant tapestry of IU Bloomington. Here's to the success and prosperity of Lambda Phi Epsilon at Indiana University Bloomington!
