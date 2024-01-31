@@ -5,7 +5,7 @@ role: undergrad
 group: gamgam
 description: "#30 'SEKKI'"
 links:
-  instagram: 
+  instagram: zilaiwang_
   twitter: 
   linkedin: 
 ---
