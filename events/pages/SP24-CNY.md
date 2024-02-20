@@ -1,5 +1,5 @@
 ---
-title: Cinese New Year Dragon Dance
+title: Chinese New Year Dragon Dance
 author: Webmaster
 ---
 The brothers from LPhiE presents to you dragon dance for celebratig The Chinese New Year!
