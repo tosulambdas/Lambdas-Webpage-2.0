@@ -15,7 +15,7 @@ nav:
 
 {% include figure.html image="images/eboard/will.webp" caption="William Lim - President" link="/members/32wlim"%}
 {% include figure.html image="images/eboard/dante.webp" caption="Dante Le - Internal Vice President" link="/members/26dle"%}
-{% include figure.html image="images/eboard/chiu.webp" caption="Alex Chiu - External Vice President" link="/members/22achiu"%}
+{% include figure.html image="images/eboard/gz.webp" caption="GuangZhou Zheng - External Vice President" link="/members/40gzheng"%}
 {% include figure.html image="images/eboard/harrison.webp" caption="Harrison Thow - Treasurer" link="/members/43hthow"%}
 {% include figure.html image="images/eboard/zilai.webp" caption="Zilai Wang - Secretary" link="/members/30zwang"%}
 {% include figure.html image="images/bros/11ktruong.webp" caption="Kenny Troung - New Member Educator FA23" link="/members/11ktruong"%}
