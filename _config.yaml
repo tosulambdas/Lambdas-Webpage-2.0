@@ -46,6 +46,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-last-modified-at
+  - include_images
 
 # code block syntax highlighting
 highlighter: rouge

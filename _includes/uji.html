@@ -1,0 +1,397 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Uji</title>
+
+    <style>
+        :root {
+            --background-color: #282c34;
+            /* dark gray */
+            --main-color: #61dafb;
+            /* light blue */
+            --secondary-color: #20232a;
+            /* darker gray */
+            --accent-color: #61dafb;
+            /* light blue */
+            --text-color: #ffffff;
+            /* white */
+            --secondary-text-color: #9fa5b0;
+            /* light gray */
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--main-color);
+            color: var(--text-color);
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            background-color: var(--secondary-color);
+            padding: 10px;
+        }
+
+        .toggleable {
+            background-color: var(--background-color);
+            border: 1px solid var(--secondary-color);
+            color: var(--text-color);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            display: block;
+            grid-template-rows: 70% auto;
+
+            p {
+                color: var(--text-color);
+            }
+
+            img {
+                object-fit: contain;
+                width: 100px;
+                border: 1px solid #ddd;
+                border-radius: 30%;
+                padding: 5px;
+
+            }
+
+            &:hover {
+                background-color: var(--accent-color);
+            }
+        }
+
+        .item {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="item">
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Kenny
+                "M.I.R.I.O" Vo</button>
+            <div class="item">
+                <button class="toggleable">
+                    <img src="/images/photo.jpg" alt="temp image"><br>William
+                    "E.S.C.A.N.O.R" Lim</button>
+                <div class="item">
+                    <button class="toggleable">
+                        <img src="/images/photo.jpg" alt="temp image"><br>Adam
+                        "Λ.S.T.A" Huang</button>
+                    <div class="item">
+                        <p>---</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Ethan "Doc McStuffins" Chan</button>
+            <div class="item">
+                <button class="toggleable">
+                    <img src="/images/photo.jpg" alt="temp image"><br>Sonny "CASΛNOVA" Vuong</button>
+                <div class="item">
+                    <button class="toggleable">
+                        <img src="/images/photo.jpg" alt="temp image"><br>Kelvin
+                        "GOOCHIE MΛNE"
+                        Nguyen</button>
+                    <div class="item">
+                        <button class="toggleable">
+                            <img src="/images/photo.jpg"
+                                alt="temp image"><br>Harrison "VΛPRE"
+                            Thow</button>
+                        <div class="item">
+                            <p>---</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Kristian "MESSIDONIΛ" Janevski</button>
+            <div class="item">
+                <p>---</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="item">
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Nicholas "Cookin Mama" Dang</button>
+            <div class="item">
+                <p>---</p>
+            </div>
+        </div>
+        <div class="item">
+        <button class="toggleable">
+            <img src="/images/photo.jpg" alt="temp image"><br>Sean "Wumbo"
+            Dupiano</button>
+        <div class="item">
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Tyler
+                "Re:Zerø" Liu</button>
+            <div class="item">
+                <button class="toggleable">
+                    <img src="/images/photo.jpg" alt="temp image"><br>Alex
+                    "REYN" Chiu</button>
+                <div class="item">
+                    <button class="toggleable">
+                        <img src="/images/photo.jpg" alt="temp image"><br>Jason
+                        "MONΛRCH"
+                        Zhang</button>
+                    <div class="item">
+                        <p>---</p>
+                    </div>
+                    <button class="toggleable">
+                        <img src="/images/photo.jpg"
+                            alt="temp image"><br>Matthew "iMΛJINe"
+                        Gong</button>
+                    <div class="item">
+                        <p>---</p>
+                    </div>
+                    <button class="toggleable">
+                        <img src="/images/photo.jpg" alt="temp image"><br>Zilai
+                        "SEKKI" Wang</button>
+                    <div class="item">
+                        <button class="toggleable">
+                            <img src="/images/photo.jpg"
+                                alt="temp image"><br>Alex "CHIKΛ"
+                            Zhang</button>
+                        <div class="item">
+                            <p>---</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Ayoub "PLUTUS"
+                Benaaouinate</button>
+            <div class="item">
+                <p>---</p>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <button class="toggleable">
+            <img src="/images/photo.jpg" alt="temp image"><br>Kent "Thunderclap"
+            Hoang</button>
+        <div class="item">
+            <p>---</p>
+        </div>
+    </div>
+    <div class="item">
+        <button class="toggleable">
+            <img src="/images/photo.jpg" alt="temp image"><br>Alex "Rule 34"
+            Nguyen</button>
+        <div class="item">
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Gill "KILLUΛ"
+                Im</button>
+            <div class="item">
+                <p>---</p>
+            </div>
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Yury "ODM"
+                Pozdneev</button>
+            <div class="item">
+                <button class="toggleable">
+                    <img src="/images/photo.jpg" alt="temp image"><br>Junho
+                    "MΛLPHON" Choi</button>
+                <div class="item">
+                    <p>---</p>
+                </div>
+            </div>
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Sam "MIRΛI"
+                Zhang</button>
+            <div class="item">
+                <button class="toggleable">
+                    <img src="/images/photo.jpg" alt="temp image"><br>Jiaming
+                    "JOΛT" Meng</button>
+                <div class="item">
+                    <p>---</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <button class="toggleable">
+            <img src="/images/photo.jpg" alt="temp image"><br>Redacted
+        </button>
+        <div class="item">
+            <p>---</p>
+        </div>
+    </div>
+    <div class="item">
+        <button class="toggleable">
+            <img src="/images/photo.jpg" alt="temp image"><br>Trace
+            "¿Winnie the Who?"
+            Nguyen</button>
+        <div class="item">
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Michael
+                "ΛLGORHYTHM"
+                Joo</button>
+            <div class="item">
+                <p>---</p>
+            </div>
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Dante
+                "uncHEΛRTed" Le</button>
+            <div class="item">
+                <button class="toggleable">
+                    <img src="/images/photo.jpg" alt="temp image"><br>Dylan
+                    "SHΛTTERPROOF"
+                    Nguyen</button>
+                <div class="item">
+                    <p>---</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <button class="toggleable">
+            <img src="/images/photo.jpg" alt="temp image"><br>Wesley
+            "Phony Hawk"
+            Nguyen</button>
+        <div class="item">
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Jarred "NOMΛD"
+                Malto</button>
+            <div class="item">
+                <button class="toggleable">
+                    <img src="/images/photo.jpg" alt="temp image"><br>Guangzhou
+                    "STEEZY"
+                    Zheng</button>
+                <div class="item">
+                    <p>---</p>
+                </div>
+            </div>
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Hamzah "ΛRETE"
+                Chaudhry</button>
+            <div class="item">
+                <button class="toggleable">
+                    <img src="/images/photo.jpg" alt="temp image"><br>Mark
+                    "T. LΛW" Law</button>
+                <div class="item">
+                    <p>---</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <button class="toggleable">
+            <img src="/images/photo.jpg" alt="temp image"><br>Jerry "Brock"
+            Ta</button>
+        <div class="item">
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Andrew
+                "PΛNCHAM" Garcia</button>
+            <div class="item">
+                <button class="toggleable">
+                    <img src="/images/photo.jpg" alt="temp image"><br>James
+                    "NBA CHUNGBOY"
+                    Li</button>
+                <div class="item">
+                    <button class="toggleable">
+                        <img src="/images/photo.jpg"
+                            alt="temp image"><br>Padraig "ΛSTRO"
+                        Hurley</button>
+                    <div class="item">
+                        <p>---</p>
+                    </div>
+                </div>
+                <button class="toggleable">
+                    <img src="/images/photo.jpg" alt="temp image"><br>Joe "BTΛ"
+                    Li</button>
+                <div class="item">
+                    <p>---</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <button class="toggleable">
+            <img src="/images/photo.jpg" alt="temp image"><br>Tagumpay
+            "Pillowtalk"
+            Sison</button>
+        <div class="item">
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Joshua "Zoro"
+                Amponsah</button>
+            <div class="item">
+                <p>---</p>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <button class="toggleable">
+            <img src="/images/photo.jpg" alt="temp image"><br>Kenny "SBD"
+            Truong</button>
+        <div class="item">
+            <button class="toggleable">
+                <img src="/images/photo.jpg" alt="temp image"><br>Ethan "ΛERO"
+                Chau</button>
+            <div class="item">
+                <p>---</p>
+            </div>
+        </div>
+
+    </div>
+
+<script>
+    function showhideOthers(clickedItem) {
+        var gridItems = clickedItem.parentNode.getElementsByClassName("toggleable");
+        var parent = clickedItem.parentElement;
+    
+        for (var i = 0; i < gridItems.length; i++) {
+            if (gridItems[i] !== clickedItem && parent === gridItems[i].parentElement) {
+                gridItems[i].nextElementSibling.style.display = "none";
+            }
+        }
+    }
+    
+    var toggleable = document.getElementsByClassName("toggleable");
+    
+    for (let i = 0; i < toggleable.length; i++) {
+        toggleable[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var item = this.nextElementSibling;
+            if (item.style.display === "block") {
+                item.style.display = "none";
+            } else {
+                item.style.display = "block";
+            }
+            showhideOthers(this);
+        });
+    }
+
+    function showItems() {
+        var container = document.querySelector(".container");
+        var items = container.querySelectorAll(".container > .item");
+        for (var i = 0; i < items.length; i++) {
+            items[i].style.display = "block";
+        }
+    }
+    showItems();
+</script>
