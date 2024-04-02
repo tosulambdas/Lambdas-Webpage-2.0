@@ -46,8 +46,6 @@ body {
   z-index: 2;
   background: none;
   border: none;
-  width: 30px;
-  height: 30px;
   font-size: 1rem;
   top: 50%;
   left: 30%;
@@ -55,7 +53,7 @@ body {
   color: rgba(255, 255, 255, .5);
   cursor: pointer;
   border-radius: 1rem;
-  padding: 0 .25rem;
+  padding: 0 .5rem;
   background-color: rgba(0, 0, 0, .1);
 }
 
@@ -69,7 +67,7 @@ body {
 }
 
 .carousel-button.next {
-  left: 19.2rem;
+  left: 21.8rem;
   /* margin-right: 1rem; */
 }
 
