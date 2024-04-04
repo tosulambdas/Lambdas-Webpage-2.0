@@ -1,8 +1,8 @@
 ---
 name: Dylan Nguyen
 image: images/bros/34dnguyen.webp
-role: undergrad
-group: delta
+role: REDACTED
+group: REDACTED
 description: "#34 'SHΛTTERPROOF'"
 links:
   instagram: dylan_nguyen3
