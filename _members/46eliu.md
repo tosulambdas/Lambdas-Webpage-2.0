@@ -15,6 +15,6 @@ Ethnicity: Chinese
 
 Major: Architecture
 
-Big Bro: [Dylan "SHΛTTERPROOF" Nguyen](34dnguyen)
+Big Bro: [Dante "uncHEΛRTed" Le](26dle)
 
 [Click here](/ujis/) to view Ethan's Lineage!
