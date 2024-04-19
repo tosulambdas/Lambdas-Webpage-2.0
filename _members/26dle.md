@@ -6,7 +6,7 @@ group: gamgam
 description: "#26 'uncHEΛRTed'"
 links:
   instagram: danteple
-  twitter: 
+  # twitter: 
   linkedin: danteple
 ---
 

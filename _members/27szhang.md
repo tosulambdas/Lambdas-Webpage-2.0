@@ -5,9 +5,9 @@ role: undergrad
 group: gamgam
 description: "#27 'MIRΛI'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Sam Zhang | Active

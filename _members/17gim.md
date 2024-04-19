@@ -5,9 +5,9 @@ role: alumni
 group: alpha
 description: "#17 'KILLUΛ'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Gill Im | Alumnus

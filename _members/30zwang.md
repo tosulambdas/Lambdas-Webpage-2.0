@@ -6,8 +6,8 @@ group: gamgam
 description: "#30 'SEKKI'"
 links:
   instagram: zilaiwang_
-  twitter: 
-  linkedin: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Zilai Wang | Active

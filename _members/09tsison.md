@@ -5,9 +5,9 @@ role: alumni
 group: charter
 description: "#9 'Pillowtalk'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Tagumpay Sison | Alumnus

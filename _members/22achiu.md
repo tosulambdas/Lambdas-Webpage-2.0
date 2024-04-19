@@ -5,9 +5,9 @@ role: undergrad
 group: beta
 description: "#22 'REYN'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Alex Chiu | Active

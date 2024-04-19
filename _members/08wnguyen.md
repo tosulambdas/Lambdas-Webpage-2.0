@@ -5,9 +5,9 @@ role: undergrad
 group: charter
 description: "#8 'Phony Hawk'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Wesley Nguyen | Active

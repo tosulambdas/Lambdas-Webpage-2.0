@@ -5,9 +5,9 @@ group: charter
 role: alumni
 description: "#1 'Doc McStuffins'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Ethan Chan | Alumnus

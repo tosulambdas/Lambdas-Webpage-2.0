@@ -5,9 +5,9 @@ role: undergrad
 group: gamgam
 description: "#32 'E.S.C.A.N.O.R'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # William Lim | Active

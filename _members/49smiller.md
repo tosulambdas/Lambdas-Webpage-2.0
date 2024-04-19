@@ -5,9 +5,9 @@ role: undergrad
 group: epsilon
 description: "#49 'HIM-CHΛN'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Samuel Miller | Active

@@ -5,9 +5,9 @@ role: alumni
 group: alpha
 description: "#13 'CASΛNOVA'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Sonny Vuong | Alumnus

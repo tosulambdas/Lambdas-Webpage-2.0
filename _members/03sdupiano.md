@@ -5,9 +5,9 @@ role: alumni
 group: charter
 description: "#3 'Wumbo'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Sean Dupiano | Alumnus

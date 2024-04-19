@@ -5,9 +5,9 @@ role: alumni
 group: charter
 description: "#11 'SBD'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Kenny Truong | Active

@@ -5,9 +5,9 @@ role: undergrad
 group: delta
 description: "#36 'Λ.S.T.A'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Adam Huang | Active

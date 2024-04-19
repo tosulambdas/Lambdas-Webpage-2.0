@@ -5,9 +5,9 @@ role: undergrad
 group: epsilon
 description: "#44 'ΛPOLLO'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Verich Luu | Active

@@ -5,9 +5,9 @@ role: undergrad
 group: delta
 description: "#38 'BTΛ'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Joseph Li | Active

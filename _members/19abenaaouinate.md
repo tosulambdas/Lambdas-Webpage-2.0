@@ -5,9 +5,9 @@ role: undergrad
 group: beta
 description: "#19 'PLUTUS'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Ayoub Benaaouinate | Inactive

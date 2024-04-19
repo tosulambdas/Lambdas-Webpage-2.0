@@ -5,9 +5,9 @@ role: alumni
 group: charter
 description: "#7 '¿Winnie the Who?'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Trace Nguyen | Alumnus

@@ -5,9 +5,9 @@ role: alumni
 group: gamgam
 description: "#31 'T. LΛW'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Mark Wang | Alumnus

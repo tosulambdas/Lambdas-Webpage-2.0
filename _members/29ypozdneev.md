@@ -5,9 +5,9 @@ role: undergrad
 group: gamgam
 description: "#29 'ODM'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Yury Pozdneev | Active

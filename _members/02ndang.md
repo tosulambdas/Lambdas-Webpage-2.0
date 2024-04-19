@@ -5,9 +5,9 @@ role: alumni
 group: charter
 description: "#2 'Cookin Mama'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Nicholas Dang | Alumnus

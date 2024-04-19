@@ -5,9 +5,9 @@ role: alumni
 group: alpha
 description: "#16 'Zoro'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Joshua Amponsah | Alumnus

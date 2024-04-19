@@ -5,9 +5,9 @@ role: undergrad
 group: beta
 description: "#24 'NBA CHUNGBOY'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # James Li | Active

@@ -5,9 +5,9 @@ role: alumni
 group: charter
 description: "#4 'Thunderclap'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Kent Hoang | Alumnus

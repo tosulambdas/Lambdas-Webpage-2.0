@@ -5,9 +5,9 @@ role: undergrad
 group: epsilon
 description: "#45 'PIONEER'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Kyle Nguyen | Active

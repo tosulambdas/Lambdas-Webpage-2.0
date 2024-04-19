@@ -5,9 +5,9 @@ role: alumni
 group: beta
 description: "#23 'ΛLGORHYTHM'"
 links:
-  instagram: 
-  twitter: 
-  linkedin: 
+  # instagram: 
+  # twitter: 
+  # linkedin: 
 ---
 
 # Michael Joo | Alumnus
