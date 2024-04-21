@@ -1,7 +1,7 @@
 ---
 name: Kelvin Nguyen
 image: images/bros/25knguyen.webp
-role: undergrad
+role: inactive
 group: beta
 description: "#25 'GOOCHIE MΛNE'"
 links:

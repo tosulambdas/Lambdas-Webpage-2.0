@@ -62,7 +62,7 @@ Lambda Phi Epsilon is an Asian Interest, but not Asian-exclusive social fraterni
 
     function updateActiveMembersCounter() {
         document.getElementById('active-members-counter').innerText = activeMembersCounter;
-        if (activeMembersCounter < 28) {
+        if (activeMembersCounter < 25) {
             activeMembersCounter++;
         }
     }

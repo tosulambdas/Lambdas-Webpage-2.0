@@ -1,13 +1,13 @@
 ---
-title: Brothers
+title: Active House
 layout: brothers
 nav:
   order: 2
-  tooltip: Meet the brothers of LPhiE
+  tooltip: Meet the active brothers of LPhiE
 ---
 
 {:.center}
-# {% include icon.html icon="fa-solid fa-users" %}Executive Board
+# {% include icon.html icon="fa-solid fa-users" %}2023-2024 Executive Board
 {:.center}
 {% include section.html %}
 
@@ -15,7 +15,7 @@ nav:
 
 {% include figure.html image="images/eboard/will.webp" caption="William Lim - President" link="/members/32wlim"%}
 {% include figure.html image="images/eboard/dante.webp" caption="Dante Le - Internal Vice President" link="/members/26dle"%}
-{% include figure.html image="images/eboard/gz.webp" caption="GuangZhou Zheng - External Vice President" link="/members/40gzheng"%}
+{% include figure.html image="images/eboard/gz.webp" caption="Guangzhou Zheng - External Vice President" link="/members/40gzheng"%}
 {% include figure.html image="images/eboard/harrison.webp" caption="Harrison Thow - Treasurer" link="/members/43hthow"%}
 {% include figure.html image="images/eboard/zilai.webp" caption="Zilai Wang - Secretary" link="/members/30zwang"%}
 {% include figure.html image="images/bros/11ktruong.webp" caption="Kenny Troung - New Member Educator FA23" link="/members/11ktruong"%}
@@ -25,35 +25,22 @@ nav:
 
 {% include grid.html style="square" content=content %}
 
-{% include section.html %}
 
 <h2>Looking for a specific class?</h2>
 
 {% capture content %}
-{% include figure.html image="images/media/charters.webp" caption="Charter Class - Twelve Tenshi" link="/brothers/#charter-class-twelve-tenshi--sp20" %}
-{% include figure.html image="images/media/alphas.webp" caption="Alpha Class - Akuma Alphas" link="/brothers/#alpha-class-akuma-alphas--sp21" %}
-{% include figure.html image="images/media/betas.webp" caption="Beta Class - Bushido Betas" link="/brothers/#beta-class-bushido-betas--fa21" %}
-{% include figure.html image="images/media/gammas.webp" caption="Gamma Class - Genjitsu Gammas" link="/brothers/#gamma-class-genjitsu-gammas--sp22" %}
-{% include figure.html image="images/media/deltas.webp" caption="Delta Class - Dai-Ichi Deltas" link="/brothers/#delta-class-dai-ichi-deltas--sp23" %}
-{% include figure.html image="images/media/epsilons.webp" caption="Epsilon Class - Empyreal Epsilons" link="/brothers/#epsilon-class-empyreal-epsilons--fa23" %}
+{% include figure.html image="images/media/charters.webp" caption="Charter Class - Twelve Tenshi" link="/ah/charters/" %}
+{% include figure.html image="images/media/alphas.webp" caption="Alpha Class - Akuma Alphas" link="/ah/alphas/" %}
+{% include figure.html image="images/media/betas.webp" caption="Beta Class - Bushido Betas" link="/ah/betas/" %}
+{% include figure.html image="images/media/gammas.webp" caption="Gamma Class - Genjitsu Gammas" link="/ah/gammas/" %}
+{% include figure.html image="images/media/deltas.webp" caption="Delta Class - Dai-Ichi Deltas" link="/ah/deltas/" %}
+{% include figure.html image="images/media/epsilons.webp" caption="Epsilon Class - Empyreal Epsilons" link="/ah/epsilons/" %}
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
 
 {%include section.html%} 
 {:.center}
-## Charter Class "Twelve Tenshi" | SP20
-{:.center}
-**New Member Educator**: Zachary "Stephen Hawking" Antonius
-{:.center}
-**Class Song**: _Friends in Low Places_ by Garth Brooks 
-{:.center}
-![](https://open.spotify.com/track/0TErIsJMsMCN01oGH7tiAh?si=22cab197df5340a0)
-{:.center}
-**Class Motto**: _"Don't be sorry. Be Better."_
-{:.center}
-
-{% include list.html data="members" component="portrait" filters="group: charter" %}
 
 {% include section.html %}
 {:.center}
@@ -69,7 +56,7 @@ nav:
 {:.center}
 **Class Motto**: _"We don't have friends, we have family"_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: alpha" %}
+{% include list.html data="members" component="portrait" filters="group: alpha, role: undergrad" %}
 
 {% include section.html %}
 
@@ -86,7 +73,7 @@ nav:
 {:.center}
 **Class Motto**: _"Wherever someone thinks of you, that's where home is."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: beta" %}
+{% include list.html data="members" component="portrait" filters="group: beta, role: undergrad" %}
 
 {% include section.html %}
 {:.center}
@@ -102,7 +89,7 @@ nav:
 {:.center}
 **Class Motto**: _"It is foolish to fear what we have yet to see and know."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: gamgam" %}
+{% include list.html data="members" component="portrait" filters="group: gamgam, role: undergrad" %}
 
 {% include section.html %}
 
@@ -120,7 +107,7 @@ nav:
 {:.center}
 **Class Motto**: _"Success is not final; failure is not fatal: it is the courage to continue that counts."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: delta" %}
+{% include list.html data="members" component="portrait" filters="group: delta, role: undergrad" %}
 
 {% include section.html %}
 
@@ -137,4 +124,4 @@ nav:
 {:.center}
 **Class Motto**: _"The past is history, the future is a mystery, but today is a gift, that's why it's called the present."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: epsilon" %}
+{% include list.html data="members" component="portrait" filters="group: epsilon, role: undergrad" %}

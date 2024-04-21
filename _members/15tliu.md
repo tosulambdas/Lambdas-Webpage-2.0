@@ -1,7 +1,7 @@
 ---
 name: Tyler Liu
 image: images/bros/15tliu.webp
-role: undergrad
+role: alumni
 group: alpha
 description: "#15 'Re:Zerø'"
 links:

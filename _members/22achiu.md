@@ -1,7 +1,7 @@
 ---
 name: Alex Chiu
 image: images/bros/22achiu.webp
-role: undergrad
+role: alumni
 group: beta
 description: "#22 'REYN'"
 links:

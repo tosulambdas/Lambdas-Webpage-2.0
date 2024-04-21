@@ -1,7 +1,7 @@
 ---
 name: Jason Zhang
 image: images/bros/28jzhang.webp
-role: undergrad
+role: alumni
 group: gamgam
 description: "#28 'MONΛRCH'"
 links:
