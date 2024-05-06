@@ -1,7 +1,7 @@
 ---
 name: Andrew Garcia
 image: images/bros/18agarcia.webp
-role: undergrad
+role: alumni
 group: alpha
 description: "#18 'PΛNCHAM'"
 links:

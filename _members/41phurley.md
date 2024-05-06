@@ -1,7 +1,7 @@
 ---
 name: Padraig Hurley
 image: images/bros/41phurley.webp
-role: undergrad
+role: alumni
 group: delta
 description: "#41 'ΛSTRO'"
 links:

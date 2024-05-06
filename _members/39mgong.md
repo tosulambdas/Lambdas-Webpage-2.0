@@ -1,7 +1,7 @@
 ---
 name: Matthew Gong
 image: images/bros/39mgong.webp
-role: undergrad
+role: alumni
 group: delta
 description: "#39 'iMΛJINe'"
 links:

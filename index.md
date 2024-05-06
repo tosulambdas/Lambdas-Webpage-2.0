@@ -48,7 +48,7 @@ Lambda Phi Epsilon is an Asian Interest, but not Asian-exclusive social fraterni
     </div>
         <div class="counter">
         <p id="ethnicities" style="font-size: 2.5em;">0</p>
-        <p>Unique Ethnicities</p>
+        <p>Unique Backgrounds</p>
     </div>
 </div>
 
