@@ -1,8 +1,8 @@
 ---
 name: Dante Le
 image: images/bros/26dle.webp
-role: undergrad
-group: alumni
+role: alumni
+group: gamgam
 description: "#26 'uncHEΛRTed'"
 links:
   instagram: danteple
