@@ -1,19 +1,20 @@
 ---
-title: Casino Night
+title: General Interest Meeting 2
 layout: default
 ---
 
-{:.center}
-
-{% include rush-poster.html image="images\rush\1-9.webp" time="1/9 8-10PM" location="Randy Boulder Room"%}
+{% include rush-poster.html image="images\rush\Rush calender.webp" time="8/28 7-9 PM" location="NOrth District Bowen Ohio Room"%}
 
 {% include section.html %}
 
-Get ready for an epic journey as we unveil our latest volume! The Associate Chapter of Lambda Phi Epsilon International Fraternity Inc. at The Ohio State University would like to invite you to our Spring 2024 Rush: Quest for Brotherhood - First Edition. Heroes will rise, Villains will fall and a new chapter of excitement is about to begin. We look forward to seeing you there!
+The Associate Chapter of Lambda Phi Epsilon International Fraternity Inc. at The Ohio State University would like to invite you to our Fall 2024 Rush and find out what it means to be a brother! We look forward to seeing you there!
 
 # 𝐖𝐇𝐎 𝐀𝐑𝐄 𝐖𝐄?
 
 Established on February 25, 1981, Lambda Phi Epsilon is the largest and only international Asian-interest, but not Asian exclusive, Fraternity in the United States. We currently have over 60 chapters and a network of thousands of brothers in every field. Our continuous goal is to develop every single member to be the best they can be and to become leaders among men.
+
 # 𝐖𝐇𝐀𝐓 𝐈𝐒 𝐑𝐔𝐒𝐇?
 
 Rush is a two week period where rushees can attend events to have a chance to learn about our fraternity and get to know the brothers. All of the events are free and non-obligatory. So come out, have some fun, and see if this brotherhood is fit for you!
+
+# YOU MUST ATTEND 2 EVENTS AND 1 GENERAL INTEREST MEETING TO QUALIFY FOR AN INTERVIEW

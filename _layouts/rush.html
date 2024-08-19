@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+    <main>
+
+        <style>
+            h7 {
+                text-align: center;
+                font-size: xx-large;
+                margin-bottom: auto;
+            }
+
+            .join-us-section {
+                display: grid;
+                grid-template-columns: auto 60%;
+                padding: 2%;
+            }
+
+            .calender-section {
+                display: grid;
+                grid-template-columns: 60% auto;
+                padding: 2%;
+            }
+
+            .accordion {
+                background-color: #eee;
+                color: #444;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+                transition: 0.4s;
+            }
+
+            .active,
+            .accordion:hover {
+                background-color: #ccc;
+            }
+
+            .panel {
+                padding: 0 18px;
+                background-color: white;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.2s ease-out;
+            }
+
+            .accordion {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+            }
+
+            .accordion-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+                /* Adjust the gap between columns if needed */
+            }
+
+            .accordion-group {
+                margin-bottom: 20px !important;
+            }
+
+            .arrow {
+                transition: transform 0.3s ease;
+                /* Add a smooth transition for the arrow rotation */
+            }
+
+            .rotate {
+                transform: rotate(180deg);
+                /* Rotate the arrow when the accordion is active */
+            }
+
+            .tradition-container {
+                display: grid;
+                grid-template-columns: 60% 40%;
+
+                img {
+                    padding: 5%;
+                }
+            }
+
+            .hover-section-container {
+                padding-top: 5%;
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+
+            .hover-container {
+                position: relative;
+                width: 95%;
+            }
+
+            .image {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: #008CBA;
+            }
+
+            .hover-container:hover .overlay {
+                opacity: 1;
+            }
+
+            .text {
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 95%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+        </style>
+
+        {% include section.html %}
+
+        <div style="padding: 0% 20%">
+            <div class="hover-section-container" >
+
+                <div class="hover-container">
+                    <img src="/images/rush/Rush theme.webp" alt="Rush Theme" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            <h5 style="font-size: larger;">Wanna join the brotherhood?</h5>
+                            <p>
+
+                                Unlock Your Potential with Lambda Phi Epsilon <br>
+
+                                🤝 Forge Lifelong Connections<br>
+
+                                🌐 Join a Global Community<br>
+
+                                🔥 Unleash Your Leadership<br>
+
+                                🎓 Achieve Academic Excellence<br>
+
+                                Ready to embark on a journey of lifelong brotherhood,
+                                leadership, and success? Come to our rush events and get to konw
+                                the bros.
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="hover-container">
+                    <img src="/images/rush/Rush calender.webp" alt="Rush Calender" class="image">
+                    <div class="overlay">
+                        <div class="text">
+
+                            <h5 style="font-size: larger;">Eligibility for an interview</h5>
+                            <p style="padding: 5%;">
+                                GPA &#8805; 2.7<br>
+                                In good academic standing<br>
+                                Don't be an a******e<br>
+                                Attend 2 Rush events<br>
+                                Attend 1 General Information meeting
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {% include section.html %}
+
+            {% include list.html component="card" data="rush" style="small"%}
+
+            {% include section.html %}
+            <div>
+                <h7>Frequently Asked Questions</h7>
+                <div class="accordion-container" style="padding-top: 5%;">
+                    <div class="accordion-group">
+                        <button class="accordion">What is rush?<i class="fas fa-chevron-down arrow"></i></button>
+                        <div class="panel">
+                            <p>Rush, also known as recruitment, is a structured two-week
+                                period at the beginning of fall and winter quarter when
+                                anyone interested in Lambda Phi Epsilon or Greek life in
+                                general can come to our events to meet brothers and learn
+                                more about the fraternity. Contrary to popular belief,
+                                coming out to rush does not commit you to anything at all.
+                                You do not have to attend all events to be able to join the
+                                fraternity. The only thing we expect from our rushees
+                                (prospective members) is that they have a good time at our
+                                events. Along the way, we hope that rushees will also meet
+                                the brothers and learn more about the values of the
+                                fraternity.</p>
+                        </div>
+                        <button class="accordion">What is a bid?<i class="fas fa-chevron-down arrow"></i></button>
+                        <div class="panel">
+                            <p>A bid is an invitation to enter the new member education
+                                process and continue on the path of becoming a brother. Bids
+                                are given at the end of rush to rushees who the brothers
+                                feel would be a good fit to our fraternity. You are not
+                                obligated to accept a bid if given one; rush is completely
+                                non-committal.</p>
+                        </div>
+
+                        <button class="accordion">Am I required to join if I attend rush
+                            events?<i class="fas fa-chevron-down arrow"></i></button>
+                        <div class="panel">
+                            <p>No. Rush is simply an opportunity for you to introduce
+                                yourself and meet the brothers. So have fun, enjoy yourself,
+                                and allow us to show you what our brotherhood can offer you.</p>
+                        </div>
+
+                        <button class="accordion">Do I have to pay to check out rush events?<i
+                                class="fas fa-chevron-down arrow"></i></button>
+                        <div class="panel">
+                            <p>No, all rush events are free. All costs are funded by Lambda
+                                Phi Epsilon. Rides to all events will be provided as well,
+                                if the need arises.</p>
+                        </div>
+
+                        <button class="accordion">What type of person are you looking for?<i
+                                class="fas fa-chevron-down arrow"></i></button>
+                        <div class="panel">
+                            <p>The diversity of our fraternity is due to the individual
+                                personalities that make up the house. However, our motto,
+                                “Leaders Among Men,” applies to each and every brother. We
+                                are looking for the leaders among the crowd, who will
+                                ultimately become the faces of our fraternity.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <button class="accordion">What is the New Member Education Process?<i
+                                class="fas fa-chevron-down arrow"></i></button>
+                        <div class="panel">
+                            <p>If, at the end of rush, you accept the opportunity to
+                                complete the New Member Education Process of Lambda Phi
+                                Epsilon, the possibilities are endless. Stressing skills
+                                such as leadership, communication, organization, and
+                                punctuality, the fraternity's education process will help
+                                you develop close bonds of brotherhood with men from all
+                                walks of life. These abilities have proven highly useful to
+                                brothers well outside the bounds of the fraternity. With an
+                                alumni network stretching from Tokyo to London, and with
+                                chapters at over 70 universities, you will meet brothers
+                                with whom you have an instant bond because of the ideals and
+                                experiences instilled during pledging. Simply put, Lambdas
+                                is an experience that can greatly enrich your time at THE
+                                Ohio State University. Don't be fooled by the stereotypes.</p>
+                        </div>
+                        <button class="accordion">Why LPhiE?<i class="fas fa-chevron-down arrow"></i></button>
+                        <div class="panel">
+                            <p>Why Lambdas? Lambda Phi Epsilon is an organization that will
+                                challenge every aspect of your college life—and for the
+                                better. You will learn how to become a leader in your
+                                school, in your community, and in the world you enter after
+                                college. Lambda life extends far beyond the reach of your
+                                school. Today, with thousands of brothers from coast to
+                                coast and throughout the world, Lambda Phi Epsilon has
+                                become a major institution and a powerful force in the
+                                Asian-American scene in the United States. Moreover, your
+                                social network on will also expand exponentially as you get
+                                to interact with countless men and women affiliated with
+                                other Greek organizations, and Lambda alumni who have become
+                                very distinguished in their industry. Being a Lambda also
+                                carries with it a strong sense of pride and a reputation of
+                                being a well-rounded individual. The road to becoming a
+                                Lambda is not easy, but the rewards (personal growth,
+                                leadership development, etc.) are well worth it. It takes a
+                                certain type of man to become a Lambda, someone who wants to
+                                become a leader among men.</p>
+                        </div>
+                        <button class="accordion">Do I have to be Asian to join?<i
+                                class="fas fa-chevron-down arrow"></i></button>
+                        <div class="panel">
+                            <p>While we are an Asian American interest fraternity, there are
+                                brothers all over the country with ethnicities other than
+                                Asian. You do not have to be Asian to come to rush events
+                                and you do not have to be Asian to join Lambda Phi Epsilon.</p>
+                        </div>
+
+                        <button class="accordion">How can LPhiE impact my future?<i
+                                class="fas fa-chevron-down arrow"></i></button>
+                        <div class="panel">
+                            <p>Lambda Phi Epsilon has an incredibly strong alumni network,
+                                both locally and on the national and international levels.
+                                The International Board of Lambda Phi Epsilon has access to
+                                many career and networking resources that provide Lambdas
+                                with competitive job placements immediately after
+                                graduation. Moreover, our annual conventions provide
+                                professional development opportunities for the Active
+                                Division. Such exclusive resources provide future
+                                generations of Lambdas to become successful in any career
+                                industry imaginable.</p>
+                        </div>
+                        <button class="accordion">What are the requirements to be offered a
+                            bid?<i class="fas fa-chevron-down arrow"></i></button>
+                        <div class="panel">
+                            <p>Bid requirements vary semester to semester, but generally are
+                                composed of having a GPA ≥ 2.7, attending a minimum of 2
+                                general rush events, and attending one general information
+                                meeting (GIM).</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {% include section.html %}
+
+            <div>
+                <h7>
+                    Interested? The Brotherhood is calling for you.
+                    <br><br>
+                </h7>
+                <iframe src="https://forms.gle/uqUiCiTYPBYtZ9TU6" width="640" height="382" frameborder="0"
+                    marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+
+            {% include section.html %}
+
+            <h7>Sneak peak into the brotherhood</h7>
+            <div>
+
+                <h2>Secret Santa</h2>
+                <div class="tradition-container">
+
+                    <p>Engaging in a Secret Santa exchange brings an extra layer of excitement and joy to the holiday
+                        season. The thrill of anonymity and surprise adds a playful element to gift-giving, making it a
+                        delightful experience for participants. The anticipation of discovering who your Secret Santa
+                        is,
+                        coupled with the challenge of selecting the perfect gift for someone else, fosters a sense of
+                        camaraderie and connection among friends, family, or colleagues. The element of secrecy
+                        encourages
+                        creativity in choosing thoughtful presents, often resulting in unexpected and humorous
+                        surprises.
+                        Whether it's the shared laughter during the big reveal or the heartwarming moment of seeing
+                        someone's face light up with gratitude, Secret Santa embodies the spirit of festive cheer and
+                        brings
+                        an extra dose of merriment to any celebration.</p>
+
+                    {% include secret_santa.html %}
+
+                </div>
+
+                <h2>Eat by age</h2>
+                <div class="tradition-container">
+
+                    <p>Embracing the concept of "eating by age" injects a delightful sense of playfulness into our
+                        dining
+                        experiences. Whether it's recreating childhood favorites or exploring cuisines that resonate
+                        with a
+                        specific era, this culinary journey becomes a whimsical adventure through time. Each meal
+                        becomes a
+                        nostalgic voyage, triggering memories and sparking conversations about shared experiences. From
+                        classic comfort foods that transport us to carefree days of youth to sophisticated dishes that
+                        mirror our evolving tastes, "eating by age" adds a dynamic and entertaining element to the
+                        dining
+                        table. The joy lies not only in savoring delicious meals but also in the shared laughter and
+                        storytelling that accompany each culinary era. It's a lighthearted approach to dining that
+                        transforms meals into celebrations of the past, creating a unique and memorable feast for both
+                        the
+                        palate and the soul.</p>
+
+                    <img src="/images/icon.png">
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    {% include footer.html %}
+
+
+</body>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+
+            // Toggle the arrow icon class
+            var arrow = this.querySelector('.arrow');
+            arrow.classList.toggle('rotate');
+        });
+    }
+
+    //Galarry code
+    window.addEventListener("load", function () {
+        const buttons = document.querySelectorAll("[data-carousel-button]");
+
+        buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+                const offset = button.dataset.carouselButton === "next" ? 1 : -1;
+                const slides = button.closest("[data-carousel]").querySelector("[data-slides]");
+
+                const activeSlide = slides.querySelector("[data-active]");
+                let newIndex = [...slides.children].indexOf(activeSlide) + offset;
+                if (newIndex < 0) newIndex = slides.children.length - 1;
+                if (newIndex >= slides.children.length) newIndex = 0;
+
+                slides.children[newIndex].dataset.active = true;
+                delete activeSlide.dataset.active;
+            });
+        });
+    });
+</script>
+
+</html>
