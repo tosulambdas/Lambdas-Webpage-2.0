@@ -15,10 +15,29 @@ permissions:
 
 jobs:
   update-citations:
-    # skip first run because nothing enabled or setup yet
     if: github.run_number != 1
-    uses: ./.github/workflows/update-citations.yaml
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2.0
+      - name: Install dependencies
+        run: bundle install
+      - name: Run update-citations
+        uses: ./.github/workflows/update-citations.yaml
 
   build-site:
     needs: update-citations
-    uses: ./.github/workflows/build-site.yaml
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2.0
+      - name: Install dependencies
+        run: bundle install
+      - name: Run build-site
+        uses: ./.github/workflows/build-site.yaml
