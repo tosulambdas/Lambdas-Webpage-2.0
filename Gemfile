@@ -12,3 +12,5 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-last-modified-at"
 end
+
+gem 'sass-embedded', '< 1.77.8'
