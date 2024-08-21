@@ -1,8 +1,5 @@
 source "https://rubygems.org"
 
-# Gemfile
-ruby '>=3.2.0'
-
 # jekyll
 gem "jekyll", "~> 4.3"
 gem "webrick", "~> 1.7"
@@ -15,5 +12,3 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-last-modified-at"
 end
-
-gem 'sass-embedded', '< 1.77.8'
