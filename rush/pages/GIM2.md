@@ -3,7 +3,7 @@ title: General Interest Meeting 2
 layout: default
 ---
 
-{% include rush-poster.html image="images\rush\Rush calender.webp" time="8/28 7-9 PM" location="NOrth District Bowen Ohio Room"%}
+{% include rush-poster.html image="images\rush\GIM2.webp" time="8/28 7-9 PM" location="NOrth District Bowen Ohio Room"%}
 
 {% include section.html %}
 

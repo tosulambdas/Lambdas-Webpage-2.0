@@ -8,14 +8,19 @@
   link: rush/pages/Collab1
   description: Come paint TShirts with the bros of LPhiE and brothers and sisters of APSI
 
+- title: Thrifting Competition
+  subtitle: Located in Ohio Union <br> 8/24 1:30-3:30 PM
+  link: rush/pages/Event1
+  description: Come to the Thriftin Competition with the bros of LPhiE!
+
 - title: Brotherhood Trivia
   subtitle: Located in Enarson Room 243 <br> 8/26 7-9 PM
-  link: rush/pages/Event1
+  link: rush/pages/Event2
   description: Come to the bro trivia night to know more about the bros of LPhiE!
 
 - title: Casino Night
   subtitle: Located in Enarson room 254 <br> 8/27 7-9 PM
-  link: rush/pages/Event2
+  link: rush/pages/Event3
   description: Come to our Casino night and play poker against the bros!
 
 - title: General Interest Meeting 2

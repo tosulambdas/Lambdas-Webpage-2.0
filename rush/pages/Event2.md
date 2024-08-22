@@ -1,8 +1,9 @@
 ---
-title: Casino Night
+title: Brotherhood Trivia
 layout: default
 ---
-{% include rush-poster.html image="images\rush\Rush calender.webp" time="8/27 7-9 PM" location="Enarson room 254"%}
+
+{% include rush-poster.html image="images\rush\Event2.webp" time="8/26 7-9 PM" location="Enarson Room 243"%}
 
 {% include section.html %}
 

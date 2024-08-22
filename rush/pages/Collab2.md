@@ -3,7 +3,7 @@ title: Making Tanghulu Collaboration Event with DPhiL
 layout: default
 ---
 
-{% include rush-poster.html image="images\rush\Rush calender.webp" time="8/29 6-7:30 PM" location="Scott Kitchen"%}
+{% include rush-poster.html image="images\rush\Collab2.webp" time="8/29 6-7:30 PM" location="Scott Kitchen"%}
 
 {% include section.html %}
 
