@@ -3,7 +3,7 @@ title: General Interest Meeting 1
 layout: default
 ---
 
-{% include rush-poster.html image="images\rush\GIM1.webp" time="8/21 7-9 PM" location="Ohio Union Rosa M. Ailabouni Room"%}
+{% include rush-poster.html image="/images/rush/GIM1.webp" time="8/21 7-9 PM" location="Ohio Union Rosa M. Ailabouni Room"%}
 
 {% include section.html %}
 

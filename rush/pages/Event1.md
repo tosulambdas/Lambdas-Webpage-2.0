@@ -3,7 +3,7 @@ title: Thrifting
 layout: default
 ---
 
-{% include rush-poster.html image="images\rush\Event1.webp" time="8/24 1:30-3:30 PM" location="Ohio Union"%}
+{% include rush-poster.html image="/images/rush/Event1.webp" time="8/24 1:30-3:30 PM" location="Ohio Union"%}
 
 {% include section.html %}
 

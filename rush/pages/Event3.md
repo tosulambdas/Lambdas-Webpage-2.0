@@ -2,7 +2,7 @@
 title: Casino Night
 layout: default
 ---
-{% include rush-poster.html image="images\rush\Event3.webp" time="8/27 7-9 PM" location="Enarson room 254"%}
+{% include rush-poster.html image="/images/rush/Event3.webp" time="8/27 7-9 PM" location="Enarson room 254"%}
 
 {% include section.html %}
 

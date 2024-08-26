@@ -3,7 +3,7 @@ title: TShirt Painting Collaboration Event with APsi
 layout: default
 ---
 
-{% include rush-poster.html image="images\rush\Collab1.webp" time="8/22 6:30 - 8 PM" location="Hayes Cape Room"%}
+{% include rush-poster.html image="/images/rush/Collab1.webp" time="8/22 6:30 - 8 PM" location="Hayes Cape Room"%}
 
 {% include section.html %}
 

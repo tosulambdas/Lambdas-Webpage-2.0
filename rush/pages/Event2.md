@@ -3,7 +3,7 @@ title: Brotherhood Trivia
 layout: default
 ---
 
-{% include rush-poster.html image="images\rush\Event2.webp" time="8/26 7-9 PM" location="Enarson Room 243"%}
+{% include rush-poster.html image="/images/rush/Event2.webp" time="8/26 7-9 PM" location="Enarson Room 243"%}
 
 {% include section.html %}
 
