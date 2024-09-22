@@ -2,37 +2,40 @@
   subtitle: Located in the Ohio Union Rosa M. Ailabouni Room <br> 8/21 7-9 PM
   link: rush/pages/GIM1
   description: Come to our General Interest Meeting to know more about our fraternity
+  image: images/rush/GIM1.webp
 
 - title: Painting TShirts with APSI
   subtitle: Located in the Hayes Cape Room <br> 8/22 6:30-8 PM
   link: rush/pages/Collab1
   description: Come paint TShirts with the bros of LPhiE and brothers and sisters of APSI
+  image: images/rush/Collab1.webp
 
 - title: Thrifting Competition
   subtitle: Located in Ohio Union <br> 8/24 1:30-3:30 PM
   link: rush/pages/Event1
   description: Come to the Thriftin Competition with the bros of LPhiE!
+  image: images/rush/Event1.webp
 
 - title: Brotherhood Trivia
   subtitle: Located in Enarson Room 243 <br> 8/26 7-9 PM
   link: rush/pages/Event2
   description: Come to the bro trivia night to know more about the bros of LPhiE!
+  image: images/rush/Event2.webp
 
 - title: Casino Night
   subtitle: Located in Enarson room 254 <br> 8/27 7-9 PM
   link: rush/pages/Event3
   description: Come to our Casino night and play poker against the bros!
+  image: images/rush/Event3.webp
 
 - title: General Interest Meeting 2
   subtitle: Located in North District Bowen Ohio Room <br> 8/28 7-9 PM
   link: rush/pages/GIM2
   description: Come to our second General Interest Meeting to know more about our fraternity
+  image: images/rush/GIM2.webp
 
 - title: Making Tanghulu with DPhiL
   subtitle: LOcated in Scott Kitchen <br> 8/29 6-7:30 PM
   link: rush/pages/Collab2
   description: Come make Tanhulu with the bros of LPhiE and the sisters of DPhiL
-
-- title: Invite only dinner
-  subtitle: Located in ??? <br> ???
-  description: This is an invite only dinner come to our rush events and you may be invited!
+  image: images/rush/Collab2.webp
