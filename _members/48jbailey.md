@@ -1,7 +1,7 @@
 ---
 name: Justin Bailey
 image: images/bros/48jbailey.webp
-role: undergrad
+role: inactive
 group: epsilon
 description: "#48 'YUSUKE'"
 links:

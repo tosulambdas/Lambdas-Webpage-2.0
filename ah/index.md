@@ -13,12 +13,12 @@ nav:
 
 {% capture content %}
 
-{% include figure.html image="images/eboard/will.webp" caption="William Lim - President" link="/members/32wlim"%}
-{% include figure.html image="images/eboard/dante.webp" caption="Dante Le - Internal Vice President" link="/members/26dle"%}
-{% include figure.html image="images/eboard/gz.webp" caption="Guangzhou Zheng - External Vice President" link="/members/40gzheng"%}
-{% include figure.html image="images/eboard/harrison.webp" caption="Harrison Thow - Treasurer" link="/members/43hthow"%}
-{% include figure.html image="images/eboard/zilai.webp" caption="Zilai Wang - Secretary" link="/members/30zwang"%}
-{% include figure.html image="images/bros/11ktruong.webp" caption="Kenny Troung - New Member Educator FA23" link="/members/11ktruong"%}
+{% include figure.html image="images/eboard/president.webp" caption="Alex Zhang - President" link="/members/35azhang"%}
+{% include figure.html image="images/eboard/IVP.webp" caption="Ethan Liu - Internal Vice President" link="/members/46eliu"%}
+{% include figure.html image="images/eboard/EVP.webp" caption="Guangzhou Zheng - External Vice President" link="/members/40gzheng"%}
+{% include figure.html image="images/eboard/treasurer.webp" caption="Samuel Miller - Treasurer" link="/members/49smiller"%}
+{% include figure.html image="images/eboard/secretary.webp" caption="Sam Zhang- Secretary" link="/members/27szhang"%}
+{% include figure.html image="images/eboard/educator.webp" caption="Kenny Troung - New Member Educator FA23" link="/members/11ktruong"%}
 
 
 {% endcapture %}
@@ -39,28 +39,9 @@ nav:
 
 {% include grid.html style="square" content=content %}
 
-{%include section.html%} 
-{:.center}
-
-{% include section.html %}
-{:.center}
-## Alpha Class "Akuma Alphas" | SP21
-{:.center}
-**New Member Educator**: Nicholas "Cookin' Mama" Dang
-{:.center}
-**Assistant New Member Educator**: Kenny "SBD" Truong
-{:.center}
-**Class Song**: _The Purge_ by Jay Park 
-{:.center}
-![](https://open.spotify.com/track/1AImhVnSRsY4svcZRAtE5l?si=3114240e97244dcc)
-{:.center}
-**Class Motto**: _"We don't have friends, we have family"_
-{:.center}
-{% include list.html data="members" component="portrait" filters="group: alpha, role: undergrad" %}
-
 {% include section.html %}
 
-{:.center}
+{:.center class = "beta"}
 ## Beta Class "Bushido Betas" | FA21
 {:.center}
 **New Member Educator**: Kenny "M.I.R.I.O" Vo
