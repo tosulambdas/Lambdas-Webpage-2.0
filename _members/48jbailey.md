@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Justin Bailey | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Scottish, Slovakian
 
 Major: Mechanical Engineering
 
 Big Bro: [Joseph "BTΛ" Li](38jli)
 
-[Click here](/ujis/) to view Justin's Lineage!
+

@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Ethan Liu | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese
 
 Major: Architecture
 
 Big Bro: [Dante "uncHEΛRTed" Le](26dle)
 
-[Click here](/ujis/) to view Ethan's Lineage!
+

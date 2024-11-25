@@ -10,11 +10,14 @@ links:
   linkedin: harrison-g-thow
 ---
 
-# Harrison Thow | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Scottish, English
 
 Major: Biochemistry and German
 
 Big Bro: [Kelvin "GOOCHIE MΛNE" Nguyen](25knguyen)
 
-[Click here](/ujis/) to view Harrison's Lineage!
+

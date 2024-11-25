@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# James Li | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese
 
 Major: Chemical Engineering
 
 Big Bro: [Andy "PΛNCHAM" Garcia](18agarcia)
 
-[Click here](/ujis/) to view James' Lineage!
+

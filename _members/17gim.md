@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Gill Im | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Korean
 
 Major: Computer Science and Information
 
 Big Bro: [Alex "Rule 34" Nguyen](05anguyen)
 
-[Click here](/ujis/) to view Gill's Lineage!
+

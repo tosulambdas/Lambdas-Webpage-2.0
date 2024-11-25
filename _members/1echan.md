@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Ethan Chan | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese
 
 Major: Biology
 
 Big Bro: Vinh "Professor X" Vu (OU)
 
-[Click here](/ujis/) to view Ethan's Lineage!
+

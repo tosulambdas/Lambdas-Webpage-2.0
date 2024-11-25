@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Nicholas Dang | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Vietnamese
 
 Major: History
 
 Big Bro: Van "Rerun" Dao (FSU)
 
-[Click here](/ujis/) to view Nicholas' Lineage!
+

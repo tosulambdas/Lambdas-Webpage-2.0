@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Junho Choi | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Korean
 
 Major: Electrical and Computer Engineering
 
 Big Bro: [Yury "ODM" Pozdneev](29ypozdneev)
 
-[Click here](/ujis/) to view Junho's Lineage!
+

@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# William Lim | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Korean
 
 Major: Electrical and Computer Engineering
 
 Big Bro: [Kenny "M.I.R.I.O" Vo](12kvo)
 
-[Click here](/ujis/) to view Will's Lineage!
+

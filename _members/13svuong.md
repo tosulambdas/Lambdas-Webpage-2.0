@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Sonny Vuong | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Vietnamese
 
 Major: Communications
 
 Big Bro: [Ethan "Doc Mc'Stuffin's" Chan](01echan)
 
-[Click here](/ujis/) to view Sonny's Lineage!
+

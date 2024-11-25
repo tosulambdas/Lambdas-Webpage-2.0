@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Guanzhou (GZ) Zheng | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese
 
 Major: Economics
 
 Big Bro: [Jared "NOMΛD" Malto](14jmalto)
 
-[Click here](/ujis/) to view GZ's Lineage!
+

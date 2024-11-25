@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Mark Wang | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese
 
 Major: Psychology
 
 Big Bro: [Hamzah "ΛRETE" Chaudhry](21hchaudhry)
 
-[Click here](/ujis/) to view Mark's Lineage!
+

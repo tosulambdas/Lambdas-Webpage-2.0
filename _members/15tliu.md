@@ -10,11 +10,14 @@ links:
   linkedin: tyler-liu-7756001a6
 ---
 
-# Tyler Liu | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese
 
 Major: Computer Science and Information
 
 Big Bro: [Sean "Wumbo" Dupiano](03sdupiano)
 
-[Click here](/ujis/) to view Tyler's Lineage!
+

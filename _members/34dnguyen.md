@@ -10,7 +10,10 @@ links:
   # linkedin: 
 ---
 
-
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 # Dylan Nguyen | Active
 Ethnicity: Vietnamese
 

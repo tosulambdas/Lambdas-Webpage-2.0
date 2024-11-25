@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Ethan Chau | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese
 
 Major: Aerospace Engineering
 
 Big Bro: [Kenny "SBD" Truong](11ktruong)
 
-[Click here](/ujis/) to view Ethan's Lineage!
+

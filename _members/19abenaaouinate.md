@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Ayoub Benaaouinate | Inactive
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Moroccan
 
 Major: Accounting
 
 Big Bro: [Sean "Wumbo" Dupiano](03sdupiano)
 
-[Click here](/ujis/) to view Ayoub's Lineage!
+

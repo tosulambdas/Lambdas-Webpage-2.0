@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Joshua Amponsah | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Ghanaian
 
 Major: Psychology & Philosophy
 
 Big Bro: [Tagumpay "Pillow Talk" Sison](09tsison)
 
-[Click here](/ujis/) to view Joshua's Lineage!
+

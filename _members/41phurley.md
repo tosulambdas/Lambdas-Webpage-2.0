@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Padraig Hurley | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese & Irish
 
 Major: Physics
 
 Big Bro: [James "NBA CHUNGBOY" Li](24jli)
 
-[Click here](/ujis/) to view Padraig's Lineage!
+

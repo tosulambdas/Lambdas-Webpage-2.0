@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Kristian Janevski | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Macedonian
 
 Major: Molecular Genetics
 
 Big Bro: [Ethan "Doc McStuffin's" Chan](01echan)
 
-[Click here](/ujis/) to view Kristian's Lineage!
+

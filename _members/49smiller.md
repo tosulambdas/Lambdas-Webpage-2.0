@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Samuel Miller | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Korean, German
 
 Major: Finance
 
 Big Bro: [Harrison "VΛPRE" Thow](43hthow)
 
-[Click here](/ujis/) to view Samuel's Lineage!
+

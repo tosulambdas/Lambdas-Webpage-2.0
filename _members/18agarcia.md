@@ -10,11 +10,13 @@ links:
   # linkedin: 
 ---
 
-# Andy Garcia | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+
 Ethnicity: Filipino
 
 Major: Human Development Family Science
 
 Big Bro: [Jerry "Brock" Ta](10jta)
 
-[Click here](/ujis/) to view Andy's Lineage!

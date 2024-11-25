@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Tagumpay Sison | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Filipino
 
 Major: Air Transportation
 
 Big Bro: Nic "Freestyle" Marchini (UConn)
 
-[Click here](/ujis/) to view Sean's Lineage!
+

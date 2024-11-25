@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Sam Zhang | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese
 
 Major: Computer Science & Engineering
 
 Big Bro: [Alex "Rule 34" Nguyen](05anguyen)
 
-[Click here](/ujis/) to view Sam's Lineage!
+

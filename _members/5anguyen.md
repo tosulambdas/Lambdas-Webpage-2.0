@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Alex Nguyen | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Vietnamese
 
 Major: Computer Information Science
 
 Big Bro: Mark "Big Daddy" Lacanilao (BU)
 
-[Click here](/ujis/) to view Alex's Lineage!
+

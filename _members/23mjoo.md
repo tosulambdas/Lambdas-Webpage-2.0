@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Michael Joo | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Korean
 
 Major: Psychology
 
 Big Bro: [Trace "¿Winnie the Who?" Nguyen](07tnguyen)
 
-[Click here](/ujis/) to view Michael's Lineage!
+

@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Alex Chiu | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Thai, Taiwanese,Chinese
 
 Major: Chemical Engineering
 
 Big Bro: [Tyler "Re:Zerø" Liu ](15tliu)
 
-[Click here](/ujis/) to view Alex's Lineage!
+

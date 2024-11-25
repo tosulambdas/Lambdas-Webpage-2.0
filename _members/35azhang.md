@@ -10,11 +10,14 @@ links:
   linkedin: alex-zhang-214a56216
 ---
 
-# Alex Zhang | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese
 
 Major: Computer Science & Engineering
 
 Big Bro: [Zilai "SEKKI" Wang](30zwang)
 
-[Click here](/ujis/) to view Alex's Lineage!
+

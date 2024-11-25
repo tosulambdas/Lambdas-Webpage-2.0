@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Joseph Li | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese
 
 Major: Biomedical Engineering
 
 Big Bro: [Andy "PΛNCHAM" Garcia](18agarcia)
 
-[Click here](/ujis/) to view Joe's Lineage!
+

@@ -10,11 +10,14 @@ links:
   linkedin: jaredmalto
 ---
 
-# Jared Malto | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese & Filipino
 
 Major: Computer Information Science
 
 Big Bro: [Wesley "Phony Hawk" Nguyen](08wnguyen)
 
-[Click here](/ujis/) to view Jared's Lineage!
+

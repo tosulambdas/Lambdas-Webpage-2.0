@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Sean Dupiano | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Filipino
 
 Major: Finance
 
 Big Bro: James "proMEtheus" Kim (UMBC)
 
-[Click here](/ujis/) to view Sean's Lineage!
+

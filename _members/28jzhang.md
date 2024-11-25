@@ -10,11 +10,14 @@ links:
   linkedin: jason-zhang-89715a1a0
 ---
 
-# Jason Zhang | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese
 
 Major: Finance & Data Analytics
 
 Big Bro: [Alex "REYN" Chiu](22achiu)
 
-[Click here](/ujis/) to view Jason's Lineage!
+

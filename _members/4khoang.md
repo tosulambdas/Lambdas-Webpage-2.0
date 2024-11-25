@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Kent Hoang | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Vietnamese
 
 Major: Computer Science and Engineering
 
 Big Bro: Quang "Rodin" Bui (UMBC)
 
-[Click here](/ujis/) to view Kent's Lineage!
+

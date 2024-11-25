@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Zilai Wang | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Chinese
 
 Major: Chemial & Biomolecular Engineering
 
 Big Bro: [Alex "REYN" Chiu](22achiu)
 
-[Click here](/ujis/) to view Zilai's Lineage!
+

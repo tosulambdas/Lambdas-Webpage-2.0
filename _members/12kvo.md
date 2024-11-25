@@ -10,11 +10,14 @@ links:
   linkedin: hien-vo-379a21159
 ---
 
-# Hien (Kenny) Vo | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Vietnamese
 
 Major: Chemical and Biomolecular Engineering
 
 Big Bro: Quang "Rodin" Bui (UMBC)
 
-[Click here](/ujis/) to view Kenny's Lineage!
+

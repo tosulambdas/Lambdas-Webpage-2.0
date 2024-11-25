@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Verich Luu | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Vietnamese, Thai
 
 Major: Computer Science & Engineering
 
 Big Bro: [Michael "ΛLGORHYTHM" Joo](23mjoo)
 
-[Click here](/ujis/) to view Verich's Lineage!
+

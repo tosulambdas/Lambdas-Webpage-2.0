@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Jerry Ta | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Vietnamese
 
 Major: Architechture
 
 Big Bro: Michael "Braveheart" Hsu (UBuff)
 
-[Click here](/ujis/) to view Jerry's Lineage!
+

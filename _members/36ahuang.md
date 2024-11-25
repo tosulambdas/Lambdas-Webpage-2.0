@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Adam Huang | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Taiwanese
 
 Major: Information Systems
 
 Big Bro: [William "E.S.C.A.N.O.R" Lim](32wlim)
 
-[Click here](/ujis/) to view Adam's Lineage!
+

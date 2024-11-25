@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Trace Nguyen | Alumnus
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Vietnamese
 
 Major: Mechanical Engineering
 
 Big Bro: Nic "Freestyle" Marchini (UConn)
 
-[Click here](/ujis/) to view Trace's Lineage!
+

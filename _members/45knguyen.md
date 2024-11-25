@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Kyle Nguyen | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Vietnamese, European
 
 Major: Finance
 
 Big Bro: [Ethan "ΛERO" Chau](20echau)
 
-[Click here](/ujis/) to view Kyle's Lineage!
+

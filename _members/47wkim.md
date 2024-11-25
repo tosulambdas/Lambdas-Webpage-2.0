@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Woojae Kim | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Korean
 
 Major: Electrical & Computer Engineering
 
 Big Bro: [Kenny "M.I.R.I.O" Vo](12kvo)
 
-[Click here](/ujis/) to view Woojae's Lineage!
+

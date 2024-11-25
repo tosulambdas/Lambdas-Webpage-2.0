@@ -10,11 +10,14 @@ links:
   # linkedin: 
 ---
 
-# Yury Pozdneev | Active
+# {{ page.name }} | {{ page.role }} 
+    
+## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+    
 Ethnicity: Russian
 
 Major: Computer Science & Engineering
 
 Big Bro: [Alex "Rule 34" Nguyen](05anguyen)
 
-[Click here](/ujis/) to view Sam's Lineage!
+
