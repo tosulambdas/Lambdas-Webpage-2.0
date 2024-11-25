@@ -1,7 +1,107 @@
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
-  <head>
+    <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&amp;display=swap" rel="stylesheet">
+
+    
+    
+        <style>
+            :root{
+                font-family: "Roboto Slab", serif;
+                --imagesize: 8rem
+            }
+          .nested-btn {
+            padding: 8px 12px;
+            margin: 4px 0;
+            cursor: pointer;
+            background-color: darkgray;
+            color: white;
+            border: none;
+            border-radius: 1rem;
+            width: fit-content;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.25s ease-in-out;
+          }
+
+          .nested-btn img{
+            display: block;
+            object-fit: contain; 
+            width: var(--imagesize);
+            height: var(--imagesize);
+          }
+
+          .nested-btn span{
+            padding-top: 3%;
+            font-family: "Roboto Slab";
+          }
+
+          .nested-btn.visible{
+            opacity:1;
+          }
+  
+          .nested-container {
+              margin-left: 2rem;
+              display: flex;
+              flex-direction: column;
+          }
+  
+          .nested-container.active {
+              display: flex;
+          }
+  
+          .main-container{
+              display: grid;
+              grid-template-columns: 50% auto;
+          }
+  
+          .tree-container{
+              display: flex;
+              padding-left: 50%;
+              align-items: flex-start;
+          }
+  
+          .side-menu{
+              position: fixed;
+              top: 10%;
+              left: 0;
+              height: 100%; 
+              width: 100%; 
+              padding: 20px; 
+              padding-left: 30%;
+              display: flexbox;
+              flex-direction: column;
+              gap: 10px;
+              color: black;
+          }
+  
+
+          .side-menu button {
+              width: 100%;
+              padding: 15px;
+              color: black;
+              background-color: transparent;
+              border: none;
+              cursor: pointer;
+              font-size: 1rem;
+              font-family: "Roboto Slab", serif;
+              text-align: left; /* Align text to the left */
+              transition: font-size 0.3s ease, color 0.3s ease; 
+          }
+  
+          .side-menu button:hover {
+            font-size: 1.2rem;
+            color: royalblue;
+          }
+  
+      </style>
+    
+    
   <!--
   put your analytics (e.g. Google Analytics) tracking code here
 -->
@@ -364,10 +464,11 @@
   <script src="/_scripts/traditoin-image-gallery.js"></script>
 
 
-</head>
 
-  <body>
-    
+
+    </head>
+<body>
+        
 
 
 
@@ -496,92 +597,192 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </nav>
 </header>
 
-    <main>
-        <style>
-        #tree{
-        width:100%;
-        height:100%;
-        }
-        </style>
-        <script src="/_scripts/orgchart.js"></script>
-        
-        <div style="width:100%; height:700px;" id="tree"></div>
-        
+        <main style="height: 0;">
+            <div class="main-container">
+                <div class="side-menu">
+                    <button onclick="toggleLineage(1)">Ethan Chan</button>
+                    <button onclick="toggleLineage(2)">Nicholas Dang</button>
+                    <button onclick="toggleLineage(3)">Sean Dupiano</button>
+                    <button onclick="toggleLineage(4)">Kent Hoang</button>
+                    <button onclick="toggleLineage(5)">Alex Nguyen</button>
+                    <button onclick="toggleLineage(7)">Trace Nguyen</button>
+                    <button onclick="toggleLineage(8)">Wesley Nguyen</button>
+                    <button onclick="toggleLineage(9)">Tagumpay Sison</button>
+                    <button onclick="toggleLineage(10)">Jerry Ta</button>
+                    <button onclick="toggleLineage(11)">Kenny Truong</button>
+                    <button onclick="toggleLineage(12)">Kenny Vo</button>
+                </div>
+                <div class="tree-container">
+                    <div class="nested-container" id="root" style="padding-left:50%; padding-top:1rem">
+                        <button class="nested-btn visible" id="btn0">
+                            <img src="/images/icon.png" alt="The logo of The Associate Chapter of Lambda Phi Epsilon">
+                            <span>
+                                The Associate Chapter of Lambda Phi Epsilon
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
         <script>
-            var chart = new OrgChart(document.getElementById("tree"), {
-            nodeMouseClick: OrgChart.action.none,
-            template: "rony",
-            lazyLoading: false,
-            toolbar: {
-            layout: false,
-            zoom: true,
-            fit: true,
-            expandAll: true
-            },
-            showXScroll: OrgChart.scroll.visible,
-            layout: OrgChart.tree,
-            scaleInitial: OrgChart.match.height,
-            enableSearch: false,
-            mouseScrool: OrgChart.action.none,
-            nodeBinding: {
-                field_0: "name",
-                field_1: "numbernick",
-                field_2: "class",
-                field_3: "link",
-                img_0: "img"
-            },
-            nodes: [
-                { id: 0, name: "Associate Chapter", img: "../../images/icon.png" },
-                { id: 1, pid: 0, name: "Ethan Chan", numbernick: "#1 \"\Doc McStuffins\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/1echan.webp", link: "members/01echan.html" },
-                { id: 2, pid: 0, name: "Nicholas Dang", numbernick: "#2 \"\Cookin' Mama\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/2ndang.webp" },
-                { id: 3, pid: 0, name: "Sean Dupiano", numbernick: "3 \"\Wumbo\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/3sdupiano.webp" },
-                { id: 4, pid: 0, name: "Kent Hoang", numbernick: "#4 \"\Thunderclap\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/4khoang.webp" },
-                { id: 5, pid: 0, name: "Alex Nguyen", numbernick: "#5 \"\Rule 34\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/5anguyen.webp" },
-                { id: 7, pid: 0, name: "Trace Nguyen", numbernick: "#7 \"\¿Winnie the Who?\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/7tnguyen.webp" },
-                { id: 8, pid: 0, name: "Wesley Nguyen", numbernick: "#8 \"\Phony Hawk\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/8wnguyen.webp" },
-                { id: 9, pid: 0, name: "Tagumpay Sison", numbernick: "#9 \"\Pillowtalk\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/09tsison.webp" },
-                { id: 10, pid: 0, name: "Jerry Ta", numbernick: "#10 \"\Brock\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/10jta.webp" },
-                { id: 11, pid: 0, name: "Kenny Truong", numbernick: "#11 \"\SBD\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/11ktruong.webp" },
-                { id: 12, pid: 0, name: "Kenny Vo", numbernick: "#12 \"\M.I.R.I.O\"\ ", class: "Charter Class \|\ SP20", img: "../../images/bros/12kvo.webp" },
-                { id: 13, pid: 1, name: "Sonny Vuong", numbernick: "#13 \"\CASΛNOVA\"\ ", class: "Alpha Class \|\ SP21", img: "../../images/bros/13svuong.webp" },
-                { id: 14, pid: 8, name: "Jared Malto", numbernick: "#14 \"\NOMΛD\"\ ", class: "Alpha Class \|\ SP21", img: "../../images/bros/14jmalto.webp" },
-                { id: 15, pid: 3, name: "Tyler Liu", numbernick: "15 \"\Re:Zerø\"\ ", class: "Alpha Class \|\ SP21", img: "../../images/bros/15tliu.webp" },
-                { id: 16, pid: 9, name: "Joshua Amponsah", numbernick: "#16 \"\Zoro\"\ ", class: "Alpha Class \|\ SP21", img: "../../images/bros/16jamponsah.webp" },
-                { id: 17, pid: 5, name: "Gill Im", numbernick: "#17 \"\KILLUΛ\"\ ", class: "Alpha Class \|\ SP21", img: "../../images/bros/17gim.webp"},
-                { id: 18, pid: 10, name: "Andy Garcia", numbernick: "#18 \"\PΛNCHAM\"\ ", class: "Alpha Class \|\ SP21", img: "../../images/bros/18agarcia.webp" },
-                { id: 19, pid: 3, name: "Ayoub Benaaouinate", numbernick: "#19 \"\PLUTUS\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/19abenaaouinate.webp" },
-                { id: 20, pid: 11, name: "Ethan Chau", numbernick: "#20 \"\ΛERO\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/20echau.webp" },
-                { id: 21, pid: 8, name: "Hamzah Chaudhry", numbernick: "#21 \"\ΛRETE\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/21hchaudhry.webp" },
-                { id: 22, pid: 15, name: "Alex Chiu", numbernick: "#22 \"\REYN\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/22achiu.webp" },
-                { id: 23, pid: 7, name: "Michael Joo", numbernick: "#23 \"\ΛLGORYTHM\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/23mjoo.webp" },
-                { id: 24, pid: 18, name: "James Li", numbernick: "#24 \"\NBA CHUNGBOY\"\ ", class: "Beta Class \|\ FA21", img: "../../images/bros/24jli.webp" },
-                { id: 26, pid: 7, name: "Dante Le", numbernick: "#26 \"uncHEΛRTed\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/26dle.webp" },
-                { id: 27, pid: 5, name: "Sam Zhang", numbernick: "#27 \"\MIRΛI\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/27szhang.webp" },
-                { id: 28, pid: 22, name: "Jason Zhang", numbernick: "#28 \"\MONΛRCH\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/28jzhang.webp" },
-                { id: 29, pid: 5, name: "Yury Pozdneev", numbernick: "#29 \"\ODM\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/29ypozdneev.webp" },
-                { id: 30, pid: 22, name: "Zilai Wang", numbernick: "#30 \"\SEKKI\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/30zwang.webp" },
-                { id: 31, pid: 21, name: "Mark Wang", numbernick: "#31 \"\T. LΛW\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/31mwang.webp" },
-                { id: 32, pid: 12, name: "William Lim", numbernick: "#32 \"\E.S.C.A.N.O.R\"\ ", class: "Gamma Class \|\ SP22", img: "../../images/bros/32wlim.webp" },
-                { id: 33, pid: 29, name: "Junho Choi", numbernick: "#33 \"\MΛLPHON\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/33jchoi.webp" },
-                { id: 35, pid: 30, name: "Alex Zhang", numbernick: "#35 \"\CHIKΛ\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/35azhang.webp" },
-                { id: 36, pid: 32, name: "Adam Shao-Hsuan Huang", numbernick: "#36 \"\Λ.S.T.A\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/36ahuang.webp" },
-                { id: 37, pid: 1, name: "Kristian Janevski", numbernick: "#37 \"\MESSIDONIΛ\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/37kjanevski.webp" },
-                { id: 38, pid: 18, name: "Joseph Li", numbernick: "#38 \"\BTΛ\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/38jli.webp" },
-                { id: 39, pid: 22, name: "Matthew Gong", numbernick: "#39 \"\iMΛJINe\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/39mgong.webp" },
-                { id: 40, pid: 14, name: "Guanzhou Zheng", numbernick: "#40 \"\STEEZY\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/40gz.webp" },
-                { id: 41, pid: 24, name: "Padraig Hurley", numbernick: "#41 \"\ΛSTRO\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/41phurley.webp" },
-                { id: 42, pid: 27, name: "Jerry Meng", numbernick: "#42 \"\JOΛT\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/42jmeng.webp" },
-                { id: 43, pid: 13, name: "Harrison Thow", numbernick: "#43 \"\VΛPRE\"\ ", class: "Delta Class \|\ SP23", img: "../../images/bros/43hthow.webp" },
-                { id: 44, pid: 23, name: "Verich Luu", numbernick: "#44 \"\ΛPOLLO\"\ ", class: "Epsilon Class \|\ FA23", img: "../../images/bros/44vluu.webp" },
-                { id: 45, pid: 20, name: "Kyle Nguyen", numbernick: "#45 \"\PIONEER\"\ ", class: "Epsilon Class \|\ FA23", img: "../../images/bros/45knguyen.webp" },
-                { id: 46, pid: 26, name: "Ethan Liu", numbernick: "#46 \"\DΛ VINCI\"\ ", class: "Epsilon Class \|\ FA23", img: "../../images/bros/46eliu.webp" },
-                { id: 47, pid: 12, name: "Woojae Kim", numbernick: "#47 \"\H.Y.U.G.A\"\ ", class: "Epsilon Class \|\ FA23", img: "../../images/bros/47wkim.webp" },
-                { id: 48, pid: 38, name: "Justin Bailey", numbernick: "#48 \"\YUSUKE\"\ ", class: "Epsilon Class \|\ FA23", img: "../../images/bros/48jbailey.webp" },
-                { id: 49, pid: 43, name: "Samuel Miller", numbernick: "#49 \"\HIM-CHΛN\"\ ", class: "Epsilon Class \|\ FA23", img: "../../images/bros/49smiller.webp" },
-        ]
-        });
-        </script>
-    </main>
+
+        let Uji= [
+        { id: 1, pid: 0, name: "Ethan Chan", numberNick: "Doc McStuffins", class: "Charter Class | SP20" },
+        { id: 2, pid: 0, name: "Nicholas Dang", numberNick: "Cookin' Mama", class: "Charter Class | SP20" },
+        { id: 3, pid: 0, name: "Sean Dupiano", numberNick: "Wumbo", class: "Charter Class | SP20" },
+        { id: 4, pid: 0, name: "Kent Hoang", numberNick: "Thunderclap", class: "Charter Class | SP20" },
+        { id: 5, pid: 0, name: "Alex Nguyen", numberNick: "Rule 34", class: "Charter Class | SP20" },
+        { id: 7, pid: 0, name: "Trace Nguyen", numberNick: "¿Winnie the Who?", class: "Charter Class | SP20" },
+        { id: 8, pid: 0, name: "Wesley Nguyen", numberNick: "Phony Hawk", class: "Charter Class | SP20" },
+        { id: 9, pid: 0, name: "Tagumpay Sison", numberNick: "Pillowtalk", class: "Charter Class | SP20" },
+        { id: 10, pid: 0, name: "Jerry Ta", numberNick: "Brock", class: "Charter Class | SP20" },
+        { id: 11, pid: 0, name: "Kenny Truong", numberNick: "SBD", class: "Charter Class | SP20" },
+        { id: 12, pid: 0, name: "Kenny Vo", numberNick: "M.I.R.I.O", class: "Charter Class | SP20" },
+        { id: 13, pid: 1, name: "Sonny Vuong", numberNick: "CASΛNOVA", class: "Alpha Class | SP21" },
+        { id: 14, pid: 8, name: "Jared Malto", numberNick: "NOMΛD", class: "Alpha Class | SP21" },
+        { id: 15, pid: 3, name: "Tyler Liu", numberNick: "Re:Zerø", class: "Alpha Class | SP21" },
+        { id: 16, pid: 9, name: "Joshua Amponsah", numberNick: "Zoro", class: "Alpha Class | SP21" },
+        { id: 17, pid: 5, name: "Gill Im", numberNick: "KILLUΛ", class: "Alpha Class | SP21" },
+        { id: 18, pid: 10, name: "Andy Garcia", numberNick: "PΛNCHAM", class: "Alpha Class | SP21" },
+        { id: 19, pid: 3, name: "Ayoub Benaaouinate", numberNick: "PLUTUS", class: "Beta Class | FA21" },
+        { id: 20, pid: 11, name: "Ethan Chau", numberNick: "ΛERO", class: "Beta Class | FA21" },
+        { id: 21, pid: 8, name: "Hamzah Chaudhry", numberNick: "ΛRETE", class: "Beta Class | FA21" },
+        { id: 22, pid: 15, name: "Alex Chiu", numberNick: "REYN", class: "Beta Class | FA21" },
+        { id: 23, pid: 7, name: "Michael Joo", numberNick: "ΛLGORYTHM", class: "Beta Class | FA21" },
+        { id: 24, pid: 18, name: "James Li", numberNick: "NBA CHUNGBOY", class: "Beta Class | FA21" },
+        { id: 26, pid: 7, name: "Dante Le", numberNick: "uncHEΛRTed", class: "Gamma Class | SP22" },
+        { id: 27, pid: 5, name: "Sam Zhang", numberNick: "MIRΛI", class: "Gamma Class | SP22" },
+        { id: 28, pid: 22, name: "Jason Zhang", numberNick: "MONΛRCH", class: "Gamma Class | SP22" },
+        { id: 29, pid: 5, name: "Yury Pozdneev", numberNick: "ODM", class: "Gamma Class | SP22" },
+        { id: 30, pid: 22, name: "Zilai Wang", numberNick: "SEKKI", class: "Gamma Class | SP22" },
+        { id: 31, pid: 21, name: "Mark Wang", numberNick: "T. LΛW", class: "Gamma Class | SP22" },
+        { id: 32, pid: 12, name: "William Lim", numberNick: "E.S.C.A.N.O.R", class: "Gamma Class | SP22" },
+        { id: 33, pid: 29, name: "Junho Choi", numberNick: "MΛLPHON", class: "Delta Class | SP23" },
+        { id: 35, pid: 30, name: "Alex Zhang", numberNick: "CHIKΛ", class: "Delta Class | SP23" },
+        { id: 36, pid: 32, name: "Adam Shao-Hsuan Huang", numberNick: "Λ.S.T.A", class: "Delta Class | SP23" },
+        { id: 37, pid: 1, name: "Kristian Janevski", numberNick: "MESSIDONIΛ", class: "Delta Class | SP23" },
+        { id: 38, pid: 18, name: "Joseph Li", numberNick: "BTΛ", class: "Delta Class | SP23" },
+        { id: 39, pid: 22, name: "Matthew Gong", numberNick: "iMΛJINe", class: "Delta Class | SP23" },
+        { id: 40, pid: 14, name: "Guanzhou Zheng", numberNick: "STEEZY", class: "Delta Class | SP23" },
+        { id: 41, pid: 24, name: "Padraig Hurley", numberNick: "ΛSTRO", class: "Delta Class | SP23" },
+        { id: 42, pid: 27, name: "Jerry Meng", numberNick: "JOΛT", class: "Delta Class | SP23" },
+        { id: 43, pid: 13, name: "Harrison Thow", numberNick: "VΛPRE", class: "Delta Class | SP23" },
+        { id: 44, pid: 23, name: "Verich Luu", numberNick: "ΛPOLLO", class: "Epsilon Class | FA23" },
+        { id: 45, pid: 20, name: "Kyle Nguyen", numberNick: "PIONEER", class: "Epsilon Class | FA23" },
+        { id: 46, pid: 26, name: "Ethan Liu", numberNick: "DΛ VINCI", class: "Epsilon Class | FA23" },
+        { id: 47, pid: 12, name: "Woojae Kim", numberNick: "H.Y.U.G.A", class: "Epsilon Class | FA23" },
+        { id: 48, pid: 38, name: "Justin Bailey", numberNick: "YUSUKE", class: "Epsilon Class | FA23" },
+        { id: 49, pid: 43, name: "Samuel Miller", numberNick: "HIM-CHΛN", class: "Epsilon Class | FA23" }
+        ];
+        
+        // unused
+        function scrollToChild(id){
+            document.getElementById(id).scrollIntoView(true);
+        }
+
+        function generateUji(){
+            Uji.forEach(item =>{
+                if(item.id != 0){
+                    let code = item.id + item.name.substr(0,1).toLowerCase() + item.name.substr(item.name.lastIndexOf(" ")+1, item.name.length).toLowerCase();
+                    item.img = "../../images/bros/" + code+".webp";
+                    item.link = "../../members/" + code;                
+                }
+            });
+        }
+        
+        function toggleLineage(pid) {
+
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+
+            const allButtons = document.querySelectorAll(".nested-btn");
+
+            console.log(allButtons);
+              
+            allButtons.forEach(button => {
+                if(button.id != "btn0"){
+                    let buttonId = button.id;
+                    let numId = parseInt(buttonId.substr(buttonId.lastIndexOf("n")+1, buttonId.length),10);
+                    if (isDescendant(pid, numId)) {
+                        button.style.display = "flex"; // Ensure the button is displayed as a flex container
+                        setTimeout(() => {
+                            button.classList.add('visible');
+                        }, 10); // Small timeout to allow the display to take effect before fading in
+                    } else {
+                        button.classList.remove('visible');
+                        setTimeout(() => {
+                            button.style.display = "none";
+                        }, 10); // Match the duration of the fade-out animation
+                    }
+                }
+            });
+        }
+
+        function isDescendant(pid, id) {
+            if(pid==id){return true;}
+            function findChildren(currentPid) {
+                return Uji.filter(item => item.pid === currentPid).map(child => child.id);
+            }
+            function checkDescendant(currentPid) {
+                const children = findChildren(currentPid);
+                if (children.includes(id)) return true;
+                return children.some(child => checkDescendant(child));
+            }
+            return checkDescendant(pid);
+        }
+
+        function generateButtons(items, parentId) {
+            let container = document.getElementById(parentId);
+            if (parentId === 0) {
+                container = document.getElementById("root");
+            }
+        
+            items.filter(item => item.pid === parentId).forEach(item => {
+              let button = document.createElement("button");
+              button.className = "nested-btn";
+              button.id = "btn"+item.id;       
+
+              let pic = document.createElement("img");
+              pic.src = item.img;
+              pic.alt = item.name;
+              button.appendChild(pic);
+
+              let name = document.createElement("span");
+              name.textContent = item.name.substr(0, item.name.lastIndexOf(" ")) + " \"" + item.numberNick + "\" " + item.name.substr(item.name.lastIndexOf(" "),item.name.length+1);
+              button.appendChild(name);
+
+              let yearJoin = document.createElement("span");
+              yearJoin.textContent = item.class;
+              button.appendChild(yearJoin);
+
+              button.addEventListener('click', () => {
+                window.open(item.link);
+              });
+
+              button.classList.add('visible');
+
+              container.appendChild(button);
+  
+              let childContainer = document.createElement("div");
+              childContainer.className = "nested-container";
+              childContainer.id = item.id;
+              container.appendChild(childContainer);
+  
+              generateButtons(items, item.id);
+            });
+            return container;
+        }
+        
+        generateUji();
+        document.body.appendChild(generateButtons(Uji,0));
+
+    </script>
+
+    </body>
     
 
 
@@ -649,5 +850,4 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
-  </body>
 </html>
