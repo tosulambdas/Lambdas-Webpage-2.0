@@ -1,6 +1,6 @@
 ---
 name: Tagumpay Sison
-image: images/bros/09tsison.webp
+image: images/bros/9tsison.webp
 role: alumni
 group: charter
 description: "#9 'Pillowtalk'"
