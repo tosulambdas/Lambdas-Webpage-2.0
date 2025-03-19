@@ -1,5 +1,5 @@
 ---
-title: Brotherhood Trivia
+title: Hot Chocolate & Board Games
 layout: default
 ---
 

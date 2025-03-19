@@ -1,5 +1,5 @@
 ---
-title: Thrifting
+title: Paper Planes
 layout: default
 ---
 

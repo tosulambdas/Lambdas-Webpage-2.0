@@ -1,5 +1,5 @@
 ---
-title: Casino Night
+title: 90's Squid Games
 layout: default
 ---
 {% include rush-poster.html image="/images/rush/Event3.webp" time="8/27 7-9 PM" location="Enarson room 254"%}

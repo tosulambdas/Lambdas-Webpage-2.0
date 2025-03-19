@@ -1,5 +1,5 @@
 ---
-title: General Interest Meeting 1
+title: General Interest Meeting
 layout: default
 ---
 

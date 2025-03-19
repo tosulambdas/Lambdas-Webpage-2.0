@@ -1,9 +1,9 @@
 ---
-title: TShirt Painting Collaboration Event with APsi
+title: Murder Mystery w/DPhiL
 layout: default
 ---
 
-{% include rush-poster.html image="/images/rush/Collab1.webp" time="8/22 6:30 - 8 PM" location="Hayes Cape Room"%}
+{% include rush-poster.html image="/images/rush/Collab1.webp" time="1/9 7 - 9 PM" location="Blackburn, Victory Room"%}
 
 {% include section.html %}
 
