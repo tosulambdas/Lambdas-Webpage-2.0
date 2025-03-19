@@ -16,6 +16,7 @@ links:
     
 Ethnicity: Chinese
 
-Major: Psychology
+Major: World Politics and Philosophy
+Minor: Dance
 
 Big Bro: [Guanzhou "STEEZY" Zheng](40gzheng)

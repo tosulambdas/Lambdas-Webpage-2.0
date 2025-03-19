@@ -16,6 +16,6 @@ links:
     
 Ethnicity: Viet
 
-Major: Biology
+Major: Biochemistry
 
 Big Bro: [Kristian "MESSIDONIΛ" Janevski](37kjanevski)

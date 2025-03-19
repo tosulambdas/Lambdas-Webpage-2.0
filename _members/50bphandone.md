@@ -16,6 +16,7 @@ links:
     
 Ethnicity: Laos
 
-Major: Biology
+Major: Health Sciences
+Minor: Pharmaceutical science
 
 Big Bro: [Verich "ΛPOLLO" LUU](44vluu)

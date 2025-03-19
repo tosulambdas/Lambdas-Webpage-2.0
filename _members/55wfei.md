@@ -16,6 +16,6 @@ links:
     
 Ethnicity: Chinese
 
-Major: Engineering
+Major: Industrial Systems Engineering
 
 Big Bro: [Guanzhou "STEEZY" Zheng](40gzheng)
