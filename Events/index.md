@@ -19,6 +19,10 @@ Welcome to the vibrant world of Lambda Phi Epsilon! Our fraternity takes pride i
 
 <!-- {% include list.html data="posts" component="post-excerpt" %} -->
 
+### Reveal
+
+{% include list.html component="card" data="events" filters="group: reveal" %}
+
 
 ## Highlight
 

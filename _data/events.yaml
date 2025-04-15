@@ -36,3 +36,61 @@
   image: images/events/SP24/SP24 VSA Culture show.webp
   link: events/pages/SP24-VSA_Culture_show
   description: Showcasing the 25th Annual Culture Show Act, Boy’s Fan! 🔥
+
+#Reveals
+
+- title: Eta Class Reveal
+  subtitle: Watch the reveal of the SP24 Eta Class!
+  group: reveal
+  image: images/media/etas.webp
+  link: media/pages/etas
+  description: The latest class to cross into eternal brotherhood! Meet the Eternal Etas!
+
+- title: Zeta Class Reveal
+  subtitle: Watch the reveal of the AU24 Zeta Class!
+  group: reveal
+  image: images/media/zetas.webp
+  link: media/pages/zetas
+  description: The latest class to cross into eternal brotherhood! Meet the Zodiac Zetas!
+
+- title: Epsilon Class Reveal
+  subtitle: Watch the reveal of the AU23 Epsilon Class!
+  group: reveal
+  image: images/media/epsilons.webp
+  link: media/pages/epsilons
+  description: The latest class to cross into eternal brotherhood! Meet the Empyreal Epsilons!
+
+- title: Delta Class Reveal
+  subtitle: Watch the reveal of the SP23 Delta Class!
+  group: reveal
+  image: images/media/deltas.webp
+  link: media/pages/deltas
+  description: The SP23 class to cross into eternal brotherhood! Meet the (largest) class since the Twelve Tenshi! The Dai-Ichi Deltas!
+
+- title: Gamma Class Reveal
+  subtitle: Watch the reveal of the SP22 Gamma Class!
+  group: reveal
+  image: images/media/gammas.webp
+  link: media/pages/gammas
+  description: The Genjistu Gammas are here and ready to reveal themselves! These men have worked long and hard to become true leaders among men!
+
+- title: Beta Class Reveal
+  subtitle: Watch the reveal of the FA21 Beta Class!
+  group: reveal
+  image: images/media/betas.webp
+  link: media/pages/betas
+  description: The Bushido Betas are here and ready to reveal themselves! These men have worked long and hard to become true leaders among men!
+ 
+- title: Alpha Class Reveal
+  subtitle: Watch the reveal of the SP21 Alpha Class!
+  group: reveal
+  image: images/media/alphas.webp
+  link: media/pages/alphas
+  description: The Akuma Alphas are here and ready to reveal themselves! These men have worked long and hard to become true leaders among men!
+ 
+- title: Charter Class Reveal
+  subtitle: Watch the reveal of the SP20 Charter Class!
+  group: reveal
+  image: images/media/charters.webp
+  link: media/pages/charters
+  description: The Twelve Tenshi are here and ready to reveal themselves! These men have worked long and hard to become true leaders among men!

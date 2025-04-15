@@ -29,12 +29,15 @@ nav:
 <h2>Looking for a specific class?</h2>
 
 {% capture content %}
+{:.small-text}
 {% include figure.html image="images/media/charters.webp" caption="Charter Class - Twelve Tenshi" link="/ah/charters/" %}
 {% include figure.html image="images/media/alphas.webp" caption="Alpha Class - Akuma Alphas" link="/ah/alphas/" %}
 {% include figure.html image="images/media/betas.webp" caption="Beta Class - Bushido Betas" link="/ah/betas/" %}
 {% include figure.html image="images/media/gammas.webp" caption="Gamma Class - Genjitsu Gammas" link="/ah/gammas/" %}
 {% include figure.html image="images/media/deltas.webp" caption="Delta Class - Dai-Ichi Deltas" link="/ah/deltas/" %}
 {% include figure.html image="images/media/epsilons.webp" caption="Epsilon Class - Empyreal Epsilons" link="/ah/epsilons/" %}
+{% include figure.html image="images/media/zetas.webp" caption="Zeta Class - Zodiac Zetas" link="/ah/zetas/" %}
+{% include figure.html image="images/media/etas.webp" caption="Eta Class - Eternal Etas" link="/ah/etas/" %}
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
@@ -106,3 +109,39 @@ nav:
 **Class Motto**: _"The past is history, the future is a mystery, but today is a gift, that's why it's called the present."_
 {:.center}
 {% include list.html data="members" component="portrait" filters="group: epsilon, role: undergrad" %}
+
+{% include section.html %}
+
+{:.center}
+## Epsilon Class "Zodiac Zetas" | FA24
+{:.center}
+**New Member Educator**: Hamzah “ΛRETE” Chaudhry
+{:.center}
+**Assistant New Member Educator**: Ayoub “PLUTUS” Benaaouinate
+{:.center}
+**Class Song**: _All In the Stars_ by KENDRICK LAMAR & SZA 
+{:.center}
+![](https://open.spotify.com/track/66kQ7wr4d2LwwSjr7HXcyr?si=cd8973844be043e2)
+{:.center}
+**Class Motto**: _"Throughout heaven and earth, we alone are the honored ones."_
+{:.center}
+{% include list.html data="members" component="portrait" filters="group: zeta" %}
+
+{% include section.html %}
+{:.center}
+
+
+## Eta Class "Eternal Etas" | SP24
+{:.center}
+**New Member Educator**: Yury "ODM" Pozdneev
+{:.center}
+**Class Song**: _All In the Stars_ by KENDRICK LAMAR & SZA 
+{:.center}
+![](https://open.spotify.com/track/66kQ7wr4d2LwwSjr7HXcyr?si=cd8973844be043e2)
+{:.center}
+**Class Motto**: _"Throughout heaven and earth, we alone are the honored ones."_
+{:.center}
+{% include list.html data="members" component="portrait" filters="group: eta" %}
+
+{% include section.html %}
+{:.center}
