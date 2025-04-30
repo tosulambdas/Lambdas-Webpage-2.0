@@ -1,7 +1,7 @@
 ---
 name: Verich Luu
 image: images/bros/44vluu.webp
-role: undergrad
+role: alumni
 group: epsilon
 description: "#44 'ΛPOLLO'"
 links:

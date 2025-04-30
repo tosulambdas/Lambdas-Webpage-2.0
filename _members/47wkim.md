@@ -1,7 +1,7 @@
 ---
 name: Woojae Kim
 image: images/bros/47wkim.webp
-role: inactive
+role: alumni
 group: epsilon
 description: "#47 'H.Y.U.G.A'"
 links:

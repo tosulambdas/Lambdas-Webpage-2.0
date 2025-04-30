@@ -97,13 +97,16 @@
             .hover-container {
                 position: relative;
                 width: 95%;
+
+                
+                .image {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    aspect-ratio: 1/1;
+                }
             }
 
-            .image {
-                display: block;
-                width: 100%;
-                height: auto;
-            }
 
             .overlay {
                 position: absolute;
@@ -142,7 +145,7 @@
             <div class="hover-section-container" >
 
                 <div class="hover-container">
-                    <img src="/images/rush/Rush theme.webp" alt="Rush Theme" class="image">
+                    <img src="/images/rush/Rush theme.webp" alt="Rush Theme" class="image" style="object-fit: contain ;">
                     <div class="overlay">
                         <div class="text">
                             <h5 style="font-size: larger;">Wanna join the brotherhood?</h5>

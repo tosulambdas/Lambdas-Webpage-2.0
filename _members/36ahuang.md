@@ -5,9 +5,9 @@ role: undergrad
 group: delta
 description: "#36 'Λ.S.T.A'"
 links:
-  # instagram: 
+  instagram: https://www.instagram.com/itsadamhuang?igsh=Mmc0MHc4aXo1YTQ5&utm_source=qr
   # twitter: 
-  # linkedin: 
+  linkedin: http://inkedin.com/in/huang-adam/
 ---
 
 # {{ page.name }} | {{ page.role }} 

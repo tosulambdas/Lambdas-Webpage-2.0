@@ -1,7 +1,7 @@
 ---
 name: Sam Zhang
 image: images/bros/27szhang.webp
-role: undergrad
+role: alumni
 group: gamgam
 description: "#27 'MIRΛI'"
 links:

@@ -1,7 +1,7 @@
 ---
 name: Hamzah Chaudhry
 image: images/bros/21hchaudhry.webp
-role: undergrad
+role: alumni
 group: beta
 description: "#21 'ΛRETE'"
 links:

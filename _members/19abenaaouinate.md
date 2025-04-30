@@ -1,7 +1,7 @@
 ---
 name: Ayoub Benaaouinate
 image: images/bros/19abenaaouinate.webp
-role: undergrad
+role: alumni
 group: beta
 description: "#19 'PLUTUS'"
 links:
