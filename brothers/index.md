@@ -34,14 +34,6 @@ Classes
 <h2>Looking for a specific class?</h2>
 
 {% capture content %}
-<<<<<<< Updated upstream:ah/index.md
-{% include figure.html image="images/media/charters.webp" caption="Charter Class - Twelve Tenshi" link="/ah/charters/" %}
-{% include figure.html image="images/media/alphas.webp" caption="Alpha Class - Akuma Alphas" link="/ah/alphas/" %}
-{% include figure.html image="images/media/betas.webp" caption="Beta Class - Bushido Betas" link="/ah/betas/" %}
-{% include figure.html image="images/media/gammas.webp" caption="Gamma Class - Genjitsu Gammas" link="/ah/gammas/" %}
-{% include figure.html image="images/media/deltas.webp" caption="Delta Class - Dai-Ichi Deltas" link="/ah/deltas/" %}
-{% include figure.html image="images/media/epsilons.webp" caption="Epsilon Class - Empyreal Epsilons" link="/ah/epsilons/" %}
-=======
 {:.small-text}
 {% include figure.html image="images/media/charters.webp" caption="Charter Class - Twelve Tenshi" link="/brothers/charters/" %}
 {% include figure.html image="images/media/alphas.webp" caption="Alpha Class - Akuma Alphas" link="/brothers/alphas/" %}
@@ -51,7 +43,6 @@ Classes
 {% include figure.html image="images/media/epsilons.webp" caption="Epsilon Class - Empyreal Epsilons" link="/brothers/epsilons/" %}
 {% include figure.html image="images/media/zetas.webp" caption="Zeta Class - Zodiac Zetas" link="/brothers/zetas/" %}
 {% include figure.html image="images/media/etas.webp" caption="Eta Class - Eternal Etas" link="/brothers/etas/" %}
->>>>>>> Stashed changes:brothers/index.md
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
@@ -148,9 +139,6 @@ Classes
 {:.center}
 **Class Motto**: _"The past is history, the future is a mystery, but today is a gift, that's why it's called the present."_
 {:.center}
-<<<<<<< Updated upstream:ah/index.md
-{% include list.html data="members" component="portrait" filters="group: epsilon, role: undergrad" %}
-=======
 {% include list.html data="members" component="portrait" filters="group: epsilon" %}
 
 {% include section.html %}
@@ -187,4 +175,3 @@ Classes
 {% include list.html data="members" component="portrait" filters="group: eta" %}
 
 {:.center}
->>>>>>> Stashed changes:brothers/index.md
