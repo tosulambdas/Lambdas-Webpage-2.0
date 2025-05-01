@@ -12,7 +12,7 @@ layout: default
 
 {% include figure.html image="images/media/eta/56.webp" caption="#56 Matthew 'MUSΛ' Tamayo <br> Big Bro: Alex 'CHIKΛ' Zhang" %}
 {% include figure.html image="images/media/eta/57.webp" caption="#57 Austin 'PΛTHFINDER' Pham <br> Big Bro: Kyle 'PIONEER' Nguyen"%}
-{% include figure.html image="images/media/eta/58.webp" caption="#58 Dylan 'E.R.E.N.' Fabonan <br> Big Bro: Woojae 'H.Y.U.G.A' Kim "%}
+{% include figure.html image="images/media/eta/58.webp" caption="#58 Dylan 'E.R.E.N' Fabonan <br> Big Bro: Woojae 'H.Y.U.G.A' Kim "%}
 {% include figure.html image="images/media/eta/59.webp" caption="#59 Jace 'VULCΛN' Mcswain <br> Big Bro: Ayoub 'PLUTUS' Benaaouinate"%}
 {% include figure.html image="images/media/eta/60.webp" caption="#60 Brandon 'OBSIDIΛN' Phan <br> Big Bro: Ethan 'DΛ VINCI' Liu"%}
 

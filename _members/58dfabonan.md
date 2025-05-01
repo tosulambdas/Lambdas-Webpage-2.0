@@ -3,7 +3,7 @@ name: Dylan Fabonan
 image: images/bros/58dfabonan.webp
 role: undergrad
 group: eta
-description: "#57 'E.R.E.N.'"
+description: "#58 'E.R.E.N'"
 links:
   instagram: dylan.fabonan
   # twitter: 
