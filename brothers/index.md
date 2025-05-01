@@ -24,8 +24,9 @@ Eboard
 {% include figure.html image="images/eboard/secretary.webp" caption="Sam Zhang- Secretary" link="/members/27szhang"%}
 
 {% endcapture %}
-
-{% include grid.html style="center" content=content %}
+{:.center}
+{% include grid_two.html style="square" content=content %}
+{:.center}
 
 <!---
 Classes

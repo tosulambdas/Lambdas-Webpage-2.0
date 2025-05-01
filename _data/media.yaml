@@ -1,4 +1,18 @@
 # Featured blogs
+- title: Eta Class Reveal
+  subtitle: Watch the reveal of the FA23 Eta Class!
+  group: reveal
+  image: images/media/etas.webp
+  link: media/pages/etas
+  description: The latest class to cross into eternal brotherhood! Meet the Eternal Etas!
+
+- title: Zeta Class Reveal
+  subtitle: Watch the reveal of the FA24 Zeta Class!
+  group: reveal
+  image: images/media/zetas.webp
+  link: media/pages/zetas
+  description: The latest class to cross into eternal brotherhood! Meet the Zodiac Zetas!
+
 - title: Epsilon Class Reveal
   subtitle: Watch the reveal of the AU23 Epsilon Class!
   group: reveal
@@ -27,7 +41,6 @@
   link: media/pages/betas
   description: The Bushido Betas are here and ready to reveal themselves! These men have worked long and hard to become true leaders among men!
  
-
 - title: Alpha Class Reveal
   subtitle: Watch the reveal of the SP21 Alpha Class!
   group: reveal

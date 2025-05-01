@@ -12,7 +12,7 @@ links:
 
 # {{ page.name }} | {{ page.role }} 
     
-## [{{ page.group|capitalize }} Class](/ah/{{page.group}}s)
+## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
 
 Ethnicity: Filipino
 
