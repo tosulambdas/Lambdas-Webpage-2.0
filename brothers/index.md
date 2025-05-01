@@ -7,7 +7,7 @@ nav:
 ---
 
 {:.center}
-# {% include icon.html icon="fa-solid fa-users" %}2023-2024 Executive Board
+# {% include icon.html icon="fa-solid fa-users" %}2024-2025 Executive Board
 {:.center}
 {% include section.html %}
 
