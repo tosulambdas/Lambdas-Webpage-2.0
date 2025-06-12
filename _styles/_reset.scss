@@ -1,0 +1,34 @@
+// Reset and Base Styles
+@import 'variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  line-height: $line-height;
+  color: $text-color;
+  background-color: $background-color;
+}
+
+.webstore-container {
+  width: 100%;
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: $spacing-base;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: $spacing-small;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: $spacing-base;
+}
+

@@ -1,0 +1,43 @@
+# Product data for the webstore
+- id: 1
+  name: "Classic T-Shirt"
+  description: "A comfortable cotton t-shirt for everyday wear"
+  price: 19.99
+  image: "/images/store/tshirt.jpg"
+  category: "Clothing"
+
+- id: 2
+  name: "Leather Wallet"
+  description: "Handcrafted genuine leather wallet with multiple card slots"
+  price: 39.99
+  image: "/images/store/wallet.jpg"
+  category: "Accessories"
+
+- id: 3
+  name: "Wireless Earbuds"
+  description: "High-quality wireless earbuds with noise cancellation"
+  price: 89.99
+  image: "/images/store/earbuds.jpg"
+  category: "Electronics"
+
+- id: 4
+  name: "Coffee Mug"
+  description: "Ceramic coffee mug with minimalist design"
+  price: 12.99
+  image: "/images/store/mug.jpg"
+  category: "Home"
+
+- id: 5
+  name: "Notebook"
+  description: "Premium hardcover notebook with lined pages"
+  price: 14.99
+  image: "/images/store/notebook.jpg"
+  category: "Stationery"
+
+- id: 6
+  name: "Water Bottle"
+  description: "Insulated stainless steel water bottle, keeps drinks cold for 24 hours"
+  price: 24.99
+  image: "/images/store/bottle.jpg"
+  category: "Home"
+

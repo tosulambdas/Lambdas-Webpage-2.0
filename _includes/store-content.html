@@ -1,0 +1,16 @@
+<!-- Main store content with cart icon -->
+<div class="store-header">
+  <div class="store-title-section">
+    <h1 class="store-title">{{ page.title }}</h1>
+    <p class="store-description">{{ page.description }}</p>
+  </div>
+  <div class="cart-icon" id="cart-icon">
+    <span class="material-icons"><i class="fa-solid fa-cart-shopping"></i>Cart</span>
+    <span class="cart-count" id="cart-count">0</span>
+  </div>
+</div>
+
+<div class="store-content">
+  {{ include.content }}
+</div>
+

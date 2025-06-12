@@ -1,0 +1,54 @@
+// Store Styles
+@import 'variables';
+
+.store-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  padding-bottom: $spacing-base;
+  border-bottom: 1px solid $border-color;
+  
+  .store-title-section {
+    flex: 1;
+    
+    .store-title {
+      font-size: $font-size-heading;
+      margin-bottom: $spacing-small;
+      color: $primary-color;
+    }
+    
+    .store-description {
+      color: $text-light;
+      margin-bottom: 0;
+    }
+  }
+  
+  .cart-icon {
+    position: relative;
+    cursor: pointer;
+    font-size: $font-size-larger;
+    margin-left: $spacing-base;
+    
+    .cart-count {
+      position: absolute;
+      top: -8px;
+      right: -8px;
+      background-color: $accent-color;
+      color: $white;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: $font-size-smaller;
+      font-weight: bold;
+    }
+  }
+}
+
+.store-content {
+  margin-top: $spacing-large;
+}
+

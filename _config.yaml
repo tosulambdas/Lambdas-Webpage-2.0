@@ -9,7 +9,16 @@ footer: images/background.webp
 links:
   email: tosulambdas@gmail.com
   instagram: osu.lambdas
-  youtube: 
+  youtube: OSULambdas
+
+sass:
+  style: compressed
+  sourcemap: never
+  load_paths:
+    - _styles
+
+livereload: true
+livereload_min_delay: 5
 
 ### jekyll settings
 

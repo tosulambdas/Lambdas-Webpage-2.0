@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/_styles/store-page.css' | relative_url }}">
+  <script defer src="{{ '/_scripts/cart.js' | relative_url }}"></script>
+</head>
+  {% include head.html %}
+
+  <body>
+  {% include header.html %}
+  <div class="webstore-container">
+    {{ content }}
+  </div>
+
+  {% include cart.html %}
+  {% include checkout.html %}
+  {% include confirmation.html %}
+</body>
+{% include footer.html %}
+
+</html>
