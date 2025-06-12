@@ -33,8 +33,17 @@ jobs:
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'  # or '3.1.4'
-          bundler-cache: true
+          ruby-version: "3.2"
+          bundler-cache: false  # disable caching temporarily to control install steps
+
+      - name: Install rake (required for google-protobuf)
+        run: gem install rake
+
+      - name: Install project dependencies
+        run: |
+          bundle config set path 'vendor/bundle'
+          bundle install --jobs 4
+
 
       - name: Check Ruby and RubyGems version
         run: |
