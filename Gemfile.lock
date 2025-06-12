@@ -118,6 +118,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-sitemap
   jekyll-spaceship
+  rake
   webrick (~> 1.7)
 
 BUNDLED WITH

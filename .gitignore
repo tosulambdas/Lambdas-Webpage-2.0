@@ -13,5 +13,3 @@ package.json
 package-lock.json
 yarn.lock
 node_modules
-Gemfile
-Gemfile.lock

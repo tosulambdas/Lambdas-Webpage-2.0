@@ -44,7 +44,6 @@ jobs:
           bundle config set path 'vendor/bundle'
           bundle install --jobs 4
 
-
       - name: Check Ruby and RubyGems version
         run: |
           ruby -v
