@@ -15,6 +15,7 @@ body {
 }
 
 .webstore-container {
+  min-height: 75vh;
   width: 100%;
   max-width: $container-width;
   margin: 0 auto;

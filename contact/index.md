@@ -26,16 +26,12 @@ To contact the president of our chapter, please use one of the following forms o
 {%
   include button.html
   type="email"
-  text="lim.1359@osu.edu"
-  link="lim.1359@osu.edu"
+  text="bailey.1735@osu.edu"
+  link="bailey.1735@osu.edu"
 %}
-
-{% include section.html dark=true %}
-
-For rush information, please visit our media page or our instagram.
 
 {% include section.html %}
 
-{%
-  include merch.html
-%}
+For rush information, please visit our media page or our instagram.
+
+

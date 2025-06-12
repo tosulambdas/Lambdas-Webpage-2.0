@@ -2,17 +2,8 @@
 <section class="products" style="padding-top: 0;">
   <h2 style="margin-top: 0;">Our Products</h2>
   <div class="product-grid">
-    {% for product in site.data.products %}
-    <div class="product-card" data-product-id="{{ product.id }}">
-      <img src="{{ product.image | relative_url }}" alt="{{ product.name }}" class="product-image">
-      <div class="product-info">
-        <h3 class="product-name">{{ product.name }}</h3>
-        <p class="product-description">{{ product.description }}</p>
-        <p class="product-price">${{ product.price }}</p>
-        <button class="add-to-cart" data-product-id="{{ product.id }}">Add to Cart</button>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</section>
 
+    </stripe-buy-button>
+  </div>
+  <h1 style="margin-top: 0; text-align: center;">More Products Coming Soon!</h1>
+</section>
