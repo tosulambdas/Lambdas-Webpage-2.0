@@ -27,14 +27,19 @@ jobs:
       - name: Checkout branch contents
         uses: actions/checkout@v3
 
-      - name: Upgrade RubyGems (fix for sass-embedded)
-        run: gem update --system 3.3.22
+      # - name: Upgrade RubyGems (fix for sass-embedded)
+      #   run: gem update --system 3.3.22
 
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.1"
+          ruby-version: '3.2'  # or '3.1.4'
           bundler-cache: true
+
+      - name: Check Ruby and RubyGems version
+        run: |
+          ruby -v
+          gem -v
 
       - name: Get Pages url
         id: pages
@@ -51,3 +56,4 @@ jobs:
           folder: _site
           clean-exclude: ${{ env.PREVIEWS_FOLDER }}
           force: false
+
