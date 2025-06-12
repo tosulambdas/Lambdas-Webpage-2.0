@@ -27,6 +27,9 @@ jobs:
       - name: Checkout branch contents
         uses: actions/checkout@v3
 
+      - name: Upgrade RubyGems (fix for sass-embedded)
+        run: gem update --system 3.3.22
+
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
         with:
