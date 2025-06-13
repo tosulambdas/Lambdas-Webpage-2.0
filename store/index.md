@@ -1,6 +1,9 @@
 ---
-layout: store
 title: Webstore
+layout: store
+nav:
+  order: 8
+  tooltip: Interested in buying some Lambda Merch?
 ---
 
 {% capture store_content %}

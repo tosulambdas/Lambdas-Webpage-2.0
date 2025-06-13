@@ -3,7 +3,6 @@ title: Home
 layout: home
 ---
 
-
 Lambda Phi Epsilon is an Asian Interest, but not Asian-exclusive social fraternity dedicated to fostering leadership, academic excellence, and a strong sense of community among its members. With a rich history and commitment to multiculturalism, Lambda Phi Epsilon empowers individuals to thrive in a supportive brotherhood that values personal growth, cultural awareness, and lifelong connections.
 
 {% assign members = site.members | default: empty %}
@@ -98,10 +97,6 @@ Lambda Phi Epsilon is an Asian Interest, but not Asian-exclusive social fraterni
     }
     startCounters();
 </script>
-
-
-
-
 
 {% include section.html %}
 
