@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
-
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!--
@@ -375,6 +374,20 @@
   
 
 <style>
+  /* Hide scrollbar but enable scroll */
+  html::-webkit-scrollbar {
+    display: none;
+  }
+
+  html {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    overflow-y: scroll;
+    /* Enable scroll */
+  }
+
   #myBtn {
     display: none;
     position: fixed;
@@ -383,237 +396,175 @@
     z-index: 99;
     border: none;
     outline: none;
-    background-color: rgb(66, 83, 119);;
-    color: white;
+    background-color: rgb(66, 83, 119);
+    color: #fff;
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
-    transition: background-color 0.3s, transform 0.3s; /* Added smooth transition */
+    transition: background-color 0.3s, transform 0.3s;
   }
 
   #myBtn:hover {
     background-color: #555;
-    transform: scale(1.1); /* Added scale effect on hover */
+    transform: scale(1.1);
   }
 
   .arrow-up {
     transform: rotate(-45deg);
   }
+
+  h1 {
+    margin: 40px 0 20px 0;
+    font-size: var(--xxl);
+    font-weight: var(--regular);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .hero {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+      url(images/background.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .hero h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .hero .btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .hero .btn {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 5px 0;
+  }
+
+  @media (max-width: 768px) {
+    .slider {
+      display: none;
+    }
+
+    .hero h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .hero .btn-container {
+      display: none;
+    }
+
+    .hero .mobile-menu {
+      display: block;
+    }
+
+    .hero-inner {
+      display: none;
+    }
+
+    .menu-toggle {
+      display: inline-block;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      padding: 5px 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      position: relative;
+      z-index: 1000;
+    }
+
+    .menu-items {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #333;
+      box-sizing: border-box;
+      padding: 10px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transform: translateY(-100%);
+      transition: transform 0.5s ease;
+    }
+
+    .menu-items a {
+      margin: 10px 0;
+    }
+
+    .menu-open .menu-items {
+      transform: translateY(0);
+      display: flex;
+    }
+
+    .menu-open .hero .btn-container {
+      display: flex;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .hero .mobile-menu {
+      display: none;
+    }
+  }
 </style>
 
 <body>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Return to top ▲</button>
+<button id="myBtn" title="Go to top" onclick="topFunction()">Return to top ▲</button>
 
 <script>
-let mybutton = document.getElementById("myBtn");
+  // Back to Top Button
+  let myBtn = document.getElementById("myBtn");
 
-window.onscroll = function() {
-scrollFunction();
-};
+  window.onscroll = function () {
+    if (window.scrollY > 20) {
+      myBtn.style.display = "block";
+    } else {
+      myBtn.style.display = "none";
+    }
+  };
 
-function scrollFunction() {
-if (window.scrollY > 20) {
-  mybutton.style.display = "block";
-} else {
-  mybutton.style.display = "none";
-}
-}
-
-function topFunction() {
-// Smooth scroll to the top
-window.scrollTo({ top: 0, behavior: 'smooth' });
-}
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
 </script>
 
 
-  <style>
-      h1 {
-        margin: 40px 0 20px 0;
-        font-size: var(--xxl);
-        font-weight: var(--regular);
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        text-align: center;
-      }
-    /* Common styles for both mobile and desktop */
-    .hero {
-      /* Sizing */
-      width: auto;
-      height: 100vh;
-      text-align: center; /* Center text within the .hero section */
-  
-      /* Flexbox stuff */
-      display: flex;
-      flex-direction: column; /* Stack items vertically initially */
-      justify-content: center;
-      align-items: center;
-  
-      /* Text styles */
-      text-align: center;
-      color: white;
-  
-      /* Background styles */
-      background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-        url(images/background.webp);
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    }
-  
-    .hero h1 {
-      /* Text styles */
-      font-size: 3em;
-      margin: 0;
-      text-align: center; /* Center text within the .hero section */
-    }
-  
-    .hero h2 {
-      margin-bottom: 20px;
-      text-align: center; /* Center text within the .hero section */
-    }
-  
-    .hero .btn-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 20px;
-    }
-  
-    .hero .btn {
-      /* Standard styles for buttons */
-      width: auto;
-      padding: 10px;
-      color: white;
-      text-decoration: none;
-      font-size: 1.5em;
-      margin: 5px 0;
-    }
-  
-    /* Styles for screens less than 768px wide (mobile) */
-    @media (max-width: 768px) {
-      .slider{
-        display: none;
-      }
-      .hero h1 {
-      /* Text styles */
-      font-size: 2em;
-      margin: 0;
-      text-align: center; /* Center text within the .hero section */
-      }
-      .hero h2 {
-      margin-bottom: 20px;
-      text-align: center; /* Center text within the .hero section */
-      }
-      .hero .btn-container {
-        display: none; /* Hide original links on mobile */
-      }
-  
-      .hero .mobile-menu {
-        display: block;
-      }
 
-      .hero-inner {
-        display: none;
-      }
-  
-      .menu-toggle {
-        display: inline-block;
-        margin-top: 50px;
-        margin-bottom: 20px;
-        padding: 5px 10px;
-        background-color: #333;
-        color: white;
-        border: none;
-        cursor: pointer;
-        position: relative;
-        z-index: 1000;
-      }
-
-      /* Styles for screens less than 375px wide (e.g., iPhone SE) */
-      @media (max-width: 375px) {
-        .menu-toggle {
-          margin-top: 10px; /* Adjust this value for smaller screens */
-        }
-      }
-
-      /* Styles for screens 376px and wider (e.g., iPhone 12, 14 Pro Max, etc.) */
-      @media (min-width: 376px) {
-        .menu-toggle {
-          margin-top: 150px; /* Adjust this value for larger screens */
-        }
-      }
-
-            /* Styles for screens 376px and wider (e.g., iPhone 12, 14 Pro Max, etc.) */
-      @media (max-width: 390px) {
-        .menu-toggle {
-          margin-top: 125px; /* Adjust this value for larger screens */
-        }
-      }
-
-      @media (min-width: 767px) {
-        .menu-toggle {
-          margin-top: 285px; /* Adjust this value for larger screens */
-        }
-      }
-  
-      .menu-items {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #333;
-        box-sizing: border-box;
-        padding: 10px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.5s ease;
-        transform: translateY(-100%);
-      }
-
-      .menu-items a {
-        margin: 10px 0; /* Add some spacing between the links */
-      }
-
-      .menu-open .menu-toggle {
-        /* Add the following line to ensure the menu button stays visible when the menu is open */
-        display: inline-block !important;
-      }
-
-      .menu-open .menu-items {
-        transform: translateY(0);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /* width: 100%; Remove this line, or keep it based on your design preference */
-      }
-
-  
-      /* Show the original links only when the menu is open */
-      .menu-open .hero .btn-container {
-        display: flex;
-      }
-    }
-  
-    /* Styles for screens wider than 768px (desktop) */
-    @media (min-width: 769px) {
-      .hero .mobile-menu {
-        display: none;
-      }
-    }
-  </style>
-  
-  
   <script>
     function toggleMenu() {
-      const hero = document.querySelector('.hero');
-      hero.classList.toggle('menu-open');
-      console.log('Button Clicked');
-      console.log('Is menu-open present:', hero.classList.contains('menu-open'));
+      document.querySelector('.hero').classList.toggle('menu-open');
     }
   </script>
 
@@ -634,6 +585,7 @@ window.scrollTo({ top: 0, behavior: 'smooth' });
         <a href="/store/" class="btn">Store</a>
       </div>
     </div>
+
     <div class="hero-inner">
       <h1>Lambda Phi Epsilon Associate Chapter</h1>
       <h1>At THE Ohio State University</h1>
@@ -651,31 +603,31 @@ window.scrollTo({ top: 0, behavior: 'smooth' });
 
   <script src="homecarousel/ideal-image-slider.js"></script>
   <div class="slider" id="slider">
-    <img src="images/carousel/1.webp" alt="ALT">
-    <img data-src="images/carousel/2.webp" src="" alt="ALT">
-    <img data-src="images/carousel/3.webp" src="" alt="ALT">
-    <img data-src="images/carousel/4.webp" src="" alt="ALT">
-    <img data-src="images/carousel/5.webp" src="" alt="ALT">
-    <img data-src="images/carousel/6.webp" src="" alt="ALT">
-    <img data-src="images/carousel/7.webp" src="" alt="ALT">
-    <img data-src="images/carousel/8.webp" src="" alt="ALT">
-    <img data-src="images/carousel/9.webp" src="" alt="ALT">
+    <img src="images/carousel/1.webp" alt="Carousel Image">
+    <img data-src="images/carousel/2.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/3.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/4.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/5.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/6.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/7.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/8.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/9.webp" src="" alt="Carousel Image">
   </div>
 
   <script>
     var slider = new IdealImageSlider.Slider({
       selector: '#slider',
-      height: 500, // Required but can be set by CSS
+      height: 700,
       interval: 4000
     });
     slider.start();
   </script>
 
-  <div id="main"></div>
-  <main>
-    <h1>Associate Chapter of Lambda Phi Epsilon at <i>THE</i> Ohio State University</h1>
-    <img src="images/strip-country-flags.webp">
-    <!--
+  <div id="main">
+    <main>
+      <h1>Associate Chapter of Lambda Phi Epsilon at <i>THE</i> Ohio State University</h1>
+      <img src="images/strip-country-flags.webp" alt="Country flags">
+      <!--
   modify main content of page:
   - add section breaks
   - attach section properties
@@ -887,7 +839,9 @@ window.scrollTo({ top: 0, behavior: 'smooth' });
   </section>
 
 
-  </main>
+    </main>
+  </div>
+
   
 
 
@@ -937,7 +891,7 @@ window.scrollTo({ top: 0, behavior: 'smooth' });
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://youtube.com/OSULambdas" data-tooltip="YouTube" data-style="bare" aria-label="YouTube">
+    <a class="button" href="https://youtube.com/@OSULambdas" data-tooltip="YouTube" data-style="bare" aria-label="YouTube">
       <i class="icon fa-brands fa-youtube"></i>
       
     </a>
@@ -954,6 +908,7 @@ window.scrollTo({ top: 0, behavior: 'smooth' });
 
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
+
 
 
 
