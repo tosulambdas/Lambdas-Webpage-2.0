@@ -9,7 +9,7 @@ footer: images/background.webp
 links:
   email: tosulambdas@gmail.com
   instagram: osu.lambdas
-  youtube: @OSULambdas
+  youtube: '@OSULambdas'
 
 sass:
   style: compressed
