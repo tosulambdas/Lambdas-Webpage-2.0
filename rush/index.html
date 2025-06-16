@@ -2,6 +2,8 @@
 <html lang="en" data-dark="false">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="/_styles/-theme.css">
+
   <!--
   put your analytics (e.g. Google Analytics) tracking code here
 -->
@@ -368,9 +370,152 @@
   <script src="/_scripts/traditoin-image-gallery.js"></script>
 
 
+
+
+
+
+    <style>
+
+        main {
+            background-color: var(--background);
+            color: var(--text);
+        }
+        h7 {
+            text-align: center;
+            font-size: xx-large;
+            margin-bottom: auto;
+        }
+
+        .join-us-section {
+            display: grid;
+            grid-template-columns: auto 60%;
+            padding: 2%;
+        }
+
+        .calender-section {
+            display: grid;
+            grid-template-columns: 60% auto;
+            padding: 2%;
+        }
+
+        .accordion {
+            background-color: var(--background);
+            color: var(--text);
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+        .active,
+        .accordion:hover {
+            background-color: var(--background-alt);
+        }
+
+        .panel {
+            padding: 0 18px;
+            background-color: var(--background);
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            color: var(--text);
+        }
+
+        .accordion {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+
+        .accordion-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            /* Adjust the gap between columns if needed */
+        }
+
+        .accordion-group {
+            margin-bottom: 20px !important;
+        }
+
+        .arrow {
+            transition: transform 0.3s ease;
+            /* Add a smooth transition for the arrow rotation */
+        }
+
+        .rotate {
+            transform: rotate(180deg);
+            /* Rotate the arrow when the accordion is active */
+        }
+
+        .tradition-container {
+            display: grid;
+            grid-template-columns: 60% 40%;
+
+            img {
+                padding: 5%;
+            }
+        }
+
+        .hover-section-container {
+            padding-top: 5%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+
+        .hover-container {
+            position: relative;
+            width: 95%;
+
+
+            .image {
+                display: block;
+                width: 100%;
+                height: auto;
+                aspect-ratio: 1/1;
+            }
+        }
+
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #008CBA;
+        }
+
+        .hover-container:hover .overlay {
+            opacity: .85;
+        }
+
+        .hover-text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 95%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>
+
+
+
 </head>
-
-
 <body>
     
 
@@ -503,156 +648,15 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 
     <main>
 
-        <style>
-            h7 {
-                text-align: center;
-                font-size: xx-large;
-                margin-bottom: auto;
-            }
-
-            .join-us-section {
-                display: grid;
-                grid-template-columns: auto 60%;
-                padding: 2%;
-            }
-
-            .calender-section {
-                display: grid;
-                grid-template-columns: 60% auto;
-                padding: 2%;
-            }
-
-            .accordion {
-                background-color: #eee;
-                color: #444;
-                cursor: pointer;
-                padding: 18px;
-                width: 100%;
-                border: none;
-                text-align: left;
-                outline: none;
-                font-size: 15px;
-                transition: 0.4s;
-            }
-
-            .active,
-            .accordion:hover {
-                background-color: #ccc;
-            }
-
-            .panel {
-                padding: 0 18px;
-                background-color: white;
-                max-height: 0;
-                overflow: hidden;
-                transition: max-height 0.2s ease-out;
-            }
-
-            .accordion {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                position: relative;
-            }
-
-            .accordion-container {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                gap: 20px;
-                /* Adjust the gap between columns if needed */
-            }
-
-            .accordion-group {
-                margin-bottom: 20px !important;
-            }
-
-            .arrow {
-                transition: transform 0.3s ease;
-                /* Add a smooth transition for the arrow rotation */
-            }
-
-            .rotate {
-                transform: rotate(180deg);
-                /* Rotate the arrow when the accordion is active */
-            }
-
-            .tradition-container {
-                display: grid;
-                grid-template-columns: 60% 40%;
-
-                img {
-                    padding: 5%;
-                }
-            }
-
-            .hover-section-container {
-                padding-top: 5%;
-                display: grid;
-                grid-template-columns: 50% 50%;
-            }
-
-            .hover-container {
-                position: relative;
-                width: 95%;
-
-                
-                .image {
-                    display: block;
-                    width: 100%;
-                    height: auto;
-                    aspect-ratio: 1/1;
-                }
-            }
 
 
-            .overlay {
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                height: 100%;
-                width: 100%;
-                opacity: 0;
-                transition: .5s ease;
-                background-color: #008CBA;
-            }
-
-            .hover-container:hover .overlay {
-                opacity: .85;
-            }
-
-            .text {
-                color: white;
-                font-size: 20px;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                width: 95%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-            }
-        </style>
-
-        
-
-<!-- section break -->
-<!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-
-        <div style="padding: 0% 20%">
+        <div class="container">
             <div class="hover-section-container">
 
                 <div class="hover-container">
                     <img src="/images/rush/Rush%20theme.webp" alt="Rush Theme" class="image" style="object-fit: contain ;">
                     <div class="overlay">
-                        <div class="text">
+                        <div class="hover-text">
                             <h5 style="font-size: larger;">Wanna join the brotherhood?</h5>
                             <p>
 
@@ -698,12 +702,12 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 
             
 
-<!-- section break -->
-<!--
-  background: ;
-  dark: ;
-  size: ;
--->
+<section>
+  
+
+  
+
+</section>
 
 
             
@@ -931,12 +935,12 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 
             
 
-<!-- section break -->
-<!--
-  background: ;
-  dark: ;
-  size: ;
--->
+<section>
+  
+
+  
+
+</section>
 
             <div>
                 <h7>Frequently Asked Questions</h7>
@@ -1067,12 +1071,12 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 
             
 
-<!-- section break -->
-<!--
-  background: ;
-  dark: ;
-  size: ;
--->
+<section>
+  
+
+  
+
+</section>
 
 
             <div>
@@ -1085,12 +1089,12 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 
             
 
-<!-- section break -->
-<!--
-  background: ;
-  dark: ;
-  size: ;
--->
+<section>
+  
+
+  
+
+</section>
 
         </div>
 

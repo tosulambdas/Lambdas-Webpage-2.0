@@ -12,10 +12,11 @@ body {
 }
 
 .webstore-container {
+  background-color: var(--background);
   min-height: 75vh;
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 0;
+  padding: 0 0;
   padding: 1rem;
 }
 
@@ -73,6 +74,11 @@ p {
 
 .store-content {
   margin-top: 2rem;
+}
+
+.products {
+  background-color: var(--background);
+  color: var(--text);
 }
 
 .product-grid {
