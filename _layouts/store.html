@@ -3,8 +3,15 @@
 
 <head>
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/_styles/store-page.css' | relative_url }}">
+  <!-- <link rel="stylesheet" href="{{ '/_styles/store-page.scss' | relative_url }}"> -->
   <!-- <script defer src="{{ '/_scripts/cart.js' | relative_url }}"></script> -->
+  <style>
+    .webstore-container {
+      background-color: var(--background);
+      width: 100%;
+
+    }
+  </style>
 </head>
 {% include head.html %}
 

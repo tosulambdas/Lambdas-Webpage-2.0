@@ -15,10 +15,11 @@ body {
 }
 
 .webstore-container {
+  background-color: var(--background);
   min-height: 75vh;
   width: 100%;
-  max-width: $container-width;
-  margin: 0 auto;
+  margin: 0 0;
+  padding: 0 0;
   padding: $spacing-base;
 }
 
