@@ -27,14 +27,14 @@ jobs:
       - name: Checkout branch contents
         uses: actions/checkout@v3
 
-      # - name: Upgrade RubyGems (fix for sass-embedded)
-      #   run: gem update --system 3.3.22
-
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2"
           bundler-cache: false  # disable caching temporarily to control install steps
+
+      - name: Upgrade RubyGems (fix for sass-embedded)
+        run: gem update --system 3.4.22
 
       - name: Install rake (required for google-protobuf)
         run: gem install rake
@@ -58,6 +58,7 @@ jobs:
       - name: Build live version of site
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
+
       - name: Commit live site to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
