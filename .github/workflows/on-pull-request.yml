@@ -16,6 +16,8 @@ permissions:
 jobs:
   update-citations:
     uses: ./.github/workflows/update-citations.yaml
+    with:
+      open-pr: false
 
   build-preview:
     needs: update-citations
