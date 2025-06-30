@@ -1,0 +1,3 @@
+Hello! Congratualtions! You've reached the very secret, definitely not obvious eastereggs folder!
+Feel free to add something fun here, if you want. Photos, quote, development desasters...
+This is Jerry writing this btw, I'm the GOAT webmaster, because nobody else care more than I do. This website is my baby.
