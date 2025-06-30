@@ -2,13 +2,9 @@ name: build-site
 run-name: build live site
 
 on:
-  # run when called from another workflow
   workflow_call:
-
-  # run if user manually requests it
   workflow_dispatch:
 
-# variables
 env:
   PREVIEWS_FOLDER: preview
 
@@ -20,21 +16,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # for debugging
       - name: Print contexts
         uses: crazy-max/ghaction-dump-context@v1
 
       - name: Checkout branch contents
         uses: actions/checkout@v3
 
-      # - name: Upgrade RubyGems (fix for sass-embedded)
-      #   run: gem update --system 3.3.22
-
-      - name: Install Ruby packages
+      - name: Install Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2"
-          bundler-cache: false  # disable caching temporarily to control install steps
+          bundler-cache: false
+
+      - name: Upgrade RubyGems (fix for sass-embedded)
+        run: gem update --system 3.4.22
 
       - name: Install rake (required for google-protobuf)
         run: gem install rake
@@ -58,10 +53,10 @@ jobs:
       - name: Build live version of site
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
+
       - name: Commit live site to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
           clean-exclude: ${{ env.PREVIEWS_FOLDER }}
           force: false
-
