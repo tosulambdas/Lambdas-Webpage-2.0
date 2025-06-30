@@ -2,9 +2,13 @@ name: build-site
 run-name: build live site
 
 on:
+  # run when called from another workflow
   workflow_call:
+
+  # run if user manually requests it
   workflow_dispatch:
 
+# variables
 env:
   PREVIEWS_FOLDER: preview
 
@@ -14,20 +18,49 @@ permissions:
 jobs:
   build-site:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Setup Ruby 3.0.7
+    steps:
+      # for debugging
+      - name: Print contexts
+        uses: crazy-max/ghaction-dump-context@v1
+
+      - name: Checkout branch contents
+        uses: actions/checkout@v3
+
+      # - name: Upgrade RubyGems (fix for sass-embedded)
+      #   run: gem update --system 3.3.22
+
+      - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.0.7"
-          bundler-cache: false  # Disable caching to avoid stale gems
+          ruby-version: "3.2"
+          bundler-cache: false  # disable caching temporarily to control install steps
 
-      - name: Upgrade RubyGems to latest (>= 3.4)
-        run: gem update --system 3.4.22
+      - name: Install rake (required for google-protobuf)
+        run: gem install rake
 
-      - name: Show RubyGems version (debug)
-        run: gem -v
+      - name: Install project dependencies
+        run: |
+          bundle config set path 'vendor/bundle'
+          bundle install --jobs 4
 
-      - name: Install dependencies
-        run: bundle install --jobs 4
+      - name: Check Ruby and RubyGems version
+        run: |
+          ruby -v
+          gem -v
+
+      - name: Get Pages url
+        id: pages
+        uses: actions/configure-pages@v2
+        with:
+          enablement: false
+
+      - name: Build live version of site
+        run: |
+          JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
+      - name: Commit live site to Pages branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
+          clean-exclude: ${{ env.PREVIEWS_FOLDER }}
+          force: false
