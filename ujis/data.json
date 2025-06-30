@@ -1,0 +1,966 @@
+[
+      {
+        "id": "0",
+        "data": {
+            "fn": "OSU",
+            "ln": "Lambdas",
+            "desc": "A family of OSU Lambdas",
+            "avatar": "../../images/background.webp",
+            "label": "OSU Lambdas"
+        },
+        "rels": {
+            "spouses": [],
+            "children": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+            ]
+        },
+        "main": true
+    },
+    {
+        "id": "1",
+        "data": {
+            "fn": "Ethan",
+            "ln": "Chan",
+            "label": "Doc McStuffins",
+            "desc": "Ethan Chan",
+            "avatar": "../../images/bros/1echan.webp"
+        },
+        "rels": {
+            "father": "0",
+            "spouses": [],
+            "children": [
+                "13",
+                "37"
+            ]
+        }
+    },
+    {
+        "id": "2",
+        "data": {
+            "fn": "Nicholas",
+            "ln": "Dang",
+            "label": "Cookin' Mama",
+            "desc": "Nicholas Dang",
+            "avatar": "../../images/bros/2ndang.webp"
+        },
+        "rels": {
+            "father": "0",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "3",
+        "data": {
+            "fn": "Sean",
+            "ln": "Dupiano",
+            "label": "Wumbo",
+            "desc": "Sean Dupiano",
+            "avatar": "../../images/bros/3sdupiano.webp"
+        },
+        "rels": {
+            "father": "0",
+            "spouses": [],
+            "children": [
+                "15",
+                "19"
+            ]
+        }
+    },
+    {
+        "id": "4",
+        "data": {
+            "fn": "Kent",
+            "ln": "Hoang",
+            "label": "Thunderclap",
+            "desc": "Kent Hoang",
+            "avatar": "../../images/bros/4khoang.webp"
+        },
+        "rels": {
+            "father": "0",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "5",
+        "data": {
+            "fn": "Alex",
+            "ln": "Nguyen",
+            "label": "Rule 34",
+            "desc": "Alex Nguyen",
+            "avatar": "../../images/bros/5anguyen.webp"
+        },
+        "rels": {
+            "father": "0",
+            "spouses": [],
+            "children": [
+                "17",
+                "27",
+                "29"
+            ]
+        }
+    },
+    {
+        "id": "7",
+        "data": {
+            "fn": "Trace",
+            "ln": "Nguyen",
+            "label": "¿Winnie the Who?",
+            "desc": "Trace Nguyen",
+            "avatar": "../../images/bros/7tnguyen.webp"
+        },
+        "rels": {
+            "father": "0",
+            "spouses": [],
+            "children": [
+                "23",
+                "26"
+            ]
+        }
+    },
+    {
+        "id": "8",
+        "data": {
+            "fn": "Wesley",
+            "ln": "Nguyen",
+            "label": "Phony Hawk",
+            "desc": "Wesley Nguyen",
+            "avatar": "../../images/bros/8wnguyen.webp"
+        },
+        "rels": {
+            "father": "0",
+            "spouses": [],
+            "children": [
+                "14",
+                "21"
+            ]
+        }
+    },
+    {
+        "id": "9",
+        "data": {
+            "fn": "Tagumpay",
+            "ln": "Sison",
+            "label": "Pillowtalk",
+            "desc": "Tagumpay Sison",
+            "avatar": "../../images/bros/9tsison.webp"
+        },
+        "rels": {
+            "father": "0",
+            "spouses": [],
+            "children": [
+                "16"
+            ]
+        }
+    },
+    {
+        "id": "10",
+        "data": {
+            "fn": "Jerry",
+            "ln": "Ta",
+            "label": "Brock",
+            "desc": "Jerry Ta",
+            "avatar": "../../images/bros/10jta.webp"
+        },
+        "rels": {
+            "father": "0",
+            "spouses": [],
+            "children": [
+                "18"
+            ]
+        }
+    },
+    {
+        "id": "11",
+        "data": {
+            "fn": "Kenny",
+            "ln": "Truong",
+            "label": "SBD",
+            "desc": "Kenny Truong",
+            "avatar": "../../images/bros/11ktruong.webp"
+        },
+        "rels": {
+            "father": "0",
+            "spouses": [],
+            "children": [
+                "20"
+            ]
+        }
+    },
+    {
+        "id": "12",
+        "data": {
+            "fn": "Kenny",
+            "ln": "Vo",
+            "label": "M.I.R.I.O",
+            "desc": "Kenny Vo",
+            "avatar": "../../images/bros/12kvo.webp"
+        },
+        "rels": {
+            "father": "0",
+            "spouses": [],
+            "children": [
+                "32",
+                "47"
+            ]
+        }
+    },
+    {
+        "id": "13",
+        "data": {
+            "fn": "Sonny",
+            "ln": "Vuong",
+            "label": "CASΛNOVA",
+            "desc": "Sonny Vuong",
+            "avatar": "../../images/bros/13svuong.webp"
+        },
+        "rels": {
+            "father": "1",
+            "spouses": [],
+            "children": [
+                "43"
+            ]
+        }
+    },
+    {
+        "id": "14",
+        "data": {
+            "fn": "Jared",
+            "ln": "Malto",
+            "label": "NOMΛD",
+            "desc": "Jared Malto",
+            "avatar": "../../images/bros/14jmalto.webp"
+        },
+        "rels": {
+            "father": "8",
+            "spouses": [],
+            "children": [
+                "40"
+            ]
+        }
+    },
+    {
+        "id": "15",
+        "data": {
+            "fn": "Tyler ",
+            "ln": "Liu ",
+            "label": "Re:Zerø",
+            "desc": "Tyler Liu",
+            "avatar": "../../images/bros/15tliu.webp"
+        },
+        "rels": {
+            "father": "3",
+            "spouses": [],
+            "children": [
+                "22"
+            ]
+        }
+    },
+    {
+        "id": "16",
+        "data": {
+            "fn": "Joshua",
+            "ln": "Amponsah",
+            "label": "Zoro",
+            "desc": "Joshua Amponsah",
+            "avatar": "../../images/bros/16jamponsah.webp"
+        },
+        "rels": {
+            "father": "9",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "17",
+        "data": {
+            "fn": "Gill",
+            "ln": "Im",
+            "label": "KILLUΛ",
+            "desc": "Gill Im",
+            "avatar": "../../images/bros/17gim.webp"
+        },
+        "rels": {
+            "father": "5",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "18",
+        "data": {
+            "fn": "Andy",
+            "ln": "Garcia",
+            "label": "PΛNCHAM",
+            "desc": "Andy Garcia",
+            "avatar": "../../images/bros/18agarcia.webp"
+        },
+        "rels": {
+            "father": "10",
+            "spouses": [],
+            "children": [
+                "24",
+                "38"
+            ]
+        }
+    },
+    {
+        "id": "19",
+        "data": {
+            "fn": "Ayoub",
+            "ln": "Benaaouinate",
+            "label": "PLUTUS",
+            "desc": "Ayoub Benaaouinate",
+            "avatar": "../../images/bros/19abenaaouinate.webp"
+        },
+        "rels": {
+            "father": "3",
+            "spouses": [],
+            "children": [
+                "59"
+            ]
+        }
+    },
+    {
+        "id": "20",
+        "data": {
+            "fn": "Ethan",
+            "ln": "Chau",
+            "label": "ΛERO",
+            "desc": "Ethan Chau",
+            "avatar": "../../images/bros/20echau.webp"
+        },
+        "rels": {
+            "father": "11",
+            "spouses": [],
+            "children": [
+                "45"
+            ]
+        }
+    },
+    {
+        "id": "21",
+        "data": {
+            "fn": "Hamzah",
+            "ln": "Chaudhry",
+            "label": "ΛRETE",
+            "desc": "Hamzah Chaudhry",
+            "avatar": "../../images/bros/21hchaudhry.webp"
+        },
+        "rels": {
+            "father": "8",
+            "spouses": [],
+            "children": [
+                "31"
+            ]
+        }
+    },
+    {
+        "id": "22",
+        "data": {
+            "fn": "Alex",
+            "ln": "Chiu",
+            "label": "REYN",
+            "desc": "Alex Chiu",
+            "avatar": "../../images/bros/22achiu.webp"
+        },
+        "rels": {
+            "father": "15",
+            "spouses": [],
+            "children": [
+                "28",
+                "30",
+                "39"
+            ]
+        }
+    },
+    {
+        "id": "23",
+        "data": {
+            "fn": "Michael",
+            "ln": "Joo",
+            "label": "ΛLGORYTHM",
+            "desc": "Michael Joo",
+            "avatar": "../../images/bros/23mjoo.webp"
+        },
+        "rels": {
+            "father": "7",
+            "spouses": [],
+            "children": [
+                "44"
+            ]
+        }
+    },
+    {
+        "id": "24",
+        "data": {
+            "fn": "James",
+            "ln": "Li",
+            "label": "NBA CHUNGBOY",
+            "desc": "James Li",
+            "avatar": "../../images/bros/24jli.webp"
+        },
+        "rels": {
+            "father": "18",
+            "spouses": [],
+            "children": [
+                "41"
+            ]
+        }
+    },
+    {
+        "id": "26",
+        "data": {
+            "fn": "Dante",
+            "ln": "Le",
+            "label": "uncHEΛRTed",
+            "desc": "Dante Le",
+            "avatar": "../../images/bros/26dle.webp"
+        },
+        "rels": {
+            "father": "7",
+            "spouses": [],
+            "children": [
+                "46"
+            ]
+        }
+    },
+    {
+        "id": "27",
+        "data": {
+            "fn": "Sam",
+            "ln": "Zhang",
+            "label": "MIRΛI",
+            "desc": "Sam Zhang",
+            "avatar": "../../images/bros/27szhang.webp"
+        },
+        "rels": {
+            "father": "5",
+            "spouses": [],
+            "children": [
+                "42"
+            ]
+        }
+    },
+    {
+        "id": "28",
+        "data": {
+            "fn": "Jason",
+            "ln": "Zhang",
+            "label": "MONΛRCH",
+            "desc": "Jason Zhang",
+            "avatar": "../../images/bros/28jzhang.webp"
+        },
+        "rels": {
+            "father": "22",
+            "spouses": [],
+            "children": [
+                "54"
+            ]
+        }
+    },
+    {
+        "id": "29",
+        "data": {
+            "fn": "Yury",
+            "ln": "Pozdneev",
+            "label": "ODM",
+            "desc": "Yury Pozdneev",
+            "avatar": "../../images/bros/29ypozdneev.webp"
+        },
+        "rels": {
+            "father": "5",
+            "spouses": [],
+            "children": [
+                "33"
+            ]
+        }
+    },
+    {
+        "id": "30",
+        "data": {
+            "fn": "Zilai",
+            "ln": "Wang",
+            "label": "SEKKI",
+            "desc": "Zilai Wang",
+            "avatar": "../../images/bros/30zwang.webp"
+        },
+        "rels": {
+            "father": "22",
+            "spouses": [],
+            "children": [
+                "35"
+            ]
+        }
+    },
+    {
+        "id": "31",
+        "data": {
+            "fn": "Mark",
+            "ln": "Wang",
+            "label": "T. LΛW",
+            "desc": "Mark Wang",
+            "avatar": "../../images/bros/31mwang.webp"
+        },
+        "rels": {
+            "father": "21",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "32",
+        "data": {
+            "fn": "William",
+            "ln": "Lim",
+            "label": "E.S.C.A.N.O.R",
+            "desc": "William Lim",
+            "avatar": "../../images/bros/32wlim.webp"
+        },
+        "rels": {
+            "father": "12",
+            "spouses": [],
+            "children": [
+                "36"
+            ]
+        }
+    },
+    {
+        "id": "33",
+        "data": {
+            "fn": "Junho",
+            "ln": "Choi",
+            "label": "MΛLPHON",
+            "desc": "Junho Choi",
+            "avatar": "../../images/bros/33jchoi.webp"
+        },
+        "rels": {
+            "father": "29",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "35",
+        "data": {
+            "fn": "Alex",
+            "ln": "Zhang",
+            "label": "CHIKΛ",
+            "desc": "Alex Zhang",
+            "avatar": "../../images/bros/35azhang.webp"
+        },
+        "rels": {
+            "father": "30",
+            "spouses": [],
+            "children": [
+                "56"
+            ]
+        }
+    },
+    {
+        "id": "36",
+        "data": {
+            "fn": "Adam",
+            "ln": "Huang",
+            "label": "Λ.S.T.A",
+            "desc": "Adam Shao-Hsuan Huang",
+            "avatar": "../../images/bros/36ahuang.webp"
+        },
+        "rels": {
+            "father": "32",
+            "spouses": [],
+            "children": [
+                "53"
+            ]
+        }
+    },
+    {
+        "id": "37",
+        "data": {
+            "fn": "Kristian",
+            "ln": "Janevski",
+            "label": "MESSIDONIΛ",
+            "desc": "Kristian Janevski",
+            "avatar": "../../images/bros/37kjanevski.webp"
+        },
+        "rels": {
+            "father": "1",
+            "spouses": [],
+            "children": [
+                "51"
+            ]
+        }
+    },
+    {
+        "id": "38",
+        "data": {
+            "fn": "Joseph",
+            "ln": "Li",
+            "label": "BTΛ",
+            "desc": "Joseph Li",
+            "avatar": "../../images/bros/38jli.webp"
+        },
+        "rels": {
+            "father": "18",
+            "spouses": [],
+            "children": [
+                "48"
+            ]
+        }
+    },
+    {
+        "id": "39",
+        "data": {
+            "fn": "Matthew",
+            "ln": "Gong",
+            "label": "iMΛJINe",
+            "desc": "Matthew Gong",
+            "avatar": "../../images/bros/39mgong.webp"
+        },
+        "rels": {
+            "father": "22",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "40",
+        "data": {
+            "fn": "Guanzhou",
+            "ln": "Zheng",
+            "label": "STEEZY",
+            "desc": "Guanzhou Zheng",
+            "avatar": "../../images/bros/40gzheng.webp"
+        },
+        "rels": {
+            "father": "14",
+            "spouses": [],
+            "children": [
+                "52",
+                "55"
+            ]
+        }
+    },
+    {
+        "id": "41",
+        "data": {
+            "fn": "Padraig",
+            "ln": "Hurley",
+            "label": "ΛSTRO",
+            "desc": "Padraig Hurley",
+            "avatar": "../../images/bros/41phurley.webp"
+        },
+        "rels": {
+            "father": "24",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "42",
+        "data": {
+            "fn": "Jerry",
+            "ln": "Meng",
+            "label": "JOΛT",
+            "desc": "Jerry Meng",
+            "avatar": "../../images/bros/42jmeng.webp"
+        },
+        "rels": {
+            "father": "27",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "43",
+        "data": {
+            "fn": "Harrison",
+            "ln": "Thow",
+            "label": "VΛPRE",
+            "desc": "Harrison Thow",
+            "avatar": "../../images/bros/43hthow.webp"
+        },
+        "rels": {
+            "father": "13",
+            "spouses": [],
+            "children": [
+                "49"
+            ]
+        }
+    },
+    {
+        "id": "44",
+        "data": {
+            "fn": "Verich",
+            "ln": "Luu",
+            "label": "ΛPOLLO",
+            "desc": "Verich Luu",
+            "avatar": "../../images/bros/44vluu.webp"
+        },
+        "rels": {
+            "father": "23",
+            "spouses": [],
+            "children": [
+                "50"
+            ]
+        }
+    },
+    {
+        "id": "45",
+        "data": {
+            "fn": "Kyle",
+            "ln": "Nguyen",
+            "label": "PIONEER",
+            "desc": "Kyle Nguyen",
+            "avatar": "../../images/bros/45knguyen.webp"
+        },
+        "rels": {
+            "father": "20",
+            "spouses": [],
+            "children": [
+                "57"
+            ]
+        }
+    },
+    {
+        "id": "46",
+        "data": {
+            "fn": "Ethan",
+            "ln": "Liu",
+            "label": "DΛ VINCI",
+            "desc": "Ethan Liu",
+            "avatar": "../../images/bros/46eliu.webp"
+        },
+        "rels": {
+            "father": "26",
+            "spouses": [],
+            "children": [
+                "60"
+            ]
+        }
+    },
+    {
+        "id": "47",
+        "data": {
+            "fn": "Woojae",
+            "ln": "Kim",
+            "label": "H.Y.U.G.A",
+            "desc": "Woojae Kim",
+            "avatar": "../../images/bros/47wkim.webp"
+        },
+        "rels": {
+            "father": "12",
+            "spouses": [],
+            "children": [
+                "58"
+            ]
+        }
+    },
+    {
+        "id": "48",
+        "data": {
+            "fn": "Justin",
+            "ln": "Bailey",
+            "label": "YUSUKE",
+            "desc": "Justin Bailey",
+            "avatar": "../../images/bros/48jbailey.webp"
+        },
+        "rels": {
+            "father": "38",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "49",
+        "data": {
+            "fn": "Samuel",
+            "ln": "Miller",
+            "label": "HIM-CHΛN",
+            "desc": "Samuel Miller",
+            "avatar": "../../images/bros/49smiller.webp"
+        },
+        "rels": {
+            "father": "43",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "50",
+        "data": {
+            "fn": "Bryan",
+            "ln": "Phandone",
+            "label": "GODZILLΛ",
+            "desc": "Bryan Phandone",
+            "avatar": "../../images/bros/50bphandone.webp"
+        },
+        "rels": {
+            "father": "50",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "51",
+        "data": {
+            "fn": "Ryan",
+            "ln": "Nguyen",
+            "label": "HΛVEN",
+            "desc": "Ryan Nguyen",
+            "avatar": "../../images/bros/51rnguyen.webp"
+        },
+        "rels": {
+            "father": "51",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "52",
+        "data": {
+            "fn": "Roy",
+            "ln": "Wang",
+            "label": "ΛURORIΛLIS",
+            "desc": "Roy Wang",
+            "avatar": "../../images/bros/52rwang.webp"
+        },
+        "rels": {
+            "father": "40",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "53",
+        "data": {
+            "fn": "Jordan",
+            "ln": "Kim",
+            "label": "ISΛGI",
+            "desc": "Jordan Kim",
+            "avatar": "../../images/bros/53jkim.webp"
+        },
+        "rels": {
+            "father": "38",
+            "spouses": [],
+            "children": []
+        }
+    }
+    ,
+    {
+        "id": "54",
+        "data": {
+            "fn": "Jason",
+            "ln": "Lin",
+            "label": "VIRTUOSO",
+            "desc": "Jason Lin",
+            "avatar": "../../images/bros/54jlin.webp"
+        },
+        "rels": {
+            "father": "28",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "55",
+        "data": {
+            "fn": "William",
+            "ln": "Fei",
+            "label": "SUPERNOVΛ",
+            "desc": "William Fei",
+            "avatar": "../../images/bros/55wfei.webp"
+        },
+        "rels": {
+            "father": "40",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "56",
+        "data": {
+            "fn": "Matthew",
+            "ln": "Tamayo",
+            "label": "MUSΛ",
+            "desc": "Matthew Tamayo",
+            "avatar": "../../images/bros/56mtamayo.webp"
+        },
+        "rels": {
+            "father": "35",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "57",
+        "data": {
+            "fn": "Austin",
+            "ln": "Pham",
+            "label": "PΛTHFINDER",
+            "desc": "Austin Pham",
+            "avatar": "../../images/bros/57apham.webp"
+        },
+        "rels": {
+            "father": "45",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "58",
+        "data": {
+            "fn": "Dylan",
+            "ln": "Fabonan",
+            "label": "E.R.E.N",
+            "desc": "Dylan Fabonan",
+            "avatar": "../../images/bros/58dfabonan.webp"
+        },
+        "rels": {
+            "father": "47",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "59",
+        "data": {
+            "fn": "Jace",
+            "ln": "Mcswain",
+            "label": "VULCΛN",
+            "desc": "Jace Mcswain",
+            "avatar": "../../images/bros/59jmcswain.webp"
+        },
+        "rels": {
+            "father": "19",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "60",
+        "data": {
+            "fn": "Brandon",
+            "ln": "Phan",
+            "label": "OBSIDIΛN",
+            "desc": "Brandon Phan",
+            "avatar": "../../images/bros/60bphan.webp"
+        },
+        "rels": {
+            "father": "46",
+            "spouses": [],
+            "children": []
+        }
+    }
+]

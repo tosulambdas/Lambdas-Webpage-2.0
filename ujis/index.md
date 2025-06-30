@@ -1,7 +1,8 @@
 ---
-title: Ujis
 layout: uji
+title: Ujis
+permalink: /ujis/
 nav:
   order: 3
-  tooltip: Learn more about the Ujis
+  tooltip: Interested in buying some Lambda Merch?
 ---
