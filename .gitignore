@@ -2,8 +2,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-/vendor/*
-!/vendor/bundle
+vendor
 debug.log
 __pycache__
 .cache
