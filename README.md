@@ -22,4 +22,7 @@ Notes:
     For file format user WEBP preferabilly, it's optimized :)
 
 Webmaster Lineage:
-Yury 
+Yury "ODM" Pozdneev
+Harrison "VΛPRE" Thow 
+Jerry "JOΛT" Meng
+Jason "VIRTUOS" Lin
