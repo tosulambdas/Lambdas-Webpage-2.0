@@ -1,30 +1,42 @@
-# start with official ruby docker image as base
+# Use official Ruby image
 FROM ruby:3.1.2
 
-# set working directory within container
+# Set working directory
 WORKDIR /usr/src/app
 
-# pull in ruby (jekyll) and python (cite process) package info
+# Copy Gemfile and requirements early for Docker caching
 COPY Gemfile Gemfile.lock _cite/requirements.txt ./
 
-# install ruby packages
-RUN VERSION=$(grep -A 1 'BUNDLED WITH' Gemfile.lock | tail -n 1 | xargs); \
-    gem install bundler --version ${VERSION} && \
-    bundle _${VERSION}_ install
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+  build-essential \
+  curl \
+  wget \
+  python3 \
+  python3-pip \
+  && rm -rf /var/lib/apt/lists/*
 
-# install python
-RUN apt update && apt install -y python3 python3-pip
+# Install correct Bundler version and run bundle install (includes native gems like sass-embedded)
+RUN BUNDLER_VERSION=$(grep -A 1 'BUNDLED WITH' Gemfile.lock | tail -n 1 | xargs) && \
+    gem install bundler -v "$BUNDLER_VERSION" && \
+    bundle config set force_ruby_platform true && \
+    bundle _"$BUNDLER_VERSION"_ install --with jekyll_plugins --retry=3
 
-# install python packages
-RUN python3 -m pip install --no-cache-dir --upgrade --requirement requirements.txt
+# Install Python dependencies
+RUN python3 -m pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt && \
+    pip install "watchdog[watchmedo]==3.0.0"
 
-# install python package for listening for file changes
-RUN pip install "watchdog[watchmedo]==3.0.0"
+# Copy full app (after bundle install to leverage caching)
+COPY . .
 
-# ports used by jekyll
+# Copy entrypoint script and make it executable
+COPY .docker/entrypoint.sh /var/entrypoint.sh
+RUN chmod +x /var/entrypoint.sh
+
+# Expose ports used by Jekyll
 EXPOSE 4000
 EXPOSE 35729
 
-# run jekyll and cite process
-COPY .docker/entrypoint.sh /var
-CMD [ "/var/entrypoint.sh" ]
+# Set entrypoint
+CMD ["/usr/local/bin/entrypoint.sh"]

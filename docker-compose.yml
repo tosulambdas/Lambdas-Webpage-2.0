@@ -1,0 +1,11 @@
+services:
+  site:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/usr/src/app
+    command: /var/entrypoint.sh

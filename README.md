@@ -14,6 +14,9 @@ Installation:
     Navigate to the root directory of the website and run "bundle install" in a command line
     Start the live server by running "bundle exec jekyll serve --open-url --livereload --trace"
 
+Build using docker:
+    docker-compose up --build
+
 Notes:
     I've attempted to updating Ruby versions although it works fine on the local server it conflicts with the actual built of the website.
     The gitignore fild includes Gemfile and Gemfile.lock for the exact same reason, so that when the website is building no version conflicts occurs.
