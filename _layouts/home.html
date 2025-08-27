@@ -1,38 +1,208 @@
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
+{% include homehead.html %}
 
-  {% include homehead.html %}
+<style>
+  /* Hide scrollbar but enable scroll */
+  html::-webkit-scrollbar {
+    display: none;
+  }
 
-  <body>
+  html {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    overflow-y: scroll;
+    /* Enable scroll */
+  }
 
-    <!-- Back to Top Button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Return to top &#9650;</button>
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(66, 83, 119);
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <!-- Mobile Menu -->
-      <div class="mobile-menu">
-        <h1>Lambda Phi Epsilon Associate Chapter</h1>
-        <h1>At THE Ohio State University</h1>
-        <h2>Discover the leaders among men!</h2>
-        <button class="menu-toggle" onclick="toggleMenu()">Menu</button>
-        <div class="menu-items">
-          <a href="/about-us/" class="btn">About Us</a>
-          <a href="/brothers/" class="btn">Brothers</a>
-          <a href="/ujis/" class="btn">Ujis</a>
-          <a href="/rush/" class="btn">Rush</a>
-          <a href="/media/" class="btn">Media</a>
-          <a href="/events/" class="btn">Events</a>
-          <a href="/contact/" class="btn">Contact</a>
-          <a href="/store/" class="btn">Store</a>
-        </div>
-      </div>
+  #myBtn:hover {
+    background-color: #555;
+    transform: scale(1.1);
+  }
 
-      <!-- Desktop Hero -->
-      <div class="hero-inner">
-        <h1>Lambda Phi Epsilon Associate Chapter</h1>
-        <h1>At THE Ohio State University</h1>
-        <h2>Discover the leaders among men!</h2>
+  .arrow-up {
+    transform: rotate(-45deg);
+  }
+
+  h1 {
+    margin: 40px 0 20px 0;
+    font-size: var(--xxl);
+    font-weight: var(--regular);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .hero {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+      url(images/background.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .hero h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .hero .btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .hero .btn {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 5px 0;
+  }
+
+  @media (max-width: 768px) {
+    .slider {
+      display: none;
+    }
+
+    .hero h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .hero .btn-container {
+      display: none;
+    }
+
+    .hero .mobile-menu {
+      display: block;
+    }
+
+    .hero-inner {
+      display: none;
+    }
+
+    .menu-toggle {
+      display: inline-block;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      padding: 5px 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      position: relative;
+      z-index: 1000;
+    }
+
+    .menu-items {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #333;
+      box-sizing: border-box;
+      padding: 10px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transform: translateY(-100%);
+      transition: transform 0.5s ease;
+    }
+
+    .menu-items a {
+      margin: 10px 0;
+    }
+
+    .menu-open .menu-items {
+      transform: translateY(0);
+      display: flex;
+    }
+
+    .menu-open .hero .btn-container {
+      display: flex;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .hero .mobile-menu {
+      display: none;
+    }
+  }
+</style>
+
+<button id="myBtn" title="Go to top" onclick="topFunction()">Return to top &#9650;</button>
+
+<script>
+  // Back to Top Button
+  let myBtn = document.getElementById("myBtn");
+
+  window.onscroll = function () {
+    if (window.scrollY > 20) {
+      myBtn.style.display = "block";
+    } else {
+      myBtn.style.display = "none";
+    }
+  };
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+</script>
+
+<body>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.hero').classList.toggle('menu-open');
+    }
+  </script>
+
+  <section class="hero">
+    <div class="mobile-menu">
+      <h1>Lambda Phi Epsilon Associate Chapter</h1>
+      <h1>At THE Ohio State University</h1>
+      <h2>Discover the leaders among men!</h2>
+      <button class="menu-toggle" onclick="toggleMenu()">Menu</button>
+      <div class="menu-items">
         <a href="/about-us/" class="btn">About Us</a>
         <a href="/brothers/" class="btn">Brothers</a>
         <a href="/ujis/" class="btn">Ujis</a>
@@ -42,229 +212,55 @@
         <a href="/contact/" class="btn">Contact</a>
         <a href="/store/" class="btn">Store</a>
       </div>
-    </section>
+    </div>
 
-    <!-- Carousel -->
-    <script src="homecarousel/ideal-image-slider.js"></script>
-    <div class="slider" id="slider"></div>
+    <div class="hero-inner">
+      <h1>Lambda Phi Epsilon Associate Chapter</h1>
+      <h1>At THE Ohio State University</h1>
+      <h2>Discover the leaders among men!</h2>
+      <a href="/about-us/" class="btn">About Us</a>
+      <a href="/brothers/" class="btn">Brothers</a>
+      <a href="/ujis/" class="btn">Ujis</a>
+      <a href="/rush/" class="btn">Rush</a>
+      <a href="/media/" class="btn">Media</a>
+      <a href="/events/" class="btn">Events</a>
+      <a href="/contact/" class="btn">Contact</a>
+      <a href="/store/" class="btn">Store</a>
+    </div>
+  </section>
 
-    <!-- Main Content -->
+  <script src="homecarousel/ideal-image-slider.js"></script>
+  <div class="slider" id="slider">
+    <img src="images/carousel/1.webp" alt="Carousel Image">
+    <img data-src="images/carousel/2.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/3.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/4.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/5.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/6.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/7.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/8.webp" src="" alt="Carousel Image">
+    <img data-src="images/carousel/9.webp" src="" alt="Carousel Image">
+  </div>
+
+  <script>
+    var slider = new IdealImageSlider.Slider({
+      selector: '#slider',
+      height: 700,
+      interval: 4000
+    });
+    slider.start();
+  </script>
+
+  <div id="main">
     <main>
       <h1>Associate Chapter of Lambda Phi Epsilon at <i>THE</i> Ohio State University</h1>
-      <img src="images/strip-country-flags.webp" alt="Flags">
+      <img src="images/strip-country-flags.webp" alt="Country flags">
       {% include content.html content=content %}
     </main>
+  </div>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-    <!-- Styles -->
-    <style>
+</body>
 
-      main{
-        background-color: var(--background);
-      }
-
-      h1 {
-        margin: 40px 0 20px;
-        font-size: var(--xxl);
-        font-weight: var(--regular);
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        text-align: center;
-        color: var(--text);
-      }
-
-      .hero {
-        width: auto;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: white;
-        background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/background.webp);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-      }
-
-      .hero h1,
-      .hero h2 {
-        margin: 0 0 20px;
-        text-align: center;
-      }
-
-      .hero .btn-container,
-      .menu-open .hero .btn-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-      }
-
-      .hero .btn {
-        padding: 10px;
-        font-size: 1.5em;
-        color: white;
-        text-decoration: none;
-        margin: 5px 0;
-      }
-
-      #myBtn {
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 30px;
-        z-index: 99;
-        border: none;
-        background-color: rgb(66, 83, 119);
-        color: white;
-        cursor: pointer;
-        padding: 15px;
-        border-radius: 10px;
-        font-size: 18px;
-        transition: background-color 0.3s, transform 0.3s;
-      }
-
-      #myBtn:hover {
-        background-color: #555;
-        transform: scale(1.1);
-      }
-
-      @media (max-width: 768px) {
-        .slider {
-          display: none;
-        }
-
-        .hero .btn-container {
-          display: none;
-        }
-
-        .hero .mobile-menu {
-          display: block;
-        }
-
-        .hero-inner {
-          display: none;
-        }
-
-        .menu-toggle {
-          margin: 50px 0 20px;
-          padding: 5px 10px;
-          background-color: #333;
-          color: white;
-          border: none;
-          cursor: pointer;
-          z-index: 1000;
-        }
-
-        .menu-items {
-          display: none;
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-color: #333;
-          padding: 10px;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          transition: transform 0.5s ease;
-          transform: translateY(-100%);
-        }
-
-        .menu-items a {
-          margin: 10px 0;
-        }
-
-        .menu-open .menu-toggle {
-          display: inline-block !important;
-        }
-
-        .menu-open .menu-items {
-          transform: translateY(0);
-          display: flex;
-        }
-
-        /* Mobile-specific adjustments */
-        @media (max-width: 375px) {
-          .menu-toggle {
-            margin-top: 10px;
-          }
-        }
-
-        @media (max-width: 390px) {
-          .menu-toggle {
-            margin-top: 125px;
-          }
-        }
-
-        @media (min-width: 376px) {
-          .menu-toggle {
-            margin-top: 150px;
-          }
-        }
-
-        @media (min-width: 767px) {
-          .menu-toggle {
-            margin-top: 285px;
-          }
-        }
-      }
-
-      @media (min-width: 769px) {
-        .hero .mobile-menu {
-          display: none;
-        }
-      }
-    </style>
-
-    <!-- Scripts -->
-    <script>
-      // Back to top button logic
-      const mybutton = document.getElementById("myBtn");
-
-      window.onscroll = function () {
-        mybutton.style.display = window.scrollY > 20 ? "block" : "none";
-      };
-
-      function topFunction() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      }
-
-      // Menu toggle logic
-      function toggleMenu() {
-        const hero = document.querySelector('.hero');
-        hero.classList.toggle('menu-open');
-        console.log('Button Clicked');
-        console.log('Is menu-open present:', hero.classList.contains('menu-open'));
-      }
-
-      // Carousel initialization
-      const sliderContainer = document.getElementById('slider');
-      const firstImg = document.createElement('img');
-      firstImg.src = 'images/carousel/1.webp';
-      firstImg.alt = 'Carousel Image';
-      sliderContainer.appendChild(firstImg);
-
-      for (let i = 2; i <= 32; i++) {
-        const img = document.createElement('img');
-        img.setAttribute('data-src', `images/carousel/${i}.webp`);
-        img.src = '';
-        img.alt = 'Carousel Image';
-        sliderContainer.appendChild(img);
-      }
-
-      const slider = new IdealImageSlider.Slider({
-        selector: '#slider',
-        height: 700,
-        interval: 4000
-      });
-      slider.start();
-    </script>
-
-  </body>
 </html>
