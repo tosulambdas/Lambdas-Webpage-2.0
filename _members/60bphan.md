@@ -16,6 +16,6 @@ links:
     
 Ethnicity: Vietnamese
 
-Major: Finance
+Major: Marketing
 
 Big Bro: [Ethan "DΛ VINCI" Liu](46eliu)

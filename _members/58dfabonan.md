@@ -14,8 +14,8 @@ links:
     
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
     
-Ethnicity: Chinese
+Ethnicity: Filipino
 
-Major: Finance
+Major: Accounting
 
 Big Bro: [Woojae "H.Y.U.G.A" Kim](47wkim)

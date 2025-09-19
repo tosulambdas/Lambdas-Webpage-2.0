@@ -14,8 +14,8 @@ links:
     
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
     
-Ethnicity: Chinese
+Ethnicity: Vietnameese/Filipino
 
-Major: Finance
+Major: Mechanical Engineering
 
 Big Bro: [Kyle "PIONEER" Nguyen](45knguyen)

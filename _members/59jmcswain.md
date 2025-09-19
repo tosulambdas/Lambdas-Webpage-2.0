@@ -14,8 +14,8 @@ links:
     
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
     
-Ethnicity: Chinese
+Ethnicity: Japanese
 
-Major: Finance
+Major: Biomedical Engineering
 
 Big Bro: [Ayoub "PLUTUS" Benaaouinate](19abenaaouinate)
