@@ -14,7 +14,7 @@ links:
     
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
     
-Ethnicity: The Japanese
+Ethnicity: THE Japanese
 
 Major: Biomedical Engineering
 
