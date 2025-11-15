@@ -17,11 +17,11 @@ nav:
 Eboard
 -->
 
-{% include figure.html image="images/eboard/president.webp" caption="Alex Zhang - President" link="/members/35azhang"%}
-{% include figure.html image="images/eboard/IVP.webp" caption="Ethan Liu - Internal Vice President" link="/members/46eliu"%}
-{% include figure.html image="images/eboard/EVP.webp" caption="Guangzhou Zheng - External Vice President" link="/members/40gzheng"%}
-{% include figure.html image="images/eboard/treasurer.webp" caption="Samuel Miller - Treasurer" link="/members/49smiller"%}
-{% include figure.html image="images/eboard/secretary.webp" caption="Sam Zhang- Secretary" link="/members/27szhang"%}
+{% include figure.html image="images/eboard/president.webp" caption="Justin Bailey - President" link="/members/48jbailey"%}
+{% include figure.html image="images/eboard/IVP.webp" caption="Roy Wang - Internal Vice President" link="/members/52rwang"%}
+{% include figure.html image="images/eboard/EVP.webp" caption="Samuel Miller - External Vice President" link="/members/49smiller"%}
+{% include figure.html image="images/eboard/treasurer.webp" caption="Jordan Kim - Treasurer" link="/members/53jkim"%}
+{% include figure.html image="images/eboard/secretary.webp" caption="Dylan Fabonan - Secretary" link="/members/58dfabonan"%}
 
 {% endcapture %}
 {:.center}
