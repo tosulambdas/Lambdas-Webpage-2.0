@@ -483,7 +483,8 @@
             "father": "5",
             "spouses": [],
             "children": [
-                "33"
+                "33", 
+                "61"
             ]
         }
     },
@@ -679,7 +680,9 @@
         "rels": {
             "father": "27",
             "spouses": [],
-            "children": []
+            "children": [
+                "65"
+            ]
         }
     },
     {
@@ -779,7 +782,10 @@
         "rels": {
             "father": "38",
             "spouses": [],
-            "children": []
+            "children": [
+                "62",
+                "63"
+            ]
         }
     },
     {
@@ -809,7 +815,9 @@
         "rels": {
             "father": "50",
             "spouses": [],
-            "children": []
+            "children": [
+                "66"
+            ]
         }
     },
     {
@@ -839,7 +847,9 @@
         "rels": {
             "father": "40",
             "spouses": [],
-            "children": []
+            "children": [
+                "64"
+            ]
         }
     },
     {
@@ -959,6 +969,96 @@
         },
         "rels": {
             "father": "46",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "61",
+        "data": {
+            "fn": "Johnathon",
+            "ln": "Nguyen",
+            "label": "SCORCH",
+            "desc": "Johnathon Nguyen",
+            "avatar": "../../images/bros/61jnguyen.webp"
+        },
+        "rels": {
+            "father": "29",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "62",
+        "data": {
+            "fn": "Howie",
+            "ln": "Dao",
+            "label": "p.e.k.k.Λ.",
+            "desc": "Howie Dao",
+            "avatar": "../../images/bros/62hdao.webp"
+        },
+        "rels": {
+            "father": "48",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "63",
+        "data": {
+            "fn": "Geraldo",
+            "ln": "Tengker",
+            "label": "SOUL",
+            "desc": "Geraldo Tengker",
+            "avatar": "../../images/bros/63gtengker.webp"
+        },
+        "rels": {
+            "father": "48",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "64",
+        "data": {
+            "fn": "Andrew",
+            "ln": "Wang",
+            "label": "HΛLIAN",
+            "desc": "Andrew Wang",
+            "avatar": "../../images/bros/64awang.webp"
+        },
+        "rels": {
+            "father": "52",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "65",
+        "data": {
+            "fn": "Steven",
+            "ln": "Luo",
+            "label": "TΛCHYON",
+            "desc": "Steven Luo",
+            "avatar": "../../images/bros/65sluo.webp"
+        },
+        "rels": {
+            "father": "42",
+            "spouses": [],
+            "children": []
+        }
+    },
+    {
+        "id": "66",
+        "data": {
+            "fn": "Boppy",
+            "ln": "Rattanavong",
+            "label": "MERLIN",
+            "desc": "Boppy Rattanavong",
+            "avatar": "../../images/bros/66brattanavong.webp"
+        },
+        "rels": {
+            "father": "50",
             "spouses": [],
             "children": []
         }

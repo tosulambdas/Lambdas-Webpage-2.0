@@ -1,6 +1,13 @@
 # Featured blogs
+- title: Theta Class Reveal
+  subtitle: Watch the reveal of the FA25 Theta Class!
+  group: reveal
+  image: images/media/thetas.webp
+  link: media/pages/thetas
+  description: The latest class to cross into eternal brotherhood! Meet the Tensei Thetas!
+
 - title: Eta Class Reveal
-  subtitle: Watch the reveal of the FA23 Eta Class!
+  subtitle: Watch the reveal of the SP24 Eta Class!
   group: reveal
   image: images/media/etas.webp
   link: media/pages/etas

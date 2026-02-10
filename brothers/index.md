@@ -11,21 +11,8 @@ nav:
 {:.center}
 {% include section.html %}
 
-{% capture content %}
+{% include eboard.html %}
 
-<!---
-Eboard
--->
-
-{% include figure.html image="images/eboard/president.webp" caption="Justin Bailey - President" link="/members/48jbailey"%}
-{% include figure.html image="images/eboard/IVP.webp" caption="Roy Wang - Internal Vice President" link="/members/52rwang"%}
-{% include figure.html image="images/eboard/EVP.webp" caption="Samuel Miller - External Vice President" link="/members/49smiller"%}
-{% include figure.html image="images/eboard/treasurer.webp" caption="Jordan Kim - Treasurer" link="/members/53jkim"%}
-{% include figure.html image="images/eboard/secretary.webp" caption="Dylan Fabonan - Secretary" link="/members/58dfabonan"%}
-
-{% endcapture %}
-{:.center}
-{% include grid_two.html style="square" content=content %}
 {:.center}
 
 <!---
@@ -44,6 +31,7 @@ Classes
 {% include figure.html image="images/media/epsilons.webp" caption="Epsilon Class - Empyreal Epsilons" link="/brothers/epsilons/" %}
 {% include figure.html image="images/media/zetas.webp" caption="Zeta Class - Zodiac Zetas" link="/brothers/zetas/" %}
 {% include figure.html image="images/media/etas.webp" caption="Eta Class - Eternal Etas" link="/brothers/etas/" %}
+{% include figure.html image="images/media/thetas.webp" caption="Theta Class - Tensei Thetas" link="/brothers/thetas/" %}
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
@@ -160,6 +148,7 @@ Classes
 {% include list.html data="members" component="portrait" filters="group: zeta" %}
 
 {% include section.html %}
+
 {:.center}
 
 
@@ -174,5 +163,26 @@ Classes
 **Class Motto**: _"We are all in the gutter, but some of us are looking at the stars."_
 {:.center}
 {% include list.html data="members" component="portrait" filters="group: eta" %}
+
+{:.center}
+
+{% include section.html %}
+
+{:.center}
+
+
+## Theta Class "Tensei Thetas" | FA25
+{:.center}
+**New Member Educator**: Guanzhou “STEEZY” Zheng
+{:.center}
+**Assistant New Member Educator**: Alex “CHIKΛ” Zhang
+{:.center}
+**Class Song**: _Bye Bye Bye_ by NSYNC
+{:.center}
+![](https://open.spotify.com/track/62bOmKYxYg7dhrC6gH9vFn?si=9db95e6fc483411e)
+{:.center}
+**Class Motto**: _"You were never meant to fit in – you were meant to become."_
+{:.center}
+{% include list.html data="members" component="portrait" filters="group: theta" %}
 
 {:.center}

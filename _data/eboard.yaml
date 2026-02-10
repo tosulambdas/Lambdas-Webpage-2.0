@@ -1,0 +1,19 @@
+- name: Justin Bailey
+  position: President
+  image: images/eboard/president.webp
+
+- name: Roy Wang
+  position: Internal Vice President
+  image: images/eboard/IVP.webp
+
+- name: Samuel Miller
+  position: External Vice President
+  image: images/eboard/EVP.webp
+
+- name: Jordan Kim
+  position: Treasurer
+  image: images/eboard/treasurer.webp
+
+- name: Dylan Fabonan
+  position: Secretary
+  image: images/eboard/secretary.webp

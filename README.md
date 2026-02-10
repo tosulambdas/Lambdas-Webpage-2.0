@@ -1,5 +1,5 @@
 
-# Harrisonthow's Website
+# Lambda Phi Epsilong @ THE Ohio State University's Website
 
 Visit **[tosulambdas.com](https://tosulambdas.com)** 🚀
 
@@ -12,13 +12,14 @@ Installation:
     Install Ruby 3.1.7 from this website https://rubyinstaller.org/downloads/archives/
     In a command line run "gem install bundler"
     Navigate to the root directory of the website and run "bundle install" in a command line
-    Start the live server by running "bundle exec jekyll serve --open-url --livereload --trace"
+    <!-- Be patient with the install it might take a few minutes -->
+    Start the live server by running "bundle exec jekyll serve --open-url --livereload --trace --incremental"
 
 Notes:
     I've attempted to updating Ruby versions although it works fine on the local server it conflicts with the actual built of the website.
     The gitignore fild includes Gemfile and Gemfile.lock for the exact same reason, so that when the website is building no version conflicts occurs.
     If your website ever fails to build then maybe revert back to an earlier working version of the website and copy the Gemfile
-    We use Godaddy for website hosting btu the building part of the website uses github workflow which I'm not equiped to working on
+    We use Godaddy for website hosting but the building part of the website uses github workflow which I'm not equiped to working on
     For file format user WEBP preferabilly, it's optimized :)
 
 Webmaster Lineage:
