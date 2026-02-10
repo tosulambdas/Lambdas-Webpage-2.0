@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["bold.scss"],"names":[],"mappings":"AAAA;AAAA;EAEE","sourcesContent":["b,\nstrong {\n  font-weight: var(--bold);\n}\n"],"file":"bold.css"}
+{"version":3,"sourceRoot":"","sources":["bold.scss"],"names":[],"mappings":"AAAA,SAEE","sourcesContent":["b,\nstrong {\n  font-weight: var(--bold);\n}\n"],"file":"bold.css"}

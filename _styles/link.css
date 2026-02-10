@@ -1,15 +1,1 @@
-a {
-  color: var(--primary);
-  transition-property: color;
-  overflow-wrap: break-word;
-}
-
-a:hover {
-  color: var(--text);
-}
-
-a:not([href]) {
-  color: var(--text);
-}
-
-/*# sourceMappingURL=link.css.map */
+a{color:var(--primary);transition-property:color;overflow-wrap:break-word}a:hover{color:var(--text)}a:not([href]){color:var(--text)}/*# sourceMappingURL=link.css.map */

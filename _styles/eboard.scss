@@ -1,0 +1,51 @@
+.eboard-grid {
+  display: flex;
+  justify-content: center; /* Centers items along the main axis (horizontally) */
+  flex-wrap: wrap;         /* Allows items to wrap to a new row */
+  gap: 20px;               /* Adds space between items */
+  padding: 20px;
+
+  // For smaller screens, stack cards
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr); // 2 per row
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr; // 1 per row
+  }
+}
+
+.eboard-card {
+  text-align: center;
+  background: #ffffff;
+  padding: 1.25rem;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.eboard-card img {
+  width: 200px;
+  aspect-ratio: 1 / 1; /* Ensures the image is square */
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.8rem;
+  border: 3px solid #f2f2f2;
+}
+
+.eboard-card h3 {
+  margin: 0.4rem 0 0.15rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.eboard-position {
+  font-size: 0.95rem;
+  color: #555;
+  font-weight: 500;
+}
