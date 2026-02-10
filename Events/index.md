@@ -1,7 +1,7 @@
 ---
 title: Events
 nav:
-  order: 7
+  order: -1
   tooltip: The most recent LPhiE Updates!
 ---
 

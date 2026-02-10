@@ -46,7 +46,7 @@
       | sort: "nav.order"
     %}
     {% for page in pages %}
-      {% if page.nav %}
+      {% if page.nav and page.nav.order >= 0 %}
         <a
           href="{{ page.dir | relative_url }}"
           data-tooltip="{{ page.nav.tooltip }}"
