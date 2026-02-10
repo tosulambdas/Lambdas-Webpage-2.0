@@ -92,55 +92,6 @@
             }
         }
 
-        .hover-section-container {
-            padding-top: 5%;
-            display: grid;
-            grid-template-columns: 50% 50%;
-        }
-
-        .hover-container {
-            position: relative;
-            width: 95%;
-
-
-            .image {
-                display: block;
-                width: 100%;
-                height: auto;
-                aspect-ratio: 1/1;
-            }
-        }
-
-
-        .overlay {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            width: 100%;
-            opacity: 0;
-            transition: .5s ease;
-            background-color: #008CBA;
-        }
-
-        .hover-container:hover .overlay {
-            opacity: .85;
-        }
-
-        .hover-text {
-            color: white;
-            font-size: 20px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 95%;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
     </style>
 
 </head>
@@ -149,64 +100,10 @@
     {% include header.html %}
     <main>
 
-
-
         <div class="container">
-            <div class="hover-section-container">
-
-                <div class="hover-container">
-                    <img src="/images/rush/Rush theme.webp" alt="Rush Theme" class="image"
-                        style="object-fit: contain ;">
-                    <div class="overlay">
-                        <div class="hover-text">
-                            <h5 style="font-size: larger;">Wanna join the brotherhood?</h5>
-                            <p>
-
-                                Unlock Your Potential with Lambda Phi Epsilon <br>
-
-                                🤝 Forge Lifelong Connections<br>
-
-                                🌐 Join a Global Community<br>
-
-                                🔥 Unleash Your Leadership<br>
-
-                                🎓 Achieve Academic Excellence<br>
-
-                                Ready to embark on a journey of lifelong brotherhood,
-                                leadership, and success? Come to our rush events and get to konw
-                                the bros.
-
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="hover-container">
-                    <img src="/images/rush/Rush calender.webp" alt="Rush Calender" class="image">
-                    <div class="overlay">
-                        <div class="text">
-
-                            <h5 style="font-size: larger;">Eligibility for an interview</h5>
-                            <p style="padding: 5%;">
-                                GPA &#8805; 2.7<br>
-                                In good academic standing<br>
-                                Don't be an a******e<br>
-                                Attend 2 Rush events<br>
-                                Attend 1 General Information meeting
-                            </p>
 
 
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            {% include section.html %}
-
-            {% include list.html component="card" data="rush" style="small"%}
-
-            {% include section.html %}
+            {% include content.html content=content %}
             <div>
                 <h7>Frequently Asked Questions</h7>
                 <div class="accordion-container" style="padding-top: 5%;">
@@ -263,6 +160,14 @@
                         </div>
                     </div>
                     <div class="accordion-group">
+                        <button class="accordion">What are the requirements to be offered a
+                            bid?<i class="fas fa-chevron-down arrow"></i></button>
+                        <div class="panel">
+                            <p>Bid requirements vary semester to semester, but generally are
+                                composed of having a GPA ≥ 2.7, attending a minimum of 2
+                                general rush events, and attending one general information
+                                meeting (GIM).</p>
+                        </div>
                         <button class="accordion">What is the New Member Education Process?<i
                                 class="fas fa-chevron-down arrow"></i></button>
                         <div class="panel">
@@ -326,31 +231,14 @@
                                 generations of Lambdas to become successful in any career
                                 industry imaginable.</p>
                         </div>
-                        <button class="accordion">What are the requirements to be offered a
-                            bid?<i class="fas fa-chevron-down arrow"></i></button>
-                        <div class="panel">
-                            <p>Bid requirements vary semester to semester, but generally are
-                                composed of having a GPA ≥ 2.7, attending a minimum of 2
-                                general rush events, and attending one general information
-                                meeting (GIM).</p>
-                        </div>
+                        
                     </div>
                 </div>
 
             </div>
 
             {% include section.html %}
-
-            <div>
-                <h7>
-                    Interested? The Brotherhood is calling for you.
-                    <br><br>
-                </h7>
-                <iframe src="https://forms.gle/uqUiCiTYPBYtZ9TU6" width="640" height="382" frameborder="0"
-                    marginheight="0" marginwidth="0">Loading…</iframe>
-            </div>
-
-            {% include section.html %}
+            
         </div>
 
     </main>
@@ -360,44 +248,24 @@
 </body>
 
 <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
+document.addEventListener("DOMContentLoaded", function () {
+    document.body.addEventListener("click", function (e) {
+        if (e.target.classList.contains("accordion")) {
+            const acc = e.target;
+            acc.classList.toggle("active");
+            const panel = acc.nextElementSibling;
             if (panel.style.maxHeight) {
                 panel.style.maxHeight = null;
             } else {
                 panel.style.maxHeight = panel.scrollHeight + "px";
             }
 
-            // Toggle the arrow icon class
-            var arrow = this.querySelector('.arrow');
-            arrow.classList.toggle('rotate');
-        });
-    }
-
-    //Galarry code
-    window.addEventListener("load", function () {
-        const buttons = document.querySelectorAll("[data-carousel-button]");
-
-        buttons.forEach((button) => {
-            button.addEventListener("click", () => {
-                const offset = button.dataset.carouselButton === "next" ? 1 : -1;
-                const slides = button.closest("[data-carousel]").querySelector("[data-slides]");
-
-                const activeSlide = slides.querySelector("[data-active]");
-                let newIndex = [...slides.children].indexOf(activeSlide) + offset;
-                if (newIndex < 0) newIndex = slides.children.length - 1;
-                if (newIndex >= slides.children.length) newIndex = 0;
-
-                slides.children[newIndex].dataset.active = true;
-                delete activeSlide.dataset.active;
-            });
-        });
+            const arrow = acc.querySelector(".arrow");
+            if (arrow) arrow.classList.toggle("rotate");
+        }
     });
+});
+
 </script>
 
 </html>
