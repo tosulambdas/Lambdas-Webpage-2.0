@@ -49,3 +49,9 @@
   color: #555;
   font-weight: 500;
 }
+
+.eboard-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block; /* makes entire card clickable */
+}
