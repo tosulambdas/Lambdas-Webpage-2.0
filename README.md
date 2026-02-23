@@ -13,7 +13,8 @@ Installation:
     In a command line run "gem install bundler"
     Navigate to the root directory of the website and run "bundle install" in a command line
     <!-- Be patient with the install it might take a few minutes -->
-    Start the live server by running "bundle exec jekyll serve --open-url --livereload --trace --incremental"
+    Start the live server by running "bundle exec jekyll serve --open-url --livereload --trace"
+         --incremental can be added however not helpful in reality, why? no idea
 
 Notes:
     I've attempted to updating Ruby versions although it works fine on the local server it conflicts with the actual built of the website.

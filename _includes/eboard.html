@@ -1,9 +1,11 @@
 <div class="eboard-grid">
   {% for member in site.data.eboard %}
-    <div class="eboard-card">
-      <img src="{{ member.image | relative_url }}" alt="{{ member.name }}">
-      <h3>{{ member.name }}</h3>
-      <p class="eboard-position">{{ member.position }}</p>
-    </div>
+    <a href="../members/{{ member.link }}" class="eboard-card-link">
+      <div class="eboard-card">
+        <img src="{{ member.image | relative_url }}" alt="{{ member.name }}">
+        <h3>{{ member.name }}</h3>
+        <p class="eboard-position">{{ member.position }}</p>
+      </div>
+    </a>
   {% endfor %}
 </div>
