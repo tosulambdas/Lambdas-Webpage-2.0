@@ -261,10 +261,6 @@
   
 
   
-    <link href="/_styles/store-page.css" rel="stylesheet">
-  
-
-  
     <link href="/_styles/table.css" rel="stylesheet">
   
 
@@ -478,7 +474,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
       
     
       
-        <a href="/ujis/" data-tooltip="Interested in buying some Lambda Merch?">
+        <a href="/ujis/" data-tooltip="Look at our family tree!">
           Ujis
         </a>
       
@@ -510,85 +506,83 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </nav>
 </header>
 
-  <!-- The family tree is written using a modified version of Donato's family tree:
-   https://donatso.github.io/family-chart-doc/examples/11-html-card-styling -->
-  <div id="FamilyChart" class="f3" style="width:100%;height: 70vh;margin:auto;background-color:rgb(96, 125, 139);color:#fff;"></div>
+
+  <div id="FamilyChart" class="f3" style="width:100%;height:70vh;margin:auto;background-color:rgb(96, 125, 139);color:#fff;"></div>
 
   <script type="module">
-    fetch('./data.json')
+    fetch('/ujis/data.json')
       .then(res => res.json())
       .then(data => create(data))
-      .catch(err => console.error(err));
+      .catch(err => console.error('Failed to load uji data:', err));
 
     function create(data) {
       const host = document.querySelector('#FamilyChart');
+      if (!host) return;
+
       const shadowRoot = host.attachShadow({ mode: 'open' });
 
-      // Inject family-chart CSS
       const styleLink = document.createElement('link');
       styleLink.rel = 'stylesheet';
       styleLink.href = 'https://unpkg.com/family-chart@0.7.0/dist/styles/family-chart.css';
       shadowRoot.appendChild(styleLink);
 
-      // Create container for the chart inside the shadow root
-      const chartContainer = document.createElement('div');
       const extraStyle = document.createElement('style');
       extraStyle.textContent = `
-  .card {
-    pointer-events: auto;
-    transform: translate(-40%, -50%);
-    cursor: pointer;
-    color: #fff;
-    position: relative;
-    width: 20rem;
-    height: 20rem;
-    overflow: visible;
-    background: transparent;
-    box-shadow: none;
-  }
+        .card {
+          pointer-events: auto;
+          transform: translate(-40%, -50%);
+          cursor: pointer;
+          color: #fff;
+          position: relative;
+          width: 20rem;
+          height: 20rem;
+          overflow: visible;
+          background: transparent;
+          box-shadow: none;
+        }
 
-  .card-image {
-    background: transparent;
-    border-radius: 50%;
-    margin-top: 10px;
-    padding: 10px;
-    width: 16rem;
-    height: 16rem;
-    aspect-ratio: 1/1;
-    overflow: visible;
-  }
+        .card-image {
+          background: transparent;
+          border-radius: 50%;
+          margin-top: 10px;
+          padding: 10px;
+          width: 16rem;
+          height: 16rem;
+          aspect-ratio: 1 / 1;
+          overflow: visible;
+        }
 
-  .card-label {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-65%, -20%);
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    white-space: nowrap;
-    border-radius: 3px;
-    padding: 0 5px;
-    font-size: 2rem;
-  }
+        .card-label {
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          transform: translate(-65%, -20%);
+          text-align: center;
+          background-color: rgba(0, 0, 0, 0.5);
+          white-space: nowrap;
+          border-radius: 3px;
+          padding: 0 5px;
+          font-size: 2rem;
+        }
 
-  .card-image img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-  }
+        .card-image img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          object-fit: cover;
+        }
 
-  .card > div {
-    transition: transform 0.2s ease-in-out;
-  }
-
-`;
+        .card > div {
+          transition: transform 0.2s ease-in-out;
+        }
+      `;
       shadowRoot.appendChild(extraStyle);
 
+      const chartContainer = document.createElement('div');
       chartContainer.id = 'ChartRoot';
       chartContainer.style.width = '100%';
       chartContainer.style.height = '100%';
-      chartContainer.classList.add('f3'); // Important for chart styling
+      chartContainer.classList.add('f3');
       shadowRoot.appendChild(chartContainer);
 
       const store = f3.createStore({
@@ -608,39 +602,42 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 
       f3.htmlHandlers.createHtmlSvg(chartContainer);
 
-      store.setOnUpdate(props => {
+      store.setOnUpdate((props) => {
         const tree = store.getTree();
-        props = Object.assign({}, props || {}, {
+        const mergedProps = Object.assign({}, props || {}, {
           cardHtml: getHtmlSvg()
         });
-        f3.view(tree, svg, Card(), props || {});
+        f3.view(tree, svg, Card(), mergedProps);
       });
 
-      store.updateMainId('Q43274');
+      store.updateMainId('0');
       store.updateTree();
 
       function Card() {
         return function (d) {
           this.innerHTML = `
-          <div class="card">
-            ${getCardInnerImage(d)}
-          </div>
-        `;
-          this.querySelector('.card').addEventListener('click', e => {
-            e.stopPropagation();
-            store.updateMainId(d.data.id);
-            store.updateTree();
-          });
+            <div class="card">
+              ${getCardInnerImage(d)}
+            </div>
+          `;
+
+          const card = this.querySelector('.card');
+          if (card) {
+            card.addEventListener('click', (e) => {
+              e.stopPropagation();
+              store.updateMainId(d.data.id);
+              store.updateTree();
+            });
+          }
         };
 
         function getCardInnerImage(d) {
           return `
-          <div class="card-image ${getClassList(d).join(' ')}">
-            <img src="${d.data.data.avatar}" />
-<div class="card-label">${d.data.id !== '0' ? `#${d.data.id} ` : ''}${d.data.data.label}</div>
-
-          </div>
-        `;
+            <div class="card-image ${getClassList(d).join(' ')}">
+              <img src="${d.data.data.image}" alt="${d.data.data.fn || ''} ${d.data.data.ln || ''}" />
+              <div class="card-label">${d.data.id !== '0' ? `#${d.data.id} ` : ''}${d.data.data.label || ''}</div>
+            </div>
+          `;
         }
 
         function getClassList(d) {
