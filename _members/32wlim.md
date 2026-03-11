@@ -5,7 +5,7 @@ ln: Lim
 mn: 
 image: images/bros/32wlim.webp
 group: gamgam
-role: undergrad
+role: alumni
 description: E.S.C.A.N.O.R
 ethinicity: Korean
 major:

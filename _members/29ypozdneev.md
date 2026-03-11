@@ -5,7 +5,7 @@ ln: Pozdneev
 mn: 
 image: images/bros/29ypozdneev.webp
 group: gamgam
-role: undergrad
+role: alumni
 description: ODM
 ethinicity: Russian
 major:
