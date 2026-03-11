@@ -10,7 +10,7 @@ description: Phony Hawk
 ethinicity: Vietnamese
 major:
 - Computer Science and Engineering
-father: 
+father: 0
 children:
 -
 links:

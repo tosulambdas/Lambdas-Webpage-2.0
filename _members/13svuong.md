@@ -10,7 +10,7 @@ description: CASΛNOVA
 ethinicity: Vietnamese
 major:
 - Communications
-father: 01
+father: 1
 children:
 -
 links:

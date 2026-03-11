@@ -10,7 +10,7 @@ description: Brock
 ethinicity: Vietnamese
 major:
 - Architechture
-father: 
+father: 0
 children:
 - 18
 links:

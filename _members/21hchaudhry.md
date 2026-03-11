@@ -10,7 +10,7 @@ description: ΛRETE
 ethinicity: Pakistani & Bangladeshi
 major:
 - Biology
-father: 08
+father: 8
 children:
 - 31
 links:

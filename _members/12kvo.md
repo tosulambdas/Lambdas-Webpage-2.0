@@ -10,7 +10,7 @@ description: M.I.R.I.O
 ethinicity: Vietnamese
 major:
 - Chemical and Biomolecular Engineering
-father: 
+father: 0
 children:
 - 32
 - 47

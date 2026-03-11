@@ -10,7 +10,7 @@ description: uncHEΛRTed
 ethinicity: Vietnamese
 major:
 - Psychology
-father: 07
+father: 7
 children:
 - 34
 - 46

@@ -10,7 +10,7 @@ description: KILLUΛ
 ethinicity: Korean
 major:
 - Computer Science and Information
-father: 34
+father: 5
 children:
 -
 links:

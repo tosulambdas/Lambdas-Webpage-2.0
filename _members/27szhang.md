@@ -10,7 +10,7 @@ description: MIRΛI
 ethinicity: Chinese
 major:
 - Computer Science & Engineering
-father: 34
+father: 5
 children:
 - 42
 links:

@@ -1,34 +1,162 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    {% include head.html %}
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>my-family-chart</title>
-    <script src="https://unpkg.com/d3@6"></script>
-    <script type="module" src="https://unpkg.com/family-chart@0.7.0"></script>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/family-chart@0.7.0/dist/styles/family-chart.css"
-    />
-  </head>
-  <body>
-    {% include header.html %}
-    <div
-      id="FamilyChart"
-      class="f3"
-      style="
-        width: 100%;
-        height: 70vh;
-        margin: auto;
-        background-color: rgb(96, 125, 139);
-        color: #fff;
-      "
-    ></div>
-    {%- assign sorted_members = site.members | sort: "number" -%}
-    <script type="module">
-      const data = [ { id: "0", data: { fn: "OSU", ln: "Lambdas", desc: "A family of OSU Lambdas", avatar: "{{ '/images/background.webp' | relative_url }}", label: "OSU Lambdas" }, rels: { spouses: [] }, main: true } {%- for member in sorted_members -%} ,{ id: "{{ member.number }}", data: { fn: {{ member.fn | default: "" | jsonify }}, ln: {{ member.ln | default: "" | jsonify }}, label: {{ member.description | default: member.fn | jsonify }}, desc: {{ member.fn | append: " " | append: member.ln | strip | jsonify }}, avatar: {{ member.avatar | relative_url | jsonify }} }, rels: { father: "{% if member.father and member.father != '' %}{{ member.father }}{% else %}0{% endif %}", spouses: [] } } {%- endfor -%} ]; create(data); function create(data) { const host = document.querySelector('#FamilyChart'); if (!host) return; const shadowRoot = host.attachShadow({ mode: 'open' }); const styleLink = document.createElement('link'); styleLink.rel = 'stylesheet'; styleLink.href = 'https://unpkg.com/family-chart@0.7.0/dist/styles/family-chart.css'; shadowRoot.appendChild(styleLink); const extraStyle = document.createElement('style'); extraStyle.textContent = ` .card { pointer-events: auto; transform: translate(-40%, -50%); cursor: pointer; color: #fff; position: relative; width: 20rem; height: 20rem; overflow: visible; background: transparent; box-shadow: none; } .card-image { background: transparent; border-radius: 50%; margin-top: 10px; padding: 10px; width: 16rem; height: 16rem; aspect-ratio: 1 / 1; overflow: visible; } .card-label { position: absolute; bottom: 20px; left: 50%; transform: translate(-65%, -20%); text-align: center; background-color: rgba(0, 0, 0, 0.5); white-space: nowrap; border-radius: 3px; padding: 0 5px; font-size: 2rem; } .card-image img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; } .card > div { transition: transform 0.2s ease-in-out; } `; shadowRoot.appendChild(extraStyle); const chartContainer = document.createElement('div'); chartContainer.id = 'ChartRoot'; chartContainer.style.width = '100%'; chartContainer.style.height = '100%'; chartContainer.classList.add('f3'); shadowRoot.appendChild(chartContainer); const store = f3.createStore({ data, node_separation: 300, level_separation: 400, layout: 'tree' }); const getSvgView = () => chartContainer.querySelector('svg .view'); const getHtmlSvg = () => chartContainer.querySelector('#htmlSvg'); const getHtmlView = () => chartContainer.querySelector('#htmlSvg .cards_view'); const svg = f3.createSvg(chartContainer, { onZoom: f3.htmlHandlers.onZoomSetup(getSvgView, getHtmlView) }); f3.htmlHandlers.createHtmlSvg(chartContainer); store.setOnUpdate((props) => { const tree = store.getTree(); const mergedProps = Object.assign({}, props || {}, { cardHtml: getHtmlSvg() }); f3.view(tree, svg, Card(), mergedProps); }); store.updateMainId('0'); store.updateTree(); function Card() { return function (d) { this.innerHTML = ` <div class="card"> ${getCardInnerImage(d)} </div> `; const card = this.querySelector('.card'); if (card) { card.addEventListener('click', (e) => { e.stopPropagation(); store.updateMainId(d.data.id); store.updateTree(); }); } }; function getCardInnerImage(d) { return ` <div class="card-image ${getClassList(d).join(' ')}"> <img src="${d.data.data.avatar}" alt="${d.data.data.fn || ''} ${d.data.data.ln || ''}" /> <div class="card-label">${d.data.id !== '0' ? `#${d.data.id} ` : ''}${d.data.data.label || ''}</div> </div> `; } function getClassList(d) { const classList = []; if (d.data.main) classList.push('card-main'); return classList; } } }
-    </script>
-    {% include footer.html %}
-  </body>
+
+<head>
+  {% include head.html %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>my-family-chart</title>
+  <script src="https://unpkg.com/d3@6"></script>
+  <script type="module" src="https://unpkg.com/family-chart@0.7.0"></script>
+  <link rel="stylesheet" href="https://unpkg.com/family-chart@0.7.0/dist/styles/family-chart.css">
+</head>
+
+<body>
+  {% include header.html %}
+
+  <div id="FamilyChart" class="f3" style="width:100%;height:70vh;margin:auto;background-color:rgb(96, 125, 139);color:#fff;"></div>
+
+  <script type="module">
+    fetch('{{ "/ujis/data.json" | relative_url }}')
+      .then(res => res.json())
+      .then(data => create(data))
+      .catch(err => console.error('Failed to load uji data:', err));
+
+    function create(data) {
+      const host = document.querySelector('#FamilyChart');
+      if (!host) return;
+
+      const shadowRoot = host.attachShadow({ mode: 'open' });
+
+      const styleLink = document.createElement('link');
+      styleLink.rel = 'stylesheet';
+      styleLink.href = 'https://unpkg.com/family-chart@0.7.0/dist/styles/family-chart.css';
+      shadowRoot.appendChild(styleLink);
+
+      const extraStyle = document.createElement('style');
+      extraStyle.textContent = `
+        .card {
+          pointer-events: auto;
+          transform: translate(-40%, -50%);
+          cursor: pointer;
+          color: #fff;
+          position: relative;
+          width: 20rem;
+          height: 20rem;
+          overflow: visible;
+          background: transparent;
+          box-shadow: none;
+        }
+
+        .card-image {
+          background: transparent;
+          border-radius: 50%;
+          margin-top: 10px;
+          padding: 10px;
+          width: 16rem;
+          height: 16rem;
+          aspect-ratio: 1 / 1;
+          overflow: visible;
+        }
+
+        .card-label {
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          transform: translate(-65%, -20%);
+          text-align: center;
+          background-color: rgba(0, 0, 0, 0.5);
+          white-space: nowrap;
+          border-radius: 3px;
+          padding: 0 5px;
+          font-size: 2rem;
+        }
+
+        .card-image img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        .card > div {
+          transition: transform 0.2s ease-in-out;
+        }
+      `;
+      shadowRoot.appendChild(extraStyle);
+
+      const chartContainer = document.createElement('div');
+      chartContainer.id = 'ChartRoot';
+      chartContainer.style.width = '100%';
+      chartContainer.style.height = '100%';
+      chartContainer.classList.add('f3');
+      shadowRoot.appendChild(chartContainer);
+
+      const store = f3.createStore({
+        data,
+        node_separation: 300,
+        level_separation: 400,
+        layout: 'tree'
+      });
+
+      const getSvgView = () => chartContainer.querySelector('svg .view');
+      const getHtmlSvg = () => chartContainer.querySelector('#htmlSvg');
+      const getHtmlView = () => chartContainer.querySelector('#htmlSvg .cards_view');
+
+      const svg = f3.createSvg(chartContainer, {
+        onZoom: f3.htmlHandlers.onZoomSetup(getSvgView, getHtmlView)
+      });
+
+      f3.htmlHandlers.createHtmlSvg(chartContainer);
+
+      store.setOnUpdate((props) => {
+        const tree = store.getTree();
+        const mergedProps = Object.assign({}, props || {}, {
+          cardHtml: getHtmlSvg()
+        });
+        f3.view(tree, svg, Card(), mergedProps);
+      });
+
+      store.updateMainId('0');
+      store.updateTree();
+
+      function Card() {
+        return function (d) {
+          this.innerHTML = `
+            <div class="card">
+              ${getCardInnerImage(d)}
+            </div>
+          `;
+
+          const card = this.querySelector('.card');
+          if (card) {
+            card.addEventListener('click', (e) => {
+              e.stopPropagation();
+              store.updateMainId(d.data.id);
+              store.updateTree();
+            });
+          }
+        };
+
+        function getCardInnerImage(d) {
+          return `
+            <div class="card-image ${getClassList(d).join(' ')}">
+              <img src="${d.data.data.image}" alt="${d.data.data.fn || ''} ${d.data.data.ln || ''}" />
+              <div class="card-label">${d.data.id !== '0' ? `#${d.data.id} ` : ''}${d.data.data.label || ''}</div>
+            </div>
+          `;
+        }
+
+        function getClassList(d) {
+          const classList = [];
+          if (d.data.main) classList.push('card-main');
+          return classList;
+        }
+      }
+    }
+  </script>
+
+  {% include footer.html %}
+</body>
+
 </html>

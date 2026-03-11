@@ -10,7 +10,7 @@ description: Pillowtalk
 ethinicity: Filipino
 major:
 - Air Transportation
-father: 
+father: 0
 children:
 -
 links:

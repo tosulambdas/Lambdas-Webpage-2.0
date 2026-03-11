@@ -10,7 +10,7 @@ description: ODM
 ethinicity: Russian
 major:
 - Computer Science & Engineering
-father: 34
+father: 5
 children:
 - 33
 - 61

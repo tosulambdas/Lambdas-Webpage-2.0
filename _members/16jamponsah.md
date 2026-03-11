@@ -10,7 +10,7 @@ description: Zoro
 ethinicity: Ghanaian
 major:
 - Psychology & Philosophy
-father: 09
+father: 9
 children:
 -
 links:

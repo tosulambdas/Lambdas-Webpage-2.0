@@ -10,7 +10,7 @@ description: PLUTUS
 ethinicity: Moroccan
 major:
 - Accounting
-father: 03
+father: 3
 children:
 - 59
 links:

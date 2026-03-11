@@ -10,7 +10,7 @@ description: Rule 34
 ethinicity: Vietnamese
 major:
 - Computer Information Science
-father: 
+father: 0
 children:
 -
 links:

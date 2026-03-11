@@ -10,7 +10,7 @@ description: VΛPRE
 ethinicity: Scottish, English
 major:
 - Biochemistry and German
-father: 25
+father: 13
 children:
 - 49
 links:

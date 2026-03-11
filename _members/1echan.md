@@ -11,7 +11,7 @@ description: Doc McStuffins
 ethinicity: Chinese
 major: 
 - Biology
-father:
+father: 0
 children: 
 - 37
 links:

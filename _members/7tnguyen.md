@@ -10,7 +10,7 @@ description: ¿Winnie the Who?
 ethinicity: Vietnamese
 major:
 - Mechanical Engineering
-father: 
+father: 0
 children:
 -
 links:

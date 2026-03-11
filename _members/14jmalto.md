@@ -10,7 +10,7 @@ description: NOMΛD
 ethinicity: Chinese & Filipino
 major:
 - Computer Information Science
-father: 08
+father: 8
 children:
 - 40
 links:

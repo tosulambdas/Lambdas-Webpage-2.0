@@ -10,7 +10,7 @@ description: Wumbo
 ethinicity: Filipino
 major:
 - Finance
-father: 
+father: 0
 children:
 -
 links:

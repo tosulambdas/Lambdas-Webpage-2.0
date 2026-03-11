@@ -10,7 +10,7 @@ description: SBD
 ethinicity: Vietnamese
 major:
 - Computer Science and Engineering
-father: 
+father: 0
 children:
 - 20
 links:

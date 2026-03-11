@@ -10,7 +10,7 @@ description: Cookin Mama
 ethinicity: Vietnamese
 major:
 - History
-father: 
+father: 0
 children:
 -
 links:

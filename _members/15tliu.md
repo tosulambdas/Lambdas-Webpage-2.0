@@ -10,7 +10,7 @@ description: Re:Zerø
 ethinicity: Chinese
 major:
 - Computer Science and Information
-father: 03
+father: 3
 children:
 - 22
 links:
