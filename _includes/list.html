@@ -11,6 +11,8 @@
   {% assign data = data | where: key_value[0], key_value[1] %}
 {% endfor %}
 
+{% assign data = data | sort: "number" %}
+
 
 {% comment %} 
 <!-- Fixes issue of not checking the entire value -->
@@ -43,6 +45,12 @@
       content=d.content
       date=d.date
       description=d.description
+      fn=d.fn
+      mn=d.mn
+      ln=d.ln
+      avatar=d.avatar
+      group=d.group
+      number=d.number
       excerpt=d.excerpt
       height=d.height
       icon=d.icon

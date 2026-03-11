@@ -1,21 +1,28 @@
 ---
-name: Andrew Wang
+number: 64
+fn: Andrew
+ln: Wang
+mn: 
 image: images/bros/64awang.webp
-role: undergrad
 group: theta
-description: "#64 'HΛLIAN'"
+role: undergrad
+description: HΛLIAN
+ethinicity: Chinese
+major:
+- Electrical & Computer Engineering
+father: 52
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin:
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Electrical & Computer Engineering 
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Roy "ΛURORIΛLIS" Wang](52rwang)
+Major: {{ page.major | join: ', ' }}

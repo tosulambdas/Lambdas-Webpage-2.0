@@ -1,23 +1,28 @@
 ---
-name: Padraig Hurley
+number: 41
+fn: Padraig
+ln: Hurley
+mn: 
 image: images/bros/41phurley.webp
-role: alumni
 group: delta
-description: "#41 'ΛSTRO'"
+role: alumni
+description: ΛSTRO
+ethinicity: Chinese & Irish
+major:
+- Physics
+father: 24
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese & Irish
 
-Major: Physics
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [James "NBA CHUNGBOY" Li](24jli)
-
-
+Major: {{ page.major | join: ', ' }}

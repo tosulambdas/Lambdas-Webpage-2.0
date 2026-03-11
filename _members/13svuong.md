@@ -1,23 +1,28 @@
 ---
-name: Sonny Vuong
+number: 13
+fn: Sonny
+ln: Vuong
+mn: 
 image: images/bros/13svuong.webp
-role: alumni
 group: alpha
-description: "#13 'CASΛNOVA'"
+role: alumni
+description: CASΛNOVA
+ethinicity: Vietnamese
+major:
+- Communications
+father: 01
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese
 
-Major: Communications
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Ethan "Doc Mc'Stuffin's" Chan](01echan)
-
-
+Major: {{ page.major | join: ', ' }}

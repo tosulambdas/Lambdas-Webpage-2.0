@@ -1,23 +1,28 @@
 ---
-name: Sam Zhang
+number: 27
+fn: Sam
+ln: Zhang
+mn: 
 image: images/bros/27szhang.webp
-role: alumni
 group: gamgam
-description: "#27 'MIRΛI'"
+role: alumni
+description: MIRΛI
+ethinicity: Chinese
+major:
+- Computer Science & Engineering
+father: 34
+children:
+- 42
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Computer Science & Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Alex "Rule 34" Nguyen](05anguyen)
-
-
+Major: {{ page.major | join: ', ' }}

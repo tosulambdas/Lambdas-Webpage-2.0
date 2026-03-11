@@ -1,23 +1,28 @@
 ---
-name: Verich Luu
+number: 44
+fn: Verich
+ln: Luu
+mn: 
 image: images/bros/44vluu.webp
-role: alumni
 group: epsilon
-description: "#44 'ΛPOLLO'"
+role: alumni
+description: ΛPOLLO
+ethinicity: Vietnamese, Thai
+major:
+- Computer Science & Engineering
+father: 23
+children:
+- 50
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese, Thai
 
-Major: Computer Science & Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Michael "ΛLGORHYTHM" Joo](23mjoo)
-
-
+Major: {{ page.major | join: ', ' }}

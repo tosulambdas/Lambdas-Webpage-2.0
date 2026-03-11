@@ -1,23 +1,28 @@
 ---
-name: Wesley Nguyen
+number: 8
+fn: Wesley
+ln: Nguyen
+mn: 
 image: images/bros/8wnguyen.webp
-role: alumni
 group: charter
-description: "#8 'Phony Hawk'"
+role: alumni
+description: Phony Hawk
+ethinicity: Vietnamese
+major:
+- Computer Science and Engineering
+father: 
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese
 
-Major: Computer Science and Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: Than "Eeyore" Nguyen (Baylor)
-
-
+Major: {{ page.major | join: ', ' }}

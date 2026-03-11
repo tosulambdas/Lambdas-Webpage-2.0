@@ -1,23 +1,28 @@
 ---
-name: Jerry Meng
+number: 42
+fn: Jerry
+ln: Meng
+mn: 
 image: images/bros/42jmeng.webp
-role: undergrad
 group: delta
-description: "#42 'JOΛT'"
+role: undergrad
+description: JOΛT
+ethinicity: Chinese
+major:
+- Computer Science & Engineering
+father: 27
+children:
+- 65
 links:
-  instagram: atumcor
-  twitter: atumcor
-  linkedin: jiaming-meng-3854b925b
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Computer Science & Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Sam "MIRΛI" Zhang](27szhang)
-
-
+Major: {{ page.major | join: ', ' }}

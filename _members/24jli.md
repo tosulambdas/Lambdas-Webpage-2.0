@@ -1,23 +1,28 @@
 ---
-name: James Li
+number: 24
+fn: James
+ln: Li
+mn: 
 image: images/bros/24jli.webp
-role: alumni
 group: beta
-description: "#24 'NBA CHUNGBOY'"
+role: alumni
+description: NBA CHUNGBOY
+ethinicity: Chinese
+major:
+- Chemical Engineering
+father: 18
+children:
+- 41
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Chemical Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Andy "PΛNCHAM" Garcia](18agarcia)
-
-
+Major: {{ page.major | join: ', ' }}

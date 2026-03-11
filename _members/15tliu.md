@@ -1,23 +1,28 @@
 ---
-name: Tyler Liu
+number: 15
+fn: Tyler
+ln: Liu
+mn: 
 image: images/bros/15tliu.webp
-role: alumni
 group: alpha
-description: "#15 'Re:Zerø'"
+role: alumni
+description: Re:Zerø
+ethinicity: Chinese
+major:
+- Computer Science and Information
+father: 03
+children:
+- 22
 links:
-  instagram: tyler.liu
-  # twitter: 
-  linkedin: tyler-liu-7756001a6
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Computer Science and Information
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Sean "Wumbo" Dupiano](03sdupiano)
-
-
+Major: {{ page.major | join: ', ' }}

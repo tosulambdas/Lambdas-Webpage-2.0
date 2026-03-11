@@ -1,21 +1,28 @@
 ---
-name: Jonathan Nguyen
+number: 61
+fn: Jonathan
+ln: Nguyen
+mn: 
 image: images/bros/61jnguyen.webp
-role: undergrad
 group: theta
-description: "#61 'SCORCH'"
+role: undergrad
+description: SCORCH
+ethinicity: Vietnamese
+major:
+- Biomedical Engineering
+father: 29
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin:
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese
 
-Major: Biomedical Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Yury "ODM" Pozdneev](29ypozdneev)
+Major: {{ page.major | join: ', ' }}

@@ -1,23 +1,28 @@
 ---
-name: Joseph Li
+number: 38
+fn: Joseph
+ln: Li
+mn: 
 image: images/bros/38jli.webp
-role: alumni
 group: delta
-description: "#38 'BTΛ'"
+role: alumni
+description: BTΛ
+ethinicity: Chinese
+major:
+- Biomedical Engineering
+father: 18
+children:
+- 48
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Biomedical Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Andy "PΛNCHAM" Garcia](18agarcia)
-
-
+Major: {{ page.major | join: ', ' }}

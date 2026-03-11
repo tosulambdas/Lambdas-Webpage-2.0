@@ -1,23 +1,28 @@
 ---
-name: Gill Im
+number: 17
+fn: Gill
+ln: Im
+mn: 
 image: images/bros/17gim.webp
-role: alumni
 group: alpha
-description: "#17 'KILLUΛ'"
+role: alumni
+description: KILLUΛ
+ethinicity: Korean
+major:
+- Computer Science and Information
+father: 34
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Korean
 
-Major: Computer Science and Information
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Alex "Rule 34" Nguyen](05anguyen)
-
-
+Major: {{ page.major | join: ', ' }}

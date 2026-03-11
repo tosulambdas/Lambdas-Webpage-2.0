@@ -1,21 +1,28 @@
 ---
-name: Dylan Fabonan
+number: 58
+fn: Dylan
+ln: Fabonan
+mn: 
 image: images/bros/58dfabonan.webp
-role: undergrad
 group: eta
-description: "#58 'E.R.E.N'"
+role: undergrad
+description: E.R.E.N
+ethinicity: Filipino
+major:
+- Accounting
+father: 47
+children:
+-
 links:
-  instagram: dylan.fabonan
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Filipino
 
-Major: Accounting
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Woojae "H.Y.U.G.A" Kim](47wkim)
+Major: {{ page.major | join: ', ' }}

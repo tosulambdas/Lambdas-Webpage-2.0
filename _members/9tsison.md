@@ -1,23 +1,28 @@
 ---
-name: Tagumpay Sison
+number: 9
+fn: Tagumpay
+ln: Sison
+mn: 
 image: images/bros/9tsison.webp
-role: alumni
 group: charter
-description: "#9 'Pillowtalk'"
+role: alumni
+description: Pillowtalk
+ethinicity: Filipino
+major:
+- Air Transportation
+father: 
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Filipino
 
-Major: Air Transportation
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: Nic "Freestyle" Marchini (UConn)
-
-
+Major: {{ page.major | join: ', ' }}

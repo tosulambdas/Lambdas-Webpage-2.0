@@ -1,23 +1,28 @@
 ---
-name: Alex Nguyen
+number: 5
+fn: Alex
+ln: Nguyen
+mn: 
 image: images/bros/5anguyen.webp
-role: alumni
 group: charter
-description: "#5 'Rule 34'"
+role: alumni
+description: Rule 34
+ethinicity: Vietnamese
+major:
+- Computer Information Science
+father: 
+children:
+-
 links:
-  instagram: Theordinaryasian
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese
 
-Major: Computer Information Science
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: Mark "Big Daddy" Lacanilao (BU)
-
-
+Major: {{ page.major | join: ', ' }}

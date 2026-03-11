@@ -1,23 +1,28 @@
 ---
-name: Jason Zhang
+number: 28
+fn: Jason
+ln: Zhang
+mn: 
 image: images/bros/28jzhang.webp
-role: alumni
 group: gamgam
-description: "#28 'MONΛRCH'"
+role: alumni
+description: MONΛRCH
+ethinicity: Chinese
+major:
+- Finance & Data Analytics
+father: 22
+children:
+- 54
 links:
-  instagram: jason.zhang42
-  # twitter: 
-  linkedin: jason-zhang-89715a1a0
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Finance & Data Analytics
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Alex "REYN" Chiu](22achiu)
-
-
+Major: {{ page.major | join: ', ' }}

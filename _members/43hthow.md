@@ -1,23 +1,28 @@
 ---
-name: Harrison Thow
+number: 43
+fn: Harrison
+ln: Thow
+mn: 
 image: images/bros/43hthow.webp
-role: alumni
 group: delta
-description: "#43 'VΛPRE'"
+role: alumni
+description: VΛPRE
+ethinicity: Scottish, English
+major:
+- Biochemistry and German
+father: 25
+children:
+- 49
 links:
-  instagram: h.arrison_
-  twitter: harrisonthow
-  linkedin: harrison-g-thow
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Scottish, English
 
-Major: Biochemistry and German
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Kelvin "GOOCHIE MΛNE" Nguyen](25knguyen)
-
-
+Major: {{ page.major | join: ', ' }}

@@ -1,23 +1,28 @@
 ---
-name: Ethan Chau
+number: 20
+fn: Ethan
+ln: Chau
+mn: 
 image: images/bros/20echau.webp
-role: alumni
 group: beta
-description: "#20 'ΛERO'"
+role: alumni
+description: ΛERO
+ethinicity: Chinese
+major:
+- Aerospace Engineering
+father: 11
+children:
+- 45
 links:
-  instagram: ethanchau30
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Aerospace Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Kenny "SBD" Truong](11ktruong)
-
-
+Major: {{ page.major | join: ', ' }}

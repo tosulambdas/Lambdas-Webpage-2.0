@@ -1,21 +1,28 @@
 ---
-name: Boppy Rattanavong
+number: 66
+fn: Boppy
+ln: Rattanavong
+mn: 
 image: images/bros/66brattanavong.webp
-role: undergrad
 group: theta
-description: "#66 'MERLIN'"
+role: undergrad
+description: MERLIN
+ethinicity: Lao/Thai
+major:
+- Electrical & Computer Engineering
+father: 50
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin:
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Lao/Thai
 
-Major: Electrical & Computer Engineering 
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Bryan "GOD.ZILLΛ" Phandone](50bphandone)
+Major: {{ page.major | join: ', ' }}

@@ -1,23 +1,28 @@
 ---
-name: Junho Choi
+number: 33
+fn: Junho
+ln: Choi
+mn: 
 image: images/bros/33jchoi.webp
-role: alumni
 group: delta
-description: "#33 'MΛLPHON'"
+role: alumni
+description: MΛLPHON
+ethinicity: Korean
+major:
+- Electrical and Computer Engineering
+father: 29
+children:
+-
 links:
-  instagram: junho_14 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Korean
 
-Major: Electrical and Computer Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Yury "ODM" Pozdneev](29ypozdneev)
-
-
+Major: {{ page.major | join: ', ' }}

@@ -1,23 +1,28 @@
 ---
-name: Nicholas Dang
+number: 2
+fn: Nicholas
+ln: Dang
+mn: 
 image: images/bros/2ndang.webp
-role: alumni
 group: charter
-description: "#2 'Cookin Mama'"
+role: alumni
+description: Cookin Mama
+ethinicity: Vietnamese
+major:
+- History
+father: 
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese
 
-Major: History
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: Van "Rerun" Dao (FSU)
-
-
+Major: {{ page.major | join: ', ' }}

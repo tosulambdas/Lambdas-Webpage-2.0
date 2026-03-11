@@ -11,21 +11,21 @@
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
-    aria-label="{{ member.name | default: "member link" }}"
+    aria-label="{{ member.fn }} {{ member.ln | default: "member link" }}"
   >
     <img
       src="{{ member.image | relative_url }}"
       class="portrait-image"
-      alt="member portrait"
+      alt="portrait of {{ member.fn }} {{ member.ln }}"
       loading="lazy"
       {% include fallback.html %}
     >
 
-    {% if member.name or member.role or member.description %}
+    {% if member.fn or member.ln or member.role or member.description %}
       <span class="portrait-text">
-        {% if member.name %}
+        {% if member.fn or member.ln %}
           <span class="portrait-name">
-            {{ member.name }}
+            {{ member.fn }}{% if member.mn %} {{ member.mn }}{% endif %} {{ member.ln }}
           </span>
         {% endif %}
 
@@ -33,7 +33,7 @@
           <span class="portrait-role">
             {% assign type = site.data.types[member.role] %}
             {% include icon.html icon=type.icon %}
-            <span>{{ member.description | default: type.description }}</span>
+            <span>#{{ member.number }} {{ member.description | default: type.description }}</span>
           </span>
         {% endif %}
       </span>

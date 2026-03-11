@@ -1,21 +1,28 @@
 ---
-name: Ryan Nguyen
+number: 51
+fn: Ryan
+ln: Nguyen
+mn: 
 image: images/bros/51rnguyen.webp
-role: undergrad
 group: zeta
-description: "#51 'HΛVEN'"
+role: undergrad
+description: HΛVEN
+ethinicity: Viet
+major:
+- Biochemistry
+father: 37
+children:
+-
 links:
-  instagram: ryanc.ngu
-  # twitter: 
-  linkedin: ryan-nguyen-893213341
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Viet
 
-Major: Biochemistry
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Kristian "MESSIDONIΛ" Janevski](37kjanevski)
+Major: {{ page.major | join: ', ' }}

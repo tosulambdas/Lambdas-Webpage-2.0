@@ -1,23 +1,28 @@
 ---
-name: Kyle Nguyen
+number: 45
+fn: Kyle
+ln: Nguyen
+mn: 
 image: images/bros/45knguyen.webp
-role: undergrad
 group: epsilon
-description: "#45 'PIONEER'"
+role: undergrad
+description: PIONEER
+ethinicity: Vietnamese, European
+major:
+- Finance
+father: 20
+children:
+- 57
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese, European
 
-Major: Finance
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Ethan "ΛERO" Chau](20echau)
-
-
+Major: {{ page.major | join: ', ' }}

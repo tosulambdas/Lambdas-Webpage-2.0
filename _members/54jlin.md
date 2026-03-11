@@ -1,21 +1,28 @@
 ---
-name: Jason Lin
+number: 54
+fn: Jason
+ln: Lin
+mn: 
 image: images/bros/54jlin.webp
-role: undergrad
 group: zeta
-description: "#54 'VIRTUOSO'"
+role: undergrad
+description: VIRTUOSO
+ethinicity: Chinese
+major:
+- Computer Science & Engineering
+father: 28
+children:
+-
 links:
-  instagram: jjason_lin
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Computer Science & Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Jason "MONΛRCH" Zhang](28jzhang)
+Major: {{ page.major | join: ', ' }}

@@ -1,23 +1,28 @@
 ---
-name: Mark Wang
+number: 31
+fn: Mark
+ln: Wang
+mn: 
 image: images/bros/31mwang.webp
-role: alumni
 group: gamgam
-description: "#31 'T. LΛW'"
+role: alumni
+description: T. LΛW
+ethinicity: Chinese
+major:
+- Psychology
+father: 21
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Psychology
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Hamzah "ΛRETE" Chaudhry](21hchaudhry)
-
-
+Major: {{ page.major | join: ', ' }}

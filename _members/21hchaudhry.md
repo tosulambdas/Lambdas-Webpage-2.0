@@ -1,23 +1,28 @@
 ---
-name: Hamzah Chaudhry
+number: 21
+fn: Hamzah
+ln: Chaudhry
+mn: 
 image: images/bros/21hchaudhry.webp
-role: alumni
 group: beta
-description: "#21 'ΛRETE'"
+role: alumni
+description: ΛRETE
+ethinicity: Pakistani & Bangladeshi
+major:
+- Biology
+father: 08
+children:
+- 31
 links:
-  instagram: hamchaudhry
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Pakistani & Bangladeshi
 
-Major: Biology
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Wesley "Phony Hawk" Nguyen](08wnguyen)
-
-
+Major: {{ page.major | join: ', ' }}

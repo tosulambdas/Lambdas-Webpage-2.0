@@ -1,21 +1,28 @@
 ---
-name: Austin Pham
+number: 57
+fn: Austin
+ln: Pham
+mn: 
 image: images/bros/57apham.webp
-role: undergrad
 group: eta
-description: "#57 'PΛTHFINDER'"
+role: undergrad
+description: PΛTHFINDER
+ethinicity: Vietnameese/Filipino
+major:
+- Mechanical Engineering
+father: 45
+children:
+-
 links:
-  instagram: austin_famm
-  # twitter: 
-  linkedin: austin-pham-6b4568239
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnameese/Filipino
 
-Major: Mechanical Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Kyle "PIONEER" Nguyen](45knguyen)
+Major: {{ page.major | join: ', ' }}

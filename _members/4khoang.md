@@ -1,23 +1,28 @@
 ---
-name: Kent Hoang
+number: 4
+fn: Kent
+ln: Hoang
+mn: 
 image: images/bros/4khoang.webp
-role: alumni
 group: charter
-description: "#4 'Thunderclap'"
+role: alumni
+description: Thunderclap
+ethinicity: Vietnamese
+major:
+- Computer Science and Engineering
+father: 
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese
 
-Major: Computer Science and Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: Quang "Rodin" Bui (UMBC)
-
-
+Major: {{ page.major | join: ', ' }}

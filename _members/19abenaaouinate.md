@@ -1,23 +1,28 @@
 ---
-name: Ayoub Benaaouinate
+number: 19
+fn: Ayoub
+ln: Benaaouinate
+mn: 
 image: images/bros/19abenaaouinate.webp
-role: alumni
 group: beta
-description: "#19 'PLUTUS'"
+role: alumni
+description: PLUTUS
+ethinicity: Moroccan
+major:
+- Accounting
+father: 03
+children:
+- 59
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Moroccan
 
-Major: Accounting
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Sean "Wumbo" Dupiano](03sdupiano)
-
-
+Major: {{ page.major | join: ', ' }}

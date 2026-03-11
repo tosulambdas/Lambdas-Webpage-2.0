@@ -1,21 +1,28 @@
 ---
-name: Jace Mcswain
+number: 59
+fn: Jace
+ln: Mcswain
+mn: 
 image: images/bros/59jmcswain.webp
-role: undergrad
 group: eta
-description: "#59 'VULCΛN'"
+role: undergrad
+description: VULCΛN
+ethinicity: THE Japanese
+major:
+- Biomedical Engineering
+father: 19
+children:
+-
 links:
-  instagram: j_mcswain99
-  # twitter: 
-  linkedin: jace-mcswain-b1721229b
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: THE Japanese
 
-Major: Biomedical Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Ayoub "PLUTUS" Benaaouinate](19abenaaouinate)
+Major: {{ page.major | join: ', ' }}

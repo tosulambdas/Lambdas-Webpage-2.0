@@ -1,21 +1,28 @@
 ---
-name: Matthew Tamayo
+number: 56
+fn: Matthew
+ln: Tamayo
+mn: 
 image: images/bros/56mtamayo.webp
-role: undergrad
 group: eta
-description: "#56 'MUSΛ'"
+role: undergrad
+description: MUSΛ
+ethinicity: Filipino
+major:
+- Areospace Engineering
+father: 35
+children:
+-
 links:
-  instagram: matthew.q.t
-  # twitter: 
-  linkedin: matthew-tamayo-667384336
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Filipino
 
-Major: Areospace Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Alex "CHIKΛ" Zhang](35ahang)
+Major: {{ page.major | join: ', ' }}

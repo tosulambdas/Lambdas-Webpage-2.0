@@ -1,23 +1,29 @@
 ---
-name: Yury Pozdneev
+number: 29
+fn: Yury
+ln: Pozdneev
+mn: 
 image: images/bros/29ypozdneev.webp
-role: undergrad
 group: gamgam
-description: "#29 'ODM'"
+role: undergrad
+description: ODM
+ethinicity: Russian
+major:
+- Computer Science & Engineering
+father: 34
+children:
+- 33
+- 61
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Russian
 
-Major: Computer Science & Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Alex "Rule 34" Nguyen](05anguyen)
-
-
+Major: {{ page.major | join: ', ' }}

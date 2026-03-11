@@ -1,22 +1,29 @@
 ---
-name: Andrew Garcia
+number: 18
+fn: Andrew
+ln: Garcia
+mn: 
 image: images/bros/18agarcia.webp
-role: alumni
 group: alpha
-description: "#18 'PΛNCHAM'"
+role: alumni
+description: PΛNCHAM
+ethinicity: Filipino
+major:
+- Human Development Family Science
+father: 10
+children:
+- 24
+- 38
 links:
-  instagram: its.pancham
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
 
-Ethnicity: Filipino
+Ethinicity: {{ page.ethinicity }}
 
-Major: Human Development Family Science
-
-Big Bro: [Jerry "Brock" Ta](10jta)
-
+Major: {{ page.major | join: ', ' }}

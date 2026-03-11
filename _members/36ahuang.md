@@ -1,23 +1,28 @@
 ---
-name: Adam Shao-Hsuan Huang
+number: 36
+fn: Adam
+ln: Huang
+mn: Shao-Hsuan
 image: images/bros/36ahuang.webp
-role: undergrad
 group: delta
-description: "#36 'Λ.S.T.A'"
+role: undergrad
+description: Λ.S.T.A
+ethinicity: Taiwanese
+major:
+- Information Systems
+father: 32
+children:
+- 53
 links:
-  instagram: https://www.instagram.com/itsadamhuang?igsh=Mmc0MHc4aXo1YTQ5&utm_source=qr
-  # twitter: 
-  linkedin: http://inkedin.com/in/huang-adam/
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Taiwanese
 
-Major: Information Systems
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [William "E.S.C.A.N.O.R" Lim](32wlim)
-
-
+Major: {{ page.major | join: ', ' }}

@@ -1,21 +1,28 @@
 ---
-name: Brandon Phan
+number: 60
+fn: Brandon
+ln: Phan
+mn: 
 image: images/bros/60bphan.webp
-role: undergrad
 group: eta
-description: "#60 'OBSIDIΛN'"
+role: undergrad
+description: OBSIDIΛN
+ethinicity: Vietnamese
+major:
+- Marketing
+father: 46
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  linkedin: brizzy._p
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese
 
-Major: Marketing
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Ethan "DΛ VINCI" Liu](46eliu)
+Major: {{ page.major | join: ', ' }}

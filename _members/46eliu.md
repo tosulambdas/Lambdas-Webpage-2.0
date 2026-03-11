@@ -1,23 +1,28 @@
 ---
-name: Ethan Liu
+number: 46
+fn: Ethan
+ln: Liu
+mn: 
 image: images/bros/46eliu.webp
-role: undergrad
 group: epsilon
-description: "#46 'DΛ VINCI'"
+role: undergrad
+description: DΛ VINCI
+ethinicity: Chinese
+major:
+- Architecture
+father: 26
+children:
+- 60
 links:
-  instagram: _.ethan.liu._
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Architecture
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Dante "uncHEΛRTed" Le](26dle)
-
-
+Major: {{ page.major | join: ', ' }}

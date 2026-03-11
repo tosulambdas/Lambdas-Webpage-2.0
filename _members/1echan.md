@@ -1,23 +1,30 @@
 ---
-name: Ethan Chan
+id: 1
+fn: Echan
+ln: Chan
+number: 1
+mn: 
 image: images/bros/1echan.webp
 group: charter
 role: alumni
-description: "#1 'Doc McStuffins'"
+description: Doc McStuffins
+ethinicity: Chinese
+major: 
+- Biology
+father:
+children: 
+- 37
 links:
   # instagram: 
   # twitter: 
   # linkedin: 
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }} 
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
+  
+Ethinicity: {{ page.ethinicity }}
 
-Major: Biology
-
-Big Bro: Vinh "Professor X" Vu (OU)
-
+Major: {{ page.mjoar }}
 

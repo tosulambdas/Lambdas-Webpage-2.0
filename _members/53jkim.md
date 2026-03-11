@@ -1,21 +1,28 @@
 ---
-name: Jordan Kim
+number: 53
+fn: Jordan
+ln: Kim
+mn: 
 image: images/bros/53jkim.webp
-role: undergrad
 group: zeta
-description: "#53 'ISΛGI'"
+role: undergrad
+description: ISΛGI
+ethinicity: Chinese and Korean
+major:
+- Computer Science & Engineering
+father: 36
+children:
+-
 links:
-  instagram: jordanlekim
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese and Korean
 
-Major: Computer Science & Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Adam Shao-Hsuan "Λ.S.T.A" Huang](36ahuang)
+Major: {{ page.major | join: ', ' }}

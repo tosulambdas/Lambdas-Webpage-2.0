@@ -1,23 +1,29 @@
 ---
-name: Justin Bailey
+number: 48
+fn: Justin
+ln: Bailey
+mn: 
 image: images/bros/48jbailey.webp
-role: undergrad
 group: epsilon
-description: "#48 'YUSUKE'"
+role: undergrad
+description: YUSUKE
+ethinicity: Scottish, Slovakian
+major:
+- Mechanical Engineering
+father: 38
+children:
+- 62
+- 63
 links:
-  instagram: jbailey7592
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Scottish, Slovakian
 
-Major: Mechanical Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Joseph "BTΛ" Li](38jli)
-
-
+Major: {{ page.major | join: ', ' }}

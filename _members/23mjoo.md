@@ -1,23 +1,28 @@
 ---
-name: Michael Joo
+number: 23
+fn: Michael
+ln: Joo
+mn: 
 image: images/bros/23mjoo.webp
-role: alumni
 group: beta
-description: "#23 'ΛLGORHYTHM'"
+role: alumni
+description: ΛLGORHYTHM
+ethinicity: Korean
+major:
+- Psychology
+father: 07
+children:
+- 44
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Korean
 
-Major: Psychology
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Trace "¿Winnie the Who?" Nguyen](07tnguyen)
-
-
+Major: {{ page.major | join: ', ' }}

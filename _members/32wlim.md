@@ -1,23 +1,28 @@
 ---
-name: William Lim
+number: 32
+fn: William
+ln: Lim
+mn: 
 image: images/bros/32wlim.webp
-role: undergrad
 group: gamgam
-description: "#32 'E.S.C.A.N.O.R'"
+role: undergrad
+description: E.S.C.A.N.O.R
+ethinicity: Korean
+major:
+- Electrical and Computer Engineering
+father: 12
+children:
+- 36
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Korean
 
-Major: Electrical and Computer Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Kenny "M.I.R.I.O" Vo](12kvo)
-
-
+Major: {{ page.major | join: ', ' }}

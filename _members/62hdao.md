@@ -1,21 +1,28 @@
 ---
-name: Howie Dao
+number: 62
+fn: Howie
+ln: Dao
+mn: 
 image: images/bros/62hdao.webp
-role: undergrad
 group: theta
-description: "#62 'p.e.k.k.Λ.'"
+role: undergrad
+description: p.e.k.k.Λ.
+ethinicity: Vietnamese
+major:
+- Data Analytics
+father: 48
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin:
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese
 
-Major: Data Analytics
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Justin "YUSUKE" Bailey](48jbailey)
+Major: {{ page.major | join: ', ' }}

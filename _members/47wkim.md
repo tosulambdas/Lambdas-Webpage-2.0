@@ -1,23 +1,28 @@
 ---
-name: Woojae Kim
+number: 47
+fn: Woojae
+ln: Kim
+mn: 
 image: images/bros/47wkim.webp
-role: alumni
 group: epsilon
-description: "#47 'H.Y.U.G.A'"
+role: alumni
+description: H.Y.U.G.A
+ethinicity: Korean
+major:
+- Electrical & Computer Engineering
+father: 12
+children:
+- 58
 links:
-  instagram: wooj.bk
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Korean
 
-Major: Electrical & Computer Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Kenny "M.I.R.I.O" Vo](12kvo)
-
-
+Major: {{ page.major | join: ', ' }}

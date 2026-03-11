@@ -1,23 +1,28 @@
 ---
-name: Samuel Miller
+number: 49
+fn: Samuel
+ln: Miller
+mn: 
 image: images/bros/49smiller.webp
-role: undergrad
 group: epsilon
-description: "#49 'HIM-CHΛN'"
+role: undergrad
+description: HIM-CHΛN
+ethinicity: Korean, German
+major:
+- Finance
+father: 43
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Korean, German
 
-Major: Finance
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Harrison "VΛPRE" Thow](43hthow)
-
-
+Major: {{ page.major | join: ', ' }}

@@ -1,23 +1,28 @@
 ---
-name: Jared Malto
+number: 14
+fn: Jared
+ln: Malto
+mn: 
 image: images/bros/14jmalto.webp
-role: alumni
 group: alpha
-description: "#14 'NOMΛD'"
+role: alumni
+description: NOMΛD
+ethinicity: Chinese & Filipino
+major:
+- Computer Information Science
+father: 08
+children:
+- 40
 links:
-  # instagram: 
-  # twitter: 
-  linkedin: jaredmalto
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese & Filipino
 
-Major: Computer Information Science
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Wesley "Phony Hawk" Nguyen](08wnguyen)
-
-
+Major: {{ page.major | join: ', ' }}

@@ -1,21 +1,28 @@
 ---
-name: Steven Luo
+number: 65
+fn: Steven
+ln: Luo
+mn: 
 image: images/bros/65sluo.webp
-role: undergrad
 group: theta
-description: "#65 'TΛCHYON'"
+role: undergrad
+description: TΛCHYON
+ethinicity: Chinese
+major:
+- Mechanical Engineering
+father: 42
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin:
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Mechanical Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Jerry "JOΛT" Meng](42jmeng)
+Major: {{ page.major | join: ', ' }}

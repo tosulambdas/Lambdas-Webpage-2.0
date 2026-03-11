@@ -1,24 +1,30 @@
 ---
-name: Dylan Nguyen
+number: 34
+fn: Dylan
+ln: Nguyen
+mn: 
 image: images/bros/34dnguyen.webp
-role: REDACTED
 group: REDACTED
-description: "#34 'SHΛTTERPROOF'"
+role: REDACTED
+description: SHΛTTERPROOF
+ethinicity: Vietnamese
+major:
+- Finance
+father: 26
+children:
+- 17
+- 27
+- 29
 links:
-  instagram: dylan_nguyen3
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-# Dylan Nguyen | Active
-Ethnicity: Vietnamese
 
-Major: Finance
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Dante "uncHEΛRTed" Le](26dle)
-
-[Click here](/ujis/) to view Dylan's Lineage!
+Major: {{ page.major | join: ', ' }}

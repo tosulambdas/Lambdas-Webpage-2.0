@@ -1,23 +1,28 @@
 ---
-name: Kenny Truong
+number: 11
+fn: Kenny
+ln: Truong
+mn: 
 image: images/bros/11ktruong.webp
-role: alumni
 group: charter
-description: "#11 'SBD'"
+role: alumni
+description: SBD
+ethinicity: Vietnamese
+major:
+- Computer Science and Engineering
+father: 
+children:
+- 20
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese
 
-Major: Computer Science and Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: Brent "RIZAL" de Leon (UAlbany)
-
-
+Major: {{ page.major | join: ', ' }}

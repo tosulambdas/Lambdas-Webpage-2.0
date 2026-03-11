@@ -1,23 +1,29 @@
 ---
-name: Kenny Vo
+number: 12
+fn: Kenny
+ln: Vo
+mn: 
 image: images/bros/12kvo.webp
-role: alumni
 group: charter
-description: "#12 'M.I.R.I.O'"
+role: alumni
+description: M.I.R.I.O
+ethinicity: Vietnamese
+major:
+- Chemical and Biomolecular Engineering
+father: 
+children:
+- 32
+- 47
 links:
-  # instagram: 
-  # twitter: 
-  linkedin: hien-vo-379a21159
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese
 
-Major: Chemical and Biomolecular Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: Quang "Rodin" Bui (UMBC)
-
-
+Major: {{ page.major | join: ', ' }}

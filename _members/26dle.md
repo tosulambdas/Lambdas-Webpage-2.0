@@ -1,23 +1,29 @@
 ---
-name: Dante Le
+number: 26
+fn: Dante
+ln: Le
+mn: 
 image: images/bros/26dle.webp
-role: alumni
 group: gamgam
-description: "#26 'uncHEΛRTed'"
+role: alumni
+description: uncHEΛRTed
+ethinicity: Vietnamese
+major:
+- Psychology
+father: 07
+children:
+- 34
+- 46
 links:
-  instagram: danteple
-  # twitter: 
-  linkedin: danteple
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese
 
-Major: Psychology
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Trace "¿Winnie the Who?" Nguyen](07tnguyen)
-
-
+Major: {{ page.major | join: ', ' }}

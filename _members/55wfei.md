@@ -1,21 +1,28 @@
 ---
-name: William Fei
+number: 55
+fn: William
+ln: Fei
+mn: 
 image: images/bros/55wfei.webp
-role: undergrad
 group: zeta
-description: "#55 'SUPERNOVΛ'"
+role: undergrad
+description: SUPERNOVΛ
+ethinicity: Chinese
+major:
+- Industrial Systems Engineering
+father: 40
+children:
+-
 links:
-  instagram: will.feiwy
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Industrial Systems Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Guanzhou "STEEZY" Zheng](40gzheng)
+Major: {{ page.major | join: ', ' }}

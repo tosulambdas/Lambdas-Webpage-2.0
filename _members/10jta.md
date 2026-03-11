@@ -1,23 +1,28 @@
 ---
-name: Jerry Ta
+number: 10
+fn: Jerry
+ln: Ta
+mn: 
 image: images/bros/10jta.webp
-role: alumni
 group: charter
-description: "#10 'Brock'"
+role: alumni
+description: Brock
+ethinicity: Vietnamese
+major:
+- Architechture
+father: 
+children:
+- 18
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Vietnamese
 
-Major: Architechture
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: Michael "Braveheart" Hsu (UBuff)
-
-
+Major: {{ page.major | join: ', ' }}

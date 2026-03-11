@@ -1,23 +1,30 @@
 ---
-name: Alex Chiu
+number: 22
+fn: Alex
+ln: Chiu
+mn: 
 image: images/bros/22achiu.webp
-role: alumni
 group: beta
-description: "#22 'REYN'"
+role: alumni
+description: REYN
+ethinicity: Thai, Taiwanese,Chinese
+major:
+- Chemical Engineering
+father: 15
+children:
+- 28
+- 30
+- 39
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Thai, Taiwanese,Chinese
 
-Major: Chemical Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Tyler "Re:Zerø" Liu ](15tliu)
-
-
+Major: {{ page.major | join: ', ' }}

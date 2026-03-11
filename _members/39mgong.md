@@ -1,23 +1,28 @@
 ---
-name: Matthew Gong
+number: 39
+fn: Matthew
+ln: Gong
+mn: 
 image: images/bros/39mgong.webp
-role: alumni
 group: delta
-description: "#39 'iMΛJINe'"
+role: alumni
+description: iMΛJINe
+ethinicity: Chinese
+major:
+- Finance
+father: 22
+children:
+-
 links:
-  instagram: matthewgong__
-  # twitter: 
-  linkedin: matthew-gong-689087208
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Finance
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Alex "REYN" Chiu](22achiu)
-
-
+Major: {{ page.major | join: ', ' }}

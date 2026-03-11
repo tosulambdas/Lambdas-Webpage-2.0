@@ -1,21 +1,28 @@
 ---
-name: Geraldo Tengker
+number: 63
+fn: Geraldo
+ln: Tengker
+mn: 
 image: images/bros/63gtengker.webp
-role: undergrad
 group: theta
-description: "#63 'SOUL'"
+role: undergrad
+description: SOUL
+ethinicity: Indonesian
+major:
+- Political Science
+father: 48
+children:
+-
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin:
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Indonesian
 
-Major: Political Science
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Justin "YUSUKE" Bailey](48jbailey)
+Major: {{ page.major | join: ', ' }}

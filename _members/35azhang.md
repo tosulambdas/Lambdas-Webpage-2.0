@@ -1,23 +1,28 @@
 ---
-name: Alex Zhang
+number: 35
+fn: Alex
+ln: Zhang
+mn: 
 image: images/bros/35azhang.webp
-role: undergrad
 group: delta
-description: "#35 'CHIKΛ'"
+role: undergrad
+description: CHIKΛ
+ethinicity: Chinese
+major:
+- Computer Science & Engineering
+father: 30
+children:
+- 56
 links:
-  instagram: kalexisntsalty
-  # twitter: 
-  linkedin: alex-zhang-214a56216
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Computer Science & Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Zilai "SEKKI" Wang](30zwang)
-
-
+Major: {{ page.major | join: ', ' }}

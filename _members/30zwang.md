@@ -1,23 +1,28 @@
 ---
-name: Zilai Wang
+number: 30
+fn: Zilai
+ln: Wang
+mn: 
 image: images/bros/30zwang.webp
-role: alumni
 group: gamgam
-description: "#30 'SEKKI'"
+role: alumni
+description: SEKKI
+ethinicity: Chinese
+major:
+- Chemial & Biomolecular Engineering
+father: 22
+children:
+- 35
 links:
-  instagram: zilaiwang_
-  # twitter: 
-  # linkedin: 
+  instagram:
+  twitter:
+  linkedin:
 ---
 
-# {{ page.name }} | {{ page.role }} 
-    
+# {{ page.fn }} {{ page.ln}} | {{ page.role }}
+
 ## [{{ page.group|capitalize }} Class](/brothers/{{page.group}}s)
-    
-Ethnicity: Chinese
 
-Major: Chemial & Biomolecular Engineering
+Ethinicity: {{ page.ethinicity }}
 
-Big Bro: [Alex "REYN" Chiu](22achiu)
-
-
+Major: {{ page.major | join: ', ' }}
