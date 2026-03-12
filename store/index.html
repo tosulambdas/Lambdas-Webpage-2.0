@@ -4,16 +4,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Webstore</title>
-  <!-- <link rel="stylesheet" href="/_styles/store-page.scss"> -->
-  <!-- <script defer src="/_scripts/cart.js"></script> -->
   <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+
+    body{
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
     .webstore-container {
       background-color: var(--background);
       width: 100%;
-
+      flex: 1;
     }
   </style>
 </head>
+
 <head>
   <!--
   put your analytics (e.g. Google Analytics) tracking code here
@@ -380,6 +392,14 @@
 
   <script src="/_scripts/traditoin-image-gallery.js"></script>
 
+  <script src="/_scripts/uji/card.js"></script>
+
+  <script src="/_scripts/uji/chart.js"></script>
+
+  <script src="/_scripts/uji/index.js"></script>
+
+  <script src="/_scripts/uji/styles.js"></script>
+
 
 </head>
 
@@ -510,6 +530,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </nav>
 </header>
 
+
   <div class="webstore-container">
     
 <!-- Main store content with cart icon -->
@@ -543,9 +564,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 
   
 
-
-</body>
-
+  
 
 
 <footer class="background" style="--image: url('/images/background.webp')" data-dark="true" data-size="wide">
@@ -612,5 +631,6 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
+</body>
 
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
+<html lang="en">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
@@ -315,10 +315,18 @@
 
   <script src="/_scripts/traditoin-image-gallery.js"></script>
 
+  <script src="/_scripts/uji/card.js"></script>
+
+  <script src="/_scripts/uji/chart.js"></script>
+
+  <script src="/_scripts/uji/index.js"></script>
+
+  <script src="/_scripts/uji/styles.js"></script>
+
 
 </head>
 
-  <body>
+  <body class="site-shell">
     
 
 
@@ -444,89 +452,22 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </nav>
 </header>
 
-    <style>
-      #myBtn {
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 30px;
-        z-index: 99;
-        border: none;
-        outline: none;
-        background-color: rgb(66, 83, 119);;
-        color: white;
-        cursor: pointer;
-        padding: 15px;
-        border-radius: 10px;
-        font-size: 18px;
-        transition: background-color 0.3s, transform 0.3s; /* Added smooth transition */
-      }
-  
-      #myBtn:hover {
-        background-color: #555;
-        transform: scale(1.1); /* Added scale effect on hover */
-      }
-  
-      .arrow-up {
-        transform: rotate(-45deg);
-      }
-    </style>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Return to top ▲</button>
-
-<script>
-  let mybutton = document.getElementById("myBtn");
-
-  window.onscroll = function() {
-    scrollFunction();
-  };
-
-  function scrollFunction() {
-    if (window.scrollY > 20) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }
-
-  function topFunction() {
-    // Smooth scroll to the top
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-</script>
-    <main>
-      <!--
-  modify main content of page:
-  - add section breaks
-  - attach section properties
-  - wrap each table in div to allow for scrolling
-  - filter out blank sections
--->
-
-
-
-
-
-
-
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <style>
-  section{
-    min-height: 69vh !important;
+    <main class="page-content">
+      <style>
+  .member-page {
+    width: 100%;
+    padding: 0 10%;
+    box-sizing: border-box;
   }
 </style>
+<div class="member-page">
+  
 
-
-
-<div class="float">
+  <div class="float">
   
 <div>
-  
+    
 
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Dylan Fabonan">
@@ -551,15 +492,15 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
     
   </a>
 </div>
-  
+    
 
 <div class="social_media_container">
     
 </div>
-</div>
+  </div>
 
 <div>
-  
+    
     
     
     
@@ -576,7 +517,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </div>
 
 <br>
-  
+    
     
     
     
@@ -593,7 +534,7 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </div>
 
 <br>
-  
+    
     
     
     
@@ -610,24 +551,30 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </div>
 
 <br>
-  
-</div>
+    
+  </div>
 
 
 </div>
 
 
-<h1 id="dylan-fabonan--undergrad">Dylan Fabonan | undergrad</h1>
+  <h1 id="dylan-fabonan--undergrad">Dylan Fabonan | undergrad</h1>
 
 <h2 id="eta-class"><a href="/brothers/etas">Eta Class</a></h2>
 
 <p>Ethinicity: Filipino</p>
 
 <p>Major: Accounting</p>
-  </section>
 
 
+  
+
+  
+
+  
+</div>
     </main>
+
     
 
 
