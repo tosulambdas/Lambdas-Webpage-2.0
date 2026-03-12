@@ -1,6 +1,8 @@
 #! /bin/bash
 set -e
 
+cd /usr/src/app
+
 echo "Contents:"
 echo ""
 ls
@@ -10,12 +12,20 @@ bundle check || bundle install
 
 python3 _cite/cite.py
 
-watchmedo auto-restart \
+(
+  watchmedo auto-restart \
     --debug-force-polling \
-    --patterns="_config.yaml" \
+    --patterns="_config.yaml;*.md;*.html;*.yml;*.yaml;*.scss;*.js" \
+    --recursive \
     --signal SIGTERM \
-    bundle exec jekyll serve --open-url --force_polling --livereload --incremental --trace --host=0.0.0.0
-    | sed "s/LiveReload address.*//g;s/0.0.0.0/localhost/g" &
+    -- \
+    bundle exec jekyll serve \
+      --livereload \
+      --incremental \
+      --trace \
+      --host=0.0.0.0 \
+      --port=4000
+) | sed "s/LiveReload address.*//g;s/0.0.0.0/localhost/g" &
 
 watchmedo shell-command \
     --debug-force-polling \

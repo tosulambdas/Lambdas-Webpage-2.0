@@ -26,6 +26,7 @@ There are two ways to run the site locally:
 ### Start the dev server
 
 ```bash
+docker compose down
 docker compose up --build
 ```
 
