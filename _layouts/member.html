@@ -1,47 +1,90 @@
 ---
-layout: default
+layout: none
 ---
 
-<style>
-  section{
-    min-height: 69vh !important;
-  }
-</style>
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  {% include head.html %}
 
-{% capture floatcontent %}
+  <body class="member-page-layout">
+    {% include header.html %}
 
-<div>
-  {% include portrait.html lookup=page.slug %}
-  {% include personal-media.html lookup=page.slug %}
-</div>
+    <main class="member-page-main">
+      <div class="member-page-content">
+        {% capture floatcontent %}
 
+        <div>
+          {% include portrait.html lookup=page.slug %}
+          {% include personal-media.html lookup=page.slug %}
+        </div>
 
-<div>
-  {% for link in page.links %}
-    {% assign key = link[0] %}
-    {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}<br>
-  {% endfor %}
-</div>
+        <div>
+          {% for link in page.links %}
+            {% assign key = link[0] %}
+            {% assign value = link[1] %}
+            {% include button.html type=key link=value style="bare" %}<br>
+          {% endfor %}
+        </div>
 
-{% endcapture %}
+        {% endcapture %}
 
-{% include float.html content=floatcontent %}
+        {% include float.html content=floatcontent %}
 
-{{ content }}
+        <div class="member-page-body">
+          {{ content }}
+        </div>
 
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
+        {% assign aliases = page.aliases
+          | default: page.name
+          | default: page.title
+          | join: ","
+          | split: ","
+          | array_filter
+        %}
 
-{% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
+        {% capture search -%}
+          research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
+        {%- endcapture %}
 
-{% capture search -%}
-  blog/?search={{ page.name }}
-{%- endcapture %}
+        {% capture search -%}
+          blog/?search={{ page.name }}
+        {%- endcapture %}
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      .member-page-layout {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: var(--background);
+      }
+
+      .member-page-main {
+        flex: 1;
+        display: flex;
+        width: 100%;
+      }
+
+      .member-page-content {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 10%;
+        box-sizing: border-box;
+      }
+
+      .member-page-body {
+        width: 100%;
+      }
+    </style>
+  </body>
+</html>
