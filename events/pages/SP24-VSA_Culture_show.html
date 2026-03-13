@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en" data-dark="false">
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
   put your analytics (e.g. Google Analytics) tracking code here
@@ -62,10 +62,10 @@
 
   <meta name="author" content="Webmaster">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-03-12T17:20:47+00:00">
+  <meta property="og:updated_time" content="2026-03-13T21:03:49+00:00">
   <meta property="article:published_time" content="">
-  <meta property="article:modified_time" content="2026-03-12T17:20:47+00:00">
-  <meta name="revised" content="2026-03-12T17:20:47+00:00">
+  <meta property="article:modified_time" content="2026-03-13T21:03:49+00:00">
+  <meta name="revised" content="2026-03-13T21:03:49+00:00">
 
 
 <script type="application/ld+json">
@@ -75,7 +75,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "VSA Culture Show" },
       "datePublished": "",
-      "dateModified": "2026-03-12T17:20:47+00:00",
+      "dateModified": "2026-03-13T21:03:49+00:00",
     
     "name": "VSA Culture Show",
     "description": "Lambda Phi Epsilon is a dynamic international fraternity dedicated to fostering leadership, academic excellence, and a strong sense of community among its members. With a rich history and commitment to multiculturalism, Lambda Phi Epsilon empowers individuals to thrive in a supportive brotherhood that values personal growth, cultural awareness, and lifelong connections.",
@@ -325,19 +325,12 @@
 
   <script src="/_scripts/traditoin-image-gallery.js"></script>
 
-  <script src="/_scripts/uji/card.js"></script>
-
-  <script src="/_scripts/uji/chart.js"></script>
-
-  <script src="/_scripts/uji/index.js"></script>
-
-  <script src="/_scripts/uji/styles.js"></script>
-
 
 </head>
 
-  <body class="site-shell">
-    
+
+<body>
+  
 
 
 
@@ -462,9 +455,71 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </nav>
 </header>
 
+  <style>
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(66, 83, 119);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
 
-    <main class="page-content">
-      <p>The brothers from LPhiE is performing fan at the 25th Annual Culture Show</p>
+  #myBtn:hover {
+    background-color: #555;
+    transform: scale(1.1);
+  }
+</style>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+  Return to top ▲
+</button>
+
+<script>
+  const mybutton = document.getElementById("myBtn");
+
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  });
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+</script>
+  <main>
+    <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - wrap each table in div to allow for scrolling
+  - filter out blank sections
+-->
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <p>The brothers from LPhiE is performing fan at the 25th Annual Culture Show</p>
 
 <section>
   
@@ -500,11 +555,11 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 </div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/C3FmBkSL1hV/?utm_source=ig_embed&utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Ohio State VSA (@osuvsa)</a></p>
 </div></blockquote>
 <script async="" src="//www.instagram.com/embed.js"></script>
+  </section>
 
 
-    </main>
-
-    
+  </main>
+  
 
 
 <footer class="background" style="--image: url('/images/background.webp')" data-dark="true" data-size="wide">
@@ -571,5 +626,6 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
-  </body>
+</body>
+
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
@@ -315,18 +315,11 @@
 
   <script src="/_scripts/traditoin-image-gallery.js"></script>
 
-  <script src="/_scripts/uji/card.js"></script>
-
-  <script src="/_scripts/uji/chart.js"></script>
-
-  <script src="/_scripts/uji/index.js"></script>
-
-  <script src="/_scripts/uji/styles.js"></script>
-
 
 </head>
 
-  <body class="site-shell">
+
+  <body class="member-page-layout">
     
 
 
@@ -453,21 +446,15 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 </header>
 
 
-    <main class="page-content">
-      <style>
-  .member-page {
-    width: 100%;
-    padding: 0 10%;
-    box-sizing: border-box;
-  }
-</style>
-<div class="member-page">
+    <main class="member-page-main">
+      <div class="member-page-content">
+        
+
+        <div class="float">
   
 
-  <div class="float">
-  
-<div>
-    
+        <div>
+          
 
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Zilai Wang">
@@ -492,18 +479,18 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
     
   </a>
 </div>
-    
+          
 
 <div class="social_media_container">
     
 </div>
-  </div>
+        </div>
 
-<div>
-    
-    
-    
-    
+        <div>
+          
+            
+            
+            
 
 
 
@@ -517,10 +504,10 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </div>
 
 <br>
-    
-    
-    
-    
+          
+            
+            
+            
 
 
 
@@ -534,10 +521,10 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </div>
 
 <br>
-    
-    
-    
-    
+          
+            
+            
+            
 
 
 
@@ -551,14 +538,15 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </div>
 
 <br>
-    
-  </div>
+          
+        </div>
 
-
+        
 </div>
 
 
-  <h1 id="zilai-wang--alumni">Zilai Wang | alumni</h1>
+        <div class="member-page-body">
+          <h1 id="zilai-wang--alumni">Zilai Wang | alumni</h1>
 
 <h2 id="gamgam-class"><a href="/brothers/gamgams">Gamgam Class</a></h2>
 
@@ -566,13 +554,14 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 
 <p>Major: Chemial &amp; Biomolecular Engineering</p>
 
+        </div>
 
-  
+        
 
-  
+        
 
-  
-</div>
+        
+      </div>
     </main>
 
     
@@ -642,5 +631,38 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
+
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      .member-page-layout {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: var(--background);
+      }
+
+      .member-page-main {
+        flex: 1;
+        display: flex;
+        width: 100%;
+      }
+
+      .member-page-content {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 10%;
+        box-sizing: border-box;
+      }
+
+      .member-page-body {
+        width: 100%;
+      }
+    </style>
   </body>
 </html>

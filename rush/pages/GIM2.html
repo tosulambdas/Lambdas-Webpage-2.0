@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en" data-dark="false">
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
   put your analytics (e.g. Google Analytics) tracking code here
@@ -317,19 +317,12 @@
 
   <script src="/_scripts/traditoin-image-gallery.js"></script>
 
-  <script src="/_scripts/uji/card.js"></script>
-
-  <script src="/_scripts/uji/chart.js"></script>
-
-  <script src="/_scripts/uji/index.js"></script>
-
-  <script src="/_scripts/uji/styles.js"></script>
-
 
 </head>
 
-  <body class="site-shell">
-    
+
+<body>
+  
 
 
 
@@ -454,9 +447,71 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </nav>
 </header>
 
+  <style>
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(66, 83, 119);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
 
-    <main class="page-content">
-      <div style="display: grid; grid-template-columns: 65% auto;" class="rush-poster">
+  #myBtn:hover {
+    background-color: #555;
+    transform: scale(1.1);
+  }
+</style>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+  Return to top ▲
+</button>
+
+<script>
+  const mybutton = document.getElementById("myBtn");
+
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  });
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+</script>
+  <main>
+    <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - wrap each table in div to allow for scrolling
+  - filter out blank sections
+-->
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <div style="display: grid; grid-template-columns: 65% auto;" class="rush-poster">
     <img src="/images/rush/GIM2.webp" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   <div class="poster-text" style="padding-left: 5%;">
     
@@ -488,10 +543,11 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
 <p>Rush is a two week period where rushees can attend events to have a chance to learn about our fraternity and get to know the brothers. All of the events are free and non-obligatory. So come out, have some fun, and see if this brotherhood is fit for you!</p>
 
 <h1 id="you-must-attend-2-events-and-1-general-interest-meeting-to-qualify-for-an-interview">YOU MUST ATTEND 2 EVENTS AND 1 GENERAL INTEREST MEETING TO QUALIFY FOR AN INTERVIEW</h1>
+  </section>
 
-    </main>
 
-    
+  </main>
+  
 
 
 <footer class="background" style="--image: url('/images/background.webp')" data-dark="true" data-size="wide">
@@ -558,5 +614,6 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
-  </body>
+</body>
+
 </html>
