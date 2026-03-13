@@ -11,7 +11,7 @@ layout: contact
 For general inquiries and questions, please contact us at the following e-mail address.
 
 {%
-  include button.html
+  include components/button.html
   type="email"
   text="tosulambdas@gmail.com"
   link="tosulambdas@gmail.com"
@@ -24,7 +24,7 @@ For general inquiries and questions, please contact us at the following e-mail a
 To contact the president of our chapter, please use one of the following forms of communication
 
 {%
-  include button.html
+  include components/button.html
   type="email"
   text="bailey.1735@osu.edu"
   link="bailey.1735@osu.edu"

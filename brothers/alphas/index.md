@@ -15,7 +15,7 @@ layout: brothers
 {:.center}
 **Class Motto**: _"We don't have friends, we have family"_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: alpha" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: alpha" %}
 
 {% include section.html %}
 {:.center}

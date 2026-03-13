@@ -18,7 +18,7 @@ layout: brothers
 {:.center}
 **Class Motto**: _"It is foolish to fear what we have yet to see and know."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: gamgam" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: gamgam" %}
 
 {% include section.html %}
 {:.center}

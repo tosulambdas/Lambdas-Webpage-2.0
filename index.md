@@ -108,7 +108,7 @@ Lambda Phi Epsilon is an Asian Interest, but not Asian-exclusive social fraterni
 At Lambda Phi Epsilon International Fraternity Inc., our bonds of eternal brotherhood extend far beyond the college years. Our diverse membership, united by shared interests, values, and ideals, forms a lifelong connection. Rooted in high moral standards, each brother aspires to reach their fullest potential, collectively working towards the common goal of shaping a brighter future. 
 
 {%
-  include button.html
+  include components/button.html
   link="brothers"
   text="Meet the Brothers"
   flip=false
@@ -130,7 +130,7 @@ At Lambda Phi Epsilon International Fraternity Inc., our bonds of eternal brothe
 What happens day to day with the lambdas? Our media team works nonstop to provide all the updates for you to follow along our journey of constant improvement and excellence! We also have archieves of our past reveals!
 
 {%
-  include button.html
+  include components/button.html
   link="media"
   text="View our latest social posts and past reveals!"
   flip=true
@@ -154,7 +154,7 @@ What happens day to day with the lambdas? Our media team works nonstop to provid
 Visit our blog to keep up to date with all the exciting events and stories concerning our chapter! From rush events to class reveals, we have it all here!
 
 {%
-  include button.html
+  include components/button.html
   link="events"
   text="View our events!"
   flip=false

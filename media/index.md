@@ -23,6 +23,6 @@ And guess what? We're not just about the traditional handshake; we've got a buzz
 
 ## Reveals
 
-{% include list.html component="card" data="media" filters="group: reveal" %}
+{% include components/list.html component="components/card" data="media" filters="group: reveal" %}
 
 {% include section.html %}

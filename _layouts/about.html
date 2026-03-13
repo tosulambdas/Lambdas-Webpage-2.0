@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
-{% include head.html %}
+{% include layout/head.html %}
 
 <body>
-  {% include header.html %}
-  {% include scroll-to-top.html %}
+  {% include layout/header.html %}
+  {% include components/scroll-to-top.html %}
   <main>
     {% include content.html content=content %}
-    {% include philanthropy-banner.html %}
+    {% include components/philanthropy-banner.html %}
   </main>
-  {% include footer.html %}
+  {% include layout/footer.html %}
 </body>
 
 </html>

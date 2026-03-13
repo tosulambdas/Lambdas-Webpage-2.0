@@ -14,7 +14,7 @@ layout: brothers
 **Class Motto**: _"Don't be sorry. Be Better."_
 {:.center}
 
-{% include list.html data="members" component="portrait" filters="group: charter" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: charter" %}
 
 {% include section.html %}
 {:.center}

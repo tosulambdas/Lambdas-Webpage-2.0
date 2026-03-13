@@ -16,7 +16,7 @@ layout: brothers
 {:.center}
 **Class Motto**: _"Throughout heaven and earth, we alone are the honored ones."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: zeta" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: zeta" %}
 
 {% include section.html %}
 {:.center}

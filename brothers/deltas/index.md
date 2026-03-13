@@ -15,7 +15,7 @@ layout: brothers
 {:.center}
 **Class Motto**: _"Success is not final; failure is not fatal: it is the courage to continue that counts."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: delta" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: delta" %}
 
 {% include section.html %}
 {:.center}

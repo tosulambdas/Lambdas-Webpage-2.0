@@ -14,7 +14,7 @@ layout: brothers
 {:.center}
 **Class Motto**: _"We are all in the gutter, but some of us are looking at the stars."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: eta" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: eta" %}
 
 {% include section.html %}
 {:.center}

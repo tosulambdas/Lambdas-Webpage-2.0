@@ -17,12 +17,12 @@ Welcome to the vibrant world of Lambda Phi Epsilon! Our fraternity takes pride i
 
 <!-- {% include search-info.html %} -->
 
-<!-- {% include list.html data="posts" component="post-excerpt" %} -->
+<!-- {% include components/list.html data="posts" component="post-excerpt" %} -->
 
 
 ## Highlight
 
-{% include list.html component="card" data="events" filters="group: highlight" %}
+{% include components/list.html component="components/card" data="events" filters="group: highlight" %}
 
 {% include section.html %}
 
@@ -31,5 +31,5 @@ Welcome to the vibrant world of Lambda Phi Epsilon! Our fraternity takes pride i
 
 ## More
 
-{% include list.html component="card" data="events" filters="group: more" style="small" %}
+{% include components/list.html component="components/card" data="events" filters="group: more" style="small" %}
 

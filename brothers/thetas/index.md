@@ -16,7 +16,7 @@ layout: brothers
 {:.center}
 **Class Motto**: _"You were never meant to fit in – you were meant to become."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: theta" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: theta" %}
 
 {% include section.html %}
 {:.center}

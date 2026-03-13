@@ -15,7 +15,7 @@ layout: brothers
 {:.center}
 **Class Motto**: _"Wherever someone thinks of you, that's where home is."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: beta" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: beta" %}
 
 {% include section.html %}
 {:.center}

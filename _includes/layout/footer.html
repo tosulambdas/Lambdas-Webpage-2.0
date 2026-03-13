@@ -19,7 +19,7 @@
     {% for link in site.links %}
       {% assign key = link[0] %}
       {% assign value = link[1] %}
-      {% include button.html type=key text="" link=value style="bare" %}
+      {% include components/button.html type=key text="" link=value style="bare" %}
     {% endfor %}
   </div>
 

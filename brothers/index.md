@@ -47,7 +47,7 @@ Classes
 **Class Motto**: _"Don't be sorry. Be Better."_
 {:.center}
 
-{% include list.html data="members" component="portrait" filters="group: charter" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: charter" %}
 
 ## Alpha Class "Akuma Alphas" | SP21
 {:.center}
@@ -61,7 +61,7 @@ Classes
 {:.center}
 **Class Motto**: _"We don't have friends, we have family"_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: alpha" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: alpha" %}
 
 {% include section.html %}
 {:.center class = "beta"}
@@ -77,7 +77,7 @@ Classes
 {:.center}
 **Class Motto**: _"Wherever someone thinks of you, that's where home is."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: beta" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: beta" %}
 
 {% include section.html %}
 {:.center}
@@ -93,7 +93,7 @@ Classes
 {:.center}
 **Class Motto**: _"It is foolish to fear what we have yet to see and know."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: gamgam" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: gamgam" %}
 
 {% include section.html %}
 
@@ -111,7 +111,7 @@ Classes
 {:.center}
 **Class Motto**: _"Success is not final; failure is not fatal: it is the courage to continue that counts."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: delta" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: delta" %}
 
 {% include section.html %}
 
@@ -128,7 +128,7 @@ Classes
 {:.center}
 **Class Motto**: _"The past is history, the future is a mystery, but today is a gift, that's why it's called the present."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: epsilon" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: epsilon" %}
 
 {% include section.html %}
 
@@ -145,7 +145,7 @@ Classes
 {:.center}
 **Class Motto**: _"Throughout heaven and earth, we alone are the honored ones."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: zeta" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: zeta" %}
 
 {% include section.html %}
 
@@ -162,7 +162,7 @@ Classes
 {:.center}
 **Class Motto**: _"We are all in the gutter, but some of us are looking at the stars."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: eta" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: eta" %}
 
 {:.center}
 
@@ -183,6 +183,6 @@ Classes
 {:.center}
 **Class Motto**: _"You were never meant to fit in – you were meant to become."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: theta" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: theta" %}
 
 {:.center}

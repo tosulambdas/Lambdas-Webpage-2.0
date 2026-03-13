@@ -16,7 +16,7 @@ layout: brothers
 {:.center}
 **Class Motto**: _"The past is history, the future is a mystery, but today is a gift, that's why it's called the present."_
 {:.center}
-{% include list.html data="members" component="portrait" filters="group: epsilon" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: epsilon" %}
 
 {% include section.html %}
 {:.center}

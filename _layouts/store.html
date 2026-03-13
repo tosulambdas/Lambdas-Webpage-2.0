@@ -25,10 +25,10 @@
   </style>
 </head>
 
-{% include head.html %}
+{% include layout/head.html %}
 
 <body>
-  {% include header.html %}
+  {% include layout/header.html %}
 
   <div class="webstore-container">
     {{ content }}
@@ -39,7 +39,7 @@
   {% include checkout.html %}
   {% endcomment %}
 
-  {% include footer.html %}
+  {% include layout/footer.html %}
 </body>
 
 </html>
