@@ -131,11 +131,11 @@
   
 
   
-    <link href="/_styles/button.css" rel="stylesheet">
+    <link href="/_styles/components/button.css" rel="stylesheet">
   
 
   
-    <link href="/_styles/card.css" rel="stylesheet">
+    <link href="/_styles/components/card.css" rel="stylesheet">
   
 
   
@@ -167,7 +167,7 @@
   
 
   
-    <link href="/_styles/float.css" rel="stylesheet">
+    <link href="/_styles/components/float.css" rel="stylesheet">
   
 
   
@@ -175,7 +175,7 @@
   
 
   
-    <link href="/_styles/footer.css" rel="stylesheet">
+    <link href="/_styles/layout/footer.css" rel="stylesheet">
   
 
   
@@ -187,7 +187,7 @@
   
 
   
-    <link href="/_styles/header.css" rel="stylesheet">
+    <link href="/_styles/layout/header.css" rel="stylesheet">
   
 
   
@@ -211,7 +211,7 @@
   
 
   
-    <link href="/_styles/list.css" rel="stylesheet">
+    <link href="/_styles/components/list.css" rel="stylesheet">
   
 
   
@@ -223,7 +223,7 @@
   
 
   
-    <link href="/_styles/portrait.css" rel="stylesheet">
+    <link href="/_styles/components/portrait.css" rel="stylesheet">
   
 
   
@@ -368,8 +368,6 @@
 
   <link href="/_styles/store.css" rel="stylesheet">
 
-  <link href="/_styles/tradition-image-gallery.css" rel="stylesheet">
-
 
   <!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
@@ -379,11 +377,17 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/anchors.js"></script>
+  <script src="/_scripts/base/anchors.js"></script>
 
-  <script src="/_scripts/cart.js"></script>
+  <script src="/_scripts/base/dark-mode.js"></script>
 
-  <script src="/_scripts/dark-mode.js"></script>
+  <script src="/_scripts/base/search.js"></script>
+
+  <script src="/_scripts/components/scroll-to-top.js"></script>
+
+  <script src="/_scripts/components/tooltip.js"></script>
+
+  <script src="/_scripts/components/traditoin-image-gallery.js"></script>
 
   <script src="/_scripts/fetch-tags.js"></script>
 
@@ -391,13 +395,11 @@
 
   <script src="/_scripts/scroll.js"></script>
 
-  <script src="/_scripts/search.js"></script>
-
   <script src="/_scripts/site-search.js"></script>
 
-  <script src="/_scripts/tooltip.js"></script>
+  <script src="/_scripts/store/cart.js"></script>
 
-  <script src="/_scripts/traditoin-image-gallery.js"></script>
+  <script src="/_scripts/uji.js"></script>
 
 
 </head>
@@ -529,49 +531,9 @@ m-394 -170 c21 -51 17 -105 -11 -162 -28 -56 -78 -100 -123 -109 -26 -5 -30
   </nav>
 </header>
 
-  <style>
-  #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: rgb(66, 83, 119);
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 18px;
-    transition: background-color 0.3s, transform 0.3s;
-  }
-
-  #myBtn:hover {
-    background-color: #555;
-    transform: scale(1.1);
-  }
-</style>
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">
+  <button id="scrollToTopBtn" class="scroll-to-top" title="Go to top">
   Return to top ▲
 </button>
-
-<script>
-  const mybutton = document.getElementById("myBtn");
-
-  window.addEventListener("scroll", function () {
-    if (window.scrollY > 20) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  });
-
-  function topFunction() {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-</script>
   <main>
     <!--
   modify main content of page:
