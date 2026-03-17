@@ -1,0 +1,50 @@
+---
+---
+
+.uji-card {
+  pointer-events: auto;
+  transform: translate(-40%, -50%);
+  cursor: pointer;
+  color: #fff;
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  overflow: visible;
+  background: transparent;
+  box-shadow: none;
+}
+
+.uji-card-image {
+  background: transparent;
+  border-radius: 50%;
+  margin-top: 10px;
+  padding: 10px;
+  width: 16rem;
+  height: 16rem;
+  aspect-ratio: 1 / 1;
+  overflow: visible;
+}
+
+.uji-card-label {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-65%, -20%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  border-radius: 3px;
+  padding: 0 5px;
+  font-size: 2rem;
+}
+
+.uji-card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.uji-card > div {
+  transition: transform 0.2s ease-in-out;
+}

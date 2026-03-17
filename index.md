@@ -151,12 +151,12 @@ What happens day to day with the lambdas? Our media team works nonstop to provid
 
 {% capture text %}
 
-Visit our blog to keep up to date with all the exciting events and stories concerning our chapter! From rush events to class reveals, we have it all here!
+See how our brotherhood is connected through generations on our Uji, where legacy and family come together.
 
 {%
   include components/button.html
-  link="events"
-  text="View our events!"
+  link="ujis"
+  text="Look at our uji!"
   flip=false
   style="bare"
 %}
@@ -166,7 +166,7 @@ Visit our blog to keep up to date with all the exciting events and stories conce
 {%
   include feature.html
   image="images/homepage_gallery/blog.webp"
-  link="events"
-  title="Our events"
+  link="ujis"
+  title="View at our uji"
   text=text
 %}

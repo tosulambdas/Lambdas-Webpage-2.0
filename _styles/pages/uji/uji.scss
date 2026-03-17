@@ -1,0 +1,25 @@
+---
+---
+
+.uji-page {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background);
+
+  .uji-container {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #FamilyChart {
+    flex: 1;
+    min-height: 80vh;
+    height: 80vh;
+    background-color: rgb(96, 125, 139);
+    color: #fff;
+  }
+}
