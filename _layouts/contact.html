@@ -1,31 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
   {% include layout/head.html %}
-  <body class="contact-layout">
-    <style>
-      html,
-      body {
-        margin: 0;
-        padding: 0;
-        min-height: 100vh;
-      }
-
-      body.contact-layout {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .contact-page-content {
-        flex: 1;
-      }
-
-    </style>
+  <body class="site-shell contact-layout">
 
     {% include layout/header.html %}
     {% include components/scroll-to-top.html %}
 
-    <div class="contact-page-content">
+    <div class="contact-page-content site-main-fill">
       <main>
         {% include content.html content=content %}
       </main>

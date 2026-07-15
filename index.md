@@ -156,7 +156,11 @@ See how our brotherhood is connected through generations on our Uji, where legac
 {%
   include components/button.html
   link="ujis"
+<<<<<<< HEAD
   text="Look at our uji!"
+=======
+  text="View our Ujis!!"
+>>>>>>> cleanup
   flip=false
   style="bare"
 %}
@@ -167,6 +171,10 @@ See how our brotherhood is connected through generations on our Uji, where legac
   include feature.html
   image="images/homepage_gallery/blog.webp"
   link="ujis"
+<<<<<<< HEAD
   title="View at our uji"
+=======
+  title="Our Ujis"
+>>>>>>> cleanup
   text=text
 %}
