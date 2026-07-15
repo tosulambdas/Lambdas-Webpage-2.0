@@ -155,8 +155,8 @@ Visit our blog to keep up to date with all the exciting events and stories conce
 
 {%
   include components/button.html
-  link="events"
-  text="View our events!"
+  link="ujis"
+  text="View our Ujis!!"
   flip=false
   style="bare"
 %}
@@ -166,7 +166,7 @@ Visit our blog to keep up to date with all the exciting events and stories conce
 {%
   include feature.html
   image="images/homepage_gallery/blog.webp"
-  link="events"
-  title="Our events"
+  link="ujis"
+  title="Our Ujis"
   text=text
 %}

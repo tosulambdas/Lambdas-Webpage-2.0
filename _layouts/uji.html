@@ -1,51 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" data-dark="false">
 <head>
-  {% include layout/head.html %}
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>my-family-chart</title>
+  {% include analytics.html %}
+  {% include verification.html %}
+  {% include meta.html %}
+  {% include fonts.html %}
+  {% include styles.html %}
+  {% include scripts.html %}
   <script src="https://unpkg.com/d3@6"></script>
   <script type="module" src="https://unpkg.com/family-chart@0.7.0"></script>
   <link rel="stylesheet" href="https://unpkg.com/family-chart@0.7.0/dist/styles/family-chart.css">
 
   <style>
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-    }
-
-    body {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
+    body.uji-layout {
       background-color: var(--background);
-    }
-
-    .uji-container {
-      flex: 1;
-      min-height: 0;
-      display: flex;
-      flex-direction: column;
-    }
-
-    #FamilyChart {
-      flex: 1;
-      width: 100%;
-      min-height: 0;
-      background-color: rgb(96, 125, 139);
-      color: #fff;
+      height: 100vh;
     }
   </style>
 </head>
 
-<body>
+<body class="site-shell uji-layout">
   {% include layout/header.html %}
+  {% include components/scroll-to-top.html %}
 
-  <div class="uji-container">
+  <div class="uji-container site-main-fill">
     <div id="FamilyChart" class="f3"></div>
   </div>
 
@@ -66,8 +44,23 @@
       styleLink.href = 'https://unpkg.com/family-chart@0.7.0/dist/styles/family-chart.css';
       shadowRoot.appendChild(styleLink);
 
+      const resizeObserver = new ResizeObserver(syncChartSize);
+
       const extraStyle = document.createElement('style');
       extraStyle.textContent = `
+        :host {
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+
+        #ChartRoot,
+        #ChartRoot > svg,
+        #ChartRoot > #htmlSvg {
+          width: 100% !important;
+          height: 100% !important;
+        }
+
         .card {
           pointer-events: auto;
           transform: translate(-40%, -50%);
@@ -120,8 +113,6 @@
 
       const chartContainer = document.createElement('div');
       chartContainer.id = 'ChartRoot';
-      chartContainer.style.width = '100%';
-      chartContainer.style.height = '100%';
       chartContainer.classList.add('f3');
       shadowRoot.appendChild(chartContainer);
 
@@ -142,16 +133,39 @@
 
       f3.htmlHandlers.createHtmlSvg(chartContainer);
 
+      function syncChartSize() {
+        const width = Math.floor(host.clientWidth);
+        const height = Math.floor(host.clientHeight);
+        if (!width || !height) return;
+
+        const svgElement = chartContainer.querySelector('svg');
+        const htmlSvg = chartContainer.querySelector('#htmlSvg');
+
+        if (svgElement) {
+          svgElement.setAttribute('width', String(width));
+          svgElement.setAttribute('height', String(height));
+        }
+
+        if (htmlSvg) {
+          htmlSvg.setAttribute('width', String(width));
+          htmlSvg.setAttribute('height', String(height));
+          htmlSvg.style.width = `${width}px`;
+          htmlSvg.style.height = `${height}px`;
+        }
+      }
+
       store.setOnUpdate((props) => {
         const tree = store.getTree();
         const mergedProps = Object.assign({}, props || {}, {
           cardHtml: getHtmlSvg()
         });
         f3.view(tree, svg, Card(), mergedProps);
+        syncChartSize();
       });
 
       store.updateMainId('0');
       store.updateTree();
+      resizeObserver.observe(host);
 
       function Card() {
         return function (d) {
