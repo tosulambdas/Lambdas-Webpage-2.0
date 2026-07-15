@@ -17,8 +17,6 @@ layout: default
 <br> Big Bro: Sean 'Wumbo' Dupiano" %}
 {% include figure.html image="images/media/alpha/16.webp" caption="#16 Josh 'ZORO' Amponsah
 <br> Big Bro: Tag 'Pillow Talk' Sison" %}
-{% include figure.html image="images/media/alpha/17.webp" caption="#17 Gill 'KILLUΛ' Im
-<br> Big Bro: Alex 'Rule 34' Nguyen" %}
 {% include figure.html image="images/media/alpha/18.webp" caption="#18 Andy Garcia 'PΛNCHAM'
 <br> Big Bro: Jerry 'Brock' Ta" %}
 

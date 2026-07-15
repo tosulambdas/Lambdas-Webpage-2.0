@@ -1,39 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <title>{{ page.title }}</title>
-  <style>
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      min-height: 100vh;
-    }
-
-    body{
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .webstore-container {
-      background-color: var(--background);
-      padding-top: 10%;
-      width: 100%;
-      flex: 1;
-    }
-  </style>
-</head>
-
+<html lang="en" data-dark="false">
 {% include layout/head.html %}
 
-<body>
+<body class="site-shell">
   {% include layout/header.html %}
+  {% include components/scroll-to-top.html %}
 
-  <div class="webstore-container">
+  <main class="webstore-container site-main-fill">
     {{ content }}
-  </div>
+  </main>
 
   {% comment %}
   {% include cart.html %}

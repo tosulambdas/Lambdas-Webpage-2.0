@@ -6,11 +6,11 @@ layout: none
 <html lang="en" data-dark="false">
   {% include layout/head.html %}
 
-  <body class="member-page-layout">
+  <body class="site-shell member-page-layout">
     {% include layout/header.html %}
 
-    <main class="member-page-main">
-      <div class="member-page-content">
+    <main class="member-page-main site-main-fill">
+      <div class="member-page-content page-content-shell">
         {% capture floatcontent %}
 
         <div>
@@ -53,38 +53,5 @@ layout: none
     </main>
 
     {% include layout/footer.html %}
-
-    <style>
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-      }
-
-      .member-page-layout {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        background: var(--background);
-      }
-
-      .member-page-main {
-        flex: 1;
-        display: flex;
-        width: 100%;
-      }
-
-      .member-page-content {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 2rem 10%;
-        box-sizing: border-box;
-      }
-
-      .member-page-body {
-        width: 100%;
-      }
-    </style>
   </body>
 </html>

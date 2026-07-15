@@ -29,7 +29,7 @@ There are two ways to run the site locally:
 
 ```bash
 docker compose down
-docker compose up --build
+docker compose up --build -d
 ```
 
 Open the site:
