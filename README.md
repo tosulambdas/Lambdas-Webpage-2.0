@@ -11,6 +11,8 @@ make it so that if webmaster is not technically gifted, its easy to change posts
 
 # Development
 
+## Refer to MAINTAIN.md for instructions to Update the site
+
 There are two ways to run the site locally:
 
 1. **Docker (recommended)**
