@@ -7,7 +7,7 @@ nav:
 ---
 
 {:.center}
-# {% include icon.html icon="fa-solid fa-users" %}2024-2025 Executive Board
+# {% include icon.html icon="fa-solid fa-users" %}2026-2027 Executive Board
 {:.center}
 {% include section.html %}
 
@@ -32,6 +32,7 @@ Classes
 {% include figure.html image="images/media/zetas.webp" caption="Zeta Class - Zodiac Zetas" link="/brothers/zetas/" %}
 {% include figure.html image="images/media/etas.webp" caption="Eta Class - Eternal Etas" link="/brothers/etas/" %}
 {% include figure.html image="images/media/thetas.webp" caption="Theta Class - Tensei Thetas" link="/brothers/thetas/" %}
+{% include figure.html image="images/media/thetas.webp" caption="Iota Class - Immortal Iotas" link="/brothers/iotas/" %}
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
@@ -187,7 +188,7 @@ Classes
 
 {:.center}
 
-## Iota Class "Immortal Iotas" | SP25
+## Iota Class "Immortal Iotas" | SP26
 {:.center}
 **New Member Educator**: Jace “VULCΛN” Mcswain
 {:.center}
@@ -197,7 +198,7 @@ Classes
 {:.center}
 ![](https://open.spotify.com/track/0W4NhJhcqKCqEP2GIpDCDq)
 {:.center}
-**Class Motto**: _"Throughout heaven and earth, we alone are the honored ones."_
+**Class Motto**: _"One generation plants the seed, another generation takes the shade"_
 {:.center}
 {% include components/list.html data="members" component="components/portrait" filters="group: iotas" %}
 
