@@ -4,7 +4,7 @@ fn: Kenny
 ln: Ngo
 mn: 
 image: images/bros/67kngo.webp
-group: iotas
+group: iota
 role: undergrad
 description: SΛINT
 ethinicity: Vietnamese

@@ -33,7 +33,6 @@ Classes
 {% include figure.html image="images/media/etas.webp" caption="Eta Class - Eternal Etas" link="/brothers/etas/" %}
 {% include figure.html image="images/media/thetas.webp" caption="Theta Class - Tensei Thetas" link="/brothers/thetas/" %}
 {% include figure.html image="images/media/iotas.webp" caption="Iota Class - Immortal Iotas" link="/brothers/iotas/" %}
->>>>>>> origin/main
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
@@ -201,7 +200,7 @@ Classes
 {:.center}
 **Class Motto**: _"One generation plants the seed, another generation takes the shade"_
 {:.center}
-{% include components/list.html data="members" component="components/portrait" filters="group: iotas" %}
+{% include components/list.html data="members" component="components/portrait" filters="group: iota" %}
 
 {% include section.html %}
 {:.center}
