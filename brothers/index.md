@@ -32,7 +32,8 @@ Classes
 {% include figure.html image="images/media/zetas.webp" caption="Zeta Class - Zodiac Zetas" link="/brothers/zetas/" %}
 {% include figure.html image="images/media/etas.webp" caption="Eta Class - Eternal Etas" link="/brothers/etas/" %}
 {% include figure.html image="images/media/thetas.webp" caption="Theta Class - Tensei Thetas" link="/brothers/thetas/" %}
-{% include figure.html image="images/media/thetas.webp" caption="Iota Class - Immortal Iotas" link="/brothers/iotas/" %}
+{% include figure.html image="images/media/iotas.webp" caption="Iota Class - Immortal Iotas" link="/brothers/iotas/" %}
+>>>>>>> origin/main
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}

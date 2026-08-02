@@ -2,17 +2,17 @@
 ---
 
 @import "-theme";
-@import "all";
+@import "base/all";
+@import "base/body";
+@import "base/bold";
 @import "util";
 @import "font";
-@import "body";
 @import "page";
 @import "background";
 @import "anchor";
 @import "link";
 @import "paragraph";
 @import "heading";
-@import "bold";
 @import "quote";
 @import "rule";
 @import "code";

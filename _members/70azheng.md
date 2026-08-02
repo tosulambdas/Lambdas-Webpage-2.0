@@ -4,7 +4,7 @@ fn: Alvin
 ln: Zheng
 mn: 
 image: images/bros/70azheng.webp
-group: iota
+group: iotas
 role: undergrad
 description: ΛRCHER
 ethinicity: Chinese

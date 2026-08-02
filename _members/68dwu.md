@@ -4,7 +4,7 @@ fn: Dexter
 ln: Wu
 mn: 
 image: images/bros/68dwu.webp
-group: iota
+group: iotas
 role: undergrad
 description: ΛTLΛS
 ethinicity: Chinese
