@@ -1,14 +1,4 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="en" data-uji-data-url="{{ '/ujis/data.json' | relative_url }}">
-
-<head>
-  {% include layout/head.html %}
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>my-family-chart</title>
-
-=======
 <html lang="en" data-dark="false">
 <head>
   {% include analytics.html %}
@@ -17,7 +7,6 @@
   {% include fonts.html %}
   {% include styles.html %}
   {% include scripts.html %}
->>>>>>> cleanup
   <script src="https://unpkg.com/d3@6"></script>
   <script type="module" src="https://unpkg.com/family-chart@0.7.0"></script>
   <link rel="stylesheet" href="https://unpkg.com/family-chart@0.7.0/dist/styles/family-chart.css">
@@ -37,9 +26,6 @@
     <div id="FamilyChart" class="f3"></div>
   </div>
 
-<<<<<<< HEAD
-  <script type="module" src="{{ '/_scripts/uji.js' | relative_url }}"></script>
-=======
   <script type="module">
     fetch('{{ "/ujis/data.json" | relative_url }}')
       .then(res => res.json())
@@ -215,7 +201,6 @@
       }
     }
   </script>
->>>>>>> cleanup
 
   {% include layout/footer.html %}
 </body>
