@@ -1,1 +1,0 @@
-{"version":3,"sourceRoot":"","sources":["body.scss"],"names":[],"mappings":"AAAA,UAEE,SACA,UACA,iBACA,6BACA,kBACA,wBAGF,KACE","sourcesContent":["html,\nbody {\n  margin: 0;\n  padding: 0;\n  min-height: 100vh;\n  background: var(--background);\n  color: var(--text);\n  font-family: var(--body);\n}\n\nbody {\n  text-align: center;\n}"],"file":"body.css"}

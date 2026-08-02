@@ -81,7 +81,7 @@
     "rels": {
       "father": "0",
       "spouses": [],
-      "children": ["17","27","29"]
+      "children": ["27","29"]
     }
   },{
     "id": "7",
@@ -220,20 +220,6 @@
     },
     "rels": {
       "father": "9",
-      "spouses": [],
-      "children": []
-    }
-  },{
-    "id": "17",
-    "data": {
-      "fn": "Gill",
-      "ln": "Im",
-      "label": "KILLUΛ",
-      "desc": "Gill Im",
-      "image": "/images/bros/17gim.webp"
-    },
-    "rels": {
-      "father": "5",
       "spouses": [],
       "children": []
     }
@@ -655,7 +641,7 @@
     "rels": {
       "father": "43",
       "spouses": [],
-      "children": []
+      "children": ["70"]
     }
   },{
     "id": "50",
@@ -809,7 +795,7 @@
     "rels": {
       "father": "46",
       "spouses": [],
-      "children": []
+      "children": ["69"]
     }
   },{
     "id": "61",
@@ -879,7 +865,7 @@
     "rels": {
       "father": "42",
       "spouses": [],
-      "children": []
+      "children": ["67","68"]
     }
   },{
     "id": "66",
@@ -892,6 +878,62 @@
     },
     "rels": {
       "father": "50",
+      "spouses": [],
+      "children": []
+    }
+  },{
+    "id": "67",
+    "data": {
+      "fn": "Kenny",
+      "ln": "Ngo",
+      "label": "SΛINT",
+      "desc": "Kenny Ngo",
+      "image": "/images/bros/67kngo.webp"
+    },
+    "rels": {
+      "father": "65",
+      "spouses": [],
+      "children": []
+    }
+  },{
+    "id": "68",
+    "data": {
+      "fn": "Dexter",
+      "ln": "Wu",
+      "label": "ΛTLΛS",
+      "desc": "Dexter Wu",
+      "image": "/images/bros/68dwu.webp"
+    },
+    "rels": {
+      "father": "65",
+      "spouses": [],
+      "children": []
+    }
+  },{
+    "id": "69",
+    "data": {
+      "fn": "Skylar",
+      "ln": "Kavayong",
+      "label": "HIKΛR!",
+      "desc": "Skylar Kavayong",
+      "image": "/images/bros/69skavayong.webp"
+    },
+    "rels": {
+      "father": "60",
+      "spouses": [],
+      "children": []
+    }
+  },{
+    "id": "70",
+    "data": {
+      "fn": "Alvin",
+      "ln": "Zheng",
+      "label": "ΛRCHER",
+      "desc": "Alvin Zheng",
+      "image": "/images/bros/70azheng.webp"
+    },
+    "rels": {
+      "father": "49",
       "spouses": [],
       "children": []
     }

@@ -1,1 +1,0 @@
-{"version":3,"sourceRoot":"","sources":["form.scss"],"names":[],"mappings":"AAAA,KACE,aACA,uBACA,mBACA","sourcesContent":["form {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n"],"file":"form.css"}
