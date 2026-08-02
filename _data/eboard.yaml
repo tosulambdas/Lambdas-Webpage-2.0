@@ -1,26 +1,26 @@
-- name: Justin Bailey
+- name: Matthew Tamayo
   position: President
   image: images/eboard/president.webp
-  link: 48jbailey
-
-- name: Roy Wang
-  position: Internal Vice President
-  image: images/eboard/IVP.webp
-  link: 52rwang
-
-- name: Samuel Miller
-  position: External Vice President
-  image: images/eboard/EVP.webp
-  link: 49smiller
-
-- name: Jordan Kim
-  position: Treasurer
-  image: images/eboard/treasurer.webp
-  link: 53jkim
+  link: 56mtamayo
 
 - name: Dylan Fabonan
+  position: Internal Vice President
+  image: images/eboard/IVP.webp
+  link: 58dfabonan
+
+- name: Jace Mcswain
+  position: External Vice President
+  image: images/eboard/EVP.webp
+  link: 59jmcswain
+
+- name: Geraldo Tengker
+  position: Treasurer
+  image: images/eboard/treasurer.webp
+  link: 65gtengker
+
+- name: Boppy Rattanavong
   position: Secretary
   image: images/eboard/secretary.webp
-  link: 58dfabonan
+  link: 66brattanavong
 
 # DO NOT PUT THE EDUCATOR ON EABORD, SECREACY!

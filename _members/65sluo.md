@@ -12,7 +12,8 @@ major:
 - Mechanical Engineering
 father: 42
 children:
--
+- 67
+- 68
 links:
   instagram:
   twitter:

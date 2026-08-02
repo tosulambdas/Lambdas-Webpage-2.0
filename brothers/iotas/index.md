@@ -12,7 +12,7 @@ layout: brothers
 {:.center}
 **Class Song**: _Love_ by Keisha Cole
 {:.center}
-![](https://open.spotify.com/track/66kQ7wr4d2LwwSjr7HXcyr?si=cd8973844be043e2)
+![](https://open.spotify.com/track/0W4NhJhcqKCqEP2GIpDCDq)
 {:.center}
 **Class Motto**: _"Throughout heaven and earth, we alone are the honored ones."_
 {:.center}
