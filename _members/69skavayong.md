@@ -4,7 +4,7 @@ fn: Skylar
 ln: Kavayong
 mn: 
 image: images/bros/69skavayong.webp
-group: iota
+group: iotas
 role: undergrad
 description: HIKΛR!
 ethinicity: Lao
