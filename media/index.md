@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Media
 
-Lambda Phi Epsilon is not just a fraternity; We are also involved in all sotrs of campus events. From organizing events to rolling up our sleeves for community service, we're all about making a positive impact.
+Lambda Phi Epsilon is not just a fraternity; We are also involved in all sorts of campus events. From organizing events to rolling up our sleeves for community service, we're all about making a positive impact.
 
 And guess what? We're not just about the traditional handshake; we've got a buzzing social media scene too! Dive into our Instagram to see the real, unfiltered moments of Lambda Phi Epsilon life. It's not just posts and hashtags; it's a virtual extension of the warm and welcoming vibe you'll find within our fraternity.
 

@@ -41,7 +41,7 @@ width="300px" height="300px"%}
 {:.center}
 
 {% capture content %}
-{% include figure.html image="images/bros/66brattanavong.webp" caption="#66 Boppy 'MERLIN.' Rattanavong Zheng" width="300px" height="300px"%}
+{% include figure.html image="images/bros/66brattanavong.webp" caption="#66 Boppy 'MERLIN.' Rattanavong" width="300px" height="300px"%}
 {% include figure.html image="images/bros/63gtengker.webp" caption="#63 Geraldo 'SOUL' Tengker " width="300px" height="300px"%}
 {% include figure.html image="images/bros/64awang.webp" caption="#64 Andrew 'HΛLIAN' Wang " width="300px" height="300px"%}
 
