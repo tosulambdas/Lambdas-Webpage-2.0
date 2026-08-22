@@ -7,6 +7,10 @@ undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
 
+inactive:
+  icon: fa-solid fa-pause
+  description: Inactive Member
+
 alumni:
   icon: fa-solid fa-graduation-cap
   description: Alumni
