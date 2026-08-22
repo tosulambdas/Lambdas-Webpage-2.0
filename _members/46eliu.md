@@ -5,7 +5,7 @@ ln: Liu
 mn: 
 image: images/bros/46eliu.webp
 group: epsilon
-role: undergrad
+role: alumni
 description: DΛ VINCI
 ethinicity: Chinese
 major:

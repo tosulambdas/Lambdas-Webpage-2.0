@@ -5,7 +5,7 @@ ln: Wang
 mn: 
 image: images/bros/52rwang.webp
 group: zeta
-role: undergrad
+role: alumni
 description: ΛURORIΛLIS
 ethinicity: Chinese
 major:

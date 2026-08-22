@@ -5,7 +5,7 @@ ln: Nguyen
 mn: 
 image: images/bros/45knguyen.webp
 group: epsilon
-role: undergrad
+role: alumni
 description: PIONEER
 ethinicity: Vietnamese, European
 major:

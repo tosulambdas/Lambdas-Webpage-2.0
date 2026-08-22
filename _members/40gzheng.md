@@ -5,7 +5,7 @@ ln: Zheng
 mn: 
 image: images/bros/40gzheng.webp
 group: delta
-role: undergrad
+role: alumni
 description: STEEZY
 ethinicity: Chinese
 major:

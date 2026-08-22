@@ -5,7 +5,7 @@ ln: Nguyen
 mn: 
 image: images/bros/51rnguyen.webp
 group: zeta
-role: undergrad
+role: inactive
 description: HΛVEN
 ethinicity: Viet
 major:

@@ -5,7 +5,7 @@ ln: Miller
 mn: 
 image: images/bros/49smiller.webp
 group: epsilon
-role: undergrad
+role: alumni
 description: HIM-CHΛN
 ethinicity: Korean, German
 major:

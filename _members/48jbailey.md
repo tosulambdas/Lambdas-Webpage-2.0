@@ -5,7 +5,7 @@ ln: Bailey
 mn: 
 image: images/bros/48jbailey.webp
 group: epsilon
-role: undergrad
+role: alumni
 description: YUSUKE
 ethinicity: Scottish, Slovakian
 major:

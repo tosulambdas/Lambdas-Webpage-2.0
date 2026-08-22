@@ -5,7 +5,7 @@ ln: Huang
 mn: Shao-Hsuan
 image: images/bros/36ahuang.webp
 group: delta
-role: undergrad
+role: alumni
 description: Λ.S.T.A
 ethinicity: Taiwanese
 major:

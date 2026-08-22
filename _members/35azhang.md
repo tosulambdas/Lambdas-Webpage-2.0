@@ -5,7 +5,7 @@ ln: Zhang
 mn: 
 image: images/bros/35azhang.webp
 group: delta
-role: undergrad
+role: alumni
 description: CHIKΛ
 ethinicity: Chinese
 major:

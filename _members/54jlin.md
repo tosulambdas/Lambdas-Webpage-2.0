@@ -5,7 +5,7 @@ ln: Lin
 mn: 
 image: images/bros/54jlin.webp
 group: zeta
-role: undergrad
+role: alumni
 description: VIRTUOSO
 ethinicity: Chinese
 major:
