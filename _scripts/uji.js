@@ -6,7 +6,7 @@ if (!host || !dataUrl || window.__ujiInitialized) {
 } else {
   window.__ujiInitialized = true;
 
-  fetch(dataUrl)
+fetch(dataUrl, { cache: "no-store" })
     .then((res) => res.json())
     .then((data) => createChart(host, data))
     .catch((err) => console.error("Failed to load uji data:", err));

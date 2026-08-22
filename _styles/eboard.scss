@@ -17,7 +17,8 @@
 
 .eboard-card {
   text-align: center;
-  background: #ffffff;
+  background: var(--background-alt);
+  color: var(--text);
   padding: 1.25rem;
   border-radius: 14px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
@@ -46,7 +47,7 @@
 
 .eboard-position {
   font-size: 0.95rem;
-  color: #555;
+  color: var(--text);
   font-weight: 500;
 }
 
