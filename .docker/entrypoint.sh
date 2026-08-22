@@ -22,7 +22,6 @@ watchmedo shell-command \
 exec bundle exec jekyll serve \
   --livereload \
   --force_polling \
-  --incremental \
   --trace \
   --host=0.0.0.0 \
   --port=4000

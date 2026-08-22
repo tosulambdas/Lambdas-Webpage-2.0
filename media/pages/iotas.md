@@ -1,0 +1,50 @@
+---
+title: SP25 Iota Class Reveal
+layout: default
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kxPH2BkSLdQ?si=4OWRTHzUUZMOq56Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+# Congratulations to the Immortal Iotas!
+{:.center}
+
+{% capture content %}
+
+{% include figure.html image="images/media/iota/67.webp" caption="#67 Kenny 'SΛINT' NGO  <br> Big Bro: Steven 'TΛCHYON' Luo" %}
+{% include figure.html image="images/media/iota/68.webp" caption="#68 Dexter 'ΛTLΛS' Luo 
+<br> Big Bro: Steven 'TΛCHYON' Luo" %}
+{% include figure.html image="images/media/iota/69.webp" caption="#69 Skylar 'HIKΛR!' Kavayong 
+<br> Big Bro: Brandon 'OBSIDIΛN' Phan" %}
+{% include figure.html image="images/media/iota/70.webp" caption="#70 Alvin 'ΛRCHER' Zheng 
+<br> Big Bro: Samuel 'HIM-CHΛN' Miller" %}
+
+{% endcapture %}
+
+{% include grid.html style="square" content=content %}
+
+# Thank you to their educators!
+{:.center}
+
+{% capture content %}
+{% include figure.html image="images/media/iota/nme.webp" caption="#59 Jace 'VΛLCΛN' Mcswain"
+width="300px" height="300px"%}
+{% include figure.html image="images/media/iota/anme.webp" caption="#60 Matthew 'MUSΛ' Tamayo"
+width="300px" height="300px"%}
+
+{% endcapture %}
+
+{:.center}
+{% include grid_two.html style="square" content=content %}
+{:.center}
+
+# Special thanks to their probate masters!
+{:.center}
+
+{% capture content %}
+{% include figure.html image="images/bros/63gtengker.webp" caption="#63 Geraldo 'SOUL' Tengker" width="300px" height="300px"%}
+{% include figure.html image="images/bros/66brattanavong.webp" caption="#66 Boppy 'MERLIN' Rattanavong" width="300px" height="300px"%}
+
+{% endcapture %}
+{:.center}
+{% include grid_two.html style="square" content=content %}
+{:.center}

@@ -26,8 +26,8 @@ To contact the president of our chapter, please use one of the following forms o
 {%
   include components/button.html
   type="email"
-  text="bailey.1735@osu.edu"
-  link="bailey.1735@osu.edu"
+  text="tamayo.30@osu.edu"
+  link="tamayo.30@osu.edu"
 %}
 
 {% include section.html %}

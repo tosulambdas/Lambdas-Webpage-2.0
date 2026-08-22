@@ -14,7 +14,7 @@ layout: brothers
 {:.center}
 ![](https://open.spotify.com/track/0W4NhJhcqKCqEP2GIpDCDq)
 {:.center}
-**Class Motto**: _"Throughout heaven and earth, we alone are the honored ones."_
+**Class Motto**: _"One generation plants the seed, another generation takes the shade."_
 {:.center}
 {% include components/list.html data="members" component="components/portrait" filters="group: iotas" %}
 
