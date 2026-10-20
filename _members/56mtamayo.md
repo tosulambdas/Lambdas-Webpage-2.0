@@ -14,9 +14,9 @@ father: 35
 children:
 -
 links:
-  instagram:
+  instagram: matthew.q.t
   twitter:
-  linkedin:
+  linkedin: tamayom
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

@@ -14,9 +14,9 @@ father: 20
 children:
 - 57
 links:
-  instagram:
+  instagram: kylenguyen.1
   twitter:
-  linkedin:
+  linkedin: kyle-nguyen-b40145256
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

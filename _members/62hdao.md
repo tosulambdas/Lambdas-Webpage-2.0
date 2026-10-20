@@ -14,9 +14,9 @@ father: 48
 children:
 -
 links:
-  instagram:
+  instagram: howie_dao
   twitter:
-  linkedin:
+  linkedin: howieadao
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

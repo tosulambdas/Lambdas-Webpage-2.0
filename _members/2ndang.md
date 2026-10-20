@@ -14,9 +14,9 @@ father: 0
 children:
 -
 links:
-  instagram:
+  instagram: dangnicholas
   twitter:
-  linkedin:
+  linkedin: nicholasdang21
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

@@ -14,9 +14,9 @@ father: 0
 children:
 - 20
 links:
-  instagram:
+  instagram: kenny_truong_
   twitter:
-  linkedin:
+  linkedin: kenny-truong-61349b197
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

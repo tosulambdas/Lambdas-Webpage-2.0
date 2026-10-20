@@ -14,9 +14,9 @@ father: 9
 children:
 -
 links:
-  instagram:
+  instagram: j0ratti
   twitter:
-  linkedin:
+  linkedin: joshuaamponsah
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

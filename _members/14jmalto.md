@@ -14,9 +14,9 @@ father: 8
 children:
 - 40
 links:
-  instagram:
+  instagram: jrdmo
   twitter:
-  linkedin:
+  linkedin: jaredmalto
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

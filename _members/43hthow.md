@@ -14,9 +14,9 @@ father: 13
 children:
 - 49
 links:
-  instagram:
+  instagram: h.arrison_
   twitter:
-  linkedin:
+  linkedin: harrison-g-thow
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

@@ -14,9 +14,9 @@ father: 18
 children:
 - 41
 links:
-  instagram:
+  instagram: nba_chung_boy
   twitter:
-  linkedin:
+  linkedin: james-li-378090173
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

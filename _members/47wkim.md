@@ -14,9 +14,9 @@ father: 12
 children:
 - 58
 links:
-  instagram:
+  instagram: wooj.bk
   twitter:
-  linkedin:
+  linkedin: woojae-kim-3899b5178
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

@@ -14,9 +14,9 @@ father: 07
 children:
 - 44
 links:
-  instagram:
+  instagram: itsmichaeljoo
   twitter:
-  linkedin:
+  linkedin: michaeljoo
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

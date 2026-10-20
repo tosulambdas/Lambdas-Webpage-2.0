@@ -10,13 +10,14 @@ description: SOUL
 ethinicity: Indonesian
 major:
 - Political Science
+- Finance
 father: 48
 children:
 -
 links:
-  instagram:
+  instagram: geralten
   twitter:
-  linkedin:
+  linkedin: geraldo-tengker-563a22288
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

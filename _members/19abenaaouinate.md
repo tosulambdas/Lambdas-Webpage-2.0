@@ -14,9 +14,9 @@ father: 3
 children:
 - 59
 links:
-  instagram:
+  instagram: ayoub_benshdisos
   twitter:
-  linkedin:
+  linkedin: benaaouinate
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

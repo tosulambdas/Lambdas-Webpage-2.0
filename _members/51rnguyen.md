@@ -14,9 +14,9 @@ father: 37
 children:
 -
 links:
-  instagram:
+  instagram: ryanc.ngu
   twitter:
-  linkedin:
+  linkedin: ryan-nguyen-893213341
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

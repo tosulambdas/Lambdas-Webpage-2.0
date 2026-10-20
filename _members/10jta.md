@@ -14,9 +14,9 @@ father: 0
 children:
 - 18
 links:
-  instagram:
+  instagram: jerryta_
   twitter:
-  linkedin:
+  linkedin: jerry-ta-848ba1169
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

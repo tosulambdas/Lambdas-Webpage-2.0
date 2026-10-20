@@ -14,9 +14,9 @@ father: 45
 children:
 -
 links:
-  instagram:
+  instagram: austin_famm
   twitter:
-  linkedin:
+  linkedin: austindpham
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

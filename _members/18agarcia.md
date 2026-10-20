@@ -15,9 +15,9 @@ children:
 - 24
 - 38
 links:
-  instagram:
+  instagram: andyfindingbalance
   twitter:
-  linkedin:
+  linkedin: andrew-garcia-b1b202273
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

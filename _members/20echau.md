@@ -14,9 +14,9 @@ father: 11
 children:
 - 45
 links:
-  instagram:
+  instagram: ethanchau30
   twitter:
-  linkedin:
+  linkedin: ethan-chau30
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

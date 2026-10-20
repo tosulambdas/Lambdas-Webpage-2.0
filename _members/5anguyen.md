@@ -14,9 +14,9 @@ father: 0
 children:
 -
 links:
-  instagram:
+  instagram: theordinaryasian
   twitter:
-  linkedin:
+  linkedin: alex-nguyen-191775192
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

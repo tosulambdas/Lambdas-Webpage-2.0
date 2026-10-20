@@ -14,9 +14,9 @@ father: 32
 children:
 - 53
 links:
-  instagram:
+  instagram: itsadamhuang
   twitter:
-  linkedin:
+  linkedin: huang-adam
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

@@ -9,14 +9,14 @@ role: undergrad
 description: VULCΛN
 ethinicity: THE Japanese
 major:
-- Biomedical Engineering
+- Chemical Engineering
 father: 19
 children:
 -
 links:
-  instagram:
+  instagram: j_mcswain99
   twitter:
-  linkedin:
+  linkedin: jace-mcswain
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

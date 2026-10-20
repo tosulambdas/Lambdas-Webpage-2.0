@@ -15,9 +15,9 @@ children:
 - 32
 - 47
 links:
-  instagram:
+  instagram: keni.hana
   twitter:
-  linkedin:
+  linkedin: hien-kenneth-vo
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

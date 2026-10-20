@@ -14,9 +14,9 @@ father: 30
 children:
 - 56
 links:
-  instagram:
+  instagram: kalexisntsalty
   twitter:
-  linkedin:
+  linkedin: alexczhang03
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

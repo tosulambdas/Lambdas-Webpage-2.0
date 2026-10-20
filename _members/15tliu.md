@@ -14,9 +14,9 @@ father: 3
 children:
 - 22
 links:
-  instagram:
+  instagram: tyler.liu
   twitter:
-  linkedin:
+  linkedin: tyler-k-liu
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

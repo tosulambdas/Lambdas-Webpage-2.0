@@ -14,9 +14,9 @@ father: 46
 children:
 -
 links:
-  instagram:
+  instagram: brizzy._p
   twitter:
-  linkedin:
+  linkedin: brandonminhphan
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

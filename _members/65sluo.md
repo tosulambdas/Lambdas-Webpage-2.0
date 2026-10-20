@@ -15,9 +15,9 @@ children:
 - 67
 - 68
 links:
-  instagram:
+  instagram: steven_luo123
   twitter:
-  linkedin:
+  linkedin: stevenluo123
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

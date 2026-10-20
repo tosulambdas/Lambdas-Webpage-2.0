@@ -14,9 +14,9 @@ father: 47
 children:
 -
 links:
-  instagram:
+  instagram: dylan.fabonan
   twitter:
-  linkedin:
+  linkedin: dfabonan
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

@@ -14,9 +14,9 @@ father: 8
 children:
 - 31
 links:
-  instagram:
+  instagram: hamchaudhry
   twitter:
-  linkedin:
+  linkedin: hamzah-chaudhry
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

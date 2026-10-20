@@ -15,9 +15,9 @@ father: 0
 children: 
 - 37
 links:
-  # instagram: 
-  # twitter: 
-  # linkedin: 
+  instagram: echan112211
+  twitter: 
+  linkedin: ethan-chan-592557103
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }} 

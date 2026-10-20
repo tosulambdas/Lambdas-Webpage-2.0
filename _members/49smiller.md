@@ -14,9 +14,9 @@ father: 43
 children:
 -
 links:
-  instagram:
+  instagram: samuel_miller64
   twitter:
-  linkedin:
+  linkedin: samuel-miller-0b3961229
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

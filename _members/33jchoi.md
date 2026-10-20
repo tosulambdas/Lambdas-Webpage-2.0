@@ -14,9 +14,9 @@ father: 29
 children:
 -
 links:
-  instagram:
+  instagram: junho_14
   twitter:
-  linkedin:
+  linkedin: junho-choi-91810a194
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

@@ -14,9 +14,9 @@ father: 0
 children:
 -
 links:
-  instagram:
+  instagram: nguyen.wes
   twitter:
-  linkedin:
+  linkedin: nguyenkwesley
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

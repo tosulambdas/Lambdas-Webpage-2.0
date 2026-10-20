@@ -14,9 +14,10 @@ father: 26
 children:
 - 60
 links:
-  instagram:
+  instagram: _.ethan.liu._
+
   twitter:
-  linkedin:
+  linkedin: ethan-j-liu
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

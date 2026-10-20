@@ -14,9 +14,9 @@ father: 12
 children:
 - 36
 links:
-  instagram:
+  instagram: will.limg
   twitter:
-  linkedin:
+  linkedin: william-lim-33b859225
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

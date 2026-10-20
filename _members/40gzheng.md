@@ -15,9 +15,9 @@ children:
 - 52
 - 55
 links:
-  instagram:
+  instagram: zhengguanzhou
   twitter:
-  linkedin:
+  linkedin: gz-zheng
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

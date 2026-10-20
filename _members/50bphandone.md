@@ -14,9 +14,9 @@ father: 44
 children:
 - 66
 links:
-  instagram:
+  instagram: big.phan.of.art
   twitter:
-  linkedin:
+  linkedin: bryan-phandone-848ba8347
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

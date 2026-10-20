@@ -15,9 +15,9 @@ children:
 - 33
 - 61
 links:
-  instagram:
+  instagram: yuryodm
   twitter:
-  linkedin:
+  linkedin: pyury
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

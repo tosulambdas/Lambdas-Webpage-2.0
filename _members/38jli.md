@@ -14,9 +14,9 @@ father: 18
 children:
 - 48
 links:
-  instagram:
+  instagram: asianjo_li
   twitter:
-  linkedin:
+  linkedin: joseph-li-82b423233
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

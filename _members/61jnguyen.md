@@ -14,9 +14,9 @@ father: 29
 children:
 -
 links:
-  instagram:
+  instagram: j.nguyen.06
   twitter:
-  linkedin:
+  linkedin: jonathan-nguyen-11a5322b9
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

@@ -14,9 +14,9 @@ father: 5
 children:
 - 42
 links:
-  instagram:
+  instagram: samzhang1314
   twitter:
-  linkedin:
+  linkedin: sam-zhang-37b9b9218
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

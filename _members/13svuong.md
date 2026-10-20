@@ -14,9 +14,9 @@ father: 1
 children:
 -
 links:
-  instagram:
+  instagram: sonny.vuong
   twitter:
-  linkedin:
+  linkedin: sonny-vuong-032a81223
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

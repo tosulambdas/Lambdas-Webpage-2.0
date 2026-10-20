@@ -14,9 +14,9 @@ father: 22
 children:
 -
 links:
-  instagram:
+  instagram: matthewgong__
   twitter:
-  linkedin:
+  linkedin: matthew-gong-689087208
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

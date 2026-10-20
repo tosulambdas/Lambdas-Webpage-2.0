@@ -14,9 +14,9 @@ father: 24
 children:
 -
 links:
-  instagram:
+  instagram: padraig.hurley
   twitter:
-  linkedin:
+  linkedin: padraigchurley
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

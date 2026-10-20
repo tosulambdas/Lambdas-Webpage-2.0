@@ -14,9 +14,9 @@ father: 0
 children:
 -
 links:
-  instagram:
+  instagram: trace.nguyen
   twitter:
-  linkedin:
+  linkedin: tracetnguyen
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

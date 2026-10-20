@@ -14,9 +14,9 @@ father: 23
 children:
 - 50
 links:
-  instagram:
+  instagram: veri.richi
   twitter:
-  linkedin:
+  linkedin: verich-luu
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

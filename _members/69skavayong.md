@@ -14,9 +14,9 @@ father: 60
 children:
 -
 links:
-  instagram:
+  instagram: skyluhh_
   twitter:
-  linkedin:
+  linkedin: skylar-kayavong
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

@@ -16,7 +16,7 @@ children:
 links:
   instagram:
   twitter:
-  linkedin:
+  linkedin: kent-hoang-439491201
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

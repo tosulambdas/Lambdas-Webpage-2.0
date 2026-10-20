@@ -15,9 +15,9 @@ children:
 - 34
 - 46
 links:
-  instagram:
+  instagram: danteple
   twitter:
-  linkedin:
+  linkedin: danteple
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

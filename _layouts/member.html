@@ -20,9 +20,11 @@ layout: none
 
         <div>
           {% for link in page.links %}
-            {% assign key = link[0] %}
-            {% assign value = link[1] %}
-            {% include components/button.html type=key link=value style="bare" %}<br>
+            {% if link[1] %}
+              {% assign key = link[0] %}
+              {% assign value = link[1] %}
+              {% include components/button.html type=key link=value style="bare" %}<br>
+            {% endif %}
           {% endfor %}
         </div>
 

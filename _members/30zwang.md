@@ -14,9 +14,9 @@ father: 22
 children:
 - 35
 links:
-  instagram:
+  instagram: zilaiwang_
   twitter:
-  linkedin:
+  linkedin: zilai-wang1
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

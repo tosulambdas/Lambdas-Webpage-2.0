@@ -15,9 +15,9 @@ children:
 - 62
 - 63
 links:
-  instagram:
+  instagram: jbailey7592
   twitter:
-  linkedin:
+  linkedin: justin-bailey-299751252
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

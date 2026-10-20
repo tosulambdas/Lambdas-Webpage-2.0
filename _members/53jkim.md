@@ -14,9 +14,9 @@ father: 36
 children:
 -
 links:
-  instagram:
+  instagram: jordanlekim
   twitter:
-  linkedin:
+  linkedin: jordanlekim
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

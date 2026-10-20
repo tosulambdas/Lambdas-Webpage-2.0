@@ -14,9 +14,9 @@ father: 28
 children:
 -
 links:
-  instagram:
+  instagram: jjason_lin
   twitter:
-  linkedin:
+  linkedin: jasonlin0323
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

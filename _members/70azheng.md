@@ -14,9 +14,9 @@ father: 49
 children:
 -
 links:
-  instagram:
+  instagram: alvinz-heng
   twitter:
-  linkedin:
+  linkedin: alvinz-heng
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

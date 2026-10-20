@@ -16,7 +16,7 @@ children:
 links:
   instagram:
   twitter:
-  linkedin:
+  linkedin: seandupiano
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}

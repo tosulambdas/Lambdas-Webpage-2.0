@@ -14,9 +14,9 @@ father: 27
 children:
 - 65
 links:
-  instagram:
+  instagram: atumcor
   twitter:
-  linkedin:
+  linkedin: jmeng1024
 ---
 
 # {{ page.fn }} {{ page.ln}} | {{ page.role }}
